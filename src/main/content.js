@@ -130,22 +130,22 @@ const Content = () => {
 
         <div class="card">
           <div class="content">
-            <h3>Card Ten</h3>
-            <a href="#">Read More</a>
+            <h3>GeeksforGeeks Campus Ambassador</h3>
+            <a href="https://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/">Read More</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content">
-            <h3>Card Eleven</h3>
-            <a href="#">Read More</a>
+            <h3>MLH Fellowship</h3>
+            <a href="https://fellowship.mlh.io/">Read More</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content">
-            <h3>Card Twelve</h3>
-            <a href="#">Read More</a>
+            <h3>CodeChef College Chapter</h3>
+            <a href="https://www.codechef.com/college-chapter/about">Read More</a>
           </div>
         </div>
       </div>
