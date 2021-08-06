@@ -109,22 +109,22 @@ const Content = () => {
 
         <div class="card">
           <div class="content">
-            <h3>Card Seven</h3>
-            <a href="#">Read More</a>
+            <h3>Auth0 Ambassador</h3>
+            <a href="https://auth0.com/ambassador-program">Read More</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content">
-            <h3>Card Eight</h3>
-            <a href="#">Read More</a>
+            <h3>Postman Student Expert</h3>
+            <a href="https://www.postman.com/company/student-program/">Read More</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content">
-            <h3>Card Nine</h3>
-            <a href="#">Read More</a>
+            <h3>Developer Circles from Facebook</h3>
+            <a href="https://developers.facebook.com/developercircles/">Read More</a>
           </div>
         </div>
 
