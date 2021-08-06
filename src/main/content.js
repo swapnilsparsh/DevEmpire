@@ -88,22 +88,22 @@ const Content = () => {
 
         <div class="card">
           <div class="content">
-            <h3>Card Four</h3>
-            <a href="#">Read More</a>
+            <h3>HackerEarth Campus Ambassador</h3>
+            <a href="https://www.hackerearth.com/university/intro/">Read More</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content">
-            <h3>Card Five</h3>
-            <a href="#">Read More</a>
+            <h3>Mozilla Campus Club</h3>
+            <a href="https://campus.mozilla.community/">Read More</a>
           </div>
         </div>
 
         <div class="card">
           <div class="content">
-            <h3>Card Six</h3>
-            <a href="#">Read More</a>
+            <h3>Codecademy Chapter Leader</h3>
+            <a href="https://community.codecademy.com/chapters/">Read More</a>
           </div>
         </div>
 
