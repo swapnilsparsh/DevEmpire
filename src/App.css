@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-img {
+.background {
   max-width: 100%;
   height: auto;
 }
@@ -45,19 +45,30 @@ img {
 
 .container .card .content {
   padding: 20px;
-  margin-top: 5rem;
+  margin-top: 1rem;
   text-align: center;
   transition: 0.5s;
 }
 
+.container .card .content img {
+  max-width: 100%;
+  height: 160px;
+  width: 100%;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+}
+
 .container .card .content h3 {
   font-size: 1.4rem;
-  position: absolute;
-  top: 10px;
   color: wheat;
   text-align: center;
-  /* z-index: 1; */
+  margin-bottom: 1.3rem;
 }
+
+/* .container .card .content h3:nth-child(3) {
+  margin-bottom: 3rem;
+} */
 
 .container .card .content p {
   font-size: 1em;
