@@ -9,8 +9,6 @@ const Footer = () => {
           <br />
           Designed by Jatin Yadav
           <br />
-          This site is powered by Vercel
-          <br />
           Want your company's student ambassador to be listed / unlisted?
           <br />
           Want to advertise? Contact us.

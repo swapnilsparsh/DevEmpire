@@ -30,10 +30,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
-
 .container .card {
   position: relative;
-  width: 320px;
+  width: 290px;
   height: 400px;
   margin: auto;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -64,6 +63,14 @@ body {
   color: wheat;
   text-align: center;
   margin-bottom: 1.3rem;
+}
+
+.container .card .content .heading{
+  margin-bottom: 2rem;
+}
+
+.container .card .content .image{
+  object-fit: cover;
 }
 
 /* .container .card .content h3:nth-child(3) {
@@ -159,7 +166,7 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .container {
     width: 100%;
     grid-template-columns: 1fr;
