@@ -65,11 +65,11 @@ body {
   margin-bottom: 1.3rem;
 }
 
-.container .card .content .heading{
-  margin-bottom: 2rem;
+.container .card .content .heading {
+  margin-bottom: 3rem;
 }
 
-.container .card .content .image{
+.container .card .content .image {
   object-fit: cover;
 }
 
