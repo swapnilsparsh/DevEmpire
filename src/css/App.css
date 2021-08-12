@@ -69,12 +69,8 @@ body {
   margin-bottom: 3rem;
 }
 
-.container .card .content .image-cover {
+.container .card .content .image {
   object-fit: cover;
-}
-
-.container .card .content .image-fill {
-  object-fit: fill;
 }
 
 /* .container .card .content h3:nth-child(3) {
