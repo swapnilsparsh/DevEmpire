@@ -9,21 +9,6 @@ body {
   font-family: "open-sans";
 }
 
-/* Landing Page  */
-.landing-page-header {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  /* height: 100vh; */
-}
-
-.landing-page-header h1 {
-  color: #0093ed;
-  font-size: 8rem;
-}
-
 .background {
   max-width: 100%;
   height: auto;
@@ -32,6 +17,74 @@ body {
 @font-face {
   font-family: "open-sans";
   src: url(../font/sans.ttf);
+}
+
+/* Landing Page  */
+
+.container-landing {
+  width: 80%;
+  max-width: 120rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.landing-page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.landing-page-header h1 {
+  color: #0093ed;
+  font-size: 8rem;
+}
+
+.top-navbar .navigation {
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.navigation .twitter-button .twitter {
+  line-height: 0;
+  border: 0.5px solid rgba(0, 147, 237, 0.3);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+
+.navigation .twitter-button img {
+  height: 36px;
+}
+
+@media screen and (max-width: 1440px) {
+  .landing-page-header h1 {
+    font-size: 5rem;
+  }
+  .landing-page-header img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .landing-page-header {
+    flex-direction: column;
+  }
+  .landing-page-header h1 {
+    font-size: 4rem;
+    float: left;
+  }
+  .landing-page-header {
+    width: 100%;
+  }
+  .top-navbar .navigation {
+    padding: 12px 2px;
+  }
 }
 
 .container {
@@ -198,4 +251,28 @@ hr {
 
 .footer-question p {
   margin-bottom: 1rem;
+}
+
+/* Back To Top */
+.back-to-top .top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #000000;
+  z-index: 4;
+  width: 45px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.back-to-top .top:hover {
+  color: #ffffff;
+  background: #0093ed;
 }

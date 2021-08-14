@@ -1,13 +1,31 @@
 import React from "react";
 import "../css/App.css";
-import Footer from "../Footer/footer";
+import Backtotop from "./backtotop";
+import Footer from "./footer";
 import Landingpage from "./landingpage";
 
 const Content = () => (
   <div>
     {/* <img className="background" src="../img/Developer-Society-bg.png" alt="" /> */}
     <Landingpage></Landingpage>
+    <Backtotop></Backtotop>
     <div className="container">
+      <div class="card">
+        <div class="content">
+          <div class="tag - women">
+            <span>Women</span>
+          </div>
+          <a
+            href="https://research.adobe.com/adobe-india-women-in-technology-scholarship/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Adobe India Women-in-Technology Scholarship</h3>
+            <img src="../img/Adobe.png" alt=""></img>
+          </a>
+        </div>
+      </div>
+
       <div class="card">
         <div class="content">
           <a
@@ -134,6 +152,22 @@ const Content = () => (
         </div>
       </div>
 
+      <div class="card">
+        <div class="content">
+          <div class="tag - women">
+            <span>Women</span>
+          </div>
+          <a
+            href="https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Generation Google Scholarship</h3>
+            <img src="../img/google.jpg" alt=""></img>
+          </a>
+        </div>
+      </div>
+
       <div className="card">
         <div className="content">
           <a
@@ -143,6 +177,32 @@ const Content = () => (
           >
             <h3 className="heading">Github Campus Expert</h3>
             <img src="../img/Github.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="content">
+          <a
+            href="https://classroom.github.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="heading">Github Classroom</h3>
+            <img src="../img/Github-classroom.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="content">
+          <a
+            href="https://classroom.github.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="heading">Github Campus Advisor</h3>
+            <img src="../img/Github-advisor.png" alt="" />
           </a>
         </div>
       </div>
@@ -238,9 +298,59 @@ const Content = () => (
 
       <div className="card">
         <div className="content">
+          <a
+            href="https://studentambassadors.microsoft.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Microsoft Learn Student Ambassador</h3>
+            <img src="../img/mlsa.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="tag - women">
+            <span>Women</span>
+          </div>
+          <a
+            href="https://careers.microsoft.com/us/en/codess"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="heading">Microsoft Codess</h3>
+            <img src="../img/codess.jpg" alt=""></img>
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="content">
           <a href="https://fellowship.mlh.io/" target="_blank" rel="noreferrer">
             <h3 className="heading">MLH Fellowship</h3>
-            <img className="image" src="../img/MLHFellowship.jpg" alt="" />
+            <img
+              className="image-fill"
+              src="../img/MLH-Fellowship-white.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="content">
+          <a
+            href="https://fellowship.mlh.io/programs/prep"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="heading">MLH Pre Fellowship</h3>
+            <img
+              className="image-fill"
+              src="../img/MLH-Fellowship-blue.jpg"
+              alt=""
+            />
           </a>
         </div>
       </div>
@@ -300,12 +410,38 @@ const Content = () => (
       <div className="card">
         <div className="content">
           <a
-            href="https://www.postman.com/company/student-program/"
+            href="https://www.postman.com/company/student-program/#postman-classroom-program"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Postman Classroom Program</h3>
+            <img src="../img/Postman-classroom-white.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="content">
+          <a
+            href="https://www.postman.com/company/student-program/#student-expert-program"
             target="_blank"
             rel="noreferrer"
           >
             <h3>Postman Student Expert Program</h3>
             <img src="../img/Postman.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="content">
+          <a
+            href="https://www.postman.com/company/student-program/#student-leader-program"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3>Postman Student Leader Program</h3>
+            <img src="../img/Postman-Leader.png" alt="" />
           </a>
         </div>
       </div>
@@ -323,6 +459,22 @@ const Content = () => (
               src="../img/PrismaProgram.png"
               alt=""
             ></img>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="tag - women">
+            <span>Women</span>
+          </div>
+          <a
+            href="https://shecodesindeed.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="heading">SheCodes Indeed</h3>
+            <img src="../img/indeed.png" alt=""></img>
           </a>
         </div>
       </div>

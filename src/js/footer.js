@@ -19,12 +19,20 @@ const Footer = () => {
           <hr />
           <p>
             Made with ❤️ & ☕ by{" "}
-            <a href="https://swapnilsparsh.github.io" target="_blank">
+            <a
+              href="https://swapnilsparsh.github.io"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               Swapnil Srivastava
             </a>{" "}
             and{" "}
-            <a href="https://jatiinyadav.github.io" target="_blank">
+            <a
+              href="https://jatiinyadav.github.io"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               Jatin Yadav
             </a>
