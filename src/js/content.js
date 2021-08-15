@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/App.css";
+import "../sass/style.css";
 import Backtotop from "./backtotop";
 import Footer from "./footer";
 import Landingpage from "./landingpage";
@@ -416,11 +416,7 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3 className="heading">MLH Fellowship</h3>
-              <img
-                className="image-fill"
-                src="../img/MLH-Fellowship-white.jpg"
-                alt=""
-              />
+              <img src="../img/MLH-Fellowship-white.jpg" alt="" />
             </a>
           </div>
         </div>
@@ -436,11 +432,7 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3 className="heading">MLH Pre Fellowship</h3>
-              <img
-                className="image-fill"
-                src="../img/MLH-Fellowship-blue.jpg"
-                alt=""
-              />
+              <img src="../img/MLH-Fellowship-blue.jpg" alt="" />
             </a>
           </div>
         </div>

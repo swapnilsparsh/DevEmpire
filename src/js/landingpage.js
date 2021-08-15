@@ -11,6 +11,7 @@ const Landingpage = () => {
               className="twitter"
               href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20%F0%9F%91%8D&url=https://github.com/swapnilsparsh/DevSociety&via=swapnilsparsh"
               target="_blank"
+              rel="noreferrer"
             >
               <img src="../img/twitter-share.png" alt="" />
             </a>
