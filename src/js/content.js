@@ -507,6 +507,22 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
+              href="https://www.nvidia.com/en-in/deep-learning-ai/education/ambassador-program/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>NVIDIA DLI University Ambassador</h3>
+              <img src="../img/NVIDIA.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
               href="https://www.oneplus.in/campus"
               target="_blank"
               rel="noreferrer"
