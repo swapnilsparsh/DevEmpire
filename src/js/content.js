@@ -67,6 +67,53 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
+              href="https://aws.amazon.com/education/awseducate/cloud-ambassador-program/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>AWS Educate Cloud Ambassador</h3>
+              <img src="../img/AWSEducateCloud.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
+              href="https://aws.amazon.com/developer/community/community-builders/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>AWS Community Builders</h3>
+              <img src="../img/AWSCommunityBuilders.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
+              href="https://aws.amazon.com/education/awseducate/student-ambassador-program/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>AWS Educate Student Ambassador</h3>
+              <img src="../img/AWSEducateStudent.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
               href="https://app.smartsheet.com/b/form/a92f74ca555f44e4aa638a4f00a77213"
               target="_blank"
               rel="noreferrer"
