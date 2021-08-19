@@ -127,6 +127,22 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
+              href="https://www.deeplearning.ai/ambassador/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>DeepLearning.AI Ambassador</h3>
+              <img className="image" src="../img/DeepLearningAI.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
               href="https://developers.facebook.com/developercircles/"
               target="_blank"
               rel="noreferrer"
