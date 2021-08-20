@@ -474,6 +474,22 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
+              href="https://mlh.io/coaches"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3 className="heading">MLH Coach</h3>
+              <img src="../img/MLHCoach.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
               href="https://fellowship.mlh.io/"
               target="_blank"
               rel="noreferrer"
