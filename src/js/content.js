@@ -47,6 +47,22 @@ const Content = () => (
 
       <div className="frame-border">
         <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
+              href="https://aws.amazon.com/partners/ambassadors/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>APN Ambassador</h3>
+              <img src="../img/APNAmbassador.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
 
         <div className="card">
           <div className="content">
@@ -109,7 +125,7 @@ const Content = () => (
           </div>
         </div>
       </div>
-      
+
       <div className="frame-border">
         <div className="pointer"></div>
         <div className="card">
