@@ -67,12 +67,12 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
-              href="https://aws.amazon.com/education/awseducate/cloud-ambassador-program/"
+              href="https://aws.amazon.com/developer/community/community-builders/"
               target="_blank"
               rel="noreferrer"
             >
-              <h3>AWS Educate Cloud Ambassador</h3>
-              <img src="../img/AWSEducateCloud.png" alt="" />
+              <h3>AWS Community Builders</h3>
+              <img src="../img/AWSCommunityBuilders.png" alt="" />
             </a>
           </div>
         </div>
@@ -83,12 +83,12 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
-              href="https://aws.amazon.com/developer/community/community-builders/"
+              href="https://aws.amazon.com/education/awseducate/cloud-ambassador-program/"
               target="_blank"
               rel="noreferrer"
             >
-              <h3>AWS Community Builders</h3>
-              <img src="../img/AWSCommunityBuilders.png" alt="" />
+              <h3>AWS Educate Cloud Ambassador</h3>
+              <img src="../img/AWSEducateCloud.png" alt="" />
             </a>
           </div>
         </div>
@@ -109,6 +109,23 @@ const Content = () => (
           </div>
         </div>
       </div>
+      
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
+              href="https://aws.amazon.com/developer/community/heroes/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>AWS Heroes</h3>
+              <img src="../img/AWSHeroes.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="frame-border">
         <div className="pointer"></div>
         <div className="card">
