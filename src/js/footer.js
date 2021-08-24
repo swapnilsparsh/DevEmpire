@@ -9,10 +9,10 @@ const Footer = () => {
             Want your company's student ambassador to be listed / unlisted?
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             exercitationem sint dolores saepe blanditiis asperiores ab laborum
             neque accusamus commodi, nostrum, repellendus nobis fugiat nesciunt
-            dignissimos sequi earum rem voluptas.
+            dignissimos sequi earum rem voluptas. */}
           </p>
 
           <br />
