@@ -794,6 +794,22 @@ const Content = () => (
 
       <div className="frame-border">
         <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
+              href="https://careers.vmware.com/campus-ambassador-program"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>VMware Campus Ambassador</h3>
+              <img src="../img/VMware.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
         <div class="card">
           <div class="content">
             <div class="tag - women">
