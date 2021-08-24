@@ -469,22 +469,6 @@ const Content = () => (
 
       <div className="frame-border">
         <div className="pointer"></div>
-        <div className="card">
-          <div className="content">
-            <a
-              href="https://studentambassadors.microsoft.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h3>Microsoft Learn Student Ambassador</h3>
-              <img src="../img/mlsa.png" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="frame-border">
-        <div className="pointer"></div>
         <div class="card">
           <div class="content">
             <div class="tag - women">
