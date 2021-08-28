@@ -239,6 +239,22 @@ const Content = () => (
         <div class="card">
           <div class="content">
             <a
+              href="https://www.digitalocean.com/community/pages/digitalocean-navigators"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>DigitalOcean’s Navigator</h3>
+              <img src="../img/DigitalOcean.png" alt=""></img>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div class="card">
+          <div class="content">
+            <a
               href="https://developers.google.com/community/gdg/organizers"
               target="_blank"
               rel="noreferrer"
