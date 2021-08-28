@@ -587,6 +587,22 @@ const Content = () => (
         <div className="card">
           <div className="content">
             <a
+              href="https://www.notion.so/Notion-Ambassadors-99857c0d03e8431ab3c430d0afa1c1fe"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>Notion Ambassador</h3>
+              <img src="../img/Notion.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div className="card">
+          <div className="content">
+            <a
               href="https://www.nvidia.com/en-in/deep-learning-ai/education/ambassador-program/"
               target="_blank"
               rel="noreferrer"
