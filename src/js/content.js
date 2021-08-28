@@ -792,6 +792,7 @@ const Content = () => (
         </div>
       </div>
 
+
       <div className="frame-border">
         <div className="pointer"></div>
         <div class="card">
