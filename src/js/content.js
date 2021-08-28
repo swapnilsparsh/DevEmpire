@@ -781,6 +781,22 @@ const Content = () => (
         <div class="card">
           <div class="content">
             <a
+              href="https://www.twilio.com/champions"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>Twilio Champion</h3>
+              <img className="image" src="../img/Twilio.png" alt=""></img>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="frame-border">
+        <div className="pointer"></div>
+        <div class="card">
+          <div class="content">
+            <a
               href="https://community.uipath.com/uipath-student-developers-program/"
               target="_blank"
               rel="noreferrer"
