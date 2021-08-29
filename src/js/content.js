@@ -135,7 +135,7 @@ const Content = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <h3>AWS Heroes</h3>
+              <h3 className="heading">AWS Heroes</h3>
               <img src="../img/AWSHeroes.png" alt="" />
             </a>
           </div>
@@ -212,7 +212,11 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3>DeepLearning.AI Ambassador</h3>
-              <img className="image" src="../img/DeepLearningAI.png" alt="" />
+              <img
+                className="image-contain"
+                src="../img/DeepLearningAI.png"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -380,7 +384,7 @@ const Content = () => (
             >
               <h3>GitKraken Ambassador Program</h3>
               <img
-                className="image-fill"
+                className="image-contain"
                 src="../img/GitKraken.jpg"
                 alt=""
               ></img>
@@ -506,11 +510,7 @@ const Content = () => (
         <div className="pointer"></div>
         <div className="card">
           <div className="content">
-            <a
-              href="https://mlh.io/coaches"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://mlh.io/coaches" target="_blank" rel="noreferrer">
               <h3 className="heading">MLH Coach</h3>
               <img src="../img/MLHCoach.png" alt="" />
             </a>
@@ -786,12 +786,15 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3>Twilio Champion</h3>
-              <img className="image" src="../img/Twilio.png" alt=""></img>
+              <img
+                className="image-contain"
+                src="../img/Twilio.jpg"
+                alt=""
+              ></img>
             </a>
           </div>
         </div>
       </div>
-
 
       <div className="frame-border">
         <div className="pointer"></div>
