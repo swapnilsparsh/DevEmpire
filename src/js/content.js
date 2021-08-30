@@ -54,7 +54,7 @@ const Content = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <h3>APN Ambassador</h3>
+              <h3 className="heading">APN Ambassador</h3>
               <img src="../img/APNAmbassador.png" alt="" />
             </a>
           </div>
@@ -120,7 +120,12 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3>AWS Educate Student Ambassador</h3>
-              <img src="../img/AWSEducateStudent.png" alt="" />
+              <img
+                style={{ background: "#232f3e" }}
+                className="image-contain"
+                src="../img/AWSEducateStudent.png"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -136,7 +141,7 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3 className="heading">AWS Heroes</h3>
-              <img src="../img/AWSHeroes.png" alt="" />
+              <img className="image-fill" src="../img/AWSHeroes.png" alt="" />
             </a>
           </div>
         </div>
@@ -162,7 +167,11 @@ const Content = () => (
         <div className="pointer"></div>
         <div class="card">
           <div class="content">
-            <a href="https://www.cncf.io/people/ambassadors/">
+            <a
+              href="https://www.cncf.io/people/ambassadors/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <h3>Cloud Native Ambassador</h3>
               <img src="../img/CNCF.png" alt=""></img>
             </a>
@@ -212,11 +221,7 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3>DeepLearning.AI Ambassador</h3>
-              <img
-                className="image-contain"
-                src="../img/DeepLearningAI.png"
-                alt=""
-              />
+              <img src="../img/DeepLearning.png" alt="" />
             </a>
           </div>
         </div>
@@ -247,7 +252,7 @@ const Content = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <h3>DigitalOcean’s Navigator</h3>
+              <h3 className="heading">DigitalOcean’s Navigator</h3>
               <img src="../img/DigitalOcean.png" alt=""></img>
             </a>
           </div>
@@ -258,6 +263,9 @@ const Content = () => (
         <div className="pointer"></div>
         <div class="card">
           <div class="content">
+            <div class="tag - group">
+              <span>Group</span>
+            </div>
             <a
               href="https://developers.google.com/community/gdg/organizers"
               target="_blank"
@@ -345,6 +353,9 @@ const Content = () => (
         <div className="pointer"></div>
         <div className="card">
           <div className="content">
+            <div class="tag - teacher">
+              <span>Teacher</span>
+            </div>
             <a
               href="https://classroom.github.com/"
               target="_blank"
@@ -361,8 +372,11 @@ const Content = () => (
         <div className="pointer"></div>
         <div className="card">
           <div className="content">
+            <div class="tag - teacher">
+              <span>Teacher</span>
+            </div>
             <a
-              href="https://classroom.github.com/"
+              href="https://education.github.com/teachers/advisors"
               target="_blank"
               rel="noreferrer"
             >
@@ -384,6 +398,7 @@ const Content = () => (
             >
               <h3>GitKraken Ambassador Program</h3>
               <img
+                style={{ background: "#0c171d" }}
                 className="image-contain"
                 src="../img/GitKraken.jpg"
                 alt=""
@@ -415,6 +430,7 @@ const Content = () => (
           <div className="content">
             <a
               href="https://www.hackerearth.com/university/intro/"
+              target="_blank"
               rel="noreferrer"
             >
               <h3>HackerEarth Campus Ambassador</h3>
@@ -430,7 +446,7 @@ const Content = () => (
           <div class="content">
             <a href="https://zambassador.com/" target="_blank" rel="noreferrer">
               <h3 className="heading">IBM ZAMBASSADOR</h3>
-              <img className="image" src="../img/IBM.jpg" alt=""></img>
+              <img className="image" src="../img/IBM.png" alt=""></img>
             </a>
           </div>
         </div>
@@ -465,7 +481,7 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3 className="heading">Kotlin User Group</h3>
-              <img src="../img/Kotlin.png" alt=""></img>
+              <img src="../img/kotlinusergroup.png" alt=""></img>
             </a>
           </div>
         </div>
@@ -528,7 +544,11 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3 className="heading">MLH Fellowship</h3>
-              <img src="../img/MLH-Fellowship-white.jpg" alt="" />
+              <img
+                style={{ background: "whitesmoke" }}
+                src="../img/MLH-Fellowship-white.jpg"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -543,8 +563,12 @@ const Content = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <h3 className="heading">MLH Pre Fellowship</h3>
-              <img src="../img/MLH-Fellowship-blue.jpg" alt="" />
+              <h3>MLH Fellowship Prep Program</h3>
+              <img
+                style={{ background: "#12304c" }}
+                src="../img/MLH-Fellowship-blue.jpg"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -570,6 +594,9 @@ const Content = () => (
         <div className="pointer"></div>
         <div class="card">
           <div class="content">
+            <div class="tag - group">
+              <span>Group</span>
+            </div>
             <a
               href="https://live.mongodb.com/start-a-group/"
               target="_blank"
@@ -586,13 +613,20 @@ const Content = () => (
         <div className="pointer"></div>
         <div className="card">
           <div className="content">
+            <div class="tag - group">
+              <span>Group</span>
+            </div>
             <a
               href="https://campus.mozilla.community/"
               target="_blank"
               rel="noreferrer"
             >
               <h3 className="heading"> Mozilla Campus Club</h3>
-              <img src="../img/Mozilla.png" alt="" />
+              <img
+                style={{ background: "#2eb6b6" }}
+                src="../img/Mozilla.jpeg"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -608,7 +642,12 @@ const Content = () => (
               rel="noreferrer"
             >
               <h3>Notion Ambassador</h3>
-              <img src="../img/Notion.png" alt="" />
+              <img
+                className="image-contain"
+                style={{ background: "#f9f5f1" }}
+                src="../img/Notion.png"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -650,13 +689,16 @@ const Content = () => (
         <div className="pointer"></div>
         <div className="card">
           <div className="content">
+            <div class="tag - teacher">
+              <span>Teacher</span>
+            </div>
             <a
               href="https://www.postman.com/company/student-program/#postman-classroom-program"
               target="_blank"
               rel="noreferrer"
             >
               <h3>Postman Classroom Program</h3>
-              <img src="../img/Postman-classroom-white.png" alt="" />
+              <img src="../img/PostmanClassroom.png" alt="" />
             </a>
           </div>
         </div>
@@ -785,10 +827,10 @@ const Content = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <h3>Twilio Champion</h3>
+              <h3 className="heading">Twilio Champion</h3>
               <img
                 className="image-contain"
-                src="../img/Twilio.jpg"
+                src="../img/Twilio.png"
                 alt=""
               ></img>
             </a>
