@@ -49,7 +49,7 @@ body {
   font-size: 8rem;
 }
 
-.top-navbar .navigation {
+.navigation {
   padding: 24px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,6 +79,18 @@ body {
   height: 36px;
 }
 
+.navigation .github-button .github{
+  line-height: 0;
+  border: 0.5px solid rgba(90, 89, 89, 0.3);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+
+.navigation .github-button img {
+  height: 36px;
+}
+
 @media screen and (max-width: 1440px) {
   .landing-page-header h1 {
     font-size: 5rem;
@@ -103,7 +115,7 @@ body {
   .landing-page-header {
     width: 100%;
   }
-  .top-navbar .navigation {
+  .navigation {
     padding: 12px 2px;
   }
 }
@@ -295,6 +307,15 @@ body {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+  }
+
+  .navigation{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .navigation .github-button{
+    margin: 10px;
   }
 }
 
