@@ -115,21 +115,26 @@ body {
   position: relative;
   display: -ms-grid;
   display: grid;
-  text-align: center;
+  align-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
 
 .container .frame-border {
-  position: relative;
-  background: rgba(255, 255, 255, 0.2);
   -webkit-box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
   box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(30.1626px);
   backdrop-filter: blur(30.1626px);
   border-radius: 24px;
-  padding: 42px 18px 24px;
-  border: 1px solid #ffffff;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 42px 24px 24px;
+  border: 1px solid #fff;
 }
 
 .container .frame-border .pointer {
@@ -141,6 +146,20 @@ body {
   background: url("../sass/pointer.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.container .frame-border:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../sass/card-bg.png);
+  background-position: center;
+  mix-blend-mode: overlay;
+  opacity: 0.3;
+  border-radius: 24px;
 }
 
 .container .card {
@@ -254,7 +273,7 @@ body {
   background-color: rgb(245, 212, 218);
 }
 
-@media (min-width: 1000px) and (max-width: 1240px) {
+@media (min-width: 1166px) and (max-width: 1440px) {
   .container {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
@@ -262,7 +281,7 @@ body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1166px) {
   .container {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
