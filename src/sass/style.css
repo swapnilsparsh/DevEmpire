@@ -67,18 +67,6 @@ body {
   vertical-align: middle;
 }
 
-.navigation .twitter-button .twitter {
-  line-height: 0;
-  border: 0.5px solid rgba(0, 147, 237, 0.3);
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 10px;
-}
-
-.navigation .twitter-button img {
-  height: 36px;
-}
-
 .navigation .github-button .github{
   line-height: 0;
   border: 0.5px solid rgba(90, 89, 89, 0.3);
@@ -87,7 +75,15 @@ body {
   border-radius: 10px;
 }
 
-.navigation .github-button img {
+.navigation .twitter-button .twitter {
+  line-height: 0;
+  border: 0.5px solid rgba(0, 147, 237, 0.3);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+
+.navigation img {
   height: 36px;
 }
 
@@ -279,8 +275,8 @@ body {
 }
 
 .container .card .content .teacher span {
-  color: #ff1493;
-  background-color: rgb(245, 212, 218);
+  color: #802392;
+  background-color: rgba(148, 45, 168, 0.295)
 }
 
 @media (min-width: 1166px) and (max-width: 1440px) {
@@ -369,4 +365,3 @@ hr {
   color: #ffffff;
   background: #0093ed;
 }
-/*# sourceMappingURL=style.css.map */
