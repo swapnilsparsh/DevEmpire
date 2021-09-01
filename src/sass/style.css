@@ -67,7 +67,7 @@ body {
   vertical-align: middle;
 }
 
-.navigation .github-button .github{
+.navigation .github-button .github {
   line-height: 0;
   border: 0.5px solid rgba(90, 89, 89, 0.3);
   display: inline-block;
@@ -134,11 +134,11 @@ body {
   position: relative;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 24px;
+  margin: auto;
   width: 340px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
   padding: 42px 24px 24px;
   border: 1px solid #fff;
 }
@@ -276,7 +276,7 @@ body {
 
 .container .card .content .teacher span {
   color: #802392;
-  background-color: rgba(148, 45, 168, 0.295)
+  background-color: rgba(148, 45, 168, 0.295);
 }
 
 @media (min-width: 1166px) and (max-width: 1440px) {
@@ -303,13 +303,19 @@ body {
     grid-gap: 2rem;
   }
 
-  .navigation{
+  .navigation {
     flex-direction: column;
     flex-wrap: wrap;
   }
 
-  .navigation .github-button{
+  .navigation .github-button {
     margin: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .container .frame-border {
+    width: 300px;
   }
 }
 
