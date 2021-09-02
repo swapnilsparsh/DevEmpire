@@ -322,16 +322,16 @@ body {
 /*Start footer*/
 .copyright {
   width: 100%;
-  text-align: left;
+  text-align: center;
   background: #7ab5d6;
   padding: 1rem 0;
   position: relative;
+  color: black;
 }
 
 .footer-question {
   width: 70%;
   margin: 0 auto;
-  text-align: left;
 }
 
 .footer-question h2 {
@@ -346,6 +346,11 @@ hr {
 
 .footer-question p {
   margin-bottom: 1rem;
+}
+
+.footer-question a{
+  color: #00314d;
+  text-decoration: none;
 }
 
 /*Start scrollbar*/
