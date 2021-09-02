@@ -5,19 +5,18 @@ const Footer = () => {
     <div>
       <footer class="copyright">
         <div className="footer-question">
-          <h2>
-            Want your company's student ambassador to be listed / unlisted?
-          </h2>
           <p>
-            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            exercitationem sint dolores saepe blanditiis asperiores ab laborum
-            neque accusamus commodi, nostrum, repellendus nobis fugiat nesciunt
-            dignissimos sequi earum rem voluptas. */}
+            Want your company's student program to be listed / unlisted?
+          <a
+            href="https://twitter.com/swapnilsparsh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contact Us
+          </a>
           </p>
-
-          <br />
           <hr />
-          <p>
+          <h4>
             Made with ❤️ & ☕ by{" "}
             <a
               href="https://swapnilsparsh.github.io"
@@ -27,7 +26,10 @@ const Footer = () => {
               {" "}
               Swapnil Srivastava
             </a>{" "}
-            and{" "}
+          </h4>
+          <br />
+          <h4>
+            Designed by
             <a
               href="https://jatiinyadav.github.io"
               target="_blank"
@@ -36,7 +38,7 @@ const Footer = () => {
               {" "}
               Jatin Yadav
             </a>
-          </p>
+          </h4>
         </div>
       </footer>
     </div>
