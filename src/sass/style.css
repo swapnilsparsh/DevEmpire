@@ -348,6 +348,21 @@ hr {
   margin-bottom: 1rem;
 }
 
+/*Start scrollbar*/
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #0093ed;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background: #d6f5ff;
+}
+/*End scrollbar*/
+
 /* Back To Top */
 .back-to-top .top {
   position: fixed;
