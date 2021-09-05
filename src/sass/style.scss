@@ -67,16 +67,33 @@ body {
   vertical-align: middle;
 }
 
-.navigation .twitter-button {
-  .twitter {
-    line-height: 0;
-    border: 0.5px solid $twitterBorder;
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 10px;
+.navigation {
+  padding: 24px 24px;
+  @include flex-container();
+  justify-content: space-between;
+  .github-button {
+    .github {
+      line-height: 0;
+      border: 0.5px solid rgba(90, 89, 89, 0.3);
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 10px;
+    }
+    img {
+      height: 36px;
+    }
   }
-  img {
-    height: 36px;
+  .twitter-button {
+    .twitter {
+      line-height: 0;
+      border: 0.5px solid $twitterBorder;
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 10px;
+    }
+    img {
+      height: 36px;
+    }
   }
 }
 
@@ -111,10 +128,14 @@ body {
   max-width: 120rem;
   margin: 4rem auto;
   position: relative;
-  display: grid;
   text-align: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+
+  .align-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
 
   .frame-border {
     position: relative;
@@ -237,26 +258,18 @@ body {
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1240px) {
-  .container {
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+@media (max-width: 750px) {
+  .navigation {
+    flex-direction: column;
   }
-}
-@media (min-width: 600px) and (max-width: 1000px) {
-  .container {
-    width: 90%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+  .navigation .twitter-button {
+    margin-top: 10px;
   }
 }
 
-@media (max-width: 750px) {
-  .container {
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
+@media (max-width: 320px) {
+  .frame-border .card {
+    width: 270px;
   }
 }
 
