@@ -67,18 +67,20 @@ body {
     }
     a {
       background: $colorWhite;
-      border: 1px solid #0093ed;
-      color: #0093ed;
-      padding: 22px;
+      border: 1px solid $pageHeading;
+      color: $pageHeading;
+      padding: 13px 36px;
+      line-height: 35px;
       cursor: pointer;
       display: inline-block;
       transition: all 0.2s ease;
       border-radius: 16px;
       text-decoration: none;
       margin: 1rem 1.5rem;
-    }
-    a:hover {
-      background: #b8ecfd;
+      &:hover {
+        color: $colorWhite;
+        background: $pageHeading;
+      }
     }
     h4 {
       font-size: 22px;

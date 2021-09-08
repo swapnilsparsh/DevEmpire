@@ -29,7 +29,7 @@ const Landingpage = () => {
             live in Bookmarksgrove right at the coast of the Semantics.
           </p>
           <a href="/">
-            <h4>Developer Society</h4>
+            <h4>Explore all</h4>
           </a>
         </div>
         <img src="../img/prizegif.gif" alt="" />

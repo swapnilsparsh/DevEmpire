@@ -60,7 +60,8 @@ body {
   background: #ffffff;
   border: 1px solid #0093ed;
   color: #0093ed;
-  padding: 22px;
+  padding: 13px 36px;
+  line-height: 35px;
   cursor: pointer;
   display: inline-block;
   -webkit-transition: all 0.2s ease;
@@ -71,7 +72,8 @@ body {
 }
 
 .landing-page-header .header-details a:hover {
-  background: #b8ecfd;
+  color: #ffffff;
+  background: #0093ed;
 }
 
 .landing-page-header .header-details h4 {
