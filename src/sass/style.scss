@@ -124,7 +124,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 120rem;
   margin: 4rem auto;
   position: relative;
@@ -134,7 +134,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
   }
 
   .frame-border {
@@ -144,7 +144,7 @@ body {
     -webkit-backdrop-filter: blur(30.1626px);
     backdrop-filter: blur(30.1626px);
     border-radius: 24px;
-    padding: 42px 18px 24px;
+    padding: 42px 28px 24px 28px;
     border: 1px solid $colorWhite;
 
     .pointer {
@@ -258,7 +258,16 @@ body {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 844px) {
+  .container {
+    width: 100%;
+  }
+  .container .align-flex {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
   .navigation {
     flex-direction: column;
   }
@@ -267,9 +276,9 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .frame-border .card {
-    width: 270px;
+    width: 250px;
   }
 }
 
