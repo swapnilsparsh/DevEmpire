@@ -53,10 +53,36 @@ body {
 .landing-page-header {
   @include flex-container();
   justify-content: center;
+  text-align: left;
 
-  h1 {
-    color: $pageHeading;
-    font-size: 8rem;
+  .header-details {
+    h1 {
+      color: $pageHeading;
+      font-size: 6rem;
+      padding: 0rem 1.5rem;
+    }
+    p {
+      font-size: 20px;
+      padding: 1.5rem;
+    }
+    a {
+      background: $colorWhite;
+      border: 1px solid #0093ed;
+      color: #0093ed;
+      padding: 22px;
+      cursor: pointer;
+      display: inline-block;
+      transition: all 0.2s ease;
+      border-radius: 16px;
+      text-decoration: none;
+      margin: 1rem 1.5rem;
+    }
+    a:hover {
+      background: #b8ecfd;
+    }
+    h4 {
+      font-size: 22px;
+    }
   }
 }
 
@@ -98,25 +124,35 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  .landing-page-header h1 {
-    font-size: 5rem;
-  }
-  .landing-page-header img {
-    width: 20rem;
-    height: 20rem;
+  .landing-page-header {
+    .header-details h1 {
+      font-size: 5rem;
+    }
+    img {
+      width: 20rem;
+      height: 20rem;
+    }
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .landing-page-header {
     flex-direction: column;
+
+    .header-details {
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 16px;
+      }
+      a {
+        padding: 14px;
+      }
+    }
   }
-  .landing-page-header h1 {
-    font-size: 4rem;
-    float: left;
-  }
-  .landing-page-header {
-    width: 100%;
+  .container-landing {
+    width: 90%;
   }
   .top-navbar .navigation {
     padding: 12px 2px;
