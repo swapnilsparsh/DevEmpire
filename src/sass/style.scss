@@ -42,16 +42,16 @@ body {
 }
 
 /*Start scrollbar*/
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #0093ed;
   border-radius: 12px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #d6f5ff;
 }
 /*End scrollbar*/
@@ -69,6 +69,14 @@ body {
   @include flex-container();
   justify-content: center;
   text-align: left;
+
+  .homesvg {
+    img {
+      height: 100%;
+      width: 300px;
+      pointer-events: none;
+    }
+  }
 
   .header-details {
     h1 {

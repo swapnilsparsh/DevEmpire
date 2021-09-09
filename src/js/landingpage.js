@@ -1,4 +1,5 @@
 import React from "react";
+import Home from './Home.svg';
 
 const Landingpage = () => {
   return (
@@ -32,7 +33,9 @@ const Landingpage = () => {
             <h4>Explore all</h4>
           </a>
         </div>
-        <img src="../img/prizegif.gif" alt="" />
+        <div className="homesvg">
+          <img  src={Home} alt="website logo" />
+        </div>
       </div>
     </div>
   );

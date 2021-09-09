@@ -60,6 +60,12 @@ body {
   text-align: left;
 }
 
+.landing-page-header .homesvg img {
+  height: 100%;
+  width: 300px;
+  pointer-events: none;
+}
+
 .landing-page-header .header-details h1 {
   color: #0093ed;
   font-size: 6rem;
