@@ -62,7 +62,7 @@ body {
 
 .landing-page-header .homesvg img {
   height: 100%;
-  width: 300px;
+  width: 500px;
   pointer-events: none;
 }
 
@@ -176,6 +176,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .landing-page-header .homesvg img {
+    height: 100%;
+    width: 280px;
+    pointer-events: none;
   }
   .landing-page-header .header-details h1 {
     font-size: 4rem;

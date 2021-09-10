@@ -73,7 +73,7 @@ body {
   .homesvg {
     img {
       height: 100%;
-      width: 300px;
+      width: 500px;
       pointer-events: none;
     }
   }
@@ -163,6 +163,15 @@ body {
 @media screen and (max-width: 800px) {
   .landing-page-header {
     flex-direction: column;
+
+    .homesvg {
+      img {
+        height: 100%;
+        width: 280px;
+        pointer-events: none;
+      }
+
+    }
 
     .header-details {
       h1 {
