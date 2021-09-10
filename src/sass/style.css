@@ -390,8 +390,15 @@ body {
   text-align: left;
 }
 
-.footer-question h2 {
-  margin: 1rem 0;
+.footer-question h4 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-question a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px dotted #e9e7fc;
 }
 
 hr {
@@ -401,6 +408,7 @@ hr {
 }
 
 .footer-question p {
+  color: rgba(255, 255, 255, 0.7);
   margin-bottom: 1rem;
 }
 

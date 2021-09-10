@@ -368,8 +368,14 @@ body {
 }
 
 .footer-question {
-  h2 {
-    margin: 1rem 0;
+  h4 {
+    color: hsla(0,0%,100%,.7);
+  }
+  a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px dotted #e9e7fc;
   }
 }
 
@@ -381,6 +387,7 @@ hr {
 
 .footer-question {
   p {
+    color: hsla(0,0%,100%,.7);
     margin-bottom: 1rem;
   }
 }
