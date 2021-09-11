@@ -14,6 +14,10 @@ $twitterBorder: rgba(0, 147, 237, 0.3);
 $colorWhite: #ffffff;
 $colorBlack: #000000;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @mixin flex-container {
   display: flex;
   align-items: center;
@@ -160,20 +164,31 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) and (max-width: 1024px) {
   .landing-page-header {
-    flex-direction: column;
-
     .homesvg {
       img {
         height: 100%;
         width: 280px;
         pointer-events: none;
       }
+    }
+  }
+}
 
+@media screen and (max-width: 800px) {
+  .landing-page-header {
+    flex-direction: column;
+    .homesvg {
+      img {
+        height: 100%;
+        width: 280px;
+        pointer-events: none;
+      }
     }
 
     .header-details {
+      order: 2;
       h1 {
         font-size: 4rem;
       }
@@ -197,6 +212,7 @@ body {
   width: 90%;
   max-width: 120rem;
   margin: 4rem auto;
+  padding: 2rem 0rem;
   position: relative;
   text-align: center;
 
@@ -369,9 +385,9 @@ body {
 
 .footer-question {
   h4 {
-    color: hsla(0,0%,100%,.7);
+    color: hsla(0, 0%, 100%, 0.7);
   }
-  a{
+  a {
     font-weight: 600;
     text-decoration: none;
     color: #fff;
@@ -387,7 +403,7 @@ hr {
 
 .footer-question {
   p {
-    color: hsla(0,0%,100%,.7);
+    color: hsla(0, 0%, 100%, 0.7);
     margin-bottom: 1rem;
   }
 }

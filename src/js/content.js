@@ -9,7 +9,7 @@ const Content = () => (
     {/* <img className="background" src="../img/Developer-Society-bg.png" alt="" /> */}
     <Landingpage></Landingpage>
     <Backtotop></Backtotop>
-    <div className="container">
+    <div className="container" id="container">
       <div className="align-flex">
         <div className="frame-border">
           <div className="pointer"></div>

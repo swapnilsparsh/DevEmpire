@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -170,6 +174,14 @@ body {
   }
 }
 
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .landing-page-header .homesvg img {
+    height: 100%;
+    width: 280px;
+    pointer-events: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .landing-page-header {
     -webkit-box-orient: vertical;
@@ -181,6 +193,11 @@ body {
     height: 100%;
     width: 280px;
     pointer-events: none;
+  }
+  .landing-page-header .header-details {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .landing-page-header .header-details h1 {
     font-size: 4rem;
@@ -203,6 +220,7 @@ body {
   width: 90%;
   max-width: 120rem;
   margin: 4rem auto;
+  padding: 2rem 0rem;
   position: relative;
   text-align: center;
 }

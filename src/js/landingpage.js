@@ -1,5 +1,5 @@
 import React from "react";
-import Home from './Home.svg';
+import Home from "./Home.svg";
 
 const Landingpage = () => {
   return (
@@ -29,12 +29,12 @@ const Landingpage = () => {
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics.
           </p>
-          <a href="/">
+          <a href="#container">
             <h4>Explore all</h4>
           </a>
         </div>
         <div className="homesvg">
-          <img  src={Home} alt="website logo" />
+          <img src={Home} alt="website logo" />
         </div>
       </div>
     </div>
