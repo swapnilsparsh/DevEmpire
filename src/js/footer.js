@@ -2,18 +2,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <footer class="copyright">
         <div className="footer-question">
           <p>
             Want your company's student program to be listed / unlisted?
-          <a
-            href="https://twitter.com/swapnilsparsh"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Contact Us
-          </a>
+            <a
+              href="https://twitter.com/swapnilsparsh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Contact Us
+            </a>
           </p>
           <hr />
           <h4>

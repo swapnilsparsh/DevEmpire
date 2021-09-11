@@ -10,7 +10,10 @@ html {
 }
 
 body {
-  background: #d6f5ff;
+  background: url("../svg/Background-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "open-sans";
 }
 
@@ -200,7 +203,7 @@ body {
             order: 2;
   }
   .landing-page-header .header-details h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .landing-page-header .header-details p {
     font-size: 16px;
@@ -394,12 +397,11 @@ body {
 }
 
 /*Start footer*/
-.copyright {
-  width: 100%;
-  text-align: left;
-  background: #7ab5d6;
-  padding: 1rem 0;
-  position: relative;
+.footer {
+  background: url("../svg/Footer.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 6rem 0rem 2rem 0rem;
 }
 
 .footer-question {

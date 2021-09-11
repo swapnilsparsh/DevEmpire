@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./Home.svg";
+import Home from "../svg/Home.svg";
 
 const Landingpage = () => {
   return (
