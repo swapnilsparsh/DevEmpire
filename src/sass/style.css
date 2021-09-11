@@ -177,7 +177,7 @@ body {
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
   .landing-page-header .homesvg img {
     height: 100%;
     width: 280px;
@@ -185,7 +185,7 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 720px) {
   .landing-page-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -196,11 +196,6 @@ body {
     height: 100%;
     width: 280px;
     pointer-events: none;
-  }
-  .landing-page-header .header-details {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
   }
   .landing-page-header .header-details h1 {
     font-size: 3.5rem;
@@ -440,7 +435,7 @@ hr {
   right: 15px;
   font-size: 25px;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #0f0e0e;
   z-index: 4;
   width: 45px;
   text-align: center;
@@ -453,6 +448,6 @@ hr {
 
 .back-to-top .top:hover {
   color: #ffffff;
-  background: #0093ed;
+  background: #044468;
 }
 /*# sourceMappingURL=style.css.map */

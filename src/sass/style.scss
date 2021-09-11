@@ -168,7 +168,7 @@ body {
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
   .landing-page-header {
     .homesvg {
       img {
@@ -180,7 +180,7 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 720px) {
   .landing-page-header {
     flex-direction: column;
     .homesvg {
@@ -192,7 +192,6 @@ body {
     }
 
     .header-details {
-      order: 2;
       h1 {
         font-size: 3.5rem;
       }
@@ -421,7 +420,7 @@ hr {
     right: 15px;
     font-size: 25px;
     color: $colorWhite;
-    background-color: $colorBlack;
+    background-color: rgb(15, 14, 14);
     z-index: 4;
     width: 45px;
     text-align: center;
@@ -436,6 +435,6 @@ hr {
 .back-to-top {
   .top:hover {
     color: $colorWhite;
-    background: $pageHeading;
+    background: #044468;
   }
 }
