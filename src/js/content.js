@@ -555,7 +555,7 @@ const Content = () => (
                 <h3 className="heading">MLH Fellowship</h3>
                 <img
                   style={{ background: "whitesmoke" }}
-                  src="../img/mlh-Fellowship-white.jpg"
+                  src="../img/mlh-fellowship-white.jpg"
                   alt=""
                 />
               </a>
@@ -575,7 +575,7 @@ const Content = () => (
                 <h3>MLH Fellowship Prep Program</h3>
                 <img
                   style={{ background: "#12304c" }}
-                  src="../img/mlh-Fellowship-blue.jpg"
+                  src="../img/mlh-fellowship-blue.jpg"
                   alt=""
                 />
               </a>
@@ -633,7 +633,7 @@ const Content = () => (
                 <h3 className="heading"> Mozilla Campus Club</h3>
                 <img
                   style={{ background: "#2eb6b6" }}
-                  src="../img/Mozilla.jpeg"
+                  src="../img/mozilla.jpeg"
                   alt=""
                 />
               </a>
