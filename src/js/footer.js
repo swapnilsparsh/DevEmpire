@@ -30,7 +30,7 @@ const Footer = () => {
           </h4>
           <br />
           <h4>
-            Designed by
+            Maintain by
             <a
               href="https://jatiinyadav.github.io"
               target="_blank"

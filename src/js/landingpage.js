@@ -25,9 +25,9 @@ const Landingpage = () => {
         <div className="header-details">
           <h1>Developer Society</h1>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics.
+            All in one place where you can find all the resources and details 
+            of ambassador/fellowship that are available across different countries and
+            companies.These are verified and crowdsourced by the community.
           </p>
           <a href="#container">
             <h4>Explore all</h4>

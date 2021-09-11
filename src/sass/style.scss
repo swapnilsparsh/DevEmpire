@@ -93,6 +93,7 @@ body {
       padding: 0rem 1.5rem;
     }
     p {
+      color: #40aaff;
       font-size: 20px;
       padding: 1.5rem;
     }
@@ -388,7 +389,7 @@ body {
 
 .footer-question {
   h4 {
-    color: hsla(0, 0%, 100%, 0.7);
+    color: hsla(0, 0%, 100%, 0.808);
   }
   a {
     font-weight: 600;
@@ -435,6 +436,6 @@ hr {
 .back-to-top {
   .top:hover {
     color: $colorWhite;
-    background: #044468;
+    background: #00253a;
   }
 }
