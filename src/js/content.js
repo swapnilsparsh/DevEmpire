@@ -311,7 +311,7 @@ const Content = () => (
                 <h3>GeeksforGeeks Campus Ambassador</h3>
                 <img
                   className="image-fill"
-                  src="../img/GeeksForGeeks.png"
+                  src="../img/GeeksforGeeks.png"
                   alt=""
                 />
               </a>
@@ -348,7 +348,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Github Campus Expert</h3>
-                <img src="../img/Github.png" alt="" />
+                <img src="../img/github.png" alt="" />
               </a>
             </div>
           </div>
@@ -367,7 +367,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Github Classroom</h3>
-                <img src="../img/Github-classroom.png" alt="" />
+                <img src="../img/github-classroom.png" alt="" />
               </a>
             </div>
           </div>
@@ -386,7 +386,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Github Campus Advisor</h3>
-                <img src="../img/Github-advisor.png" alt="" />
+                <img src="../img/github-advisor.png" alt="" />
               </a>
             </div>
           </div>
@@ -555,7 +555,7 @@ const Content = () => (
                 <h3 className="heading">MLH Fellowship</h3>
                 <img
                   style={{ background: "whitesmoke" }}
-                  src="../img/MLH-Fellowship-white.jpg"
+                  src="../img/mlh-Fellowship-white.jpg"
                   alt=""
                 />
               </a>
@@ -575,7 +575,7 @@ const Content = () => (
                 <h3>MLH Fellowship Prep Program</h3>
                 <img
                   style={{ background: "#12304c" }}
-                  src="../img/MLH-Fellowship-blue.jpg"
+                  src="../img/mlh-Fellowship-blue.jpg"
                   alt=""
                 />
               </a>
