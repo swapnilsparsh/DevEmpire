@@ -200,7 +200,7 @@ body {
         font-size: 16px;
       }
       a {
-        padding: 14px;
+        padding: 10px 40px;
       }
     }
   }
@@ -231,8 +231,6 @@ body {
     position: relative;
     background: $cardFrame;
     box-shadow: inset 0 0 0 200px $cardShadow;
-    -webkit-backdrop-filter: blur(30.1626px);
-    backdrop-filter: blur(30.1626px);
     border-radius: 24px;
     padding: 42px 28px 24px 28px;
     border: 1px solid $colorWhite;
