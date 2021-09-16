@@ -6,7 +6,7 @@ const Landingpage = () => {
     <div className="container-landing">
       <div className="navigation">
         <div className="github-button">
-          <a className="github" href="/" target="_blank" rel="noreferrer">
+          <a className="github" href="https://github.com/swapnilsparsh/DevSociety" target="_blank" rel="noreferrer">
             <img src="../img/github-share.png" alt="" />
           </a>
         </div>

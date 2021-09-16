@@ -14,9 +14,6 @@ $twitterBorder: rgba(0, 147, 237, 0.3);
 $colorWhite: #ffffff;
 $colorBlack: #000000;
 
-html {
-  scroll-behavior: smooth;
-}
 
 @mixin flex-container {
   display: flex;
@@ -31,7 +28,7 @@ html {
 }
 
 body {
-  background: url("../svg/Background-2.svg");
+  background: url("../svg/Background-3.svg");
   // background: #d6f5ff;
   background-size: cover;
   background-repeat: no-repeat;
