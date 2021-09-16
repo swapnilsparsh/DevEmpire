@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { animateScroll as scroll } from "react-scroll";
 import "font-awesome/css/font-awesome.min.css";
 
 export default class GoTop extends Component {
@@ -28,19 +29,12 @@ export default class GoTop extends Component {
     }
   }
 
-  scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
-
   render() {
     const { is_visible } = this.state;
     return (
       <div className="back-to-top show-back-to-top">
         {is_visible && (
-          <div className="top" onClick={() => this.scrollToTop()}>
+          <div className="top" onClick={() => scroll.scrollToTop()}>
             <i className="fa fa-angle-up" aria-hidden="true" />
           </div>
         )}

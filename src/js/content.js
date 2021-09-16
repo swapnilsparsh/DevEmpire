@@ -1,14 +1,14 @@
 import React from "react";
 import "../sass/style.css";
-import Backtotop from "./backtotop";
 import Footer from "./footer";
 import Landingpage from "./landingpage";
+import BackToTop from "./backtotop";
 
 const Content = () => (
   <div>
     {/* <img className="background" src="../img/Developer-Society-bg.png" alt="" /> */}
     <Landingpage></Landingpage>
-    <Backtotop></Backtotop>
+    <BackToTop />
     <div className="container" id="container">
       <div className="align-flex">
         <div className="frame-border">

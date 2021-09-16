@@ -1,12 +1,18 @@
 import React from "react";
 import Home from "../svg/Home.svg";
+import { Link } from "react-scroll";
 
 const Landingpage = () => {
   return (
     <div className="container-landing">
       <div className="navigation">
         <div className="github-button">
-          <a className="github" href="https://github.com/swapnilsparsh/DevSociety" target="_blank" rel="noreferrer">
+          <a
+            className="github"
+            href="https://github.com/swapnilsparsh/DevSociety"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="../img/github-share.png" alt="" />
           </a>
         </div>
@@ -25,13 +31,13 @@ const Landingpage = () => {
         <div className="header-details">
           <h1>Developer Society</h1>
           <p>
-            All in one place where you can find all the resources and details 
-            of ambassador/fellowship that are available across different countries and
-            companies.These are verified and crowdsourced by the community.
+            All in one place where you can find all the resources and details of
+            ambassador/fellowship that are available across different countries
+            and companies.These are verified and crowdsourced by the community.
           </p>
-          <a href="#container">
+          <Link to="container" smooth={true} duration={1000}>
             <h4>Explore all</h4>
-          </a>
+          </Link>
         </div>
         <div className="homesvg">
           <img src={Home} alt="website logo" />
