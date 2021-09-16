@@ -293,7 +293,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Google Developer Student Clubs</h3>
-                <img src={"../img/GDSC.png"} alt="" />
+                <img src="../img/GDSC.png" alt="" />
               </a>
             </div>
           </div>
@@ -310,7 +310,8 @@ const Content = () => (
               >
                 <h3>GeeksforGeeks Campus Ambassador</h3>
                 <img
-                  className="image-fill"
+                  className="image-contain"
+                  style={{ background: "#383838" }}
                   src="../img/GeeksforGeeks.png"
                   alt=""
                 />
@@ -423,7 +424,12 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">GitLab Hero</h3>
-                <img className="image" src="../img/Gitlab.png" alt=""></img>
+                <img
+                  className="image-contain"
+                  style={{ background: "#4f3aa5" }}
+                  src="../img/Gitlab.png"
+                  alt=""
+                ></img>
               </a>
             </div>
           </div>

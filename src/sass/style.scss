@@ -14,7 +14,6 @@ $twitterBorder: rgba(0, 147, 237, 0.3);
 $colorWhite: #ffffff;
 $colorBlack: #000000;
 
-
 @mixin flex-container {
   display: flex;
   align-items: center;
@@ -362,6 +361,9 @@ body {
 }
 
 @media (max-width: 350px) {
+  .container .align-flex .frame-border .card .content h3 {
+    font-size: 1.2rem;
+  }
   .frame-border .card {
     width: 250px;
   }
