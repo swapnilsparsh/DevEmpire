@@ -257,7 +257,7 @@ const Content = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <h3 className="heading">DigitalOcean’s Navigator</h3>
+                <h3>DigitalOcean's Navigators Program</h3>
                 <img src="../img/DigitalOcean.png" alt=""></img>
               </a>
             </div>
@@ -598,7 +598,7 @@ const Content = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <h3 className="heading">MLH Event Membership</h3>
+                <h3>MLH Event Membership Program </h3>
                 <img src="../img/MLH.png" alt=""></img>
               </a>
             </div>
@@ -822,7 +822,7 @@ const Content = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <h3 className="heading">TensorFlow User Group</h3>
+                <h3>TensorFlow User Group Community</h3>
                 <img
                   className="image-cover"
                   src="../img/TensorFlow.png"
