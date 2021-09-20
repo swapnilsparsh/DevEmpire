@@ -116,6 +116,23 @@ body {
   }
 }
 
+/* Start Landing SVG */
+#home{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+/* End Landing SVG */
+
 .top-navbar .navigation {
   padding: 24px 24px;
   @include flex-container();

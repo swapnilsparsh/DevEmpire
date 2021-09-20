@@ -29,7 +29,7 @@ const Landingpage = () => {
       </div>
       <div className="landing-page-header">
         <div className="header-details">
-          <h1>Developer Society</h1>
+          <h1>Developer Empire</h1>
           <p>
             All in one place where you can find all the resources and details of
             ambassador/fellowship that are available across different countries
@@ -40,7 +40,7 @@ const Landingpage = () => {
           </Link>
         </div>
         <div className="homesvg">
-          <img src={Home} alt="website logo" />
+          <img id="home" src={Home} alt="website logo" />
         </div>
       </div>
     </div>
