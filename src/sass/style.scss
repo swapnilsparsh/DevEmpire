@@ -6,7 +6,7 @@ $githubBorder: rgba(90, 89, 89, 0.3);
 $twitterBorder: rgba(0, 147, 237, 0.3);
 $cardFrame: rgba(255, 255, 255, 0.2);
 $cardShadow: rgba(255, 255, 255, 0.05);
-$cardBg: rgba(255, 255, 255, 0.1);
+$cardBg: #eafaff;
 $innercardShadow: rgba(0, 0, 0, 0.3);
 $spanBg: rgba(12, 123, 235, 0.15);
 $ribbonColor1: #0c7beb;
@@ -201,6 +201,20 @@ body {
     border-radius: 24px;
     padding: 42px 28px 24px 28px;
     border: 1px solid $colorWhite;
+
+    &:before {
+      content: " ";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(../assets/img/card-bg.png);
+      background-position: center;
+      mix-blend-mode: overlay;
+      opacity: 0.25;
+      border-radius: 24px;
+    }
 
     .pointer {
       position: absolute;

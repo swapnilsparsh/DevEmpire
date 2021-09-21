@@ -13,7 +13,7 @@ const Landingpage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="../assets/share-img/github-share.png" alt="" />
+            <img src="../assets/share-img/Github-share.png" alt="" />
           </a>
         </div>
         <div className="twitter-button">
@@ -23,7 +23,7 @@ const Landingpage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="../assets/share-img/twitter-share.png" alt="" />
+            <img src="../assets/share-img/Twitter-share.png" alt="" />
           </a>
         </div>
       </div>
