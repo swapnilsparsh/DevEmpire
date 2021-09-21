@@ -6,7 +6,7 @@ import BackToTop from "./backtotop";
 
 const Content = () => (
   <div>
-    {/* <img className="background" src="../img/Developer-Society-bg.png" alt="" /> */}
+    {/* <img className="background" src="../assets/programs-img/Developer-Society-bg.png" alt="" /> */}
     <Landingpage></Landingpage>
     <BackToTop />
     <div className="container" id="container">
@@ -24,7 +24,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Adobe India Women-in-Technology Scholarship</h3>
-                <img src="../img/Adobe.png" alt=""></img>
+                <img src="../assets/programs-img/Adobe.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Content = () => (
                 <h3>Alexa Student Influencer Program</h3>
                 <img
                   className="image-cover"
-                  src="../img/Alexa.png"
+                  src="../assets/programs-img/Alexa.png"
                   alt=""
                 ></img>
               </a>
@@ -60,7 +60,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">APN Ambassador</h3>
-                <img src="../img/APNAmbassador.png" alt="" />
+                <img src="../assets/programs-img/APNAmbassador.png" alt="" />
               </a>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Auth0 Ambassador Program</h3>
-                <img src="../img/auth0ambassador.png" alt="" />
+                <img src="../assets/programs-img/Auth0ambassador.png" alt="" />
               </a>
             </div>
           </div>
@@ -93,7 +93,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>AWS Community Builders</h3>
-                <img src="../img/AWSCommunityBuilders.png" alt="" />
+                <img src="../assets/programs-img/AWSCommunityBuilders.png" alt="" />
               </a>
             </div>
           </div>
@@ -109,7 +109,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>AWS Educate Cloud Ambassador</h3>
-                <img src="../img/AWSEducateCloud.png" alt="" />
+                <img src="../assets/programs-img/AWSEducateCloud.png" alt="" />
               </a>
             </div>
           </div>
@@ -128,7 +128,7 @@ const Content = () => (
                 <img
                   style={{ background: "#232f3e" }}
                   className="image-contain"
-                  src="../img/AWSEducateStudent.png"
+                  src="../assets/programs-img/AWSEducateStudent.png"
                   alt=""
                 />
               </a>
@@ -146,7 +146,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">AWS Heroes</h3>
-                <img className="image-fill" src="../img/AWSHeroes.png" alt="" />
+                <img className="image-fill" src="../assets/programs-img/AWSHeroes.png" alt="" />
               </a>
             </div>
           </div>
@@ -162,7 +162,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Cisco Campus Ambassador Program</h3>
-                <img src="../img/Cisco.png" alt="" />
+                <img src="../assets/programs-img/Cisco.png" alt="" />
               </a>
             </div>
           </div>
@@ -178,7 +178,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Cloud Native Ambassador</h3>
-                <img src="../img/CNCF.png" alt=""></img>
+                <img src="../assets/programs-img/CNCF.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -194,7 +194,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Codecademy Chapter Leader</h3>
-                <img src="../img/Codeacademy.png" alt="" />
+                <img src="../assets/programs-img/Codeacademy.png" alt="" />
               </a>
             </div>
           </div>
@@ -210,7 +210,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>CodeChef College Chapter</h3>
-                <img src="../img/Codechef.png" alt="" />
+                <img src="../assets/programs-img/Codechef.png" alt="" />
               </a>
             </div>
           </div>
@@ -226,7 +226,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>DeepLearning.AI Ambassador</h3>
-                <img src="../img/DeepLearning.png" alt="" />
+                <img src="../assets/programs-img/DeepLearning.png" alt="" />
               </a>
             </div>
           </div>
@@ -242,7 +242,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Developer Circles from Facebook</h3>
-                <img className="image" src="../img/Facebook.png" alt="" />
+                <img className="image" src="../assets/programs-img/Facebook.png" alt="" />
               </a>
             </div>
           </div>
@@ -258,7 +258,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>DigitalOcean's Navigators Program</h3>
-                <img src="../img/DigitalOcean.png" alt=""></img>
+                <img src="../assets/programs-img/DigitalOcean.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -277,7 +277,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Google Developer Groups Organizer</h3>
-                <img src="../img/GDG.png" alt=""></img>
+                <img src="../assets/programs-img/GDG.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -293,7 +293,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Google Developer Student Clubs</h3>
-                <img src="../img/GDSC.png" alt="" />
+                <img src="../assets/programs-img/GDSC.png" alt="" />
               </a>
             </div>
           </div>
@@ -312,7 +312,7 @@ const Content = () => (
                 <img
                   className="image-contain"
                   style={{ background: "#383838" }}
-                  src="../img/GeeksforGeeks.png"
+                  src="../assets/programs-img/GeeksforGeeks.png"
                   alt=""
                 />
               </a>
@@ -333,7 +333,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Generation Google Scholarship</h3>
-                <img src="../img/google.jpg" alt=""></img>
+                <img src="../assets/programs-img/Google.jpg" alt=""></img>
               </a>
             </div>
           </div>
@@ -349,7 +349,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Github Campus Expert</h3>
-                <img src="../img/github.png" alt="" />
+                <img src="../assets/programs-img/Github-campus.png" alt="" />
               </a>
             </div>
           </div>
@@ -368,7 +368,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Github Classroom</h3>
-                <img src="../img/github-classroom.png" alt="" />
+                <img src="../assets/programs-img/Github-classroom.png" alt="" />
               </a>
             </div>
           </div>
@@ -387,7 +387,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Github Campus Advisor</h3>
-                <img src="../img/github-advisor.png" alt="" />
+                <img src="../assets/programs-img/Github-advisor.png" alt="" />
               </a>
             </div>
           </div>
@@ -406,7 +406,7 @@ const Content = () => (
                 <img
                   style={{ background: "#0c171d" }}
                   className="image-contain"
-                  src="../img/GitKraken.jpg"
+                  src="../assets/programs-img/GitKraken.jpg"
                   alt=""
                 ></img>
               </a>
@@ -427,7 +427,7 @@ const Content = () => (
                 <img
                   className="image-contain"
                   style={{ background: "#4f3aa5" }}
-                  src="../img/Gitlab.png"
+                  src="../assets/programs-img/Gitlab.png"
                   alt=""
                 ></img>
               </a>
@@ -445,7 +445,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>HackerEarth Campus Ambassador</h3>
-                <img src="../img/Hackerearth.jpg" alt="" />
+                <img src="../assets/programs-img/Hackerearth.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -461,7 +461,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">IBM ZAMBASSADOR</h3>
-                <img className="image" src="../img/IBM.png" alt=""></img>
+                <img className="image" src="../assets/programs-img/IBM.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -477,7 +477,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Intel Student Ambassador</h3>
-                <img src="../img/Intel.jpeg" alt="" />
+                <img src="../assets/programs-img/Intel.jpeg" alt="" />
               </a>
             </div>
           </div>
@@ -496,7 +496,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Kotlin User Group</h3>
-                <img src="../img/kotlinusergroup.png" alt=""></img>
+                <img src="../assets/programs-img/Kotlinusergroup.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -512,7 +512,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Microsoft Learn Student Ambassador</h3>
-                <img src="../img/mlsa.png" alt="" />
+                <img src="../assets/programs-img/MLSA.png" alt="" />
               </a>
             </div>
           </div>
@@ -531,7 +531,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">Microsoft Codess</h3>
-                <img src="../img/codess.jpg" alt=""></img>
+                <img src="../assets/programs-img/Codess.jpg" alt=""></img>
               </a>
             </div>
           </div>
@@ -543,7 +543,7 @@ const Content = () => (
             <div className="content">
               <a href="https://mlh.io/coaches" target="_blank" rel="noreferrer">
                 <h3 className="heading">MLH Coach</h3>
-                <img src="../img/MLHCoach.png" alt="" />
+                <img src="../assets/programs-img/MLHCoach.png" alt="" />
               </a>
             </div>
           </div>
@@ -561,7 +561,7 @@ const Content = () => (
                 <h3 className="heading">MLH Fellowship</h3>
                 <img
                   style={{ background: "whitesmoke" }}
-                  src="../img/mlh-fellowship-white.jpg"
+                  src="../assets/programs-img/MLH-fellowship-white.jpg"
                   alt=""
                 />
               </a>
@@ -581,7 +581,7 @@ const Content = () => (
                 <h3>MLH Fellowship Prep Program</h3>
                 <img
                   style={{ background: "#12304c" }}
-                  src="../img/mlh-fellowship-blue.jpg"
+                  src="../assets/programs-img/MLH-fellowship-blue.jpg"
                   alt=""
                 />
               </a>
@@ -599,7 +599,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>MLH Event Membership Program </h3>
-                <img src="../img/MLH.png" alt=""></img>
+                <img src="../assets/programs-img/MLH.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -618,7 +618,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>MongoDB Community Leader</h3>
-                <img src="../img/MongoDB.png" alt=""></img>
+                <img src="../assets/programs-img/MongoDB.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -639,7 +639,7 @@ const Content = () => (
                 <h3 className="heading"> Mozilla Campus Club</h3>
                 <img
                   style={{ background: "#2eb6b6" }}
-                  src="../img/mozilla.jpeg"
+                  src="../assets/programs-img/Mozilla.jpeg"
                   alt=""
                 />
               </a>
@@ -660,7 +660,7 @@ const Content = () => (
                 <img
                   className="image-contain"
                   style={{ background: "#f9f5f1" }}
-                  src="../img/Notion.png"
+                  src="../assets/programs-img/Notion.png"
                   alt=""
                 />
               </a>
@@ -678,7 +678,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>NVIDIA DLI University Ambassador</h3>
-                <img src="../img/NVIDIA.png" alt="" />
+                <img src="../assets/programs-img/NVIDIA.png" alt="" />
               </a>
             </div>
           </div>
@@ -694,7 +694,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>OnePlus Student Ambassador Program</h3>
-                <img src="../img/OnePlus.jpg" alt="" />
+                <img src="../assets/programs-img/OnePlus.jpg" alt="" />
               </a>
             </div>
           </div>
@@ -713,7 +713,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Postman Classroom Program</h3>
-                <img src="../img/PostmanClassroom.png" alt="" />
+                <img src="../assets/programs-img/PostmanClassroom.png" alt="" />
               </a>
             </div>
           </div>
@@ -729,7 +729,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Postman Student Expert Program</h3>
-                <img src="../img/Postman.png" alt="" />
+                <img src="../assets/programs-img/Postman.png" alt="" />
               </a>
             </div>
           </div>
@@ -745,7 +745,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Postman Student Leader Program</h3>
-                <img src="../img/Postman-Leader.png" alt="" />
+                <img src="../assets/programs-img/Postman-Leader.png" alt="" />
               </a>
             </div>
           </div>
@@ -763,7 +763,7 @@ const Content = () => (
                 <h3>Prisma Ambassador Program </h3>
                 <img
                   className="image-fill"
-                  src="../img/PrismaProgram.png"
+                  src="../assets/programs-img/PrismaProgram.png"
                   alt=""
                 ></img>
               </a>
@@ -784,7 +784,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3 className="heading">SheCodes Indeed</h3>
-                <img src="../img/indeed.png" alt=""></img>
+                <img src="../assets/programs-img/Indeed.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -802,7 +802,7 @@ const Content = () => (
                 <h3 className="heading">TED Fellows Program</h3>
                 <img
                   className="image-cover"
-                  src="../img/TedFellow.jpg"
+                  src="../assets/programs-img/TedFellow.jpg"
                   alt=""
                 ></img>
               </a>
@@ -825,7 +825,7 @@ const Content = () => (
                 <h3>TensorFlow User Group Community</h3>
                 <img
                   className="image-cover"
-                  src="../img/TensorFlow.png"
+                  src="../assets/programs-img/TensorFlow.png"
                   alt=""
                 ></img>
               </a>
@@ -845,7 +845,7 @@ const Content = () => (
                 <h3 className="heading">Twilio Champion</h3>
                 <img
                   className="image-contain"
-                  src="../img/Twilio.png"
+                  src="../assets/programs-img/Twilio.png"
                   alt=""
                 ></img>
               </a>
@@ -863,7 +863,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>UiPath Student Developer Program</h3>
-                <img className="image" src="../img/UiPath.png" alt=""></img>
+                <img className="image" src="../assets/programs-img/UiPath.png" alt=""></img>
               </a>
             </div>
           </div>
@@ -879,7 +879,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Unity Student Ambassador Program</h3>
-                <img src="../img/Unity.png" alt="" />
+                <img src="../assets/programs-img/Unity.png" alt="" />
               </a>
             </div>
           </div>
@@ -895,7 +895,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>VMware Campus Ambassador</h3>
-                <img src="../img/VMware.png" alt="" />
+                <img src="../assets/programs-img/VMware.png" alt="" />
               </a>
             </div>
           </div>
@@ -914,7 +914,7 @@ const Content = () => (
                 rel="noreferrer"
               >
                 <h3>Women Techmakers Ambassador</h3>
-                <img src="../img/WTM.jpg" alt=""></img>
+                <img src="../assets/programs-img/WTM.jpg" alt=""></img>
               </a>
             </div>
           </div>

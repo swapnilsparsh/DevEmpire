@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("../svg/Background-3.svg");
+  background: url("../assets/svg/Home-Background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +20,7 @@ body {
 
 @font-face {
   font-family: "open-sans";
-  src: url(../font/sans.ttf);
+  src: url(../assets/font/sans.ttf);
 }
 
 /*Start scrollbar*/
@@ -38,7 +38,7 @@ body {
 }
 
 /*End scrollbar*/
-/* Landing Page  */
+/* Landing Page Start  */
 .container-landing {
   width: 80%;
   max-width: 120rem;
@@ -192,53 +192,8 @@ body {
   height: 36px;
 }
 
-@media screen and (max-width: 1440px) {
-  .landing-page-header .header-details h1 {
-    font-size: 5rem;
-  }
-  .landing-page-header img {
-    width: 20rem;
-    height: 20rem;
-  }
-}
-
-@media screen and (min-width: 720px) and (max-width: 1024px) {
-  .landing-page-header .homesvg img {
-    height: 100%;
-    width: 280px;
-    pointer-events: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .landing-page-header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .landing-page-header .homesvg img {
-    height: 100%;
-    width: 280px;
-    pointer-events: none;
-  }
-  .landing-page-header .header-details h1 {
-    font-size: 3.5rem;
-  }
-  .landing-page-header .header-details p {
-    font-size: 16px;
-  }
-  .landing-page-header .header-details a {
-    padding: 10px 40px;
-  }
-  .container-landing {
-    width: 90%;
-  }
-  .top-navbar .navigation {
-    padding: 12px 2px;
-  }
-}
-
+/* Landing Page End */
+/* Programs Section Start */
 .container {
   width: 90%;
   max-width: 120rem;
@@ -276,7 +231,7 @@ body {
   top: 16px;
   width: 42px;
   height: 10px;
-  background: url("../img/pointer.png");
+  background: url("../assets/img/pointer.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -387,6 +342,119 @@ body {
   background-color: rgba(235, 12, 12, 0.15);
 }
 
+/* Programs Section End */
+/*Start footer*/
+.footer {
+  background: url("../assets/svg/Footer.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 6rem 0rem 2rem 0rem;
+}
+
+.footer-question {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-question h4 {
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.footer-question a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 1px dotted #d6f5ff;
+}
+
+hr {
+  margin-bottom: 1rem;
+  border: 0.1px solid #0093ed;
+  border-radius: 10px;
+}
+
+.footer-question p {
+  color: rgba(255, 255, 255, 0.808);
+  margin-bottom: 1rem;
+}
+
+/* Footer End */
+/* Back To Top Start */
+.back-to-top .top {
+  position: fixed;
+  cursor: pointer;
+  bottom: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #000000;
+  z-index: 4;
+  width: 45px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.back-to-top .top:hover {
+  color: #ffffff;
+  background: #00253a;
+}
+
+/* Back To Top End */
+/* Landing Page Responsive Start */
+@media screen and (max-width: 1440px) {
+  .landing-page-header .header-details h1 {
+    font-size: 5rem;
+  }
+  .landing-page-header img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .landing-page-header .homesvg img {
+    height: 100%;
+    width: 280px;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .landing-page-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing-page-header .homesvg img {
+    height: 100%;
+    width: 280px;
+    pointer-events: none;
+  }
+  .landing-page-header .header-details h1 {
+    font-size: 3.5rem;
+  }
+  .landing-page-header .header-details p {
+    font-size: 16px;
+  }
+  .landing-page-header .header-details a {
+    padding: 10px 40px;
+  }
+  .container-landing {
+    width: 90%;
+  }
+  .top-navbar .navigation {
+    padding: 12px 2px;
+  }
+}
+
+/* Landing Page Responsive End */
+/* Programs Section Responsive Start */
 @media (max-width: 844px) {
   .container {
     width: 100%;
@@ -420,63 +488,5 @@ body {
   }
 }
 
-/*Start footer*/
-.footer {
-  background: url("../svg/Footer.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 6rem 0rem 2rem 0rem;
-}
-
-.footer-question {
-  width: 70%;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.footer-question h4 {
-  color: rgba(255, 255, 255, 0.808);
-}
-
-.footer-question a {
-  font-weight: 600;
-  text-decoration: none;
-  color: #fff;
-  border-bottom: 1px dotted #e9e7fc;
-}
-
-hr {
-  margin-bottom: 1rem;
-  border: 0.1px solid #0093ed;
-  border-radius: 10px;
-}
-
-.footer-question p {
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 1rem;
-}
-
-/* Back To Top */
-.back-to-top .top {
-  position: fixed;
-  cursor: pointer;
-  bottom: 15px;
-  right: 15px;
-  font-size: 25px;
-  color: #ffffff;
-  background-color: #0f0e0e;
-  z-index: 4;
-  width: 45px;
-  text-align: center;
-  height: 45px;
-  line-height: 45px;
-  border-radius: 50%;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.back-to-top .top:hover {
-  color: #ffffff;
-  background: #00253a;
-}
+/* Programs Section Responsive End */
 /*# sourceMappingURL=style.css.map */

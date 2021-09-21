@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../svg/Home.svg";
+import Home from "../assets/svg/Home.svg";
 import { Link } from "react-scroll";
 
 const Landingpage = () => {
@@ -13,7 +13,7 @@ const Landingpage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="../img/github-share.png" alt="" />
+            <img src="../assets/share-img/github-share.png" alt="" />
           </a>
         </div>
         <div className="twitter-button">
@@ -23,7 +23,7 @@ const Landingpage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="../img/twitter-share.png" alt="" />
+            <img src="../assets/share-img/twitter-share.png" alt="" />
           </a>
         </div>
       </div>

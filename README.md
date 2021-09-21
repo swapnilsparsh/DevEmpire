@@ -1,13 +1,17 @@
 ## DevEmpire
-![Dev-Empire]((https://github.com/swapnilsparsh/DevEmpire/blob/master/src/img/Dev-Empire.png)
+![DevEmpire](https://github.com/swapnilsparsh/DevEmpire/blob/master/public/assets/meta-img/Meta.png)
 
 ## 📌 Introduction
 
-Developer Empire comprises of a wide collection of Campus Ambassador programs/fellowships in which you can apply and become the forefront in your college/university. Consider this repository as your personal space to find or add any new Campus Ambassador program/fellowship that can make life easier for people who want to show their Leadership skills and want to make a change in the community. Start exploring and exhibit your skills to one and all.
+Developer Empire comprises of a wide collection of Campus Ambassador programs/fellowships in which you can apply and become the forefront in your college/university. Consider this repository as your personal space to find or add any new Campus Ambassador program/fellowship that can make life easier for people who want to show their Leadership skills and want to make a change in the community.
 
 ##  🚀 View Live Demo
 <img src="https://img.shields.io/badge/website-up-greene" />
 <pre><center><a href="https://devempire.vercel.app/"><b>devempire.vercel.app</b></a></center></pre>
+
+## 👨‍💻 Tech Stack
+- React JS
+- Sass
 
 ## 🛠️ Installation Steps
 Star and Fork the Repo 🌟 and this will keep us motivated.
@@ -51,10 +55,12 @@ npm start
 <table>
 <tr>
 <td align="center"><a href="https://github.com/swapnilsparsh"><img src="https://avatars.githubusercontent.com/u/69387608?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Swapnil Srivastava</h4>
+<a href="https://swapnilsparsh.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
 <a href="https://www.linkedin.com/in/swapnil-srivastava-sparsh/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
 <a href="https://www.twitter.com/swapnilsparsh/"><img src="https://img.icons8.com/color/48/000000/twitter.png" width="32px" height="32px"></a></td>
 
 <td align="center" ><a href="https://github.com/jatiinyadav"><img src="https://avatars.githubusercontent.com/u/73248007?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Jatin Yadav</h4>
+<a href="https://jatiinyadav.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
 <a href="https://www.linkedin.com/in/jatiinyadav/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
 <a href="https://www.twitter.com/jatiin_yadav/"><img src="https://img.icons8.com/color/48/000000/twitter.png" width="32px" height="32px"></a></td>
 </tr>
