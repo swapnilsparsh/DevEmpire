@@ -33,7 +33,7 @@ const Landingpage = () => {
           <p>
             All in one place where you can find all the resources and details of
             ambassador/fellowship that are available across different countries
-            and companies.These are verified and crowdsourced by the community.
+            and companies. These are verified and crowdsourced by the community.
           </p>
           <Link to="container" smooth={true} duration={1000}>
             <h4>Explore all</h4>

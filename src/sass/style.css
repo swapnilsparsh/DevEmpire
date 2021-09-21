@@ -276,7 +276,7 @@ body {
   top: 16px;
   width: 42px;
   height: 10px;
-  background: url("../sass/pointer.png");
+  background: url("../img/pointer.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
