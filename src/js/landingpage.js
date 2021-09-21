@@ -9,7 +9,7 @@ const Landingpage = () => {
         <div className="github-button">
           <a
             className="github"
-            href="https://github.com/swapnilsparsh/DevSociety"
+            href="https://github.com/swapnilsparsh/DevEmpire"
             target="_blank"
             rel="noreferrer"
           >
@@ -19,7 +19,7 @@ const Landingpage = () => {
         <div className="twitter-button">
           <a
             className="twitter"
-            href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20%F0%9F%91%8D&url=https://github.com/swapnilsparsh/DevSociety&via=swapnilsparsh"
+            href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://github.com/swapnilsparsh/DevEmpire&via=swapnilsparsh"
             target="_blank"
             rel="noreferrer"
           >
