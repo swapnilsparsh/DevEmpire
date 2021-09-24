@@ -794,6 +794,18 @@ const Content = () => (
           <div className="pointer"></div>
           <div class="card">
             <div class="content">
+              <a href="https://sparkar.reskilll.com/campus" target="_blank" rel="noreferrer">
+                <h3>Spark AR Campus Ambassador </h3>
+                <img src="../assets/programs-img/SparkAR.png" alt=""></img>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="frame-border">
+          <div className="pointer"></div>
+          <div class="card">
+            <div class="content">
               <a
                 href="https://www.ted.com/participate/ted-fellows-program"
                 target="_blank"
