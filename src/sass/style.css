@@ -38,6 +38,62 @@ body {
 }
 
 /*End scrollbar*/
+/* Navbar */
+nav {
+  background-color: #0093ed;
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 3px solid #40aaff;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav .navWide {
+  display: none;
+  margin: 0 auto;
+}
+
+nav .navWide .wideDiv {
+  text-align: center;
+}
+
+nav .navWide .wideDiv a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 2em;
+}
+
+nav .navNarrow i {
+  float: left;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+nav .navNarrow .narrowLinks a {
+  text-decoration: none;
+  display: block;
+  float: left;
+  clear: left;
+  padding: 1em 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/*Adjust breakpoint as desired to select when the "hamburger" menu is
+replaced by just the links.*/
+@media (min-width: 480px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
+
 /* Landing Page Start  */
 .container-landing {
   width: 80%;
