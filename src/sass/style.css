@@ -57,9 +57,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   text-align: left;
 }
 
@@ -99,6 +99,48 @@ body {
 .landing-page-header .header-details a:hover {
   color: #ffffff;
   background: #0093ed;
+}
+
+.landing-page-header .header-details .search {
+  background: #ffffff;
+  border: 1px solid #0093ed;
+  color: #0093ed;
+  padding: 13px 36px;
+  line-height: 35px;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 16px;
+  text-decoration: none;
+  margin: 1rem 1.5rem;
+  font-size: 22px;
+  width: 200px;
+}
+
+.landing-page-header .header-details .search:hover {
+  color: #ffffff;
+  background: #0093ed;
+}
+
+.landing-page-header .header-details .search:hover::-webkit-input-placeholder {
+  color: white;
+}
+
+.landing-page-header .header-details .search:hover:-ms-input-placeholder {
+  color: white;
+}
+
+.landing-page-header .header-details .search:hover::-ms-input-placeholder {
+  color: white;
+}
+
+.landing-page-header .header-details .search:hover::placeholder {
+  color: white;
+}
+
+.landing-page-header .header-details .search:focus {
+  outline: none;
 }
 
 .landing-page-header .header-details h4 {

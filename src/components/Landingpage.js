@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../assets/svg/Home.svg";
-import { Link } from "react-scroll";
+
 
 const Landingpage = () => {
   return (
@@ -35,9 +35,6 @@ const Landingpage = () => {
             ambassador/fellowship that are available across different countries
             and companies. These are verified and crowdsourced by the community.
           </p>
-          <Link to="container" smooth={true} duration={1000}>
-            <h4>Explore all</h4>
-          </Link>
         </div>
         <div className="homesvg">
           <img id="home" src={Home} alt="website logo" />

@@ -74,7 +74,7 @@ body {
 
 .landing-page-header {
   @include flex-container();
-  justify-content: center;
+  justify-content: flex-start;
   text-align: left;
 
   .homesvg {
@@ -113,6 +113,32 @@ body {
         background: $pageHeading;
       }
     }
+    .search{
+      background: $colorWhite;
+      border: 1px solid $pageHeading;
+      color: $pageHeading;
+      padding: 13px 36px;
+      line-height: 35px;
+      cursor: pointer;
+      display: inline-block;
+      transition: all 0.2s ease;
+      border-radius: 16px;
+      text-decoration: none;
+      margin: 1rem 1.5rem;
+      font-size: 22px;
+      width: 200px;
+      &:hover{
+        &::placeholder{
+          color: white;
+        }
+        color: $colorWhite;
+        background: $pageHeading;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+
     h4 {
       font-size: 22px;
     }

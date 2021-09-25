@@ -1,18 +1,31 @@
 import "../sass/style.css";
 import Datas from "./Datas";
 import { useState, React } from "react";
+import { Link } from "react-scroll";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <>
-      <input
-        text="type"
-        placeholder="e.g. 'women'"
-        onChange={(event) => {
-          setSearchTerm(event.target.value);
-        }}
-      />
+      <div className="container-landing">
+        <div className="landing-page-header">
+          <div className="header-details">
+            <Link to="container" smooth={true} duration={1000}>
+              <h4>Explore all</h4>
+            </Link>
+            
+            <input
+              className="search"
+              text="type"
+              placeholder="Search"
+              onChange={(event) => {
+                setSearchTerm(event.target.value);
+              }}
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="container" id="container">
         <div className="align-flex">
           {Datas.filter((data) => {
