@@ -1,36 +1,11 @@
 import React from "react";
 import Home from "../assets/svg/Home.svg";
-import Navbar from "./Navbar.js";
+import { Link } from "react-scroll";
 
 const Landingpage = () => {
   return (
     <div className="landingpage">
-      <div>
-        <Navbar />
-      </div>
       <div className="container-landing">
-        <div className="navigation">
-          <div className="github-button">
-            <a
-              className="github"
-              href="https://github.com/swapnilsparsh/DevEmpire"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="../assets/share-img/Github-share.png" alt="" />
-            </a>
-          </div>
-          <div className="twitter-button">
-            <a
-              className="twitter"
-              href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://github.com/swapnilsparsh/DevEmpire&via=swapnilsparsh"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="../assets/share-img/Twitter-share.png" alt="" />
-            </a>
-          </div>
-        </div>
         <div className="landing-page-header">
           <div className="header-details">
             <h1>Developer Empire</h1>
@@ -45,6 +20,51 @@ const Landingpage = () => {
           </div>
         </div>
       </div>
+
+      <Link to="container" smooth={true} duration={1000}>
+        <h4>Explore all</h4>
+      </Link>
+
+      <div className="container-landing">
+        <div className="landing-page-details">
+          <div className="header-image" >
+            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+          </div>
+          <div className="heading-text" >
+            <h1>Ambassadors</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+          </div>
+        </div>
+        <div className="landing-page-details">
+          <div className="heading-text second" >
+            <h1>Programs</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+          </div>
+          <div className="header-image" >
+            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+          </div>
+        </div>
+        <div className="landing-page-details">
+          <div className="header-image" >
+            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+          </div>
+          <div className="heading-text" >
+            <h1>Web Development</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+          </div>
+        </div>
+        <div className="landing-page-details">
+          <div className="heading-text second" >
+            <h1>JS Toolkits</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+          </div>
+          <div className="header-image" >
+            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+          </div>
+        </div>
+
+      </div>
+
     </div>
   );
 };

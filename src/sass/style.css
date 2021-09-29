@@ -85,7 +85,7 @@ nav .navNarrow .narrowLinks a {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 480px) {
+@media (min-width: 705px) {
   nav .navWide {
     display: block;
   }
@@ -100,6 +100,42 @@ replaced by just the links.*/
   max-width: 120rem;
   text-align: center;
   margin: 0 auto;
+}
+
+.container-landing .landing-page-details {
+  margin: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 4rem;
+}
+
+.container-landing .landing-page-details .heading-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container-landing .landing-page-details .heading-text p {
+  padding: 1rem;
+}
+
+.container-landing .landing-page-details .header-image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container-landing .landing-page-details img {
+  width: 100%;
+  border-radius: 1rem;
 }
 
 .landing-page-header {
@@ -162,7 +198,7 @@ replaced by just the links.*/
   border: 1px solid #0093ed;
   color: #0093ed;
   padding: 13px 36px;
-  line-height: 35px;
+  line-height: 33px;
   cursor: pointer;
   display: inline-block;
   -webkit-transition: all 0.2s ease;
@@ -171,7 +207,7 @@ replaced by just the links.*/
   text-decoration: none;
   margin: 1rem 1.5rem;
   font-size: 22px;
-  width: 200px;
+  width: 180px;
 }
 
 .landing-page-header .header-details .search:hover {
@@ -250,6 +286,9 @@ replaced by just the links.*/
 }
 
 .navigation {
+  width: 80%;
+  max-width: 120rem;
+  margin: 0 auto;
   padding: 24px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,6 +330,7 @@ replaced by just the links.*/
 }
 
 /* Landing Page End */
+/* JS Frameworks */
 /* Programs Section Start */
 .container {
   width: 90%;
@@ -348,6 +388,112 @@ replaced by just the links.*/
   background-size: 100%;
 }
 
+.container .card-js {
+  position: relative;
+  width: 290px;
+  height: 330px;
+  margin: auto;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background: #eafaff;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.container .card-js .content {
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .card-js .content a {
+  color: #000000;
+}
+
+.container .card-js .content p {
+  font-size: 1em;
+  padding-top: 1rem;
+  color: #000000;
+  font-size: 300;
+}
+
+.container .card-js .content h3 {
+  font-size: 1.4rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+.container .card-js .content img {
+  max-width: 100%;
+  height: 160px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.container .card-js .content span {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bold;
+  color: #0c7beb;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background-color: rgba(12, 123, 235, 0.15);
+  top: 20px;
+  right: -20px;
+}
+
+.container .card-js .content .heading {
+  margin-bottom: 3rem;
+}
+
+.container .card-js .content .image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .card-js .content .image-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .card-js .content .image-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.container .card-js .content .tag {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+}
+
+.container .card-js .content .women span {
+  color: #0c7beb;
+  background-color: rgba(12, 123, 235, 0.15);
+}
+
+.container .card-js .content .group span {
+  color: #eb4c4c;
+  background-color: rgba(235, 12, 12, 0.15);
+}
+
 .container .card {
   position: relative;
   width: 290px;
@@ -376,7 +522,7 @@ replaced by just the links.*/
 
 .container .card .content p {
   font-size: 1em;
-  color: #ffffff;
+  color: #000000;
   font-size: 300;
 }
 
@@ -528,15 +674,33 @@ hr {
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1024px) {
+@media screen and (min-width: 780px) and (max-width: 1024px) {
   .landing-page-header .homesvg img {
     height: 100%;
     width: 280px;
     pointer-events: none;
   }
+  .landing-page-header .header-details h1 {
+    font-size: 4rem;
+  }
+  .landing-page-header .header-details p {
+    font-size: 14px;
+  }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
+  .container-landing .landing-page-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
+  }
+  .container-landing .landing-page-details .second {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
   .landing-page-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

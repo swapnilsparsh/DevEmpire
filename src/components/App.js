@@ -1,15 +1,15 @@
 import React from "react";
+import "../sass/style.css";
 import Footer from "./Footer";
-import Landingpage from "./Landingpage";
 import BackToTop from "./Backtotop";
-import Content from "./Content";
+import Navbarhere from "./Menu";
+
 
 const App = () => {
   return (
     <>
-      <Landingpage />
+      <Navbarhere />
       <BackToTop />
-      <Content />
       <Footer />
     </>
   );

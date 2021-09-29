@@ -1,5 +1,4 @@
-import "../sass/style.css";
-import Datas from "./Datas";
+import Datas from "./Ambassador-Data";
 import { useState, React } from "react";
 import { Link } from "react-scroll";
 
@@ -10,6 +9,9 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
+
+            <h1>Ambassador</h1>
+
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
             </Link>

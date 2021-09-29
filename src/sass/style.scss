@@ -65,43 +65,43 @@ body {
 
 /* Navbar */
 nav {
-	background-color: $pageHeading;
-	overflow: hidden;
-	padding: 1em;
-	border-bottom: 3px solid $pagePara;
+  background-color: $pageHeading;
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 3px solid $pagePara;
 }
 
-nav	a {
-		color: $colorWhite;
+nav a {
+  color: $colorWhite;
 }
 
 nav .navWide {
-	display: none;
-	margin: 0 auto;
+  display: none;
+  margin: 0 auto;
 }
 
 nav .navWide .wideDiv {
-	text-align: center;
+  text-align: center;
 }
 
 nav .navWide .wideDiv a {
-	text-decoration: none;
-	display: inline-block;
-	padding: 0 2em;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 2em;
 }
-	
-nav	.navNarrow i {
-	float: left;
-	cursor: pointer;
-	color: $colorWhite;
+
+nav .navNarrow i {
+  float: left;
+  cursor: pointer;
+  color: $colorWhite;
 }
 
 nav .navNarrow .narrowLinks a {
-	text-decoration: none;
-	display: block;
-	float: left;
-	clear: left;
-	padding: 1em 0;
+  text-decoration: none;
+  display: block;
+  float: left;
+  clear: left;
+  padding: 1em 0;
 }
 
 .hidden {
@@ -110,15 +110,14 @@ nav .navNarrow .narrowLinks a {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 480px) {
-	
-	nav .navWide {
-		display: block;
-	}
+@media (min-width: 705px) {
+  nav .navWide {
+    display: block;
+  }
 
-	nav .navNarrow {
-		display: none;
-	}
+  nav .navNarrow {
+    display: none;
+  }
 }
 
 /* Landing Page Start  */
@@ -128,6 +127,30 @@ replaced by just the links.*/
   max-width: 120rem;
   text-align: center;
   margin: 0 auto;
+
+  .landing-page-details {
+    margin: 4rem 0;
+    @include flex-container;
+    gap: 4rem;
+
+    .heading-text {
+      flex: 1;
+      
+      p{
+        padding: 1rem;
+      };
+
+    }
+
+    .header-image {
+      flex: 1;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  }
 }
 
 .landing-page-header {
@@ -171,12 +194,12 @@ replaced by just the links.*/
         background: $pageHeading;
       }
     }
-    .search{
+    .search {
       background: $colorWhite;
       border: 1px solid $pageHeading;
       color: $pageHeading;
       padding: 13px 36px;
-      line-height: 35px;
+      line-height: 33px;
       cursor: pointer;
       display: inline-block;
       transition: all 0.2s ease;
@@ -184,15 +207,15 @@ replaced by just the links.*/
       text-decoration: none;
       margin: 1rem 1.5rem;
       font-size: 22px;
-      width: 200px;
-      &:hover{
-        &::placeholder{
+      width: 180px;
+      &:hover {
+        &::placeholder {
           color: white;
         }
         color: $colorWhite;
         background: $pageHeading;
       }
-      &:focus{
+      &:focus {
         outline: none;
       }
     }
@@ -230,6 +253,9 @@ replaced by just the links.*/
 }
 
 .navigation {
+  width: 80%;
+  max-width: 120rem;
+  margin: 0 auto;
   padding: 24px 24px;
   @include flex-container();
   justify-content: space-between;
@@ -260,6 +286,8 @@ replaced by just the links.*/
 }
 
 /* Landing Page End */
+
+/* JS Frameworks */
 
 /* Programs Section Start */
 
@@ -312,6 +340,105 @@ replaced by just the links.*/
     }
   }
 
+  .card-js {
+    position: relative;
+    width: 290px;
+    height: 330px;
+    margin: auto;
+    box-shadow: 3px 3px 10px $innercardShadow;
+    border-radius: 15px;
+    background: $cardBg;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+
+    .content {
+      padding: 20px;
+      // margin-top: 1rem;
+      text-align: center;
+      transition: 0.5s;
+
+      a {
+        color: $colorBlack;
+      }
+
+      p {
+        font-size: 1em;
+        padding-top: 1rem;
+        color: $colorBlack;
+        font-size: 300;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        color: $colorBlack;
+        text-align: center;
+        margin-bottom: 1.3rem;
+      }
+
+      img {
+        max-width: 100%;
+        height: 160px;
+        width: 100%;
+        object-fit: contain;
+        background: $colorWhite;
+        border-radius: 10px;
+      }
+
+      span {
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        color: $ribbonColor1;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background-color: $spanBg;
+        top: 20px;
+        right: -20px;
+      }
+      .heading {
+        margin-bottom: 3rem;
+      }
+
+      .image {
+        object-fit: cover;
+      }
+
+      .image-cover {
+        object-fit: cover;
+      }
+
+      .image-fill {
+        object-fit: fill;
+      }
+
+      .tag {
+        position: absolute;
+        right: -5px;
+        top: -5px;
+        z-index: 1;
+        overflow: hidden;
+        width: 75px;
+        height: 75px;
+        text-align: right;
+      }
+
+      .women span {
+        color: $ribbonColor1;
+        background-color: $ribbonBg1;
+      }
+
+      .group span {
+        color: $ribbonColor2;
+        background-color: $ribbonBg2;
+      }
+    }
+  }
+
   .card {
     position: relative;
     width: 290px;
@@ -335,7 +462,7 @@ replaced by just the links.*/
 
       p {
         font-size: 1em;
-        color: $colorWhite;
+        color: $colorBlack;
         font-size: 300;
       }
 
@@ -500,7 +627,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1024px) {
+@media screen and (min-width: 780px) and (max-width: 1024px) {
   .landing-page-header {
     .homesvg {
       img {
@@ -509,10 +636,33 @@ hr {
         pointer-events: none;
       }
     }
+
+    .header-details {
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 780px) {
+
+  .container-landing{
+    .landing-page-details{
+      flex-direction: column;
+      gap: 1rem;
+
+      .second{
+        order: 2;
+      }
+
+    }
+  }
+
+
   .landing-page-header {
     flex-direction: column;
     .homesvg {

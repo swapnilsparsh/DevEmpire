@@ -5,10 +5,10 @@ class Links extends React.Component {
   render() {
     return (
       <div>
-        <a href="#">Ambassador</a>
+        {/* <a href="#">Ambassador</a>
         <a href="#">Events</a>
         <a href="#">WebDev Sites</a>
-        <a href="#">JS Frameworks</a>
+        <a href="#">JS Frameworks</a> */}
       </div>
     );
   }
