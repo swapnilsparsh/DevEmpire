@@ -204,12 +204,6 @@ const Datas = [
         alt: "MLH Logo"
     },
     {
-        link: "https://mlh.io/event-membership",
-        head: "MLH Event Membership Program",
-        image: "../assets/ambassador-img/MLH.png",
-        alt: "MLH Logo"
-    },
-    {
         link: "https://live.mongodb.com/start-a-group/",
         head: "MongoDB Community Leader",
         image: "../assets/ambassador-img/MongoDB.png",
@@ -270,10 +264,10 @@ const Datas = [
         alt: "Indeed Logo"
     },
     {
-        link: "https://shecodesindeed.com/",
-        head: "SheCodes Indeed",
-        image: "../assets/ambassador-img/Indeed.png",
-        alt: "Indeed Logo"
+        link: "https://sparkar.reskilll.com/campus",
+        head: "Spark AR Campus Ambassador",
+        image: "../assets/ambassador-img/SparkAR.png",
+        alt: "Spark AR Campus Ambassador"
     },
     {
         link: "https://www.ted.com/participate/ted-fellows-program",

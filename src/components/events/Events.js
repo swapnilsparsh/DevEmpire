@@ -10,7 +10,7 @@ const Content = () => {
                 <div className="landing-page-header">
                     <div className="header-details">
 
-                        <h1>JS Toolkits</h1>
+                        <h1>Open Source Programs</h1>
 
                         <Link to="container" smooth={true} duration={1000}>
                             <h4>Explore all</h4>

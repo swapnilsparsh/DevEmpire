@@ -10,7 +10,7 @@ const Content = () => {
         <div className="landing-page-header">
           <div className="header-details">
 
-            <h1>Ambassador</h1>
+            <h1>Ambassador/Fellowship</h1>
 
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>

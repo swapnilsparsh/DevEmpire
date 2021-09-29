@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "../assets/svg/Home.svg";
-import { Link } from "react-scroll";
 
 const Landingpage = () => {
   return (
@@ -21,14 +20,10 @@ const Landingpage = () => {
         </div>
       </div>
 
-      <Link to="container" smooth={true} duration={1000}>
-        <h4>Explore all</h4>
-      </Link>
-
       <div className="container-landing">
         <div className="landing-page-details">
           <div className="header-image" >
-            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+            <img id="home" src={Home} alt="website logo" />
           </div>
           <div className="heading-text" >
             <h1>Ambassadors</h1>
@@ -41,12 +36,12 @@ const Landingpage = () => {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
           </div>
           <div className="header-image" >
-            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+            <img id="home" src={Home} alt="website logo" />
           </div>
         </div>
         <div className="landing-page-details">
           <div className="header-image" >
-            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+            <img id="home" src={Home} alt="website logo" />
           </div>
           <div className="heading-text" >
             <h1>Web Development</h1>
@@ -59,7 +54,7 @@ const Landingpage = () => {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
           </div>
           <div className="header-image" >
-            <img src="https://swapnilsparsh.github.io/images/portitem1.png" alt="" />
+            <img id="home" src={Home} alt="website logo" />
           </div>
         </div>
 
