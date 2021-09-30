@@ -65,6 +65,11 @@ nav .navWide .wideDiv a {
   padding: 0 2em;
 }
 
+nav .navWide .wideDiv a:hover{
+  border-bottom: 2px solid #ffffff;
+  color: #3743b1;
+}
+
 nav .navNarrow i {
   float: left;
   cursor: pointer;
@@ -78,6 +83,7 @@ nav .navNarrow .narrowLinks a {
   clear: left;
   padding: 1em 0;
 }
+
 
 .hidden {
   display: none;
