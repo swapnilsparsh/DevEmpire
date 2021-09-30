@@ -6,7 +6,7 @@ import Links from "./navbar/Links";
 import Landingpage from "./Landingpage";
 import Ambassador from "./ambassador/Ambassador";
 import Programs from "./programs/Programs";
-import ScrollToTop from "./ScrollToTop";
+import BackToTop from "./Backtotop";
 
 const NavigationBar = () => {
   return (
@@ -56,7 +56,7 @@ const NavigationBar = () => {
           </div>
         </div>
 
-        <ScrollToTop />
+        <BackToTop />
 
         <Switch>
           <Route exact path="/" component={Landingpage} />
