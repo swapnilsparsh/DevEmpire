@@ -134,24 +134,22 @@ replaced by just the links.*/
     gap: 4rem;
 
     .heading-text {
-
-      a{
+      a {
         text-decoration: none;
       }
 
-      h1{
+      h1 {
         font-size: 3rem;
         color: $pageHeading;
       }
 
       flex: 1;
-      
-      p{
+
+      p {
         color: $pagePara;
         padding: 1rem;
-        font-size: 1.3rem
-      };
-
+        font-size: 1.3rem;
+      }
     }
 
     .header-image {
@@ -190,7 +188,6 @@ replaced by just the links.*/
       padding: 1.5rem;
     }
     a {
-      background: $colorWhite;
       border: 1px solid $pageHeading;
       color: $pageHeading;
       padding: 13px 36px;
@@ -234,6 +231,22 @@ replaced by just the links.*/
 
     h4 {
       font-size: 22px;
+    }
+    .navigation-discord {
+      .discord-button {
+        .discord {
+          background: none;
+          line-height: 0;
+          border: 0.5px solid $twitterBorder;
+          display: inline-block;
+          padding: 6px 14px;
+          border-radius: 10px;
+        }
+        img {
+          width: 100%;
+          height: 36px;
+        }
+      }
     }
   }
 }
@@ -283,6 +296,7 @@ replaced by just the links.*/
       height: 36px;
     }
   }
+
   .twitter-button {
     .twitter {
       line-height: 0;
@@ -661,19 +675,16 @@ hr {
 }
 
 @media screen and (max-width: 780px) {
-
-  .container-landing{
-    .landing-page-details{
+  .container-landing {
+    .landing-page-details {
       flex-direction: column-reverse;
       gap: 1rem;
 
-      .second{
+      .second {
         order: 1;
       }
-
     }
   }
-
 
   .landing-page-header {
     flex-direction: column;

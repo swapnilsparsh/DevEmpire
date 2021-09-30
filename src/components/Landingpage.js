@@ -15,9 +15,22 @@ const Landingpage = () => {
             <h1>Developer Empire</h1>
             <p>
               All in one place where you can find all the resources and details of
-              ambassador/fellowship, open source events, web dev sites, js toolkits and etc. that are available 
+              ambassador/fellowship, open source events, web dev sites, js toolkits and etc. that are available
               across different sites. These are verified and crowdsourced by the community.
             </p>
+            <div className="navigation-discord">
+              <div className="discord-button">
+                <a
+                  className="discord"
+                  href="https://discord.gg/djEezwwG"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src="../assets/share-img/Discord-share.png" alt="" />
+                </a>
+              </div>
+            </div>
+
           </div>
           <div className="homesvg">
             <img id="home" src={Home} alt="website logo" />
@@ -31,15 +44,15 @@ const Landingpage = () => {
             <img id="home" src={Ambassador} alt="Ambassador Illustration" />
           </div>
           <div className="heading-text" >
-          <NavLink to="/ambassador" ><h1><u> Ambassador </u></h1> </NavLink>
-            <p>Place where you can find all the resources and details of ambassador/fellowship that 
+            <NavLink to="/ambassador" ><h1><u> Ambassador </u></h1> </NavLink>
+            <p>Place where you can find all the resources and details of ambassador/fellowship that
               are available across different countries and companies.</p>
           </div>
         </div>
         <div className="landing-page-details">
           <div className="heading-text second" >
             <NavLink to="/programs" ><h1><u> Programs </u></h1> </NavLink>
-            <p>Here you can find all the resources and details of Open Source Programs and event that 
+            <p>Here you can find all the resources and details of Open Source Programs and event that
               are available across different countries.</p>
           </div>
           <div className="header-image" >

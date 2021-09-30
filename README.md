@@ -63,8 +63,27 @@ npm start
 <a href="https://jatiinyadav.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
 <a href="https://www.linkedin.com/in/jatiinyadav/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
 <a href="https://www.twitter.com/jatiin_yadav/"><img src="https://img.icons8.com/color/48/000000/twitter.png" width="32px" height="32px"></a></td>
+
+<td align="center" ><a href="https://github.com/iamutkarshmall"><img src="https://avatars.githubusercontent.com/u/69422566?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Utkarsh Mall</h4>
+<a href="https://www.github.com/iamutkarshmall/"><img src="https://img.icons8.com/fluency/48/000000/github.png" width="32px" height="32px"></a></td>
 </tr>
 </table>
+
+## Contributing Guidelines
+
+[CONTRIBUTING.md](/CONTRIBUTING.md)
+
+## Code of Conduct
+
+You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
+
+## License
+
+This project follows the [MIT License](/LICENSE).
+
+## Discord
+
+[![Discord](https://img.shields.io/discord/829038891611717753?color=7389DA&label=Discord&logo=Discord&logoColor=FFF&style=for-the-badge)](https://discord.gg/GkQNRRdF)
 
 
 ## 📃 License
