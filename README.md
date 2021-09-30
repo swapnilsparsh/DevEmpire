@@ -7,7 +7,7 @@ Developer Empire comprises of a wide collection of Campus Ambassador programs/fe
 
 ##  🚀 View Live Demo
 <img src="https://img.shields.io/badge/website-up-greene" />
-<pre><center><a href="https://devempire.vercel.app/"><b>devempire.vercel.app</b></a></center></pre>
+<pre><center><a href="https://devempire.netlify.app/"><b>devempire.netlify.app</b></a></center></pre>
 
 ## 👨‍💻 Tech Stack
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
