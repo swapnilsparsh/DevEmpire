@@ -19,7 +19,10 @@ const NavigationBar = () => {
                         </div>
                     </div>
 
-                    <div className="navNarrow" >
+                    <div className="navNarrow" onClick={ function (){
+                        let narrowLinks = document.querySelector(".narrowLinks");
+                        narrowLinks.classList.toggle("hidden");
+                    }} >
                         <i className="fa fa-bars fa-2x" />
                         <div className="narrowLinks hidden">
                             <Links />
