@@ -1,5 +1,10 @@
 import React from "react";
 import Home from "../assets/svg/Home.svg";
+import JS from "../assets/svg/JSToolkit.svg";
+import Ambassador from "../assets/svg/Ambassador.svg";
+import WebDev from "../assets/svg/WebDev.svg";
+import Programs from "../assets/svg/Programs.svg";
+import { NavLink } from "react-router-dom";
 
 const Landingpage = () => {
   return (
@@ -10,8 +15,8 @@ const Landingpage = () => {
             <h1>Developer Empire</h1>
             <p>
               All in one place where you can find all the resources and details of
-              ambassador/fellowship that are available across different countries
-              and companies. These are verified and crowdsourced by the community.
+              ambassador/fellowship, open source events, web dev sites, js toolkits and etc. that are available 
+              across different sites. These are verified and crowdsourced by the community.
             </p>
           </div>
           <div className="homesvg">
@@ -23,38 +28,43 @@ const Landingpage = () => {
       <div className="container-landing">
         <div className="landing-page-details">
           <div className="header-image" >
-            <img id="home" src={Home} alt="website logo" />
+            <img id="home" src={Ambassador} alt="Ambassador Illustration" />
           </div>
           <div className="heading-text" >
-            <h1>Ambassadors</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+          <NavLink to="/ambassador" ><h1><u> Ambassador </u></h1> </NavLink>
+            <p>Place where you can find all the resources and details of ambassador/fellowship that 
+              are available across different countries and companies.</p>
           </div>
         </div>
         <div className="landing-page-details">
           <div className="heading-text second" >
-            <h1>Programs</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+            <NavLink to="/events" ><h1><u> Programs </u></h1> </NavLink>
+            <p>Here you can find all the resources and details of Open Source Programs and event that 
+              are available across different countries.</p>
           </div>
           <div className="header-image" >
-            <img id="home" src={Home} alt="website logo" />
+            <img id="home" src={Programs} alt="Programs Illustration" />
           </div>
         </div>
         <div className="landing-page-details">
           <div className="header-image" >
-            <img id="home" src={Home} alt="website logo" />
+            <img id="home" src={WebDev} alt="Web Dev Illustration" />
           </div>
           <div className="heading-text" >
-            <h1>Web Development</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+            <NavLink to="/webdev" ><h1><u> Web Dev Tools </u></h1> </NavLink>
+            <p>A collection of all the tools that are required in web development made by the community
+              to ease the process of web development like CSS Generators, Icons, Illustration, etc.</p>
           </div>
         </div>
         <div className="landing-page-details">
           <div className="heading-text second" >
-            <h1>JS Toolkits</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat praesentium in optio obcaecati porro atque autem reiciendis dolore voluptatem exercitationem cum laudantium animi, iste nostrum nam alias aut possimus!</p>
+            <NavLink to="/frameworks" ><h1><u> JS Toolkits </u></h1> </NavLink>
+            <p>While the number of ways to organize JavaScript is almost infinite, here are some collection of JS
+              framework and libraries that can help you while you are working on a project or searching around the
+              web.</p>
           </div>
           <div className="header-image" >
-            <img id="home" src={Home} alt="website logo" />
+            <img id="home" src={JS} alt="JS Illustration" />
           </div>
         </div>
 

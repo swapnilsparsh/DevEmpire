@@ -37,7 +37,16 @@ const Footer = () => {
               rel="noreferrer"
             >
               {" "}
-              Jatin Yadav
+              Jatin Yadav 
+            </a>
+            &nbsp; and
+            <a
+              href="https://github.com/iamutkarshmall"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Utkarsh Mall 
             </a>
           </h4>
         </div>

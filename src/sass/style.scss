@@ -134,10 +134,22 @@ replaced by just the links.*/
     gap: 4rem;
 
     .heading-text {
+
+      a{
+        text-decoration: none;
+      }
+
+      h1{
+        font-size: 3rem;
+        color: $pageHeading;
+      }
+
       flex: 1;
       
       p{
+        color: $pagePara;
         padding: 1rem;
+        font-size: 1.3rem
       };
 
     }
@@ -652,11 +664,11 @@ hr {
 
   .container-landing{
     .landing-page-details{
-      flex-direction: column;
+      flex-direction: column-reverse;
       gap: 1rem;
 
       .second{
-        order: 2;
+        order: 1;
       }
 
     }

@@ -123,8 +123,19 @@ replaced by just the links.*/
           flex: 1;
 }
 
+.container-landing .landing-page-details .heading-text a {
+  text-decoration: none;
+}
+
+.container-landing .landing-page-details .heading-text h1 {
+  font-size: 3rem;
+  color: #0093ed;
+}
+
 .container-landing .landing-page-details .heading-text p {
+  color: #40aaff;
   padding: 1rem;
+  font-size: 1.3rem;
 }
 
 .container-landing .landing-page-details .header-image {
@@ -691,15 +702,15 @@ hr {
 @media screen and (max-width: 780px) {
   .container-landing .landing-page-details {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     gap: 1rem;
   }
   .container-landing .landing-page-details .second {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .landing-page-header {
     -webkit-box-orient: vertical;

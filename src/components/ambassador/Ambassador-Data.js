@@ -29,18 +29,18 @@ const Datas = [
         image: "../assets/ambassador-img/AWSCommunityBuilders.png",
         alt: "AWS Logo"
     },
-    {
-        link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
-        head: "AWS Educate Cloud Ambassador",
-        image: "../assets/ambassador-img/AWSEducateCloud.png",
-        alt: "AWS Logo"
-    },
-    {
-        link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
-        head: "AWS Educate Student Ambassador",
-        image: "../assets/ambassador-img/AWSEducateStudent.png",
-        alt: "AWS Logo"
-    },
+    // {
+    //     link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
+    //     head: "AWS Educate Cloud Ambassador",
+    //     image: "../assets/ambassador-img/AWSEducateCloud.png",
+    //     alt: "AWS Logo"
+    // },
+    // {
+    //     link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
+    //     head: "AWS Educate Student Ambassador",
+    //     image: "../assets/ambassador-img/AWSEducateStudent.png",
+    //     alt: "AWS Logo"
+    // },
     {
         link: "https://aws.amazon.com/developer/community/heroes/",
         head: "AWS Heroes",
@@ -188,7 +188,7 @@ const Datas = [
     {
         link: "https://fellowship.mlh.io/",
         head: "MLH Fellowship",
-        image: "../assets/ambassador-img/MLH-fellowship-white.jpg",
+        image: "../assets/ambassador-img/MLH-fellowship-white.png",
         alt: "MLH-fellowship Logo"
     },
     {
@@ -272,7 +272,7 @@ const Datas = [
     {
         link: "https://www.ted.com/participate/ted-fellows-program",
         head: "TED Fellows Program",
-        image: "../assets/ambassador-img/TedFellow.jpg",
+        image: "../assets/ambassador-img/TedFellow.png",
         alt: "TED Fellows Program Logo"
     },
     {
