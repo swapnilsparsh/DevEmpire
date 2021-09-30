@@ -1,4 +1,4 @@
-const Datas = [
+const AmbassadorDatas = [
     {
         link: "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
         head: "Adobe India Women-in-Technology Scholarship",
@@ -313,4 +313,4 @@ const Datas = [
     },
 ]
 
-export default Datas;
+export default AmbassadorDatas;

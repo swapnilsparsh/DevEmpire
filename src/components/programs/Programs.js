@@ -1,4 +1,4 @@
-import Datas from "../events/Events-Data";
+import Datas from "./Programs-Data";
 import { useState, React } from "react";
 import { Link } from "react-scroll";
 

@@ -1,4 +1,4 @@
-const JsDatas = [
+const ProgramsDatas = [
     {
         link: "https://codeheat.org/",
         head: "Codeheat",
@@ -71,4 +71,4 @@ const JsDatas = [
     },
 ];
 
-export default JsDatas;
+export default ProgramsDatas;

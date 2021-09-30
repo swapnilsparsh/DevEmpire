@@ -1,4 +1,4 @@
-const WebDev = [
+const WebDevDatas = [
   {
       link: "https://drawkit.io/",
       head: "DrawKit",
@@ -241,4 +241,4 @@ const WebDev = [
 
 ];
 
-export default WebDev;
+export default WebDevDatas;

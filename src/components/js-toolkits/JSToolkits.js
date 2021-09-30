@@ -1,4 +1,4 @@
-import Datas from "../js-frameworks/JSFrameworks-Data";
+import Datas from "../js-toolkits/JSToolkits-Data";
 import { useState, React } from "react";
 import { Link } from "react-scroll";
 

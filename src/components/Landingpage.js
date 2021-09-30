@@ -38,7 +38,7 @@ const Landingpage = () => {
         </div>
         <div className="landing-page-details">
           <div className="heading-text second" >
-            <NavLink to="/events" ><h1><u> Programs </u></h1> </NavLink>
+            <NavLink to="/programs" ><h1><u> Programs </u></h1> </NavLink>
             <p>Here you can find all the resources and details of Open Source Programs and event that 
               are available across different countries.</p>
           </div>
@@ -58,7 +58,7 @@ const Landingpage = () => {
         </div>
         <div className="landing-page-details">
           <div className="heading-text second" >
-            <NavLink to="/frameworks" ><h1><u> JS Toolkits </u></h1> </NavLink>
+            <NavLink to="/jstoolkits" ><h1><u> JS Toolkits </u></h1> </NavLink>
             <p>While the number of ways to organize JavaScript is almost infinite, here are some collection of JS
               framework and libraries that can help you while you are working on a project or searching around the
               web.</p>

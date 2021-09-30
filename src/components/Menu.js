@@ -1,11 +1,11 @@
 import React from "react";
-import JSFrameworks from "../components/js-frameworks/JSFrameworks"
-import Events from "../components/events/Events"
+import JSToolkits from "../components/js-toolkits/JSToolkits"
 import WebDev from "../components/web-dev/Web-dev"
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Links from "./navbar/Links";
 import Landingpage from "./Landingpage";
-import Content from "./ambassador/Content";
+import Ambassador from "./ambassador/Ambassador";
+import Programs from "./programs/Programs"
 
 const NavigationBar = () => {
     return (
@@ -57,11 +57,11 @@ const NavigationBar = () => {
 
                 <Switch>
                     <Route exact path="/" component={Landingpage} />
-                    <Route exact path="/ambassador" component={Content} />
+                    <Route exact path="/ambassador" component={Ambassador} />
                     <Route exact path="/landingpage" component={Landingpage} />
-                    <Route exact path="/events" component={Events} />
+                    <Route exact path="/programs" component={Programs} />
                     <Route exact path="/webdev" component={WebDev} />
-                    <Route exact path="/frameworks" component={JSFrameworks} />
+                    <Route exact path="/jstoolkits" component={JSToolkits} />
                 </Switch>
 
             </BrowserRouter>
