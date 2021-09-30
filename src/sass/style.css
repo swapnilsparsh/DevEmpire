@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 body {
   background: url("../assets/svg/Home-Background.svg");
   background-size: cover;
