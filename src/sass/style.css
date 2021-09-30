@@ -666,14 +666,17 @@ hr {
 .back-to-top .top {
   position: fixed;
   cursor: pointer;
-  bottom: 15px;
+  bottom: 20px;
   right: 15px;
-  font-size: 25px;
+  font-size: 16px;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #111e44;
+  border: 2px solid #3c4e85;
   z-index: 4;
   width: 45px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
@@ -682,8 +685,8 @@ hr {
 }
 
 .back-to-top .top:hover {
-  color: #ffffff;
-  background: #00253a;
+  color: rgb(255, 229, 181);
+  transform: scale(1.1);
 }
 
 /* Back To Top End */
