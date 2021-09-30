@@ -51,7 +51,7 @@ const ProgramsDatas = [
     {
         link: "https://railsgirlssummerofcode.org/",
         head: "Rails Girls Summer of Code",
-        image: "../assets/programs-img/RailsGirlsSoC.png",
+        image: "../assets/programs-img/RailsGirlsSoc.png",
         about: "It is a global fellowship program for women and non-binary coders.",
         alt: "Rails Girls Summer of Code"
     },

@@ -2,7 +2,7 @@ const WebDevDatas = [
   {
       link: "https://drawkit.io/",
       head: "DrawKit",
-      image: "../assets/webdev-img/Drawkit.png",
+      image: "../assets/webdev-img/DrawKit.png",
       about: "Hand-drawn vector illustration and icon resources, perfect for your next project.",
       label: "Illustration",
       alt: "DrawKit"
@@ -17,7 +17,7 @@ const WebDevDatas = [
   {
       link: "https://storyset.com/",
       head: "Storyset",
-      image: "../assets/webdev-img/Storyset.png",
+      image: "../assets/webdev-img/StorySet.png",
       about: "Customize, animate and download our illustrations to make incredible landing pages, etc.",
       alt: "Storyset"
   },
@@ -101,14 +101,14 @@ const WebDevDatas = [
   {
       link: "https://fontawesome.com/",
       head: "Font Awesome",
-      image: "../assets/webdev-img/Fontawesome.png",
+      image: "../assets/webdev-img/FontAwesome.png",
       about: "Get vector icons and social logos on your website with most popular icon set and toolkit.",
       alt: "Font Awesome"
   },
   {
       link: "https://www.iconfinder.com/",
       head: "Icon Finder",
-      image: "../assets/webdev-img/Iconfinder.png",
+      image: "../assets/webdev-img/IconFinder.png",
       about: "Search through 5,789,724 icons and illustrations",
       alt: "Icon Finder"
   },
@@ -122,7 +122,7 @@ const WebDevDatas = [
   {
       link: "https://colorhunt.co/",
       head: "Color Hunt",
-      image: "../assets/webdev-img/Colorhunt.png",
+      image: "../assets/webdev-img/ColorHunt.png",
       about: "Discover the newest hand-picked palettes of Color Hunt",
       alt: "Color Hunt"
   },
