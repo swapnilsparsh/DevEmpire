@@ -35,7 +35,7 @@ export default class GoTop extends Component {
       <div className="back-to-top show-back-to-top">
         {is_visible && (
           <div className="top" onClick={() => scroll.scrollToTop()}>
-            <i className="fa fa-angle-up" aria-hidden="true" />
+            <i className="fa fa-arrow-up" aria-hidden="true" />
           </div>
         )}
       </div>
