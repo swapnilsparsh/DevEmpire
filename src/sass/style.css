@@ -132,12 +132,13 @@ replaced by just the links.*/
 .container-landing .landing-page-details .heading-text h1 {
   font-size: 3rem;
   color: #0093ed;
-  margin: 1rem;  
+  margin: 1rem; 
+  transition:  0.3s all ease-in-out;
 }
 .container-landing .landing-page-details .heading-text h1:hover {
   font-size: 3rem;
-  color: #111e44;
-  transition: 0.5s;
+  transform: scale(1.2);
+  
 }
 
 .container-landing .landing-page-details .heading-text p {
