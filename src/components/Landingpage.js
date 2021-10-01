@@ -53,6 +53,7 @@ const Landingpage = () => {
           <div className="header-image">
             <img id="home" src={Ambassador} alt="Ambassador Illustration" />
           </div>
+
           <div className="heading-text">
             <NavLink to="/ambassador">
               <h1>
@@ -77,6 +78,19 @@ const Landingpage = () => {
               Here you can find all the resources and details of Open Source
               Programs and event that are available across different countries.
             </p>
+
+          <div className="heading-text" >
+            <NavLink to="/ambassador" ><h1> Ambassador </h1> </NavLink>
+            <p>Place where you can find all the resources and details of ambassador/fellowship that
+              are available across different countries and companies.</p>
+          </div>
+        </div>
+        <div className="landing-page-details">
+          <div className="heading-text second" >
+            <NavLink to="/programs" ><h1>Programs </h1> </NavLink>
+            <p>Here you can find all the resources and details of Open Source Programs and event that
+              are available across different countries.</p>
+
           </div>
           <div className="header-image">
             <img id="home" src={Programs} alt="Programs Illustration" />
@@ -86,6 +100,7 @@ const Landingpage = () => {
           <div className="header-image">
             <img id="home" src={WebDev} alt="Web Dev Illustration" />
           </div>
+
           <div className="heading-text">
             <NavLink to="/webdev">
               <h1>
@@ -112,6 +127,19 @@ const Landingpage = () => {
               that can help you while you are working on a project or searching
               around the web.
             </p>
+
+          <div className="heading-text" >
+            <NavLink to="/webdev" ><h1>Web Dev Tools </h1> </NavLink>
+            <p>A collection of all the tools that are required in web development made by the community
+              to ease the process of web development like CSS Generators, Icons, Illustration, etc.</p>
+          </div>
+        </div>
+        <div className="landing-page-details">
+          <div className="heading-text second" >
+            <NavLink to="/jstoolkits" ><h1>JS Toolkits </h1> </NavLink>
+            <p>While the number of ways to organize JavaScript is almost infinite, here are some collection of JS
+              framework and libraries that can help you while you are working on a project or searching around the
+
           </div>
           <div className="header-image">
             <img id="home" src={JS} alt="JS Illustration" />
