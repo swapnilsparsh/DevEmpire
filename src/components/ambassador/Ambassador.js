@@ -9,21 +9,24 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
-
             <h1>Ambassador</h1>
 
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
             </Link>
-            
-            <input
-              className="search"
-              text="type"
-              placeholder="Search"
-              onChange={(event) => {
-                setSearchTerm(event.target.value);
-              }}
-            />
+
+            <div className="search-container">
+              <i class="fa fa-search search-icon"></i>
+
+              <input
+                className="search"
+                text="type"
+                placeholder="Search"
+                onChange={(event) => {
+                  setSearchTerm(event.target.value);
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
