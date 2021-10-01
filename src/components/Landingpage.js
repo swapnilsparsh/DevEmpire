@@ -35,7 +35,7 @@ const Landingpage = () => {
                 </a>
               </div>
               <div className="call-to-action-btn" onClick={callToActionScroll}>
-                Call to Action
+                Explore all
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -108,19 +108,19 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   gap: 4rem;
 }
 
 .container-landing .landing-page-details .heading-text {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .container-landing .landing-page-details .heading-text a {
@@ -140,8 +140,8 @@ replaced by just the links.*/
 
 .container-landing .landing-page-details .header-image {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .container-landing .landing-page-details img {
@@ -154,15 +154,15 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   text-align: left;
 }
 
@@ -249,7 +249,11 @@ replaced by just the links.*/
   font-size: 22px;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button .discord {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  .discord {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -257,7 +261,7 @@ replaced by just the links.*/
   padding: 6px 14px;
   border-radius: 10px;
 }
-.call-to-action-btn{
+.call-to-action-btn {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -269,18 +273,28 @@ replaced by just the links.*/
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0093ed;
-  color: white;
+  border: 1px solid #0093ed;
+  color: #0093ed;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
-.ambassador-section{
+.call-to-action-btn:hover {
+  color: #ffffff;
+  background: #0093ed;
+}
+.ambassador-section {
   scroll-margin-top: 2rem;
 }
-.landing-page-btn-container{
+.landing-page-btn-container {
   display: flex;
   align-items: center;
 }
-.landing-page-header .header-details .landing-page-btn-container .discord-button img {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  img {
   width: 100%;
   height: 36px;
 }
@@ -319,15 +333,15 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   vertical-align: middle;
 }
 
@@ -340,15 +354,15 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .navigation .github-button .github {
@@ -392,10 +406,10 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 4rem;
 }
 
@@ -403,7 +417,7 @@ replaced by just the links.*/
   position: relative;
   background: rgba(255, 255, 255, 0.2);
   -webkit-box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-          box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
   border-radius: 24px;
   padding: 42px 28px 24px 28px;
   border: 1px solid #ffffff;
@@ -440,12 +454,12 @@ replaced by just the links.*/
   height: 330px;
   margin: auto;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   background: #eafaff;
   overflow: hidden;
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .container .card-js .content {
@@ -478,7 +492,7 @@ replaced by just the links.*/
   height: 160px;
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background: #ffffff;
   border-radius: 10px;
 }
@@ -506,17 +520,17 @@ replaced by just the links.*/
 
 .container .card-js .content .image {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container .card-js .content .image-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container .card-js .content .image-fill {
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .container .card-js .content .tag {
@@ -546,12 +560,12 @@ replaced by just the links.*/
   height: 300px;
   margin: auto;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   background: #eafaff;
   overflow: hidden;
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .container .card .content {
@@ -584,7 +598,7 @@ replaced by just the links.*/
   height: 160px;
   width: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   background: #ffffff;
   border-radius: 10px;
 }
@@ -612,17 +626,17 @@ replaced by just the links.*/
 
 .container .card .content .image {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container .card .content .image-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container .card .content .image-fill {
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .container .card .content .tag {
@@ -741,20 +755,20 @@ hr {
   .container-landing .landing-page-details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     gap: 1rem;
   }
   .container-landing .landing-page-details .second {
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
   .landing-page-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .landing-page-header .homesvg img {
     height: 100%;
@@ -793,8 +807,8 @@ hr {
   .navigation {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .navigation .twitter-button {
     margin-top: 10px;
