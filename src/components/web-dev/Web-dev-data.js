@@ -95,7 +95,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/Freepik.png",
     about: "Find Free Vectors, Stock Photos and PSD",
     alt: "Freepik",
-    label: "Vectors",
+    label: "Vectors/Svg",
   },
   {
     link: "https://icons8.com/",
@@ -185,6 +185,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/CSSGenerator.png",
     about: "This generator lets you generate any CSS you want to create.",
     alt: "",
+    label: "CSS",
   },
   {
     link: "https://ui.glass/generator/",
@@ -200,6 +201,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/GlassmorphismGenerator.png",
     about: "This generator lets you create Glassmorphism CSS.",
     alt: "Glassmorphism CSS Generator",
+    label: "CSS",
   },
   {
     link: "https://www.meshgradients.design/",
@@ -224,6 +226,7 @@ const WebDevDatas = [
     about:
       "You can set the numbers, and units of your columns and rows, and it will generate a CSS grid for you.",
     alt: "CSS Grid Generator",
+    label: "CSS",
   },
   {
     link: "https://cssbuttongenerator.com/",
@@ -231,6 +234,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/CSSButton.png",
     about: "Generate CSS of any type of Button you want.",
     alt: "CSS Button Generator",
+    label: "CSS",
   },
   {
     link: "https://app.haikei.app/",
@@ -239,6 +243,7 @@ const WebDevDatas = [
     about:
       "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc.",
     alt: "Haikei",
+    label: "Vectors/Svg",
   },
   {
     link: "https://www.blobmaker.app/",
@@ -247,6 +252,7 @@ const WebDevDatas = [
     about:
       "It help you quickly create random, unique, and organic-looking SVG shapes.",
     alt: "Blobmaker",
+    label: "Vectors/Svg",
   },
   {
     link: "https://meshgradient.com/",
@@ -254,6 +260,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/MeshGenerator.png",
     about: "It is a simple generator to create beautiful mesh gradients.",
     alt: "Mesh Gradient Generator",
+    label: "Vectors/Svg",
   },
   {
     link: "https://neumorphism.io/",
@@ -261,6 +268,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/Neumorphism.png",
     about: "Generate CSS for your Neumorphism/Soft UI design",
     alt: "",
+    label: "CSS",
   },
   {
     link: "https://getwaves.io/",
@@ -268,6 +276,7 @@ const WebDevDatas = [
     image: "../assets/webdev-img/GetWave.png",
     about: "A simple web app to generate svg waves, unique every time",
     alt: "Get Waves",
+    label: "Vectors/Svg",
   },
 ];
 
