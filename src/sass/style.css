@@ -127,15 +127,26 @@ replaced by just the links.*/
   text-decoration: none;
 }
 
+
+
 .container-landing .landing-page-details .heading-text h1 {
   font-size: 3rem;
   color: #0093ed;
+  margin: 1rem; 
+  transition:  0.3s all ease-in-out;
+}
+.container-landing .landing-page-details .heading-text h1:hover {
+  font-size: 3rem;
+  transform: scale(1.2);
+  
 }
 
 .container-landing .landing-page-details .heading-text p {
   color: #40aaff;
   padding: 1rem;
   font-size: 1.3rem;
+  background-color:white;
+  border-radius: 8px;
 }
 
 .container-landing .landing-page-details .header-image {
@@ -252,10 +263,20 @@ replaced by just the links.*/
 .landing-page-header .header-details .navigation-discord .discord-button .discord {
   background: none;
   line-height: 0;
-  border: 0.5px solid rgba(0, 147, 237, 0.3);
+  border: 0.5px solid #7289da;
   display: inline-block;
   padding: 6px 14px;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.landing-page-header .header-details .navigation-discord .discord-button .discord:hover {
+  background: none;
+  line-height: 0;
+  border: 0.5px solid #7289da;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 10px;
+  transform: scale(1.2);
 }
 
 .landing-page-header .header-details .navigation-discord .discord-button img {
@@ -335,6 +356,16 @@ replaced by just the links.*/
   display: inline-block;
   padding: 4px 12px;
   border-radius: 10px;
+  transition:  all 0.3s ease-in-out;
+}
+.navigation .github-button .github:hover {
+  line-height: 0;
+  border: 0.5px solid rgba(90, 89, 89, 0.3);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+  transform: scale(1.2);
+
 }
 
 .navigation .github-button img {
@@ -347,6 +378,15 @@ replaced by just the links.*/
   display: inline-block;
   padding: 4px 12px;
   border-radius: 10px;
+  transition:  all 0.3s ease-in-out;
+}
+.navigation .twitter-button .twitter:hover{
+  line-height: 0;
+  border: 0.5px solid rgba(0, 147, 237, 0.3);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+  transform: scale(1.2);
 }
 
 .navigation .twitter-button img {
@@ -412,6 +452,13 @@ replaced by just the links.*/
   background-size: 100%;
 }
 
+.container .frame-border  .content a{
+  text-decoration: none;
+}
+
+.container .frame-border  .content a:hover{
+  text-decoration: underline;
+}
 .container .card-js {
   position: relative;
   width: 290px;
