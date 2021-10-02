@@ -66,9 +66,7 @@ body {
 nav {
   background-color: #0093ed;
   overflow: hidden;
-
   padding: 0 1em;
-  /* border-bottom: 3px solid #40aaff; */
 }
 
 nav a {
@@ -100,7 +98,6 @@ nav .navWide .wideDiv a:hover {
 }
 
 nav .navWide .wideDiv .current-nav-link{
-  /* border-bottom: 4px solid rgb(255, 7, 255); */
   border-bottom: 5px solid #77cbff;
 }
 
