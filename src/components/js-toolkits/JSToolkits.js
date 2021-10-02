@@ -17,6 +17,8 @@ const Content = () => {
         <div className="landing-page-header">
           <div className="header-details">
             <h1>JS Toolkits</h1>
+            
+            <p>While the number of ways to organize JavaScript is almost infinite, here are some collection of JS framework and libraries that can help you while you are working on a project or searching around the web.</p>
 
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
