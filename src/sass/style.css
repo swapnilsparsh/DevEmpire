@@ -211,45 +211,83 @@ replaced by just the links.*/
   background: #0093ed;
 }
 
-.landing-page-header .header-details .search {
+.landing-page-header .header-details .search-container {
   background: #ffffff;
   border: 1px solid #0093ed;
-  color: #0093ed;
-  padding: 13px 36px;
+
+  /* padding: 0px 36px; */
+  padding-top: 3px;
   line-height: 33px;
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   border-radius: 16px;
   text-decoration: none;
   margin: 1rem 1.5rem;
-  font-size: 22px;
-  width: 180px;
+  width: 320px;
+  height: 65px;
+  align-items: center;
+  position: relative;
+}
+.landing-page-header .header-details .search-container .search {
+  border: none;
+  background: none;
+  color: #0093ed;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  padding-left: 47px;
+}
+.landing-page-header .header-details .search-container .search-icon {
+  color: #0093ed;
+  font-size: 20px;
+  position: absolute;
+  left: 1.1rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.landing-page-header .header-details .search:hover {
-  color: #ffffff;
+.landing-page-header .header-details .search-container:hover {
   background: #0093ed;
 }
-
-.landing-page-header .header-details .search:hover::-webkit-input-placeholder {
+.landing-page-header .header-details .search-container:hover .search {
+  color: #ffffff;
+}
+.landing-page-header
+  .header-details
+  .search-container:hover
+  .search::-webkit-input-placeholder,
+.landing-page-header .header-details .search-container:hover .search-icon {
   color: white;
 }
 
-.landing-page-header .header-details .search:hover:-ms-input-placeholder {
+.landing-page-header
+  .header-details
+  .search-container:hover
+  .search:-ms-input-placeholder,
+.landing-page-header .header-details .search-container:hover .search-icon {
   color: white;
 }
 
-.landing-page-header .header-details .search:hover::-ms-input-placeholder {
+.landing-page-header
+  .header-details
+  .search-container:hover
+  .search::-ms-input-placeholder,
+.landing-page-header .header-details .search-container:hover .search-icon {
   color: white;
 }
 
-.landing-page-header .header-details .search:hover::placeholder {
+.landing-page-header
+  .header-details
+  .search-container:hover
+  .search::placeholder,
+.landing-page-header .header-details .search-container:hover .search-icon {
   color: white;
 }
 
-.landing-page-header .header-details .search:focus {
+.landing-page-header .header-details .search-container:focus {
   outline: none;
 }
 

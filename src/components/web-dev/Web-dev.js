@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
+
   const [selectedLabel, setSelectedLabel] = useState("");
   const labels = [
     ...new Set(
@@ -13,25 +14,28 @@ const Content = () => {
       })
     ),
   ].filter((label) => label);
+
   return (
     <>
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
             <h1>Web Dev Tools</h1>
-
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
             </Link>
 
-            <input
-              className="search"
-              text="type"
-              placeholder="Search"
-              onChange={(event) => {
-                setSearchTerm(event.target.value);
-              }}
-            />
+            <div className="search-container">
+              <i class="fa fa-search search-icon"></i>
+              <input
+                className="search"
+                text="type"
+                placeholder="Search"
+                onChange={(event) => {
+                  setSearchTerm(event.target.value);
+                }}
+              />
+            </div>
           </div>
         </div>
         <div className="label-container">
