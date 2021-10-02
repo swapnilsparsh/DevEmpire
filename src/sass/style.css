@@ -127,25 +127,22 @@ replaced by just the links.*/
   text-decoration: none;
 }
 
-
-
 .container-landing .landing-page-details .heading-text h1 {
   font-size: 3rem;
   color: #0093ed;
-  margin: 1rem; 
-  transition:  0.3s all ease-in-out;
+  margin: 1rem;
+  transition: 0.3s all ease-in-out;
 }
 .container-landing .landing-page-details .heading-text h1:hover {
   font-size: 3rem;
   transform: scale(1.2);
-  
 }
 
 .container-landing .landing-page-details .heading-text p {
   color: #40aaff;
   padding: 1rem;
   font-size: 1.3rem;
-  background-color:white;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -256,6 +253,27 @@ replaced by just the links.*/
   outline: none;
 }
 
+.label-container {
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.label-container .label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 6px 15px;
+  border-radius: 20px;
+  color: #0093ed;
+  border: 1px solid #0093ed;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .landing-page-header .header-details h4 {
   font-size: 22px;
 }
@@ -273,7 +291,11 @@ replaced by just the links.*/
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
-.landing-page-header .header-details .navigation-discord .discord-button .discord:hover {
+.landing-page-header
+  .header-details
+  .navigation-discord
+  .discord-button
+  .discord:hover {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -392,7 +414,7 @@ replaced by just the links.*/
   display: inline-block;
   padding: 4px 12px;
   border-radius: 10px;
-  transition:  all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .navigation .github-button .github:hover {
   line-height: 0;
@@ -401,7 +423,6 @@ replaced by just the links.*/
   padding: 4px 12px;
   border-radius: 10px;
   transform: scale(1.2);
-
 }
 
 .navigation .github-button img {
@@ -414,9 +435,9 @@ replaced by just the links.*/
   display: inline-block;
   padding: 4px 12px;
   border-radius: 10px;
-  transition:  all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.navigation .twitter-button .twitter:hover{
+.navigation .twitter-button .twitter:hover {
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
   display: inline-block;
@@ -488,11 +509,11 @@ replaced by just the links.*/
   background-size: 100%;
 }
 
-.container .frame-border  .content a{
+.container .frame-border .content a {
   text-decoration: none;
 }
 
-.container .frame-border  .content a:hover{
+.container .frame-border .content a:hover {
   text-decoration: underline;
 }
 .container .card-js {
