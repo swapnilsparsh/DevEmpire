@@ -801,8 +801,23 @@ replaced by just the links.*/
   color: #eb4c4c;
   background-color: rgba(235, 12, 12, 0.15);
 }
-
 /* Programs Section End */
+
+/* Searching No Results Start*/
+.noresult-description {
+  margin-top: 1.25rem;
+}
+
+.noresult-description h1 {
+  color: #5a5959;
+}
+
+.noresult-description p {
+  margin-top: 0.938rem;
+  color: rgba(97, 93, 93);
+}
+/* Searching No Results End*/
+
 /*Start footer*/
 .footer {
   background: url("../assets/svg/Footer.svg");
