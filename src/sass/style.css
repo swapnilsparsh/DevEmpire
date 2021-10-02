@@ -291,6 +291,27 @@ replaced by just the links.*/
   outline: none;
 }
 
+.label-container {
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.label-container .label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 6px 15px;
+  border-radius: 20px;
+  color: #0093ed;
+  border: 1px solid #0093ed;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .landing-page-header .header-details h4 {
   font-size: 22px;
 }
