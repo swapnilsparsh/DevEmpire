@@ -1,9 +1,16 @@
 import Datas from "./Programs-Data";
-import { useState, React } from "react";
+import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
+import { useLocation } from "react-router-dom";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <div className="container-landing">
