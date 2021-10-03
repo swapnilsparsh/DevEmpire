@@ -97,7 +97,7 @@ nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
 }
 
-nav .navWide .wideDiv .current-nav-link{
+nav .navWide .wideDiv .current-nav-link {
   border-bottom: 5px solid #77cbff;
 }
 
@@ -809,7 +809,13 @@ replaced by just the links.*/
 }
 
 .noresult-description h1 {
-  color: #5a5959;
+  /* color: #5a5959; */
+  color: #0093ed;
+}
+
+.noresult-image {
+  width: 250px;
+  max-width: 90%;
 }
 
 .noresult-description p {

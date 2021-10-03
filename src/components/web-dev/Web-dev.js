@@ -22,6 +22,11 @@ const Content = () => {
   }, [pathname]);
 
   const filterOptions = Datas.filter((data) => {
+    if (selectedLabel === "") return data;
+    else if (data.label === selectedLabel) {
+      return data;
+    }
+  }).filter((data) => {
     if (searchTerm === "") {
       return data;
     } else if (data.head.toLowerCase().includes(searchTerm.toLowerCase())) {

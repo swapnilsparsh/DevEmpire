@@ -3,8 +3,8 @@ import SearchNotFound from "../assets/svg/SearchNotFound.svg";
 
 export default function NoResults({ search }) {
   return (
-    <div className="content">
-      <img src={SearchNotFound} alt="not-found" width={350} height={350} />
+    <div>
+      <img src={SearchNotFound} alt="not-found" className='noresult-image' />
       <div className="noresult-description">
         <h1>No Results found for '{search}'</h1>
         <p>
