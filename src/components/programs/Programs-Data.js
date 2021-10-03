@@ -69,6 +69,20 @@ const ProgramsDatas = [
         about: "KDE offer an opportunity to everyone to participate in both code and non-code projects ",
         alt: "Season of KDE"
     },
+    {
+        link: "https://devscript.org/woc/",
+        head: "DevScript Winter Of Code",
+        image: "../assets/programs-img/DWOC.png",
+        about: "It is an open-source program that helps understand the paradigm of Open Source contribution.",
+        alt: "DevScript Winter Of Code"
+    },
+    {
+        link: "https://contribute.devincept.com/",
+        head: "DevIncept Contribution Program",
+        image: "../assets/programs-img/DCP.png",
+        about: "It is an Open-Source program to bring students into the world of open source development.",
+        alt: "DevIncept Contribution Program"
+    },
 ];
 
 export default ProgramsDatas;
