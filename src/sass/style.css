@@ -192,6 +192,10 @@ replaced by just the links.*/
   width: 100%;
   border-radius: 1rem;
 }
+.container-landing .landing-page-details lottie-player {
+  width: 100%;
+  border-radius: 1rem;
+}
 
 .landing-page-header {
   display: -webkit-box;
@@ -211,6 +215,11 @@ replaced by just the links.*/
 }
 
 .landing-page-header .homesvg img {
+  height: 100%;
+  width: 500px;
+  pointer-events: none;
+}
+.landing-page-header .homesvg lottie-player {
   height: 100%;
   width: 500px;
   pointer-events: none;
@@ -892,10 +901,19 @@ hr {
     width: 20rem;
     height: 20rem;
   }
+  .landing-page-header lottie-player {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 @media screen and (min-width: 780px) and (max-width: 1024px) {
   .landing-page-header .homesvg img {
+    height: 100%;
+    width: 280px;
+    pointer-events: none;
+  }
+  .landing-page-header .homesvg lottie-player {
     height: 100%;
     width: 280px;
     pointer-events: none;
@@ -909,6 +927,12 @@ hr {
 }
 
 @media screen and (max-width: 780px) {
+  lottie-player {
+    display: none;
+  }
+  .homesvg lottie-player {
+    display: block;
+  }
   .container-landing .landing-page-details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -928,6 +952,11 @@ hr {
     flex-direction: column;
   }
   .landing-page-header .homesvg img {
+    height: 100%;
+    width: 280px;
+    pointer-events: none;
+  }
+  .landing-page-header .homesvg lottie-player {
     height: 100%;
     width: 280px;
     pointer-events: none;

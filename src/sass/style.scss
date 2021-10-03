@@ -160,6 +160,10 @@ replaced by just the links.*/
       width: 100%;
       border-radius: 1rem;
     }
+    lottie-player {
+      width: 100%;
+      border-radius: 1rem;
+    }
   }
 }
 
@@ -169,7 +173,7 @@ replaced by just the links.*/
   text-align: left;
 
   .homesvg {
-    img {
+    lottie-player {
       height: 100%;
       width: 500px;
       pointer-events: none;
@@ -650,13 +654,17 @@ hr {
       width: 20rem;
       height: 20rem;
     }
+    lottie-player {
+      width: 20rem;
+      height: 20rem;
+    }
   }
 }
 
 @media screen and (min-width: 780px) and (max-width: 1024px) {
   .landing-page-header {
     .homesvg {
-      img {
+      lottie-player {
         height: 100%;
         width: 280px;
         pointer-events: none;
@@ -689,7 +697,7 @@ hr {
   .landing-page-header {
     flex-direction: column;
     .homesvg {
-      img {
+      lottie-player {
         height: 100%;
         width: 280px;
         pointer-events: none;
