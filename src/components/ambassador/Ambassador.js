@@ -27,6 +27,8 @@ const Content = () => {
           <div className="header-details">
             <h1>Ambassador</h1>
 
+            <p>Place where you can find all the resources and details of ambassador/fellowship that are available across different countries and companies.</p>
+
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
             </Link>
