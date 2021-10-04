@@ -25,6 +25,10 @@ in case you are stuck:
 
 ## Submitting Contributions👩‍💻👨‍💻
 
+Do styling changes in the respective **Sass** file.
+
+If you are facing any difficulties you can refer to this [documentation](https://sass-lang.com/guide).
+
 Below you will find the process and workflow used to review and merge your changes.
 
 ### Step 0 : Find an issue
