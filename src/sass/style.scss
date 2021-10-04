@@ -748,6 +748,26 @@ hr {
   .frame-border .card {
     width: 250px;
   }
+
+  .landing-page-header .header-details h1 {
+    font-size: 2rem;
+  }
+
+  .header-details, .homesvg {
+    max-width: 100vw;
+  }
+
+  .landing-page-btn-container {
+    flex-direction: column;
+  }
+
+  .container-landing .landing-page-details .heading-text h1 {
+    font-size: 2rem;
+  }
+
+  .landing-page-header .homesvg > img {
+    width: 100%;
+  }
 }
 
 /* Programs Section Responsive End */
