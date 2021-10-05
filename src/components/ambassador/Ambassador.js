@@ -56,7 +56,7 @@ const Content = () => {
               return (
                 <div className="frame-border" key={index}>
                   <div className="pointer"></div>
-                  <div className="card">
+                  <div className="card-js">
                     <div className="content">
                       <a href={data.link} target="_blank" rel="noreferrer">
                         <h3>{data.head}</h3>
