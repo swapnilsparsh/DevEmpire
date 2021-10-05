@@ -41,7 +41,8 @@ const Landingpage = () => {
           </div>
           <div className="homesvg">
             {/* <img id="home" src={Home} alt="website logo" /> */}
-            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bpqri9y8.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_vxtEG7.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+            {/* <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bpqri9y8.json"  background="transparent"  speed="1" loop autoplay></lottie-player> */}
           </div>
         </div>
       </div>
