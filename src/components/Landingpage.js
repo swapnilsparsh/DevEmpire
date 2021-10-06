@@ -41,8 +41,7 @@ const Landingpage = () => {
           </div>
           <div className="homesvg">
             {/* <img id="home" src={Home} alt="website logo" /> */}
-            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_vxtEG7.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
-            {/* <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_bpqri9y8.json"  background="transparent"  speed="1" loop autoplay></lottie-player> */}
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_gvd5gidn.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
           </div>
         </div>
       </div>
@@ -54,7 +53,7 @@ const Landingpage = () => {
         <div className="landing-page-details">
           <div className="header-image">
             {/* <img id="home" src={Ambassador} alt="Ambassador Illustration" /> */}
-            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8udmnhsx.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kkawmyuh.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
           </div>
           <div className="heading-text">
             <NavLink to="/ambassador">
@@ -88,7 +87,7 @@ const Landingpage = () => {
         <div className="landing-page-details">
           <div className="header-image">
             {/* <img id="home" src={WebDev} alt="Web Dev Illustration" /> */}
-            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_hucoqyyg.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_ezoop3tg.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
           </div>
           <div className="heading-text">
             <NavLink to="/webdev">
