@@ -28,6 +28,13 @@ const ProgramsDatas = [
         alt: "Hacktoberfest"
     },
     {
+        link: "https://letsgrowmore.in/soc/",
+        head: "Lets Grow More Summer Of Code",
+        image: "../assets/programs-img/LGMSOC.png",
+        about: "It is an online program designed to encourage student participation in open source software development.",
+        alt: "Lets Grow More Summer Of Code"
+    },
+    {
         link: "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
         head: "LFN Mentorship Program",
         image: "../assets/programs-img/LFN.png",
@@ -54,6 +61,13 @@ const ProgramsDatas = [
         image: "../assets/programs-img/RailsGirlsSoc.png",
         about: "It is a global fellowship program for women and non-binary coders.",
         alt: "Rails Girls Summer of Code"
+    },
+    {
+        link: "https://swoc.scriptindia.org/#/",
+        head: "Script Winter Of Code",
+        image: "../assets/programs-img/SWOC.png",
+        about: "It is an open source program that aims to bring students into the world of open source development.",
+        alt: "Script Winter of Code"
     },
     {
         link: "https://developers.google.com/season-of-docs",
