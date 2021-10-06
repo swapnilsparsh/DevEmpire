@@ -1,5 +1,12 @@
 const JsDatas = [
     {
+        link: "https://angular.io//",
+        head: "AngularJS",
+        image: "../assets/js-toolkits-img/Angularjs.png",
+        about: "AngularJS is a toolset for building the framework most suited to your application development.",
+        alt: "AngularJS"
+    },
+    {
         link: "https://animejs.com/",
         head: "anime.js",
         image: "../assets/js-toolkits-img/Animejs.png",
@@ -33,6 +40,13 @@ const JsDatas = [
         image: "../assets/js-toolkits-img/MathJax.png",
         about: "A JavaScript display engine for mathematics that works in all browsers.",
         alt: "MathJAX"
+    },
+    {
+        link: "https://nextjs.org/",
+        head: "NextJS",
+        image: "../assets/js-toolkits-img/NextJS.png",
+        about: "Next.js gives you the best developer experience with all the features you need for production.",
+        alt: "NextJS"
     },
     {
         link: "https://parsleyjs.org/",
