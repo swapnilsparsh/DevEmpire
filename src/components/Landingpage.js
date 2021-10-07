@@ -41,7 +41,7 @@ const Landingpage = () => {
           </div>
           <div className="homesvg">
             {/* <img id="home" src={Home} alt="website logo" /> */}
-            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_gvd5gidn.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_jnwdh6gk.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ const Landingpage = () => {
         <div className="landing-page-details">
           <div className="header-image">
             {/* <img id="home" src={WebDev} alt="Web Dev Illustration" /> */}
-            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_ezoop3tg.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_zudwkq42.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
           </div>
           <div className="heading-text">
             <NavLink to="/webdev">
