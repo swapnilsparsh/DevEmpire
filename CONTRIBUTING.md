@@ -4,6 +4,13 @@ This documentation contains a set of guidelines to help you during the contribut
 We are happy to welcome all the contributions from anyone willing to improve/add new scripts to this project.
 Thank you for helping out and remember, **no contribution is too small.**
 
+# Color Codes 🎨
+#### Hex Color codes:
+ 1. ![#d6f5ff](https://via.placeholder.com/15/d6f5ff/000000?text=+) `#d6f5ff` `lightcyan`
+ 2. ![#0093ed](https://via.placeholder.com/15/0093ed/000000?text=+) `#0093ed` `dodgerblue`
+ 3. ![#40aaff](https://via.placeholder.com/15/40aaff/000000?text=+) `#40aaff` `dodgerblue`
+ 4. ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` `white`
+ 5. ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` `black`
 
 ### Need some help regarding the basics?🤔
 
@@ -17,6 +24,10 @@ in case you are stuck:
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
 ## Submitting Contributions👩‍💻👨‍💻
+
+Do styling changes in the respective **Sass** file.
+
+If you are facing any difficulties you can refer to this [documentation](https://sass-lang.com/guide).
 
 Below you will find the process and workflow used to review and merge your changes.
 

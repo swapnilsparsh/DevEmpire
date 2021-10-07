@@ -50,6 +50,14 @@ const WebDevDatas = [
     label: "Illustration",
   },
   {
+    link: "https://lottiefiles.com/",
+    head: "LottieFiles",
+    image: "../assets/webdev-img/LottieFiles.png",
+    about: "Lightweight, scalable animations for your website and apps",
+    alt: "LottieFiles",
+    label: "Illustration",
+  },
+  {
     link: "https://www.iconshock.com",
     head: "Iconshock",
     image: "../assets/webdev-img/Iconshock.png",

@@ -28,6 +28,13 @@ const ProgramsDatas = [
         alt: "Hacktoberfest"
     },
     {
+        link: "https://letsgrowmore.in/soc/",
+        head: "Lets Grow More Summer Of Code",
+        image: "../assets/programs-img/LGMSOC.png",
+        about: "It is an online program designed to encourage student participation in open source software development.",
+        alt: "Lets Grow More Summer Of Code"
+    },
+    {
         link: "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
         head: "LFN Mentorship Program",
         image: "../assets/programs-img/LFN.png",
@@ -56,6 +63,13 @@ const ProgramsDatas = [
         alt: "Rails Girls Summer of Code"
     },
     {
+        link: "https://swoc.scriptindia.org/#/",
+        head: "Script Winter Of Code",
+        image: "../assets/programs-img/SWOC.png",
+        about: "It is an open source program that aims to bring students into the world of open source development.",
+        alt: "Script Winter of Code"
+    },
+    {
         link: "https://developers.google.com/season-of-docs",
         head: "Season of Docs",
         image: "../assets/programs-img/SoDocs.jpg",
@@ -68,6 +82,20 @@ const ProgramsDatas = [
         image: "../assets/programs-img/SoKDE.png",
         about: "KDE offer an opportunity to everyone to participate in both code and non-code projects ",
         alt: "Season of KDE"
+    },
+    {
+        link: "https://devscript.org/woc/",
+        head: "DevScript Winter Of Code",
+        image: "../assets/programs-img/DWOC.png",
+        about: "It is an open-source program that helps understand the paradigm of Open Source contribution.",
+        alt: "DevScript Winter Of Code"
+    },
+    {
+        link: "https://contribute.devincept.com/",
+        head: "DevIncept Contribution Program",
+        image: "../assets/programs-img/DCP.png",
+        about: "It is an Open-Source program to bring students into the world of open source development.",
+        alt: "DevIncept Contribution Program"
     },
 ];
 
