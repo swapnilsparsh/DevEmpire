@@ -42,11 +42,25 @@ const JsDatas = [
         alt: "Dojo Toolkit"
     },
     {
+        link: "https://emberjs.com/",
+        head: "EmberJS",
+        image: "../assets/js-toolkits-img/Ember.png",
+        about: "Ember.js is a productive, battle-tested JavaScript framework.",
+        alt: "EmberJS"
+    },
+    {
         link: "https://jquery.com/",
         head: "jQuery",
         image: "../assets/js-toolkits-img/Jquery.png",
         about: "CSS/HTML/DOM manipulation, HTML events, animations and effects, utilities, and AJAX.",
         alt: "jQuery"
+    },
+    {
+        link: "https://lodash.com/",
+        head: "Loadsh",
+        image: "../assets/js-toolkits-img/Lodash.png",
+        about: "A modern JavaScript utility library delivering modularity, performance & extras.",
+        alt: "Lodash"
     },
     {
         link: "https://www.mathjax.org/",
@@ -82,6 +96,13 @@ const JsDatas = [
         image: "../assets/js-toolkits-img/Polymer.png",
         about: "Reuse and create custom elements using HTML, CSS, and JS to create more interactive applications.",
         alt: "Polymer"
+    },
+    {
+        link: "https://popper.js.org",
+        head: "Popper.js",
+        image: "../assets/js-toolkits-img/Popper.png",
+        about: "PopperJS is a tooltip & Popover Positioning Engine.",
+        alt: "Popper.js"
     },
     {
         link: "https://qunitjs.com/",
