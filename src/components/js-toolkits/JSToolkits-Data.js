@@ -1,5 +1,12 @@
 const JsDatas = [
     {
+        link: "https://community.algolia.com/places/",
+        head: "Algolia Places",
+        image: "../assets/js-toolkits-img/Algolia.png",
+        about: "Turn any <input> into an address autocomplete",
+        alt: "Algolia Places"
+    },
+    {
         link: "https://angular.io//",
         head: "AngularJS",
         image: "../assets/js-toolkits-img/Angularjs.png",
@@ -12,6 +19,13 @@ const JsDatas = [
         image: "../assets/js-toolkits-img/Animejs.png",
         about: "Anime.js is a lightweight JavaScript animation library with a simple, yet powerful API.",
         alt: "anime.js"
+    },
+    {
+        link: "https://www.chartjs.org/",
+        head: "Chart.js",
+        image: "../assets/js-toolkits-img/Chartjs.png",
+        about: "Simple yet flexible JavaScript charting for designers & developers.",
+        alt: "Chart.js"
     },
     {
         link: "https://d3js.org/",
@@ -68,6 +82,13 @@ const JsDatas = [
         image: "../assets/js-toolkits-img/Polymer.png",
         about: "Reuse and create custom elements using HTML, CSS, and JS to create more interactive applications.",
         alt: "Polymer"
+    },
+    {
+        link: "https://qunitjs.com/",
+        head: "QUnit",
+        image: "../assets/js-toolkits-img/QUnit.png",
+        about: "The powerful, easy-to-use JavaScript testing framework.",
+        alt: "QUnit"
     },
     {
         link: "https://reactjs.org/",
