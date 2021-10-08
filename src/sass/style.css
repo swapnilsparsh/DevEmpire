@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.main {
+  width: fit-content;
+}
+
 body {
   background: url("../assets/svg/Home-Background.svg");
   background-size: cover;
