@@ -330,10 +330,10 @@ replaced by just the links.*/
 .label-container {
   overflow: hidden;
   display: flex;
-  margin: 0 auto;
-  margin-top: 2rem;
+  margin: 2rem 0;
   flex-flow: row wrap;
   width: 90%;
+  padding: 1.5rem;
 }
 
 .label-container .label {
