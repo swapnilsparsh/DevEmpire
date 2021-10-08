@@ -286,6 +286,22 @@ const WebDevDatas = [
     alt: "Get Waves",
     label: "Vectors/Svg",
   },
+  {
+    link: "https://www.pexels.com/",
+    head: "Pexels",
+    image: "../assets/webdev-img/Pexels.png",
+    about: "The best free stock photos & videos shared by talented creators.",
+    alt: "Pexels",
+    label: "Stock Photos",
+  },
+  {
+    link: "https://unsplash.com/",
+    head: "Unsplash",
+    image: "../assets/webdev-img/Unsplash.png",
+    about: "The internet’s source of freely-usable images.",
+    alt: "Unsplash",
+    label: "Stock Photos",
+  },
 ];
 
 export default WebDevDatas;
