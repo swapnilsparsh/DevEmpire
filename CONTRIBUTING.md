@@ -12,7 +12,13 @@ Thank you for helping out and remember, **no contribution is too small.**
  4. ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` `white`
  5. ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` `black`
 
-### Need some help regarding the basics?🤔
+## Need some help regarding the basics?🤔
+
+#### Getting started with <a href="#"><img alt="CSS" src="https://img.shields.io/badge/Sass-hotpink.svg?logo=sass&logoColor=white"></a>
+
+- We have used <a href="#"><img alt="CSS" src="https://img.shields.io/badge/Sass-hotpink.svg?logo=sass&logoColor=white"></a> instead of <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></a>
+- Do styling changes in the respective **Sass** file.
+- If you are facing any difficulties you can refer to this [documentation](https://sass-lang.com/guide).
 
 You can refer to the following articles on basics of Git and Github and also contact the Project Mentors,
 in case you are stuck:
@@ -24,10 +30,6 @@ in case you are stuck:
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
 ## Submitting Contributions👩‍💻👨‍💻
-
-Do styling changes in the respective **Sass** file.
-
-If you are facing any difficulties you can refer to this [documentation](https://sass-lang.com/guide).
 
 Below you will find the process and workflow used to review and merge your changes.
 
