@@ -24,14 +24,14 @@ $colorBlack: #000000;
   flex-direction: row;
 }
 
+.main {
+  width: fit-content;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.main {
-  width: fit-content;
 }
 
 body {
@@ -114,7 +114,7 @@ nav .navNarrow .narrowLinks a {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 804px) {
+@media (min-width: 805px) {
   nav .navWide {
     display: block;
   }
