@@ -105,6 +105,7 @@ nav .navNarrow i {
   float: left;
   cursor: pointer;
   color: #ffffff;
+  padding: 2px;
 }
 
 nav .navNarrow .narrowLinks a {
