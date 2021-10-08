@@ -7,7 +7,7 @@ import Navbarhere from "./Menu";
 
 const App = () => {
   return (
-    <div className="main">  
+    <div className="main">
       <Navbarhere />
       <BackToTop />
       <Footer />

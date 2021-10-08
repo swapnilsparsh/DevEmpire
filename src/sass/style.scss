@@ -30,6 +30,10 @@ $colorBlack: #000000;
   box-sizing: border-box;
 }
 
+.main {
+  width: fit-content;
+}
+
 body {
   background: url("../assets/svg/Home-Background.svg");
   background-size: cover;
@@ -110,7 +114,7 @@ nav .navNarrow .narrowLinks a {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 705px) {
+@media (min-width: 804px) {
   nav .navWide {
     display: block;
   }
