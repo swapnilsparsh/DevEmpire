@@ -27,7 +27,7 @@ const Landingpage = () => {
               <div className="discord-button">
                 <a
                   className="discord"
-                  href="https://discord.gg/djEezwwG"
+                  href="https://discord.com/invite/V4W4Z4sTmh"
                   target="_blank"
                   rel="noreferrer"
                 >
