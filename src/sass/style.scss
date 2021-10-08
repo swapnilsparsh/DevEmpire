@@ -67,7 +67,7 @@ body {
 nav {
   background-color: $pageHeading;
   overflow: hidden;
-  padding: 1em;
+  padding: 0.85em;
   border-bottom: 3px solid $pagePara;
 }
 
@@ -102,6 +102,9 @@ nav .navNarrow .narrowLinks a {
   float: left;
   clear: left;
   padding: 1em 0;
+  i {
+    margin-right: 0.5em;
+  }
 }
 
 .hidden {
