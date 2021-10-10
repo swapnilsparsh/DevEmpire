@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Links = () => {
   return (
-    <div>
+    <div className="links-container">
       <NavLink exact to="/" activeClassName="current-nav-link">
         <i class="fa fa-home"></i> Home
       </NavLink>
