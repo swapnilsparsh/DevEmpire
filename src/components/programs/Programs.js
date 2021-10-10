@@ -16,6 +16,11 @@ const Content = () => {
     ? Datas.filter((data) => data.head.toLowerCase().includes(searchTerm.toLowerCase()))
     : Datas;
 
+    const getStrippedAboutBasedOnHeaderLength = ({ head, about }) => {
+      const aboutMaxCharCount = head.length > 18 ? 45 : 75;
+      return about.length > aboutMaxCharCount ? `${about.slice(0, aboutMaxCharCount)}...` : about;
+    }
+
   return (
     <>
       <div className="container-landing">
@@ -57,7 +62,7 @@ const Content = () => {
                         <h3>{data.head}</h3>
                         <img src={data.image} alt={data.alt}></img>
                       </a>
-                      <p>{data.about}</p>
+                      <p>{getStrippedAboutBasedOnHeaderLength(data)}</p>
                     </div>
                   </div>
                 </div>
