@@ -78,7 +78,6 @@ body {
 nav {
   background-color: #0093ed;
   overflow: hidden;
-  padding: 0.5rem;
 }
 
 nav a {
@@ -140,6 +139,14 @@ nav .navNarrow .links-container {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 0.5rem;
+}
+
+nav .navNarrow .fa-bars {
+  padding: 0.5rem;
+}
+
+nav .navNarrow .narrowLinks {
+  padding: 0.5rem;
 }
 
 nav .navNarrow .narrowLinks a {
@@ -699,7 +706,8 @@ replaced by just the links.*/
   margin-bottom: 3rem;
 }
 
-.container .card-js .content .image, .container .card-js .content .image-cover {
+.container .card-js .content .image,
+.container .card-js .content .image-cover {
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -800,7 +808,8 @@ replaced by just the links.*/
   margin-bottom: 3rem;
 }
 
-.container .card .content .image, .container .card .content .image-cover {
+.container .card .content .image,
+.container .card .content .image-cover {
   -o-object-fit: cover;
   object-fit: cover;
 }
