@@ -19,7 +19,7 @@ body {
 }
 
 .error-page {
-  min-height: 85vh;
+  min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
