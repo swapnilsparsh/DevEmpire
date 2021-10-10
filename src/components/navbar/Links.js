@@ -5,19 +5,19 @@ const Links = () => {
   return (
     <div>
       <NavLink exact to="/" activeClassName="current-nav-link">
-        <i className="fa fa-home"></i> Home
+        <i className="fa fa-home"></i> &nbsp; Home
       </NavLink>
       <NavLink to="/ambassador" activeClassName="current-nav-link">
-        <i className="fa fa-users"></i> Ambassador
+        <i className="fa fa-users"></i> &nbsp; Ambassador
       </NavLink>
       <NavLink to="/programs" activeClassName="current-nav-link">
-        <i className="fa fa-calendar"></i> Programs
+        <i className="fa fa-calendar"></i> &nbsp; Programs
       </NavLink>
       <NavLink to="/webdev" activeClassName="current-nav-link">
-        <i className="fa fa-code"></i> Web Dev
+        <i className="fa fa-code"></i> &nbsp; Web Dev
       </NavLink>
       <NavLink to="/jstoolkits" activeClassName="current-nav-link">
-        <i className="fa fa-wrench"></i> JS Toolkits
+        <i className="fa fa-wrench"></i> &nbsp; JS Toolkits
       </NavLink>
     </div>
   );
