@@ -19,7 +19,7 @@ body {
 }
 
 .error-page {
-  min-height: 85vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,6 +76,15 @@ nav {
     color: #ffffff;
   }
 
+  .links-container {
+    display: flex;
+    justify-content: center;
+
+    a>i {
+      margin-right: 0.4rem;
+    }
+  }
+
   .navWide {
     display: none;
     margin: 0 auto;
@@ -91,10 +100,6 @@ nav {
         align-items: center;
         transition: 0.5s background-color;
 
-        i {
-          margin-right: 0.4rem;
-        }
-
         &:hover {
           background-color: #007cc8;
         }
@@ -108,9 +113,13 @@ nav {
 
   .navNarrow {
     i {
-      float: left;
       cursor: pointer;
       color: #ffffff;
+    }
+
+    .links-container {
+      flex-direction: column;
+      margin-top: 0.5rem;
     }
 
     .fa-bars {
@@ -123,9 +132,8 @@ nav {
       a {
         text-decoration: none;
         display: block;
-        float: left;
-        clear: left;
         padding: 1em 0;
+        margin-left: 1rem;
       }
     }
   }
@@ -282,7 +290,7 @@ replaced by just the links.*/
       border-radius: 16px;
       text-decoration: none;
       margin: 1rem 1.5rem;
-      width: 300px;
+      width: 260px;
       height: 65px;
       align-items: center;
       position: relative;
@@ -604,8 +612,8 @@ replaced by just the links.*/
 
   .card-js {
     position: relative;
-    width: 290px;
-    height: 330px;
+    width: 250px;
+    height: 350px;
     margin: auto;
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -1015,8 +1023,8 @@ hr {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   .frame-border .card {
-    width: 250px;
+    width: 100px;
   }
 }

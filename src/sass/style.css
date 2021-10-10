@@ -19,7 +19,7 @@ body {
 }
 
 .error-page {
-  min-height: 85vh;
+  min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,6 +84,19 @@ nav a {
   color: #ffffff;
 }
 
+nav .links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .links-container a > i {
+  margin-right: 0.4rem;
+}
+
 nav .navWide {
   display: none;
   margin: 0 auto;
@@ -107,10 +120,6 @@ nav .navWide .wideDiv a {
   transition: 0.5s background-color;
 }
 
-nav .navWide .wideDiv a i {
-  margin-right: 0.4rem;
-}
-
 nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
 }
@@ -120,9 +129,16 @@ nav .navWide .wideDiv .current-nav-link {
 }
 
 nav .navNarrow i {
-  float: left;
   cursor: pointer;
   color: #ffffff;
+}
+
+nav .navNarrow .links-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.5rem;
 }
 
 nav .navNarrow .fa-bars {
@@ -136,9 +152,8 @@ nav .navNarrow .narrowLinks {
 nav .navNarrow .narrowLinks a {
   text-decoration: none;
   display: block;
-  float: left;
-  clear: left;
   padding: 1em 0;
+  margin-left: 1rem;
 }
 
 .hidden {
@@ -291,7 +306,7 @@ replaced by just the links.*/
   border-radius: 16px;
   text-decoration: none;
   margin: 1rem 1.5rem;
-  width: 300px;
+  width: 260px;
   height: 65px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -626,8 +641,8 @@ replaced by just the links.*/
 
 .container .card-js {
   position: relative;
-  width: 290px;
-  height: 330px;
+  width: 250px;
+  height: 350px;
   margin: auto;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -1017,9 +1032,9 @@ hr {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   .frame-border .card {
-    width: 250px;
+    width: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
