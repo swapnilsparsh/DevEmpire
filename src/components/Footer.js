@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <footer class="copyright">
+      <footer className="copyright">
         <div className="footer-question">
           <p>
             Want your company's student program to be listed / unlisted?
