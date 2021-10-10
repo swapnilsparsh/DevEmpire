@@ -48,6 +48,12 @@ const AmbassadorDatas = [
         alt: "AWS Logo"
     },
     {
+        link: "https://www.binance.com/en-IN/event/binance_campus_buidler",
+        head: "Binance Campus BUIDLers Program",
+        image: "../assets/ambassador-img/Binance.jpg",
+        alt: "Binance Logo"
+    },
+    {
         link: "https://app.smartsheet.com/b/form/a92f74ca555f44e4aa638a4f00a77213",
         head: "Cisco Campus Ambassador Program",
         image: "../assets/ambassador-img/Cisco.png",
