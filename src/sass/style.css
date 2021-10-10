@@ -366,14 +366,14 @@ replaced by just the links.*/
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 100%;
+  width: 98.8%;
 }
 
 .label-container .label {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
-  padding: 6px 15px;
-  border-radius: 20px;
+  padding: 6px 12px;
+  border-radius: 15px;
   color: #0093ed;
   border: 1px solid #0093ed;
   cursor: pointer;
@@ -390,7 +390,7 @@ replaced by just the links.*/
   line-height: 0;
   border: 0.5px solid #7289da;
   display: inline-block;
-  padding: 6px 14px;
+  padding: 6px 12px;
   border-radius: 10px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -401,7 +401,7 @@ replaced by just the links.*/
   line-height: 0;
   border: 0.5px solid #7289da;
   display: inline-block;
-  padding: 6px 14px;
+  padding: 6px 12px;
   border-radius: 10px;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -412,7 +412,7 @@ replaced by just the links.*/
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
   display: inline-block;
-  padding: 6px 14px;
+  padding: 6px 12px;
   border-radius: 10px;
   height: 48px;
   width: 170px;
@@ -430,6 +430,7 @@ replaced by just the links.*/
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   cursor: pointer;
+  margin: 0rem 1.5rem;
 }
 
 .call-to-action-btn:hover {
@@ -448,6 +449,8 @@ replaced by just the links.*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .landing-page-header .header-details .landing-page-btn-container .discord-button img {

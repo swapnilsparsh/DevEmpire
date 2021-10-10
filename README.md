@@ -3,7 +3,7 @@
 
 ## 📌 Introduction
 
-Developer Empire comprises of a wide collection of Campus Ambassador programs/fellowships in which you can apply and become the forefront in your college/university. Consider this repository as your personal space to find or add any new Campus Ambassador program/fellowship that can make life easier for people who want to show their Leadership skills and want to make a change in the community.
+All in one place where you can find all the resources and details of ambassador/fellowship, open source events, web dev sites, js toolkits and etc. that are available across different sites. Consider this repository as your personal space to find or add any new resource that can make life easier for the community.
 
 ##  🚀 View Live Demo
 <img src="https://img.shields.io/badge/website-up-greene" />

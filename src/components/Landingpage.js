@@ -20,8 +20,7 @@ const Landingpage = () => {
             <p>
               All in one place where you can find all the resources and details
               of ambassador/fellowship, open source events, web dev sites, js
-              toolkits and etc. that are available across different sites. These
-              are verified and crowdsourced by the community.
+              toolkits and etc. that are available across different sites.
             </p>
             <div className="landing-page-btn-container">
               <div className="discord-button">

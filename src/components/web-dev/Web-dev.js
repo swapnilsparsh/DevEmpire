@@ -41,7 +41,8 @@ const Content = () => {
           <div className="header-details">
             <h1>Web Dev Tools</h1>
 
-            <p>A collection of all the tools that are required in web development made by the community to ease the process of web development like CSS Generators, Icons, Illustration, etc.</p>
+            <p>A collection of all the tools that are required in web development made by the community to ease the 
+              process of web development.</p>
 
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
