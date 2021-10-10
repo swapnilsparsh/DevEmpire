@@ -21,18 +21,10 @@ const Content = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  const filterOptions = Datas.filter((data) => {
-    if (selectedLabel === "") return data;
-    else if (data.label === selectedLabel) {
-      return data;
-    }
-  }).filter((data) => {
-    if (searchTerm === "") {
-      return data;
-    } else if (data.head.toLowerCase().includes(searchTerm.toLowerCase())) {
-      return data;
-    }
-  });
+  const filterOptions = selectedLabel !== "" || searchTerm !== ""
+    ? Datas.filter((data) => (selectedLabel === "" || data.label === selectedLabel) &&
+        (searchTerm === "" || data.head.toLowerCase().includes(searchTerm.toLowerCase())))
+    : Datas;
 
   return (
     <>
@@ -49,7 +41,7 @@ const Content = () => {
             </Link>
 
             <div className="search-container">
-              <i class="fa fa-search search-icon"></i>
+              <i className="fa fa-search search-icon"></i>
               <input
                 className="search"
                 text="type"
@@ -78,6 +70,7 @@ const Content = () => {
           {labels.map((label) => {
             return (
               <span
+                key={label}
                 className="label"
                 style={
                   selectedLabel === label
@@ -98,9 +91,8 @@ const Content = () => {
       <div className="container" id="container">
         <div className="align-flex">
           {filterOptions.length > 0 ? (
-            filterOptions.map((data, index) => {
-              return (
-                <div className="frame-border" key={index}>
+            filterOptions.map((data) => (
+                <div className="frame-border" key={`${data.head}_${data.link}`}>
                   <div className="pointer"></div>
                   <div className="card-js">
                     <div className="content">
@@ -112,8 +104,7 @@ const Content = () => {
                     </div>
                   </div>
                 </div>
-              );
-            })
+              ))
           ) : (
             <NoResults search={searchTerm} />
           )}
