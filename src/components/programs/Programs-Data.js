@@ -7,6 +7,20 @@ const ProgramsDatas = [
         alt: "Codeheat"
     },
     {
+        link: "https://contribute.devincept.com/",
+        head: "DevIncept Contribution",
+        image: "../assets/programs-img/DCP.png",
+        about: "Open-Source program to bring students into the world of open source development.",
+        alt: "DevIncept Contribution"
+    },
+    {
+        link: "https://devscript.org/woc/",
+        head: "DevScript Winter Of Code",
+        image: "../assets/programs-img/DWOC.png",
+        about: "Helps understand the paradigm of Open Source contribution.",
+        alt: "DevScript Winter Of Code"
+    },
+    {
         link: "https://gssoc.girlscript.tech/",
         head: "GirlScript Summer of Code",
         image: "../assets/programs-img/GSSOC.jpg",
@@ -17,7 +31,7 @@ const ProgramsDatas = [
         link: "https://summerofcode.withgoogle.com/",
         head: "Google Summer of Code",
         image: "../assets/programs-img/GSoC.png",
-        about: "It is focused on bringing student developers into open source software development.",
+        about: "Focused on bringing student developers into open source software development.",
         alt: "Google Summer of Code"
     },
     {
@@ -31,14 +45,14 @@ const ProgramsDatas = [
         link: "https://letsgrowmore.in/soc/",
         head: "Lets Grow More Summer Of Code",
         image: "../assets/programs-img/LGMSOC.png",
-        about: "It is an online program designed to encourage student participation in open source software development.",
+        about: "Encourage student participation in open source software development.",
         alt: "Lets Grow More Summer Of Code"
     },
     {
         link: "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
         head: "LFN Mentorship Program",
         image: "../assets/programs-img/LFN.png",
-        about: "It is aimed at creating a structured hands-on learning opportunity for new developers",
+        about: "Aimed at creating a structured hands-on learning opportunity.",
         alt: "LFN Mentorship Program"
     },
     {
@@ -66,7 +80,7 @@ const ProgramsDatas = [
         link: "https://swoc.scriptindia.org/#/",
         head: "Script Winter Of Code",
         image: "../assets/programs-img/SWOC.png",
-        about: "It is an open source program that aims to bring students into the world of open source development.",
+        about: "Open source program that aims to bring students into the world of open source.",
         alt: "Script Winter of Code"
     },
     {
@@ -82,20 +96,6 @@ const ProgramsDatas = [
         image: "../assets/programs-img/SoKDE.png",
         about: "KDE offer an opportunity to everyone to participate in both code and non-code projects ",
         alt: "Season of KDE"
-    },
-    {
-        link: "https://devscript.org/woc/",
-        head: "DevScript Winter Of Code",
-        image: "../assets/programs-img/DWOC.png",
-        about: "It is an open-source program that helps understand the paradigm of Open Source contribution.",
-        alt: "DevScript Winter Of Code"
-    },
-    {
-        link: "https://contribute.devincept.com/",
-        head: "DevIncept Contribution Program",
-        image: "../assets/programs-img/DCP.png",
-        about: "It is an Open-Source program to bring students into the world of open source development.",
-        alt: "DevIncept Contribution Program"
     },
 ];
 

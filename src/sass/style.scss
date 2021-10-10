@@ -282,7 +282,7 @@ replaced by just the links.*/
       border-radius: 16px;
       text-decoration: none;
       margin: 1rem 1.5rem;
-      width: 300px;
+      width: 260px;
       height: 65px;
       align-items: center;
       position: relative;
@@ -604,8 +604,8 @@ replaced by just the links.*/
 
   .card-js {
     position: relative;
-    width: 290px;
-    height: 330px;
+    width: 250px;
+    height: 350px;
     margin: auto;
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -1015,8 +1015,8 @@ hr {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 320px) {
   .frame-border .card {
-    width: 250px;
+    width: 100px;
   }
 }
