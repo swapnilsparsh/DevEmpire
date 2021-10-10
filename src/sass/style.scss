@@ -76,6 +76,15 @@ nav {
     color: #ffffff;
   }
 
+  .links-container {
+    display: flex;
+    justify-content: center;
+
+    a>i {
+      margin-right: 0.4rem;
+    }
+  }
+
   .navWide {
     display: none;
     margin: 0 auto;
@@ -91,10 +100,6 @@ nav {
         align-items: center;
         transition: 0.5s background-color;
 
-        i {
-          margin-right: 0.4rem;
-        }
-
         &:hover {
           background-color: #007cc8;
         }
@@ -108,9 +113,13 @@ nav {
 
   .navNarrow {
     i {
-      float: left;
       cursor: pointer;
       color: #ffffff;
+    }
+
+    .links-container {
+      flex-direction: column;
+      margin-top: 0.5rem;
     }
 
     .fa-bars {
@@ -123,9 +132,8 @@ nav {
       a {
         text-decoration: none;
         display: block;
-        float: left;
-        clear: left;
         padding: 1em 0;
+        margin-left: 1rem;
       }
     }
   }
