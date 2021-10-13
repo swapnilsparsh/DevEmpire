@@ -371,10 +371,10 @@ replaced by just the links.*/
   .landing-page-btn-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     .discord-button {
-      flex: 1;
+     
 
       .discord:hover {
         background: none;
@@ -396,13 +396,13 @@ replaced by just the links.*/
         transition: all 0.3s ease-in-out;
       }
       img {
-        width: 100%;
+        width: 140px;
         height: 36px;
       }
     }
 
     .explore-all-btn {
-      flex: 1;
+
       .call-to-action-btn {
         background: none;
         line-height: 0;
