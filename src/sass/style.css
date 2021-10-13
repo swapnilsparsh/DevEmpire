@@ -388,6 +388,35 @@ replaced by just the links.*/
   font-size: 22px;
 }
 
+.landing-page-header .header-details .landing-page-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing-page-header .header-details .landing-page-btn-container .discord-button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.landing-page-header .header-details .landing-page-btn-container .discord-button .discord:hover {
+  background: none;
+  line-height: 0;
+  border: 0.5px solid #7289da;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 10px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .landing-page-header .header-details .landing-page-btn-container .discord-button .discord {
   background: none;
   line-height: 0;
@@ -399,18 +428,18 @@ replaced by just the links.*/
   transition: all 0.3s ease-in-out;
 }
 
-.landing-page-header .header-details .navigation-discord .discord-button .discord:hover {
-  background: none;
-  line-height: 0;
-  border: 0.5px solid #7289da;
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 10px;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.landing-page-header .header-details .landing-page-btn-container .discord-button img {
+  width: 100%;
+  height: 36px;
 }
 
-.call-to-action-btn {
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -418,7 +447,7 @@ replaced by just the links.*/
   padding: 6px 12px;
   border-radius: 10px;
   height: 48px;
-  width: 170px;
+  width: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,7 +465,7 @@ replaced by just the links.*/
   margin: 0rem 1.5rem;
 }
 
-.call-to-action-btn:hover {
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn:hover {
   color: #ffffff;
   background: #0093ed;
 }
@@ -454,11 +483,6 @@ replaced by just the links.*/
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.landing-page-header .header-details .landing-page-btn-container .discord-button img {
-  width: 100%;
-  height: 36px;
 }
 
 /* Start Landing SVG */
@@ -1003,6 +1027,15 @@ hr {
   }
   .top-navbar .navigation {
     padding: 12px 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing-page-btn-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

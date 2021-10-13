@@ -33,8 +33,10 @@ const Landingpage = () => {
                   <img src="../assets/share-img/Discord-share.png" alt="" />
                 </a>
               </div>
-              <div className="call-to-action-btn" onClick={callToActionScroll}>
-                Explore all
+              <div className="explore-all-btn" >
+                <div className="call-to-action-btn" onClick={callToActionScroll}>
+                  Explore all
+                </div>
               </div>
             </div>
           </div>

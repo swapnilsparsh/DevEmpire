@@ -368,49 +368,66 @@ replaced by just the links.*/
     font-size: 22px;
   }
 
-  .landing-page-btn-container .discord-button .discord {
-    background: none;
-    line-height: 0;
-    border: 0.5px solid #7289da;
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
-  }
+  .landing-page-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  .navigation-discord .discord-button .discord:hover {
-    background: none;
-    line-height: 0;
-    border: 0.5px solid #7289da;
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 10px;
-    transform: scale(1.2);
-  }
-}
+    .discord-button {
+      flex: 1;
 
-.call-to-action-btn {
-  background: none;
-  line-height: 0;
-  border: 0.5px solid rgba(0, 147, 237, 0.3);
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 10px;
-  height: 48px;
-  width: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #0093ed;
-  color: #0093ed;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  margin: 0rem 1.5rem;
+      .discord:hover {
+        background: none;
+        line-height: 0;
+        border: 0.5px solid #7289da;
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 10px;
+        transform: scale(1.2);
+      }
 
-  &:hover {
-    color: #ffffff;
-    background: #0093ed;
+      .discord {
+        background: none;
+        line-height: 0;
+        border: 0.5px solid #7289da;
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+      }
+      img {
+        width: 100%;
+        height: 36px;
+      }
+    }
+
+    .explore-all-btn {
+      flex: 1;
+      .call-to-action-btn {
+        background: none;
+        line-height: 0;
+        border: 0.5px solid rgba(0, 147, 237, 0.3);
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 10px;
+        height: 48px;
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #0093ed;
+        color: #0093ed;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        margin: 0rem 1.5rem;
+
+        &:hover {
+          color: #ffffff;
+          background: #0093ed;
+        }
+      }
+    }
   }
 }
 
@@ -424,10 +441,6 @@ replaced by just the links.*/
   flex-wrap: wrap;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button img {
-  width: 100%;
-  height: 36px;
-}
 
 /* Start Landing SVG */
 
@@ -993,6 +1006,12 @@ hr {
 
   .top-navbar .navigation {
     padding: 12px 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing-page-btn-container {
+    flex-direction: column;
   }
 }
 
