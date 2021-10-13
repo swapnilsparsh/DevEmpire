@@ -2,13 +2,13 @@ import React from "react";
 import "../sass/style.css";
 import Footer from "./Footer";
 import BackToTop from "./Backtotop";
-import Navbarhere from "./Menu";
+import Navbar from "./Menu";
 
 
 const App = () => {
   return (
     <>
-      <Navbarhere />
+      <Navbar />
       <BackToTop />
       <Footer />
     </>
