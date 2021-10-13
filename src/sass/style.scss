@@ -13,13 +13,20 @@ body {
   font-family: "open-sans";
 }
 
+.nav-version {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  color: #0093ed;
+}
+
 .background {
   max-width: 100%;
   height: auto;
 }
 
 .error-page {
-  min-height: 60vh;
+  min-height: 68.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +51,6 @@ body {
   margin-bottom: 1rem;
   text-decoration: none;
 }
-
 @font-face {
   font-family: "open-sans";
   src: url(../assets/font/sans.ttf);
@@ -80,7 +86,7 @@ nav {
     display: flex;
     justify-content: center;
 
-    a>i {
+    a > i {
       margin-right: 0.4rem;
     }
   }
@@ -127,8 +133,6 @@ nav {
     }
 
     .narrowLinks {
-      padding: 0.5rem;
-
       a {
         text-decoration: none;
         display: block;
@@ -189,7 +193,7 @@ replaced by just the links.*/
       }
 
       h1 {
-        font-size: 3rem;
+        font-size: 2.6rem;
         color: #0093ed;
         margin: 1rem;
         transition: 0.3s all ease-in-out;
@@ -550,7 +554,7 @@ replaced by just the links.*/
 .container {
   width: 90%;
   max-width: 120rem;
-  margin: 4rem auto;
+  margin: 0 auto;
   padding: 2rem 0rem;
   position: relative;
   text-align: center;
@@ -612,7 +616,7 @@ replaced by just the links.*/
 
   .card-js {
     position: relative;
-    width: 250px;
+    width: 290px;
     height: 350px;
     margin: auto;
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -714,8 +718,8 @@ replaced by just the links.*/
 
   .card {
     position: relative;
-    width: 290px;
-    height: 300px;
+    width: 300px;
+    height: 100px;
     margin: auto;
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -1015,6 +1019,10 @@ hr {
       margin-top: 10px;
     }
   }
+
+  .error-page {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1024,7 +1032,25 @@ hr {
 }
 
 @media (max-width: 320px) {
+  .container .card-js {
+    width: 250px;
+  }
+
   .frame-border .card {
     width: 100px;
+  }
+}
+
+@media (max-width: 281px) {
+  .container .card-js {
+    width: 200px;
+  }
+
+  .container-landing .header-details h1 {
+    font-size: 2rem;
+  }
+
+  .container-landing .header-details .search-container {
+    width: 180px;
   }
 }
