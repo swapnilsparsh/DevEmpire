@@ -5,7 +5,8 @@ import BackToTop from "./Backtotop";
 import { css } from "@emotion/react";
 
 import Navbarhere from "./Menu";
-import HashLoader from "react-spinners/HashLoader";
+import ScaleLoader
+ from "react-spinners/ScaleLoader";
 const override = css`
   display: block;
   margin: 0 auto;
@@ -27,7 +28,8 @@ const App = () => {
     }, 3500);
   }, []);
   return loading ? (
-    <HashLoader color={"#40aaff"} loading={loading} css={override} size={80} />
+    <ScaleLoader
+ color={"#40aaff"} loading={loading} css={override} height={70} width={9} radius={100} margin={4} />
   ) : (
     <>
       <Navbarhere />
