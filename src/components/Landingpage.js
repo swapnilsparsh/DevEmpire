@@ -59,14 +59,10 @@ const Landingpage = () => {
               </h1>
             </NavLink>
             <p>
-              Here you can find all the resources and details of Open Source
-              Programs and event that are available across different countries.
-            </p>
-            {/* <p>
               Place where you can find all the resources and details of
               ambassador/fellowship that are available across different
               countries and companies.
-            </p> */}
+            </p>
           </div>
         </div>
         <div className="landing-page-details">
