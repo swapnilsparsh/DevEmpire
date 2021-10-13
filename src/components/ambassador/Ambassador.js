@@ -58,6 +58,7 @@ const Content = () => {
                         <h3>{data.head}</h3>
                         <img src={data.image} alt={data.alt}></img>
                       </a>
+                      <p>{data.about}</p>
                     </div>
                   </div>
                 </div>
