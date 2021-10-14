@@ -541,7 +541,7 @@ replaced by just the links.*/
 
 .navigation .github-button .github {
   line-height: 0;
-  border: 0.5px solid rgba(90, 89, 89, 0.3);
+  border: 0.5px solid rgba(37, 28, 28, 0.3);
   display: inline-block;
   padding: 4px 12px;
   border-radius: 10px;
@@ -560,6 +560,28 @@ replaced by just the links.*/
 }
 
 .navigation .github-button img {
+  height: 36px;
+}
+
+.navigation .product-hunt-button .product-hunt {
+  line-height: 0;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation .product-hunt-button .product-hunt:hover {
+  line-height: 0;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 10px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.navigation .product-hunt-button img {
   height: 36px;
 }
 
@@ -1044,6 +1066,9 @@ hr {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .navigation .product-hunt-button {
+    margin-top: 10px;
   }
   .navigation .twitter-button {
     margin-top: 10px;
