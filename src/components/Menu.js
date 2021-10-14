@@ -1,18 +1,17 @@
 import React from "react";
-import JSToolkits from "../components/js-toolkits/JSToolkits"
-import WebDev from "../components/web-dev/Web-dev"
+import JSToolkits from "../components/js-toolkits/JSToolkits";
+import WebDev from "../components/web-dev/Web-dev";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Links from "./navbar/Links";
 import Landingpage from "./Landingpage";
 import Ambassador from "./ambassador/Ambassador";
-import Programs from "./programs/Programs"
+import Programs from "./programs/Programs";
 import Error404 from "./Error404";
 
 const NavigationBar = () => {
   return (
     <>
       <BrowserRouter>
-
         <nav>
           <div className="navWide">
             <div className="wideDiv">
@@ -35,7 +34,9 @@ const NavigationBar = () => {
         </nav>
 
         <div className="nav-version">
-          <h2>Introducing Dev Empire v2! We're currently in early release 🚀</h2>
+          <h2>
+            Introducing Dev Empire v2! We're currently in early release 🚀
+          </h2>
         </div>
 
         <div className="navigation">
@@ -46,7 +47,20 @@ const NavigationBar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="../assets/share-img/Github-share.png" alt="" />
+              <img src="../assets/share-img/Github-share.png" alt="Github-Share-Button" />
+            </a>
+          </div>
+          <div className="product-hunt-button ">
+            <a
+              className="product-hunt"
+              href="https://www.producthunt.com/posts/developer-empire?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-developer-empire"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=315221&theme=light"
+                alt="Developer Empire - All in one place where you can find all the resources | Product Hunt"
+              />
             </a>
           </div>
           <div className="twitter-button">
@@ -56,7 +70,7 @@ const NavigationBar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="../assets/share-img/Twitter-share.png" alt="" />
+              <img src="../assets/share-img/Twitter-share.png" alt="Twitter-Share-Button" />
             </a>
           </div>
         </div>
@@ -73,7 +87,6 @@ const NavigationBar = () => {
       </BrowserRouter>
     </>
   );
-
-}
+};
 
 export default NavigationBar;

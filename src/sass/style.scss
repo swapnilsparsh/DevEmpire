@@ -374,8 +374,6 @@ replaced by just the links.*/
     justify-content: flex-start;
 
     .discord-button {
-     
-
       .discord:hover {
         background: none;
         line-height: 0;
@@ -402,7 +400,6 @@ replaced by just the links.*/
     }
 
     .explore-all-btn {
-
       .call-to-action-btn {
         background: none;
         line-height: 0;
@@ -440,7 +437,6 @@ replaced by just the links.*/
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 /* Start Landing SVG */
 
@@ -514,7 +510,7 @@ replaced by just the links.*/
   .github-button {
     .github {
       line-height: 0;
-      border: 0.5px solid rgba(90, 89, 89, 0.3);
+      border: 0.5px solid rgba(37, 28, 28, 0.3);
       display: inline-block;
       padding: 4px 12px;
       border-radius: 10px;
@@ -523,6 +519,28 @@ replaced by just the links.*/
       &:hover {
         line-height: 0;
         border: 0.5px solid rgba(90, 89, 89, 0.3);
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 10px;
+        transform: scale(1.2);
+      }
+    }
+
+    img {
+      height: 36px;
+    }
+  }
+
+  .product-hunt-button {
+    .product-hunt {
+      line-height: 0;
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        line-height: 0;
         display: inline-block;
         padding: 4px 12px;
         border-radius: 10px;
@@ -1033,6 +1051,10 @@ hr {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+
+    .product-hunt-button{
+      margin-top: 10px;
+    }
 
     .twitter-button {
       margin-top: 10px;
