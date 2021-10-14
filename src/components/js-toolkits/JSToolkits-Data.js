@@ -3,7 +3,7 @@ const JsDatas = [
         link: "https://community.algolia.com/places/",
         head: "Algolia Places",
         image: "../assets/js-toolkits-img/Algolia.png",
-        about: "Turn any <input> into an address autocomplete",
+        about: "Turn any <input> into an address autocomplete.",
         alt: "Algolia Places"
     },
     {

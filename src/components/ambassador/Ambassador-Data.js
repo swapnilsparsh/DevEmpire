@@ -10,7 +10,7 @@ const AmbassadorDatas = [
         link: "https://developer.amazon.com/en-IN/alexa/alexa-student-influencer/",
         head: "Alexa Student Influencer Program",
         image: "../assets/ambassador-img/Alexa.png",
-        about: "It is a campus connect program that aims to form a network of like-minded students across India",
+        about: "It is a campus connect program that aims to form a network of like-minded students across India.",
         alt: "Amazon Logo"
     },
     {
@@ -34,18 +34,20 @@ const AmbassadorDatas = [
         about: "It offers technical resources, mentorship, and networking opportunities to AWS enthusiasts.",
         alt: "AWS Logo"
     },
-    // {
-    //     link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
-    //     head: "AWS Educate Cloud Ambassador",
-    //     image: "../assets/ambassador-img/AWSEducateCloud.png",
-    //     alt: "AWS Logo"
-    // },
-    // {
-    //     link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
-    //     head: "AWS Educate Student Ambassador",
-    //     image: "../assets/ambassador-img/AWSEducateStudent.png",
-    //     alt: "AWS Logo"
-    // },
+    {
+        link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
+        head: "AWS Educate Cloud Ambassador",
+        image: "../assets/ambassador-img/AWSEducateCloud.png",
+        about: "It is for top-tier cloud educators who serve as ambassadors and evangelists for AWS Educate.",
+        alt: "AWS Logo"
+    },
+    {
+        link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
+        head: "AWS Educate Student Ambassador",
+        image: "../assets/ambassador-img/AWSEducateStudent.png",
+        about: "It gives AWS Educate student members recognition, access to career development opportunities, etc.",
+        alt: "AWS Logo"
+    },
     {
         link: "https://aws.amazon.com/developer/community/heroes/",
         head: "AWS Heroes",
@@ -71,7 +73,7 @@ const AmbassadorDatas = [
         link: "https://www.cncf.io/people/ambassadors/",
         head: "Cloud Native Ambassador",
         image: "../assets/ambassador-img/CNCF.png",
-        about: "They are individuals who are passionate about CNCF technology and projects,",
+        about: "They are individuals who are passionate about CNCF technology and projects.",
         alt: "CNCF Logo"
     },
     {
@@ -197,7 +199,7 @@ const AmbassadorDatas = [
         link: "https://software.intel.com/content/www/us/en/develop/community/ambassadors.html",
         head: "Intel Student Ambassador",
         image: "../assets/ambassador-img/Intel.jpeg",
-        about: "Gain access to Intel's latest software, oneAPI",
+        about: "Gain access to Intel's latest software, oneAPI.",
         alt: "Intel Logo"
     },
     {
@@ -253,7 +255,7 @@ const AmbassadorDatas = [
         link: "https://live.mongodb.com/start-a-group/",
         head: "MongoDB Community Leader",
         image: "../assets/ambassador-img/MongoDB.png",
-        about: "Bring people together  who are interested in MongoDB technologies",
+        about: "Bring people together  who are interested in MongoDB technologies.",
         alt: "MongoDB Logo"
     },
     {
@@ -274,7 +276,7 @@ const AmbassadorDatas = [
         link: "https://www.nvidia.com/en-in/deep-learning-ai/education/ambassador-program/",
         head: "NVIDIA DLI University Ambassador",
         image: "../assets/ambassador-img/NVIDIA.png",
-        about: "It gives you the training and resources to deliver hands-on DLI workshops",
+        about: "It gives you the training and resources to deliver hands-on DLI workshops.",
         alt: "NVIDIA Logo"
     },
     {
@@ -309,16 +311,9 @@ const AmbassadorDatas = [
         link: "https://www.prisma.io/ambassador",
         head: "Prisma Ambassador Program",
         image: "../assets/ambassador-img/PrismaProgram.png",
-        about: "Contribute to the Prisma community while building your brand",
+        about: "Contribute to the Prisma community while building your brand.",
         alt: "PrismaProgram Logo"
     },
-    // {
-    //     link: "https://shecodesindeed.com/",
-    //     head: "SheCodes Indeed",
-    //     image: "../assets/ambassador-img/Indeed.png",
-    //     about: "",
-    //     alt: "Indeed Logo"
-    // },
     {
         link: "https://sparkar.reskilll.com/campus",
         head: "Spark AR Campus Ambassador",
@@ -337,14 +332,14 @@ const AmbassadorDatas = [
         link: "https://www.tensorflow.org/community/groups",
         head: "TensorFlow User Group Community",
         image: "../assets/ambassador-img/TensorFlow.png",
-        about: "Community of developers who are passionate about TensorFlow and related technologies",
+        about: "Community of developers who are passionate about TensorFlow and related technologies.",
         alt: "TensorFlow Logo"
     },
     {
         link: "https://www.twilio.com/champions",
         head: "Twilio Champion",
         image: "../assets/ambassador-img/Twilio.png",
-        about: "It is a global network of expert developers who actively support developer communities",
+        about: "It is a global network of expert developers who actively support developer communities.",
         alt: "Twilio Logo"
     },
     {

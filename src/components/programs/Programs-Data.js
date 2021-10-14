@@ -66,7 +66,7 @@ const ProgramsDatas = [
         link: "https://www.outreachy.org/",
         head: "Outreachy",
         image: "../assets/programs-img/Outreachy.png",
-        about: "It is a program that organizes three-month paid internships with free and open-source projects",
+        about: "It is a program that organizes three-month paid internships with free and open-source projects.",
         alt: "Outreachy"
     },
     {
@@ -94,7 +94,7 @@ const ProgramsDatas = [
         link: "https://season.kde.org/",
         head: "Season of KDE",
         image: "../assets/programs-img/SoKDE.png",
-        about: "KDE offer an opportunity to everyone to participate in both code and non-code projects ",
+        about: "KDE offer an opportunity to everyone to participate in both code and non-code projects. ",
         alt: "Season of KDE"
     },
 ];
