@@ -51,22 +51,7 @@ npm start
 - Add Screenshots to help us know what this Program/Fellowship is all about.
 - Do styling changes in the respective **Sass** file.
 
-# ✨Our Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<table>
-	<tr>
-		<td>
-      <a href="https://github.com/swapnilsparsh/DevEmpire/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=swapnilsparsh/DevEmpire" />
-      </a>
-		</td>
-	</tr>
-</table>
-
-## ✨ Project Maintainers
+<!-- ## ✨ Project Maintainers
 
 <table>
 <tr>
@@ -83,11 +68,26 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <td align="center" ><a href="https://github.com/iamutkarshmall"><img src="https://avatars.githubusercontent.com/u/69422566?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Utkarsh Mall</h4>
 <a href="https://www.github.com/iamutkarshmall/"><img src="https://img.icons8.com/fluency/48/000000/github.png" width="32px" height="32px"></a></td>
 </tr>
-</table>
+</table> -->
 
 ## Contributing Guidelines
 
 [CONTRIBUTING.md](/CONTRIBUTING.md)
+
+# ✨Our Contributors
+
+Thanks goes to these wonderful people
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<table>
+	<tr>
+		<td>
+      <a href="https://github.com/swapnilsparsh/DevEmpire/graphs/contributors">
+        <img src="https://contrib.rocks/image?repo=swapnilsparsh/DevEmpire" />
+      </a>
+		</td>
+	</tr>
+</table>
 
 ## Code of Conduct
 
