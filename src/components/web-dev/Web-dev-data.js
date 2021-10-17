@@ -106,6 +106,15 @@ const WebDevDatas = [
     label: "Vectors/Svg",
   },
   {
+    link: "https://avatars.dicebear.com/",
+    head: "DiceBear",
+    image: "../assets/webdev-img/DiceBear.png",
+    about:
+      "DiceBear is an avatar library with a simple and free HTTP API to choose between identicons",
+	  label: "Vectors/Svg",
+    alt: "DiceBear",
+  },
+  {
     link: "https://www.flaticon.com/",
     head: "Flaticon",
     image: "../assets/webdev-img/Flaticon.png",
