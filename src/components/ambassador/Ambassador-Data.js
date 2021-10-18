@@ -119,6 +119,20 @@ const AmbassadorDatas = [
         alt: "DigitalOcean Logo"
     },
     {
+        link: "https://friends.figma.com/become-a-community-advocate/",
+        head: "Figma Community Advocate",
+        image: "../assets/ambassador-img/FigmaCommunity.png",
+        about: "Figma Community Advocates are the heart and soul of our global community.",
+        alt: "Figma Community"
+    },
+    {
+        link: "https://friends.figma.com/become-a-student-leader/",
+        head: "Figma Student Leader",
+        image: "../assets/ambassador-img/FigmaStudent.png",
+        about: "Student Leaders facilitate a space for students to connect, grow, and learn.",
+        alt: "Figma Student"
+    },
+    {
         link: "https://developers.google.com/community/gdg/organizers",
         head: "Google Developer Groups Organizer",
         image: "../assets/ambassador-img/GDG.png",
