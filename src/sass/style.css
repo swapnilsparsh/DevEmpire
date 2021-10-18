@@ -977,25 +977,49 @@ hr {
 /* Preloader Start */
 .preload {
   position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #d6f5ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #d6f5ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#logo{
-  animation: preload_logo 1s ease infinite alternate;
+#logo {
+  -webkit-animation: preload_logo 1s ease infinite alternate;
+          animation: preload_logo 1s ease infinite alternate;
 }
-@keyframes preload_logo{
-  from{
-  transform: scale(1.2);
+
+@-webkit-keyframes preload_logo {
+  from {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
-  to{
-      transform: scale(0.8);
-      filter: opacity(50%);
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-filter: opacity(50%);
+            filter: opacity(50%);
+  }
+}
+
+@keyframes preload_logo {
+  from {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-filter: opacity(50%);
+            filter: opacity(50%);
   }
 }
 

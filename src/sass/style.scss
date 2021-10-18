@@ -942,6 +942,32 @@ hr {
 }
 
 /* Back To Top End */
+/* Preloader Start */
+.preload {
+  position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #d6f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+  animation: preload_logo 1s ease infinite alternate;
+}
+@keyframes preload_logo{
+  from{
+  transform: scale(1.2);
+  }
+  to{
+      transform: scale(0.8);
+      filter: opacity(50%);
+  }
+}
+
+/* Preloader End */
 /* Landing Page Responsive Start */
 @media screen and (max-width: 1440px) {
   .landing-page-header {
