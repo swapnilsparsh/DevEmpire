@@ -350,6 +350,13 @@ const AmbassadorDatas = [
         alt: "TensorFlow Logo"
     },
     {
+        link: "https://trailblazercommunitygroups.com/become-a-group-leader/",
+        head: "Trailblazer Community Group Leader",
+        image: "../assets/ambassador-img/Trailblazer.png",
+        about: "The Trailblazer Community helps everyone thrive in the Salesforce economy.",
+        alt: "Trailblazer Leader"
+    },
+    {
         link: "https://www.twilio.com/champions",
         head: "Twilio Champion",
         image: "../assets/ambassador-img/Twilio.png",
