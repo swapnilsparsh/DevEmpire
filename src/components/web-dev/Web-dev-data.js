@@ -1,20 +1,23 @@
 const WebDevDatas = [
+
+  // Colors
+
   {
     link: "https://drawkit.io/",
     head: "DrawKit",
     image: "../assets/webdev-img/DrawKit.png",
     about:
       "Hand-drawn vector illustration and icon resources, perfect for your next project.",
-    label: "Illustration",
     alt: "DrawKit",
+    label: "Illustration",
   },
   {
     link: "https://www.pixeltrue.com/free-illustrations",
     head: "Pixeltrue",
     image: "../assets/webdev-img/Pixeltrue.png",
     about: "500+ Free Illustrations & Animations. Updated Weekly.",
-    label: "Illustration",
     alt: "Pixeltrue",
+    label: "Illustration",
   },
   {
     link: "https://storyset.com/",
@@ -85,7 +88,8 @@ const WebDevDatas = [
     link: "https://akaricons.com/",
     head: "Akar Icons",
     image: "../assets/webdev-img/Akar-Icons.png",
-    about: "Use these icons to bring life into your user interface and experience.",
+    about:
+      "Use these icons to bring life into your user interface and experience.",
     alt: "Akar Icons",
     label: "Icons",
   },
@@ -111,8 +115,8 @@ const WebDevDatas = [
     image: "../assets/webdev-img/DiceBear.png",
     about:
       "DiceBear is an avatar library with a simple and free HTTP API to choose between identicons",
-	  label: "Vectors/Svg",
     alt: "DiceBear",
+    label: "Vectors/Svg",
   },
   {
     link: "https://www.flaticon.com/",
@@ -249,7 +253,8 @@ const WebDevDatas = [
     link: "https://designkiki.com/colordoo/",
     head: "Colordoo",
     image: "../assets/webdev-img/Colordoo.jpeg",
-    about: "We create the new ways to find the top color trends for your next logo, branding, website, illustrations.",
+    about:
+      "We create the new ways to find the top color trends for your next logo, branding, website, illustrations.",
     alt: "Colordoo",
     label: "CSS",
   },
@@ -260,6 +265,7 @@ const WebDevDatas = [
     about:
       "Get started with this free generator based on the glassmorphism design.",
     alt: "Glass UI Generator",
+    label: "CSS",
   },
   {
     link: "https://glassmorphism.com/",
@@ -375,10 +381,11 @@ const WebDevDatas = [
     link: "https://pixabay.com/",
     head: "Pixabay",
     image: "../assets/webdev-img/Pixabay.png",
-    about: "Over 2.4 million+ high quality stock images, videos and music shared by our talented community.",
+    about:
+      "Over 2.4 million+ high quality stock images, videos and music shared by our talented community.",
     alt: "Pixabay",
     label: "Stock Photos",
   },
 ];
 
-export default WebDevDatas; 
+export default WebDevDatas;

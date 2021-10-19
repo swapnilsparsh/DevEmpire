@@ -96,7 +96,7 @@ const Content = () => {
                   <div className="pointer"></div>
                   <div className="card-js">
                     <div className="content">
-                      <a href={data.link} target="_blank" rel="noreferrer">
+                      <a href={data.link.random} target="_blank" rel="noreferrer">
                         <h3>{data.head}</h3>
                         <img src={data.image} alt={data.alt}></img>
                       </a>
