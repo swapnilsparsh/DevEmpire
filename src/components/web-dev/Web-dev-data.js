@@ -193,11 +193,27 @@ const WebDevDatas = [
     label: "Colors",
   },
   {
+    link: "https://brandcolors.net",
+    head: "Brand Colors",
+    image: "../assets/webdev-img/BrandColors.png",
+    about: "The biggest collection of official brand color codes around.",
+    alt: "Brand Colors",
+    label: "Colors",
+  },
+  {
     link: "https://vanschneider.com/colors",
     head: "Color Claim",
     image: "../assets/webdev-img/ColorClaim.png",
-    about: "Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.",
+    about: "Collect & combine unique colors for your future projects.",
     alt: "Color Claim",
+    label: "Colors",
+  },
+  {
+    link: "https://culrs.com",
+    head: "Culrs",
+    image: "../assets/webdev-img/Culrs.png",
+    about: "Colors that work together are curated and fashioned into quality palettes that you can incorporate.",
+    alt: "Culrs",
     label: "Colors",
   },
   {
@@ -214,6 +230,14 @@ const WebDevDatas = [
     image: "../assets/webdev-img/ColorHunt.png",
     about: "Discover the newest hand-picked palettes of Color Hunt.",
     alt: "Color Hunt",
+    label: "Colors",
+  },
+  {
+    link: "https://pigment.shapefactory.co/",
+    head: "Pigment",
+    image: "../assets/webdev-img/Pigment.png",
+    about: "A unique way to generate fresh and vibrant colors.",
+    alt: "Pigment",
     label: "Colors",
   },
   {
@@ -256,6 +280,7 @@ const WebDevDatas = [
     about:
       "This generator makes it easy to create the shapes and comes with 50+ presets for inspiration.",
     alt: "Neumorphic Generator",
+    label: "CSS"
   },
   {
     link: "https://css-generator.netlify.app/",
@@ -263,6 +288,14 @@ const WebDevDatas = [
     image: "../assets/webdev-img/CSSGenerator.png",
     about: "This generator lets you generate any CSS you want to create.",
     alt: "CSS Generator",
+    label: "CSS",
+  },
+  {
+    link: "https://gradient.shapefactory.co/",
+    head: "Gradient",
+    image: "../assets/webdev-img/Gradient.png",
+    about: "A unique way to create color gradients.",
+    alt: "Gradient",
     label: "CSS",
   },
   {
