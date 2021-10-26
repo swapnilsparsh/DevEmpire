@@ -11,6 +11,11 @@ body {
   background-attachment: fixed;
   background-size: 300vh;
   font-family: "open-sans";
+  height: 100vh;
+}
+
+.scrollbar-thumb {
+  background-color: #0093ed !important;
 }
 
 .nav-version {

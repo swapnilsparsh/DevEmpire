@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import BackToTop from "./Backtotop";
 import Navbar from "./Menu";
 import Preloader from "./Preloader";
-
+import Scroll from "./SmoothScroll";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -22,6 +22,7 @@ const App = () => {
       <Navbar />
       <BackToTop />
       <Footer />
+      <Scroll/>
     </>
   );
 };
