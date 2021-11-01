@@ -266,7 +266,7 @@ const WebDevDatas = [
     label: "Colors",
   },
   {
-    link: "https://picular.co/",
+    link: "https://colorleap.app/home",
     head: " Color Leap",
     image: "../assets/webdev-img/Color-Leap.jpg",
     about: "Take a leap through time and see the colors of history.",
