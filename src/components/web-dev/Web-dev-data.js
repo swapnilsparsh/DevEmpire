@@ -85,6 +85,14 @@ const WebDevDatas = [
     label: "Icons",
   },
   {
+    link: "https://boxicons.com/",
+    head: "Boxicons",
+    image: "../assets/webdev-img/Boxicons.png",
+    about: "Simple vector icons carefully crafted for designers & developers",
+    alt: "Boxicons",
+    label: "Icons",
+  },
+  {
     link: "https://akaricons.com/",
     head: "Akar Icons",
     image: "../assets/webdev-img/Akar-Icons.png",
