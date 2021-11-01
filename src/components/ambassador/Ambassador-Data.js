@@ -45,7 +45,7 @@ const AmbassadorDatas = [
         link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
         head: "AWS Educate Student Ambassador",
         image: "../assets/ambassador-img/AWSEducateStudent.png",
-        about: "It gives AWS Educate student members recognition, access to career development opportunities, etc.",
+        about: "AWS Educate student members recognition, access to career development opportunities, etc.",
         alt: "AWS Logo"
     },
     {

@@ -176,7 +176,7 @@ replaced by just the links.*/
 
 /* Landing Page Start  */
 .container-landing {
-  width: 80%;
+  width: 90%;
   max-width: 120rem;
   text-align: center;
   margin: 0 auto;
@@ -520,7 +520,7 @@ replaced by just the links.*/
 }
 
 .navigation {
-  width: 80%;
+  width: 90%;
   max-width: 120rem;
   margin: 0 auto;
   padding: 24px 24px;
@@ -631,49 +631,6 @@ replaced by just the links.*/
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 4rem;
-}
-
-.container .frame-border {
-  position: relative;
-  background: rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-  border-radius: 24px;
-  padding: 42px 28px 24px 28px;
-  border: 1px solid #ffffff;
-}
-
-.container .frame-border:before {
-  content: " ";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/img/card-bg.png);
-  background-position: center;
-  mix-blend-mode: overlay;
-  opacity: 0.25;
-  border-radius: 24px;
-}
-
-.container .frame-border .pointer {
-  position: absolute;
-  left: 24px;
-  top: 16px;
-  width: 42px;
-  height: 10px;
-  background: url("../assets/img/pointer.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.container .frame-border .content a {
-  text-decoration: none;
-}
-
-.container .frame-border .content a:hover {
-  text-decoration: underline;
 }
 
 .container .card-js {

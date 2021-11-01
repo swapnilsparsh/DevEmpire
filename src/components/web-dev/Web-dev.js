@@ -31,7 +31,7 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
-            <h1>Web Dev Tools</h1>
+            <h1>Web Development Tools</h1>
 
             <p>A collection of all the tools that are required in web development made by the community to ease the 
               process of web development.</p>
