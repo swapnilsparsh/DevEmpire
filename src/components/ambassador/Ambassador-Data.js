@@ -385,6 +385,27 @@ const AmbassadorDatas = [
         alt: "VMware Logo"
     },
     {
+        link: "https://community.wakelet.com/",
+        head: "Wakelet Community Ambassador",
+        image: "../assets/ambassador-img/WakeletAmbassador.png",
+        about: "You’re practically part of the Wakelet Team and  will represent Wakelet at events, etc.",
+        alt: "WakeletAmbassador Logo"
+    },
+    {
+        link: "https://schools.wakelet.com/",
+        head: "Wakelet Schools Program",
+        image: "../assets/ambassador-img/WakeletSchool.png",
+        about: "Empower your school community with the Wakelet Schools Program.",
+        alt: "WakeletSchool Logo"
+    },
+    {
+        link: "https://community.wakelet.com/studentambassadors/",
+        head: "Wakelet Student Ambassador",
+        image: "../assets/ambassador-img/WakeletStudent.png",
+        about: "It contains 6 fun tasks centered around creativity, critical thinking, curation, communication, etc.",
+        alt: "WakeletStudent Logo"
+    },
+    {
         link: "https://www.womentechmakers.com/ambassadors",
         head: "Women Techmakers Ambassador",
         image: "../assets/ambassador-img/WTM.jpg",

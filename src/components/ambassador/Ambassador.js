@@ -41,7 +41,7 @@ const Content = () => {
                   setSearchTerm(event.target.value);
                 }}
               />
-            </div>
+            </div>  
           </div>
         </div>
       </div>
