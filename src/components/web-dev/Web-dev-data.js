@@ -201,6 +201,14 @@ const WebDevDatas = [
     label: "Colors",
   },
   {
+    link: "https://instahues.com/",
+    head: "Insta Hues",
+    image: "../assets/webdev-img/InstaHues.png",
+    about: "Free Color Palettes and Gradients for Designers",
+    alt: "Insta Hues",
+    label: "Colors",
+  },
+  {
     link: "https://brandcolors.net",
     head: "Brand Colors",
     image: "../assets/webdev-img/BrandColors.png",
