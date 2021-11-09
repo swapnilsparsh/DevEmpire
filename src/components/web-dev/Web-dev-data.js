@@ -45,6 +45,14 @@ const WebDevDatas = [
     label: "Illustration",
   },
   {
+    link: "https://3d.khagwal.co/",
+    head: "3D Khagwal",
+    image: "../assets/webdev-img/Khagwal3D.png",
+    about: "Free 3D illustration pack for web & mobile app designers",
+    alt: "3D Khagwal",
+    label: "Illustration",
+  },
+  {
     link: "https://humans.wannathis.one/",
     head: "Humans",
     image: "../assets/webdev-img/Humans.png",
