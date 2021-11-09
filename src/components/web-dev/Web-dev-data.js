@@ -61,6 +61,14 @@ const WebDevDatas = [
     label: "Illustration",
   },
   {
+    link: "https://freeillustrations.xyz/",
+    head: "Free Illustration",
+    image: "../assets/webdev-img/FreeIllustration.png",
+    about: "Find free to use illustrations.",
+    alt: "Free Illustration",
+    label: "Illustration",
+  },
+  {
     link: "https://lottiefiles.com/",
     head: "LottieFiles",
     image: "../assets/webdev-img/LottieFiles.png",
