@@ -364,6 +364,13 @@ const AmbassadorDatas = [
         alt: "Twilio Logo"
     },
     {
+        link: "https://www.twilio.com/quest/students",
+        head: "Twilio Field Operator",
+        image: "../assets/ambassador-img/TwilioFieldOperator.png",
+        about: "Student leaders looking for opportunities to lead, explore new technologies and serve their communities.",
+        alt: "Twilio Logo"
+    },
+    {
         link: "https://community.uipath.com/uipath-student-developers-program/",
         head: "UiPath Student Developer Program",
         image: "../assets/ambassador-img/UiPath.png",
