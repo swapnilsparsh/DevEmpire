@@ -266,6 +266,13 @@ const AmbassadorDatas = [
         alt: "MLH Logo"
     },
     {
+        link: "https://www.mongodb.com/developer/community-champions/",
+        head: "MongoDB Community Champions",
+        image: "../assets/ambassador-img/MongoDBChampions.png",
+        about: "Champions are a group of passionate, dedicated advocates of the MongoDB community.",
+        alt: "MongoDB Champions Logo"
+    },
+    {
         link: "https://live.mongodb.com/start-a-group/",
         head: "MongoDB Community Leader",
         image: "../assets/ambassador-img/MongoDB.png",
@@ -327,6 +334,13 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/PrismaProgram.png",
         about: "Contribute to the Prisma community while building your brand.",
         alt: "PrismaProgram Logo"
+    },
+    {
+        link: "https://community.sap.com/programs/influencer-programs/nominations",
+        head: "SAP Influencer",
+        image: "../assets/ambassador-img/SAP.png",
+        about: "The SAP influencer programs include SAP Mentors and SAP Champions.",
+        alt: "SAP Influencer"
     },
     {
         link: "https://sparkar.reskilll.com/campus",
