@@ -645,6 +645,11 @@ replaced by just the links.*/
   overflow: hidden;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  transition: .5s;
+}
+
+.container .card-js:hover{
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
 }
 
 .container .card-js .content {
