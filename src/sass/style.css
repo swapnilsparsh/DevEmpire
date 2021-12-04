@@ -100,9 +100,17 @@ nav .links-container {
           justify-content: center;
 }
 
+
 nav .links-container a > i {
   margin-right: 0.4rem;
+ 
 }
+nav .links-container a:hover{
+  background-color:#00edd1;
+ 
+}
+
+
 
 nav .navWide {
   display: none;
@@ -134,7 +142,9 @@ nav .navWide .wideDiv a:hover {
 nav .navWide .wideDiv .current-nav-link {
   border-bottom: 5px solid #77cbff;
 }
-
+.menu-icon{
+  size:20000px;
+}
 nav .navNarrow i {
   cursor: pointer;
   color: #ffffff;
@@ -148,8 +158,10 @@ nav .navNarrow .links-container {
   margin-top: 0.5rem;
 }
 
-nav .navNarrow .fa-bars {
+
+.menu-icon{
   padding: 0.5rem;
+  cursor:pointer;
 }
 
 nav .navNarrow .narrowLinks a {
@@ -158,6 +170,7 @@ nav .navNarrow .narrowLinks a {
   padding: 1em 0;
   margin-left: 1rem;
 }
+
 
 .hidden {
   display: none;

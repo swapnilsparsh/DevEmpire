@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import JSToolkits from "../components/js-toolkits/JSToolkits";
 import WebDev from "../components/web-dev/Web-dev";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -7,8 +7,12 @@ import Landingpage from "./Landingpage";
 import Ambassador from "./ambassador/Ambassador";
 import Programs from "./programs/Programs";
 import Error404 from "./Error404";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavigationBar = () => {
+  const [click, setClick] = useState(false);
+ const handleClick = () => setClick(!click);
+
   return (
     <>
       <BrowserRouter>
@@ -26,7 +30,10 @@ const NavigationBar = () => {
               narrowLinks.classList.toggle("hidden");
             }}
           >
-            <i className="fa fa-bars fa-2x" />
+              <div className='menu-icon' onClick={handleClick}>
+              {click ?<FaTimes color="white" font-size="28px"/> : <FaBars color="white" font-size="28px"/>}
+            </div>
+            
             <div className="narrowLinks hidden">
               <Links />
             </div>
