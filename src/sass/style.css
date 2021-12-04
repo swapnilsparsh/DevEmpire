@@ -106,11 +106,9 @@ nav .links-container a > i {
  
 }
 nav .links-container a:hover{
-  background-color:#00edd1;
+  background-color:#40aaff;
  
 }
-
-
 
 nav .navWide {
   display: none;
