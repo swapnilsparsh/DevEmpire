@@ -34,20 +34,20 @@ const AmbassadorDatas = [
         about: "It offers technical resources, mentorship, and networking opportunities to AWS enthusiasts.",
         alt: "AWS Logo"
     },
-    {
-        link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
-        head: "AWS Educate Cloud Ambassador",
-        image: "../assets/ambassador-img/AWSEducateCloud.png",
-        about: "It is for top-tier cloud educators who serve as ambassadors and evangelists for AWS Educate.",
-        alt: "AWS Logo"
-    },
-    {
-        link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
-        head: "AWS Educate Student Ambassador",
-        image: "../assets/ambassador-img/AWSEducateStudent.png",
-        about: "AWS Educate student members recognition, access to career development opportunities, etc.",
-        alt: "AWS Logo"
-    },
+    // {
+    //     link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
+    //     head: "AWS Educate Cloud Ambassador",
+    //     image: "../assets/ambassador-img/AWSEducateCloud.png",
+    //     about: "It is for top-tier cloud educators who serve as ambassadors and evangelists for AWS Educate.",
+    //     alt: "AWS Logo"
+    // },
+    // {
+    //     link: "https://aws.amazon.com/education/awseducate/student-ambassador-program/",
+    //     head: "AWS Educate Student Ambassador",
+    //     image: "../assets/ambassador-img/AWSEducateStudent.png",
+    //     about: "AWS Educate student members recognition, access to career development opportunities, etc.",
+    //     alt: "AWS Logo"
+    // },
     {
         link: "https://aws.amazon.com/developer/community/heroes/",
         head: "AWS Heroes",
@@ -117,6 +117,13 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/DigitalOcean.png",
         about: "Program that supports people who create content, code, related to DigitalOcean’s products.",
         alt: "DigitalOcean Logo"
+    },
+    {
+        link: "https://www.docker.com/community/captains",
+        head: "Docker Captain Program",
+        image: "../assets/ambassador-img/Docker.png",
+        about: "It is a distinction that Docker awards select members of the community that are experts in Docker.",
+        alt: "Docker Captain Logo"
     },
     {
         link: "https://friends.figma.com/become-a-community-advocate/",
@@ -215,6 +222,13 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/Intel.jpeg",
         about: "Gain access to Intel's latest software, oneAPI.",
         alt: "Intel Logo"
+    },
+    {
+        link: "https://konghq.com/kong-champions/",
+        head: "Kong Champions Program",
+        image: "../assets/ambassador-img/Kong.png",
+        about: "Kong Champions are frequent contributors who play a key part in Kong’s community.",
+        alt: "Kong Logo"
     },
     {
         link: "https://kotlinlang.org/user-groups/user-group-list.html",
