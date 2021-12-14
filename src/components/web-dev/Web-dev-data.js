@@ -69,6 +69,14 @@ const WebDevDatas = [
     label: "Illustration",
   },
   {
+    link: "https://powerpeopleplatform.com/",
+    head: "Power People Platform",
+    image: "../assets/webdev-img/PowerPeoplePlatform.png",
+    about: "It is a delicious design library of 3D avatars. Made with love for more fun and color in your work.",
+    alt: "Power People Platform",
+    label: "Illustration",
+  },
+  {
     link: "https://lottiefiles.com/",
     head: "LottieFiles",
     image: "../assets/webdev-img/LottieFiles.png",
