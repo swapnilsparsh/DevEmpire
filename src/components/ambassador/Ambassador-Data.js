@@ -414,6 +414,13 @@ const AmbassadorDatas = [
     },
     {
         link: "https://careers.vmware.com/campus-ambassador-program",
+        head: "Veeam Legends",
+        image: "../assets/ambassador-img/Veeam.png",
+        about: "Veeam Legends are Veeam users and data protection industry experts.",
+        alt: "Veeam Legends Logo"
+    },
+    {
+        link: "https://careers.vmware.com/campus-ambassador-program",
         head: "VMware Campus Ambassador",
         image: "../assets/ambassador-img/VMware.png",
         about: "Connect your student peers with the latest VMware products and solutions, interactive session, etc.",
