@@ -648,7 +648,7 @@ replaced by just the links.*/
   .card-js {
     position: relative;
     width: 290px;
-    height: 350px;
+    min-height: 350px;
     margin: auto;
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -774,7 +774,6 @@ replaced by just the links.*/
       p {
         font-size: 1em;
         color: #000000;
-        font-size: 300;
       }
 
       h3 {
