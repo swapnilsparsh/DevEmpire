@@ -636,7 +636,8 @@ replaced by just the links.*/
 .container .card-js {
   position: relative;
   width: 290px;
-  height: 350px;
+  min-height: 350px;
+  height: auto;
   margin: auto;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -662,7 +663,6 @@ replaced by just the links.*/
   font-size: 1em;
   padding-top: 1rem;
   color: #000000;
-  font-size: 300;
 }
 
 .container .card-js .content h3 {
@@ -1097,6 +1097,7 @@ hr {
 @media (max-width: 320px) {
   .container .card-js {
     width: 250px;
+    height: auto;
   }
   .frame-border .card {
     width: 100px;
