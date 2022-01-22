@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import JSToolkits from "../components/js-toolkits/JSToolkits";
 import WebDev from "../components/web-dev/Web-dev";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -9,6 +9,7 @@ import Programs from "./programs/Programs";
 import Error404 from "./Error404";
 
 const NavigationBar = () => {
+  const [menuopen,setmenuopen]=useState(false);
   return (
     <>
       <BrowserRouter>
@@ -24,14 +25,24 @@ const NavigationBar = () => {
             onClick={function () {
               let narrowLinks = document.querySelector(".narrowLinks");
               narrowLinks.classList.toggle("hidden");
+              let i = document.getElementById("icon");
+              if(!menuopen){
+                  i.classList.replace("fa-bars","fa-times");
+                  setmenuopen(true);
+              }else{
+                  i.classList.replace("fa-times","fa-bars");
+                  setmenuopen(false);
+              }
+              
             }}
           >
-            <i className="fa fa-bars fa-2x" />
+            <i id="icon" className="fa fa-bars fa-2x" />
             <div className="narrowLinks hidden">
               <Links />
             </div>
           </div>
         </nav>
+
 
         <div className="nav-version">
           <h2>

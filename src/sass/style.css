@@ -151,6 +151,9 @@ nav .navNarrow .links-container {
 nav .navNarrow .fa-bars {
   padding: 0.5rem;
 }
+.fa-times{
+  padding: 0.5rem;
+}
 
 nav .navNarrow .narrowLinks a {
   text-decoration: none;
