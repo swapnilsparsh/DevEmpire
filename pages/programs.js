@@ -1,16 +1,16 @@
-import Datas from "./Ambassador-Data";
-import NoResults from "../NoResults";
+import Datas from "../components/programs/Programs-Data";
+import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
-import { Link } from "react-scroll";
-import { useLocation } from "react-router-dom";
+// import { Link } from "react-scroll";
+// import { useLocation } from "react-router-dom";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [pathname]);
 
   const filterOptions = searchTerm !== ""
     ? Datas.filter((data) => data.head.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -21,14 +21,13 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
-            <h1>Ambassador</h1>
+            <h1>Open Source Programs</h1>
 
-            <p>Place where you can find all the resources and details of ambassador/fellowship that are available 
-              across different companies.</p>
+            <p>Here you can find all the resources and details of Open Source Programs and event that are available across different countries.</p>
 
-            <Link to="container" smooth={true} duration={1000}>
+            {/* <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
-            </Link>
+            </Link> */}
 
             <div className="search-container">
               <i className="fa fa-search search-icon"></i>
@@ -41,7 +40,7 @@ const Content = () => {
                   setSearchTerm(event.target.value);
                 }}
               />
-            </div>  
+            </div>
           </div>
         </div>
       </div>

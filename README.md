@@ -1,113 +1,34 @@
-## DevEmpire
-![DevEmpire](https://github.com/swapnilsparsh/DevEmpire/blob/master/public/assets/meta-img/Meta.png)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 📌 Introduction
+## Getting Started
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-All in one place where you can find all the resources and details of ambassador/fellowship, open source events, web dev sites, js toolkits and etc. that are available across different sites. Consider this repository as your personal space to find or add any new resource that can make life easier for the community.
-
-##  🚀 View Live Demo
-<img src="https://img.shields.io/badge/website-up-greene" />
-<pre><center><a href="https://devempire.netlify.app/"><b>devempire.netlify.app</b></a></center></pre>
-
-## 👨‍💻 Tech Stack
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
-
-## 🛠️ Installation Steps
-Star and Fork the Repo 🌟 and this will keep us motivated.
-
-1. Clone the repository
+First, run the development server:
 
 ```bash
-git clone https://github.com/swapnilsparsh/DevEmpire.git
+npm run dev
+# or
+yarn dev
 ```
 
-2. Change the working directory
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-cd DevEmpire
-```
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-3. Install dependencies
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-```bash
-npm install
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-4. Run the app
+## Learn More
 
-```bash
-npm start
-```
+To learn more about Next.js, take a look at the following resources:
 
-## ⭐ Contributing
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Take a look at the Existing [Issues](https://github.com/swapnilsparsh/DevEmpire/issues) or create your own Issues!
-- Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
-- Create a Pull Request which will be promptly reviewed and suggestions would be added if necessary.
-- Add Screenshots to help us know what this Program/Fellowship is all about.
-- Do styling changes in the respective **Sass** file.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-## ✨ Project Maintainers
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<table>
-<tr>
-<td align="center"><a href="https://github.com/swapnilsparsh"><img src="https://avatars.githubusercontent.com/u/69387608?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Swapnil Srivastava</h4>
-<a href="https://swapnilsparsh.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
-<a href="https://www.linkedin.com/in/swapnil-srivastava-sparsh/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
-<a href="https://www.twitter.com/swapnilsparsh/"><img src="https://img.icons8.com/color/48/000000/twitter.png" width="32px" height="32px"></a></td>
-
-<td align="center" ><a href="https://github.com/jatiinyadav"><img src="https://avatars.githubusercontent.com/u/73248007?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Jatin Yadav</h4>
-<a href="https://jatiinyadav.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
-<a href="https://www.linkedin.com/in/jatiinyadav/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
-<a href="https://www.twitter.com/jatiin_yadav/"><img src="https://img.icons8.com/color/48/000000/twitter.png" width="32px" height="32px"></a></td>
-
-<td align="center" ><a href="https://github.com/iamutkarshmall"><img src="https://avatars.githubusercontent.com/u/69422566?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Utkarsh Mall</h4>
-<a href="https://www.github.com/iamutkarshmall/"><img src="https://img.icons8.com/fluency/48/000000/github.png" width="32px" height="32px"></a></td>
-</tr>
-</table>
-
-
-# ✨Our Contributors
-
-Thanks goes to these wonderful people
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<table>
-	<tr>
-		<td>
-      <a href="https://github.com/swapnilsparsh/DevEmpire/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=swapnilsparsh/DevEmpire" />
-      </a>
-		</td>
-	</tr>
-</table>
-
-## Contributing Guidelines
-
-[CONTRIBUTING.md](/CONTRIBUTING.md)
-
-## Code of Conduct
-
-You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
-
-## License
-
-This project follows the [MIT License](/LICENSE).
-
-## Discord
-
-[![Discord](https://img.shields.io/discord/829038891611717753?color=7389DA&label=Discord&logo=Discord&logoColor=FFF&style=for-the-badge)](https://discord.com/invite/V4W4Z4sTmh)
-
-
-## 📃 License
-
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
-
-This project follows the [MIT License](/LICENSE).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
