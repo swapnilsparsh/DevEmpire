@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 function index() {
   return (
     <div>
-      <NavigationBar/>
+      {/* <NavigationBar/> */}
       <Landingpage />
-      <Footer/>
+      {/* <Footer /> */}
     </div>
   );
 }
