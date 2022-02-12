@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faHouse, faUsers, faCalendar, faCode, faWrench} from "@fortawesome/free-solid-svg-icons";
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
   return (
@@ -12,27 +10,28 @@ const Links = () => {
           <div className="links-container">
             <Link href="/">
               <a className="current-nav-link">
-              <FontAwesomeIcon className="icons" id="icon" icon={faHouse} size="1x" />Home
+                <i className="fa fa-home" aria-hidden="true" />
+                Home
               </a>
             </Link>
             <Link href="/ambassador">
               <a className="current-nav-link">
-                <FontAwesomeIcon className="icons" id="icon" icon={faUsers} size="1x" /> Ambassador
+                <i className="fa fa-users" aria-hidden="true" /> Ambassador
               </a>
             </Link>
             <Link href="/programs">
               <a className="current-nav-link">
-                <FontAwesomeIcon className="icons" id="icon" icon={faCalendar} size="1x" /> Programs
+                <i className="fa fa-calendar" aria-hidden="true" /> Programs
               </a>
             </Link>
             <Link href="/webdev">
               <a className="current-nav-link">
-                <FontAwesomeIcon className="icons" id="icon" icon={faCode} size="1x" /> Web Dev
+                <i className="fa fa-code" aria-hidden="true" /> Web Dev
               </a>
             </Link>
             <Link href="/jstoolkits">
               <a className="current-nav-link">
-                <FontAwesomeIcon className="icons" id="icon" icon={faWrench} size="1x" /> JS Toolkits
+                <i className="fa fa-wrench" aria-hidden="true" /> JS Toolkits
               </a>
             </Link>
           </div>
@@ -53,31 +52,31 @@ const Links = () => {
           }
         }}
       >
-        <FontAwesomeIcon className="icons" id="icon" icon={faBars } size="2x" />
+        <i id="icon" className="fa fa-bars fa-2x" aria-hidden="true" />
         <div className="narrowLinks hidden">
           <Link href="/">
             <a className="current-nav-link">
-            <FontAwesomeIcon className="icons" id="icon" icon={faHouse} size="1x" /> Home
+              <i className="fa fa-home" aria-hidden="true" /> Home
             </a>
           </Link>
           <Link href="/ambassador">
             <a className="current-nav-link">
-              <FontAwesomeIcon className="icons" id="icon" icon={faUsers} size="1x" /> Ambassador
+              <i className="fa fa-users" aria-hidden="true" /> Ambassador
             </a>
           </Link>
           <Link href="/programs">
             <a className="current-nav-link">
-              <FontAwesomeIcon className="icons" id="icon" icon={faCalendar} size="1x" /> Programs
+              <i className="fa fa-calendar" aria-hidden="true" /> Programs
             </a>
           </Link>
           <Link href="/webdev">
             <a className="current-nav-link">
-              <FontAwesomeIcon className="icons" id="icon" icon={faCode} size="1x" /> Web Dev
+              <i className="fa fa-code" aria-hidden="true" /> Web Dev
             </a>
           </Link>
           <Link href="/jstoolkits">
             <a className="current-nav-link">
-              <FontAwesomeIcon className="icons" id="icon" icon={faWrench} size="1x" /> JS Toolkits
+              <i className="fa fa-wrench" aria-hidden="true" /> JS Toolkits
             </a>
           </Link>
         </div>

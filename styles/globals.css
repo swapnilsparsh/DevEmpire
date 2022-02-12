@@ -131,7 +131,7 @@ nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
 }
 
-nav .navNarrow .icons {
+nav .navNarrow i {
   cursor: pointer;
   color: #ffffff;
 }
