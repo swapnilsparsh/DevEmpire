@@ -32,14 +32,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .error-page h2 {
@@ -91,16 +91,16 @@ nav a {
   color: #ffffff;
 }
 
-.links-container {
+nav .links-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.links-container a > i {
+nav .links-container a > i {
   margin-right: 0.4rem;
 }
 
@@ -121,8 +121,8 @@ nav .navWide .wideDiv a {
   padding: 0 2em;
   height: 4rem;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transition: 0.5s background-color;
   transition: 0.5s background-color;
 }
@@ -131,11 +131,7 @@ nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
 }
 
-nav .navWide .wideDiv .current-nav-link {
-  border-bottom: 5px solid #77cbff;
-}
-
-nav .navNarrow i {
+nav .navNarrow .icons {
   cursor: pointer;
   color: #ffffff;
 }
@@ -143,8 +139,8 @@ nav .navNarrow i {
 nav .navNarrow .links-container {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 0.5rem;
 }
 
@@ -222,7 +218,7 @@ replaced by just the links.*/
 .container-landing .landing-page-details .heading-text h1:hover {
   font-size: 3rem;
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .container-landing .landing-page-details .heading-text p {
@@ -316,8 +312,8 @@ replaced by just the links.*/
   width: 260px;
   height: 65px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
@@ -339,7 +335,7 @@ replaced by just the links.*/
   left: 1.1rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .landing-page-header .header-details .search-container:hover {
@@ -350,10 +346,7 @@ replaced by just the links.*/
   color: #fff;
 }
 
-.landing-page-header
-  .header-details
-  .search-container:hover
-  .search::-webkit-input-placeholder {
+.landing-page-header .header-details .search-container:hover .search::-webkit-input-placeholder {
   color: #fff;
 }
 
@@ -374,8 +367,8 @@ replaced by just the links.*/
   margin-top: 2rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   width: 98.8%;
 }
 
@@ -400,18 +393,14 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .discord-button
-  .discord:hover {
+.landing-page-header .header-details .landing-page-btn-container .discord-button .discord:hover {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -419,14 +408,10 @@ replaced by just the links.*/
   padding: 6px 12px;
   border-radius: 10px;
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .discord-button
-  .discord {
+.landing-page-header .header-details .landing-page-btn-container .discord-button .discord {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -437,20 +422,12 @@ replaced by just the links.*/
   transition: all 0.3s ease-in-out;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .discord-button
-  img {
+.landing-page-header .header-details .landing-page-btn-container .discord-button img {
   width: 140px;
   height: 36px;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .explore-all-btn
-  .call-to-action-btn {
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -463,11 +440,11 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: 1px solid #0093ed;
   color: #0093ed;
   -webkit-transition: all 0.2s ease;
@@ -476,11 +453,7 @@ replaced by just the links.*/
   margin: 0rem 1.5rem;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .explore-all-btn
-  .call-to-action-btn:hover {
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn:hover {
   color: #ffffff;
   background: #0093ed;
 }
@@ -494,10 +467,10 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /* Start Landing SVG */
@@ -583,7 +556,7 @@ replaced by just the links.*/
   padding: 4px 12px;
   border-radius: 10px;
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .navigation .github-button img {
@@ -605,7 +578,7 @@ replaced by just the links.*/
   padding: 4px 12px;
   border-radius: 10px;
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .navigation .product-hunt-button img {
@@ -629,7 +602,7 @@ replaced by just the links.*/
   padding: 4px 12px;
   border-radius: 10px;
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .navigation .twitter-button img {
@@ -938,11 +911,11 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
@@ -953,7 +926,7 @@ hr {
 .back-to-top .top:hover {
   color: #ffe5b5;
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* Back To Top End */
@@ -968,41 +941,41 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #logo {
   -webkit-animation: preload_logo 1s ease infinite alternate;
-  animation: preload_logo 1s ease infinite alternate;
+          animation: preload_logo 1s ease infinite alternate;
 }
 
 @-webkit-keyframes preload_logo {
   from {
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+            transform: scale(1.2);
   }
   to {
     -webkit-transform: scale(0.8);
-    transform: scale(0.8);
+            transform: scale(0.8);
     -webkit-filter: opacity(50%);
-    filter: opacity(50%);
+            filter: opacity(50%);
   }
 }
 
 @keyframes preload_logo {
   from {
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+            transform: scale(1.2);
   }
   to {
     -webkit-transform: scale(0.8);
-    transform: scale(0.8);
+            transform: scale(0.8);
     -webkit-filter: opacity(50%);
-    filter: opacity(50%);
+            filter: opacity(50%);
   }
 }
 
@@ -1077,8 +1050,8 @@ hr {
   .landing-page-btn-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -1109,8 +1082,8 @@ hr {
   .error-page {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

@@ -13,10 +13,10 @@ const NavigationBar = () => {
   return (
     <>
       {/* <BrowserRouter> */}
-        <nav>
+        {/* <nav>
           <div className="navWide">
             <div className="wideDiv">
-              {/* <Links /> */}
+              <Links />
             </div>
           </div>
 
@@ -38,10 +38,10 @@ const NavigationBar = () => {
           >
             <i id="icon" className="fa fa-bars fa-2x" />
             <div className="narrowLinks hidden">
-              {/* <Links /> */}
+              <Links />
             </div>
           </div>
-        </nav>
+        </nav> */}
 
 
         <div className="nav-version">

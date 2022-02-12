@@ -111,14 +111,14 @@ nav {
         }
       }
 
-      .current-nav-link {
-        border-bottom: 5px solid #77cbff;
-      }
+      // .current-nav-link {
+      //   border-bottom: 5px solid #77cbff;
+      // }
     }
   }
 
   .navNarrow {
-    i {
+    .icons {
       cursor: pointer;
       color: #ffffff;
     }
