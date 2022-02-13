@@ -11,6 +11,7 @@ function Card({ head, link, image, alt, about }) {
             <img src={image} alt={alt}></img>
           </a>
           <p>{about}</p>
+          <a className="card__link" href={link} target="_blank" rel="noreferrer">View More</a>
         </div>
       </div>
     </div>

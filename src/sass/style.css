@@ -739,6 +739,17 @@ replaced by just the links.*/
   background-color: rgba(235, 12, 12, 0.15);
 }
 
+.container .card-js .content .card__link {
+  display: block;
+  margin-top: 2rem !important;
+  text-decoration: none;
+  background-color: #0093ed;
+  color: #FFF;
+  padding: 0.6rem 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .container .card {
   position: relative;
   width: 300px;
