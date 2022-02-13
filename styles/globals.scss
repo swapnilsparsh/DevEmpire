@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("../assets/svg/Home-Background.svg");
+  background: url("../public//assets//svg/Home-Background.svg");
   background-size: cover;
   background-attachment: fixed;
   background-size: 300vh;
@@ -53,7 +53,7 @@ body {
 }
 @font-face {
   font-family: "open-sans";
-  src: url(../assets/font/sans.ttf);
+  src: url(../public/assets/font/sans.ttf);
 }
 
 /*Start scrollbar*/
@@ -111,9 +111,9 @@ nav {
         }
       }
 
-      .current-nav-link {
-        border-bottom: 5px solid #77cbff;
-      }
+      // .current-nav-link {
+      //   border-bottom: 5px solid #77cbff;
+      // }
     }
   }
 
@@ -880,7 +880,7 @@ replaced by just the links.*/
 /*Start footer*/
 
 .footer {
-  background: url("../assets/svg/Footer.svg");
+  background: url("../public/assets/svg/Footer.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 6rem 0rem 2rem 0rem;

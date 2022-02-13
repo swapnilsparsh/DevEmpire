@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("../assets/svg/Home-Background.svg");
+  background: url("../public//assets//svg/Home-Background.svg");
   background-size: cover;
   background-attachment: fixed;
   background-size: 300vh;
@@ -63,7 +63,7 @@ body {
 
 @font-face {
   font-family: "open-sans";
-  src: url(../assets/font/sans.ttf);
+  src: url(../public/assets/font/sans.ttf);
 }
 
 /*Start scrollbar*/
@@ -129,10 +129,6 @@ nav .navWide .wideDiv a {
 
 nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
-}
-
-nav .navWide .wideDiv .current-nav-link {
-  border-bottom: 5px solid #77cbff;
 }
 
 nav .navNarrow i {
@@ -864,7 +860,7 @@ replaced by just the links.*/
 /* Searching No Results End*/
 /*Start footer*/
 .footer {
-  background: url("../assets/svg/Footer.svg");
+  background: url("../public/assets/svg/Footer.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 6rem 0rem 2rem 0rem;
@@ -1117,4 +1113,4 @@ hr {
     width: 180px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=globals.css.map */

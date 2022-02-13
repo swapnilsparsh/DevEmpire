@@ -1,19 +1,19 @@
 import React,{useState} from "react";
-import JSToolkits from "../components/js-toolkits/JSToolkits";
-import WebDev from "../components/web-dev/Web-dev";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Links from "./navbar/Links";
-import Landingpage from "./Landingpage";
-import Ambassador from "./ambassador/Ambassador";
-import Programs from "./programs/Programs";
-import Error404 from "./Error404";
+// import JSToolkits from "../pages/jstoolkits";
+// import WebDev from "../pages/webdev";
+// import { BrowserRouter, Route, Switch } from "react-router-dom";
+// import Links from "./navbar/Links";
+// import Landingpage from "./Landingpage";
+// import Ambassador from "../pages/ambassador";
+// import Programs from "../pages/programs";
+// import Error404 from "./Error404";
 
 const NavigationBar = () => {
   const [menuopen,setmenuopen]=useState(false);
   return (
     <>
-      <BrowserRouter>
-        <nav>
+      {/* <BrowserRouter> */}
+        {/* <nav>
           <div className="navWide">
             <div className="wideDiv">
               <Links />
@@ -41,12 +41,12 @@ const NavigationBar = () => {
               <Links />
             </div>
           </div>
-        </nav>
+        </nav> */}
 
 
         <div className="nav-version">
           <h2>
-            Introducing Dev Empire v2! We're currently in early release 🚀
+            Introducing Dev Empire v2! We&apos;re currently in early release 🚀
           </h2>
         </div>
 
@@ -86,7 +86,7 @@ const NavigationBar = () => {
           </div>
         </div>
 
-        <Switch>
+        {/* <Switch>
           <Route exact path="/" component={Landingpage} />
           <Route exact path="/ambassador" component={Ambassador} />
           <Route exact path="/landingpage" component={Landingpage} />
@@ -94,8 +94,8 @@ const NavigationBar = () => {
           <Route exact path="/webdev" component={WebDev} />
           <Route exact path="/jstoolkits" component={JSToolkits} />
           <Route path="*" component={Error404} />
-        </Switch>
-      </BrowserRouter>
+        </Switch> */}
+      {/* </BrowserRouter> */}
     </>
   );
 };

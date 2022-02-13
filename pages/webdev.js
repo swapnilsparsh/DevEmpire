@@ -1,12 +1,12 @@
-import Datas from "../web-dev/Web-dev-data";
-import NoResults from "../NoResults";
+import Datas from "../components/web-dev/Web-dev-data";
+import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
   const [selectedLabel, setSelectedLabel] = useState("");
   const labels = [
     ...new Set(
@@ -17,9 +17,9 @@ const Content = () => {
     ),
   ].filter((label) => label);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [pathname]);
 
   const filterOptions = selectedLabel !== "" || searchTerm !== ""
     ? Datas.filter((data) => (selectedLabel === "" || data.label === selectedLabel) &&
