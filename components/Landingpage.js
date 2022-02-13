@@ -4,11 +4,9 @@ import JS from "../public/assets/svg/JSToolkit.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
-// import { NavLink } from "react-router-dom";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-import Script from "next/script";
 
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);
