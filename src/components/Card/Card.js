@@ -6,10 +6,10 @@ function Card({ head, link, image, alt, about }) {
       <div className="pointer"></div>
       <div className="card-js">
         <div className="content">
-          <a href={link} target="_blank" rel="noreferrer">
+          <div>
             <h3>{head}</h3>
             <img src={image} alt={alt}></img>
-          </a>
+          </div>
           <p>{about}</p>
           <a className="card__link" href={link} target="_blank" rel="noreferrer">View More</a>
         </div>
