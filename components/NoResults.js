@@ -7,7 +7,7 @@ export default function NoResults({ search }) {
     <div>
 
       <div className="noresult-description">
-        <h1>No Results found for '{search}'</h1>
+        <h1>No Results found for &apos;{search}&apos;</h1>
         <p>
           Check your spelling and try again🙂
         </p>

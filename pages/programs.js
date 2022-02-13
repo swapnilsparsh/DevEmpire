@@ -1,7 +1,7 @@
 import Datas from "../components/programs/Programs-Data";
 import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 // import { useLocation } from "react-router-dom";
 
 const Content = () => {
@@ -25,9 +25,9 @@ const Content = () => {
 
             <p>Here you can find all the resources and details of Open Source Programs and event that are available across different countries.</p>
 
-            {/* <Link to="container" smooth={true} duration={1000}>
+            <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
-            </Link> */}
+            </Link>
 
             <div className="search-container">
               <i className="fa fa-search search-icon"></i>

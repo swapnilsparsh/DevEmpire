@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="copyright">
         <div className="footer-question">
           <p>
-            Want your company's student program to be listed / unlisted?
+            Want your company&apos;s student program to be listed / unlisted?
             <a
               href="https://twitter.com/swapnilsparsh"
               target="_blank"

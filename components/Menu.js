@@ -46,7 +46,7 @@ const NavigationBar = () => {
 
         <div className="nav-version">
           <h2>
-            Introducing Dev Empire v2! We're currently in early release 🚀
+            Introducing Dev Empire v2! We&apos;re currently in early release 🚀
           </h2>
         </div>
 
