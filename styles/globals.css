@@ -213,6 +213,7 @@ replaced by just the links.*/
   margin: 1rem;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
+  cursor: pointer;
 }
 
 .container-landing .landing-page-details .heading-text h1:hover {
