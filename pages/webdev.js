@@ -3,7 +3,7 @@ import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
-import Card from "../Card/Card";
+import Card from "../components/Card/Card";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
