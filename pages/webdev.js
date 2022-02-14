@@ -2,7 +2,8 @@ import Datas from "../components/web-dev/Web-dev-data";
 import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
-// import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import Card from "../components/Card/Card";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -91,19 +92,8 @@ const Content = () => {
       <div className="container" id="container">
         <div className="align-flex">
           {filterOptions.length > 0 ? (
-            filterOptions.map((data) => (
-                <div className="frame-border" key={`${data.head}_${data.link}`}>
-                  <div className="pointer"></div>
-                  <div className="card-js">
-                    <div className="content">
-                      <a href={data.link} target="_blank" rel="noreferrer">
-                        <h3>{data.head}</h3>
-                        <img src={data.image} alt={data.alt}></img>
-                      </a>
-                      <p>{data.about}</p>
-                    </div>
-                  </div>
-                </div>
+            filterOptions.map((data, indx) => (
+                <Card image={data.image} alt={data.alt} link={data.link} head={data.head} about={data.about} key={indx} />
               ))
           ) : (
             <NoResults search={searchTerm} />
