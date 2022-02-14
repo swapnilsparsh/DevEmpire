@@ -1,5 +1,5 @@
-import Datas from "./Ambassador-Data";
-import NoResults from "../NoResults";
+import Datas from "../components/ambassador/Ambassador-Data";
+import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
@@ -7,11 +7,11 @@ import Card from "../Card/Card";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [pathname]);
 
   const filterOptions =
     searchTerm !== ""

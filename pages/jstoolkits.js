@@ -1,5 +1,5 @@
-import Datas from "./Programs-Data";
-import NoResults from "../NoResults";
+import Datas from "../components/js-toolkits/JSToolkits-Data";
+import NoResults from "../components/NoResults";
 import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
@@ -7,11 +7,11 @@ import Card from "../Card/Card";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, [pathname]);
 
   const filterOptions =
     searchTerm !== ""
@@ -25,11 +25,13 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
-            <h1>Open Source Programs</h1>
+            <h1>JavaScript Toolkits</h1>
 
             <p>
-              Here you can find all the resources and details of Open Source
-              Programs and event that are available across different countries.
+              While the number of ways to organize JavaScript is almost
+              infinite, here are some collection of JS framework and libraries
+              that can help you while you are working on a project or searching
+              around the web.
             </p>
 
             <Link to="container" smooth={true} duration={1000}>
