@@ -25,42 +25,6 @@ body {
   height: auto;
 }
 
-.error-page {
-  min-height: 68.5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.error-page h2 {
-  color: #0093ed;
-  margin-left: 2rem;
-  margin-top: 2rem;
-}
-
-.error-svg {
-  margin: 1rem 0;
-  width: 18rem;
-  max-width: 70%;
-}
-
-.error-back-to-home-btn {
-  font-size: 1.2rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  text-decoration: none;
-}
-
 @font-face {
   font-family: "open-sans";
   src: url(../public/assets/font/sans.ttf);

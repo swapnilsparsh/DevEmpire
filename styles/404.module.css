@@ -1,0 +1,22 @@
+.error_page {
+  min-height: 68.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error_page h2 {
+  color: #0093ed;
+  margin-top: 1rem;
+}
+
+.error_page a {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  background: #0093ed;
+  color: #FFF;
+  padding: 0.5rem 1rem;
+}
