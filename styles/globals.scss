@@ -25,6 +25,33 @@ body {
   height: auto;
 }
 
+.error-page {
+  min-height: 68.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: #0093ed;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.error-svg {
+  margin: 1rem 0;
+  width: 18rem;
+  max-width: 70%;
+}
+
+.error-back-to-home-btn {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "open-sans";
   src: url(../public/assets/font/sans.ttf);
