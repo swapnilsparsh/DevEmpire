@@ -98,6 +98,13 @@ const AmbassadorDatas = [
         alt: "Codedamn Logo"
     },
     {
+        link: "https://www.cypress.io/ambassadors",
+        head: "Cypress Ambassador",
+        image: "../assets/ambassador-img/Cypress.png",
+        about: "Support and highlight contributions and share the joy of testing.",
+        alt: "Cypress Logo"
+    },
+    {
         link: "https://www.deeplearning.ai/ambassador/",
         head: "DeepLearning.AI Ambassador",
         image: "../assets/ambassador-img/DeepLearning.png",
