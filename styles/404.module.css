@@ -1,0 +1,39 @@
+.error_page {
+  min-height: 68.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error_page h2 {
+  color: #0093ed;
+  margin-top: 1rem;
+}
+
+.error_page a {
+  background: none;
+  line-height: 0;
+  border: 0.5px solid rgba(0, 147, 237, 0.3);
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 10px;
+  height: 48px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0093ed;
+  color: #0093ed;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin: 0rem 1.5rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.error_page a:hover {
+  color: #ffffff;
+  background: #0093ed;
+}
