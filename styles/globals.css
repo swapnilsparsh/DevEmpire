@@ -83,13 +83,62 @@ body {
 /*End scrollbar*/
 /* Navbar */
 nav {
-  background-color: #0093ed;
+  padding: 30px;
+  text-align: center;
+  
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
   overflow: hidden;
+  
+    border-radius: 12px;
+    
+  
 }
 
 nav a {
-  color: #ffffff;
+  margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 30px;
+     display: block;
+     background-image: linear-gradient(to right, #00d2ff  0%, #3a7bd5  51%, #00d2ff  100%);
+     -webkit-transition: background-color 2s ease-out;
+     -moz-transition: background-color 2s ease-out;
+     -o-transition: background-color 2s ease-out;
+     transition: background-color 2s ease-out;
+     transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+   
+  
 }
+
+nav a:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+ 
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(113, 153, 255, 0.993);
+ 
+
+}
+
+nav a:hover,
+nav a:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  box-shadow: 0 5px 15px rgba(113, 153, 255, 0.993);
+}
+
+
+
+
+
 
 nav .links-container {
   display: -webkit-box;
@@ -101,7 +150,7 @@ nav .links-container {
 }
 
 nav .links-container a > i {
-  margin-right: 0.4rem;
+  margin-right: 0.8rem;
 }
 
 nav .navWide {

@@ -56,7 +56,8 @@ const Links = () => {
         <div className="narrowLinks hidden">
           <Link href="/">
             <a className="current-nav-link">
-              <i className="fa fa-home" aria-hidden="true" /> Home
+              <i className=" fa fa-home " aria-hidden="true" />
+              <div className="home">Home</div>
             </a>
           </Link>
           <Link href="/ambassador">
