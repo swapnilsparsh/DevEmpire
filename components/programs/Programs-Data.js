@@ -97,6 +97,13 @@ const ProgramsDatas = [
         about: "KDE offer an opportunity to everyone to participate in both code and non-code projects. ",
         alt: "Season of KDE"
     },
+    {
+        link: "https://fellowship.mlh.io/",
+        head: "MLH Fellowship",
+        image: "../assets/programs-img/MLH-Fellowship.png",
+        about: "MLH Fellowship is a global community for student developers. ",
+        alt: "MLH Fellowship"
+    },
 ];
 
 export default ProgramsDatas;
