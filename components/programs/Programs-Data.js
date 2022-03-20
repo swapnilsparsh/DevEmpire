@@ -97,6 +97,13 @@ const ProgramsDatas = [
         about: "KDE offer an opportunity to everyone to participate in both code and non-code projects. ",
         alt: "Season of KDE"
     },
+    {
+        link: "https://wiki.hyperledger.org/display/INTERN",
+        head: "Hyperledger Mentorship Program",
+        image: "../assets/programs-img/HLF_Mentorship_Program.png",
+        about: "If you’re into the blockchain, this is for you. You can contribute to Hyperledger. This mentorship program allows you to get practical exposure to Hyperledger open source development.",
+        alt: "Hyperledger Mentorship Program"
+    },
 ];
 
 export default ProgramsDatas;
