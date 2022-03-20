@@ -104,6 +104,13 @@ const ProgramsDatas = [
         about: "If you’re into the blockchain, this is for you. You can contribute to Hyperledger. This mentorship program allows you to get practical exposure to Hyperledger open source development.",
         alt: "Hyperledger Mentorship Program"
     },
+    {
+        link: "https://www.fsf.org/volunteer/internships",
+        head: "Free Software Foundation (FSF) Internship Program",
+        image: "../assets/programs-img/fsf.png",
+        about: "If you want to intern at the Free Software Foundation and you know web development, systems, networking, software licensing you can consider the FSF internship program.",
+        alt: "Free Software Foundation (FSF) Internship Program"
+    },
 ];
 
 export default ProgramsDatas;
