@@ -153,6 +153,13 @@ const JsDatas = [
         about: "Helps in the secure development of Windows apps for Windows version 8 & 10.",
         alt: "WinJS"
     },
+      {
+        link: "https://underscorejs.org/",
+        head: "Underscore.js",
+        image: "../assets/js-toolkits-img/underscore.jpg",
+        about: "Underscore is a JavaScript utility library that provides various functions for typical programming tasks.",
+        alt: "Underscore.js"
+    },
 
 ];
 
