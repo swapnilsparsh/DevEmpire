@@ -1,4 +1,6 @@
-import React,{useState} from "react";
+import React,{useState ,useEffect} from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 // import JSToolkits from "../pages/jstoolkits";
 // import WebDev from "../pages/webdev";
 // import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -9,7 +11,11 @@ import React,{useState} from "react";
 // import Error404 from "./Error404";
 
 const NavigationBar = () => {
+  
   const [menuopen,setmenuopen]=useState(false);
+  useEffect(()=>{
+    Aos.init({delay:900});
+  },[])
   return (
     <>
       {/* <BrowserRouter> */}
@@ -44,7 +50,7 @@ const NavigationBar = () => {
         </nav> */}
 
 
-        <div className="nav-version">
+        <div className="nav-version" data-aos="fade-in">
           <h2>
             Introducing Dev Empire v2! We&apos;re currently in early release 🚀
           </h2>

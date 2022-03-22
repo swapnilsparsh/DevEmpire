@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef ,useEffect} from "react";
 import Home from "../public/assets/svg/Home.svg";
 import JS from "../public/assets/svg/JSToolkit.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
@@ -6,18 +6,23 @@ import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
 import Image from "next/image";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Landingpage = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  },[]);
   const ambassadorSectionRef = useRef(null);
   const callToActionScroll = () => {
     ambassadorSectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <>
-      <div className="landingpage">
+      <div className="landingpage" >
         <div className="container-landing">
           <div className="landing-page-header">
-            <div className="header-details">
+            <div className="header-details" data-aos='flip-up'>
               <h1>Developer Empire</h1>
               <p>
                 All in one place where you can find all the resources and
@@ -60,7 +65,7 @@ const Landingpage = () => {
             <div className="header-image">
               <Image id="home" src={Ambassador} alt="Ambassador Illustration" />
             </div>
-            <div className="heading-text">
+            <div className="heading-text" data-aos='fade-out'>
               <Link href="/ambassador">
                 <h1>
                   <u> Ambassador </u>
@@ -74,7 +79,7 @@ const Landingpage = () => {
             </div>
           </div>
           <div className="landing-page-details">
-            <div className="heading-text second">
+            <div className="heading-text second" data-aos="zoom-out-up">
               <Link href="/programs">
                 <h1>
                   <u> Programs </u>
@@ -94,7 +99,7 @@ const Landingpage = () => {
             <div className="header-image">
               <Image id="home" src={WebDev} alt="Web Dev Illustration" />
             </div>
-            <div className="heading-text">
+            <div className="heading-text" data-aos="zoom-in">
               <Link href="/webdev">
                 <h1>
                   <u> Web Dev Tools </u>
@@ -108,7 +113,7 @@ const Landingpage = () => {
             </div>
           </div>
           <div className="landing-page-details">
-            <div className="heading-text second">
+            <div className="heading-text second" data-aos="flip-down">
               <Link href="/jstoolkits">
                 <h1>
                   <u> JS Toolkits </u>
