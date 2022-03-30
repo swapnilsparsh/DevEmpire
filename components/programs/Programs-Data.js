@@ -115,7 +115,7 @@ const ProgramsDatas = [
         link: "https://www.openmainframeproject.org/projects/mentorship-program",
         head: "Open Mainframe Project Mentorship Program",
         image: "../assets/programs-img/openmainframe.png",
-        about: "Open Mainframe Project Mentorship Program is the open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
+        about: "It is a open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
         alt: "Open Mainframe Project Mentorship Program"
     },
 ];
