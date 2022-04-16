@@ -118,6 +118,13 @@ const ProgramsDatas = [
         about: "It is a open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
         alt: "Open Mainframe Project Mentorship Program"
     },
+    {
+        link: "https://julialang.org/jsoc/",
+        head: "Julia Seasons of Contributions",
+        image: "../assets/programs-img/JSOC.png",
+        about: "Julia Seasons of Contributions are the seasonal programs for funding and/or mentoring students and other developers to contribute to the open-source ecosystem.",
+        alt: "Julia Seasons of Contributions"
+    },
 ];
 
 export default ProgramsDatas;
