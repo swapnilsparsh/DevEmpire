@@ -125,6 +125,13 @@ const ProgramsDatas = [
         about: "Julia Seasons of Contributions are the seasonal programs for funding and/or mentoring students and other developers to contribute to the open-source ecosystem.",
         alt: "Julia Seasons of Contributions"
     },
+    {
+        link: "https://wiki.linuxfoundation.org/lkmp",
+        head: "Linux Kernel Mentorship Program",
+        image: "../assets/programs-img/LKMP.png",
+        about: "The Linux Kernel Mentorship Program offers a structured remote learning opportunity to aspiring Linux Kernel developers.",
+        alt: "Linux Kernel Mentorship Program"
+    },
 ];
 
 export default ProgramsDatas;
