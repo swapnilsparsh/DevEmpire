@@ -91,6 +91,16 @@ nav a {
   color: #ffffff;
 }
 
+nav a:after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}
+
 nav .links-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,12 +124,15 @@ nav .navWide .wideDiv {
 }
 
 nav .navWide .wideDiv a {
+  position: relative;
   text-decoration: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 0 2em;
   height: 4rem;
+  backdrop-filter: blur(100px);
+
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -127,8 +140,18 @@ nav .navWide .wideDiv a {
   transition: 0.5s background-color;
 }
 
+
 nav .navWide .wideDiv a:hover {
-  background-color: #007cc8;
+  border-radius: 20px;
+  box-shadow: inset 0 0 50px #ffffff,
+  inset 20px 0 80px #40aaff,
+  inset -20px 0 80px #0ff,
+  inset 20px 0 200px rgb(153, 220, 247),
+  inset -20px 0 200px #0ff,
+  0 0 50px rgb(87, 238, 215),
+  -10px 0 80px #40aaff;
+  
+  color: #077499;
 }
 
 nav .navNarrow i {
