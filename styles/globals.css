@@ -83,8 +83,15 @@ body {
 /*End scrollbar*/
 /* Navbar */
 nav {
-  background-color: #0093ed;
+
+  background: linear-gradient(to right, rgb(0, 121, 145), rgb(18, 55, 86));
+  backdrop-filter: blur(30px);
+  border-radius: 40px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   overflow: hidden;
+  width: 60%;
+  margin-left: 20%;
 }
 
 nav a {
@@ -108,19 +115,22 @@ nav .links-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          
 }
 
 nav .links-container a > i {
-  margin-right: 0.4rem;
+  margin-right: 0.6rem;
 }
 
 nav .navWide {
   display: none;
   margin: 0 auto;
+  
 }
 
 nav .navWide .wideDiv {
   text-align: center;
+ 
 }
 
 nav .navWide .wideDiv a {
@@ -1036,7 +1046,19 @@ hr {
     height: 20rem;
   }
 }
-
+@media screen and (max-width: 1316px) {
+  
+nav .navWide .wideDiv a {
+  font-size: 15px;
+  padding: 0 1.3em;
+}
+}
+@media screen and (max-width: 1072px) {
+    nav{
+      width: 90%;
+      margin-left: 5%;
+    }
+}
 @media screen and (min-width: 780px) and (max-width: 1024px) {
   .landing-page-header .homesvg img {
     height: 100%;
@@ -1091,7 +1113,11 @@ hr {
     padding: 12px 2px;
   }
 }
-
+@media screen and (max-width: 600px) {
+  nav .navNarrow .fa-bars {
+    margin-left: 46%;
+  }
+}
 @media screen and (max-width: 600px) {
   .landing-page-btn-container {
     -webkit-box-orient: vertical;
