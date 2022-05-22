@@ -5,7 +5,7 @@ const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
   return (
     <nav>
-      <div className="navWide">
+      {/* <div className="navWide">
         <div className="wideDiv">
           <div className="links-container">
             <Link href="/">
@@ -36,18 +36,21 @@ const Links = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div
         className="navNarrow"
         onClick={function () {
+          
           let narrowLinks = document.querySelector(".narrowLinks");
           narrowLinks.classList.toggle("hidden");
           let i = document.getElementById("icon");
           if (!menuopen) {
             i.classList.replace("fa-bars", "fa-times");
+            console.log(i.classList)
             setmenuopen(true);
           } else {
             i.classList.replace("fa-times", "fa-bars");
+            console.log(i.classList)
             setmenuopen(false);
           }
         }}

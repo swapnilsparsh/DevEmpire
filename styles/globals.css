@@ -84,22 +84,25 @@ body {
 /* Navbar */
 nav {
   margin-top: 0.3%;
-  background: linear-gradient(to right, rgb(34, 125, 182), rgb(18, 103, 173));
-  backdrop-filter: blur(3px);
+  /* background: linear-gradient(to right, rgb(34, 125, 182), rgb(18, 103, 173)); */
+ /*  backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-right-color: rgba(255, 255, 255, 0.1);
   border-bottom-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); */
+  
   border-radius: 40px;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
   overflow: hidden;
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+ 
 }
 
 nav a {
-  color: #ffffff;
+  margin-left: 3%;
+  color: #0093ed;
 }
 
 nav a:after{
@@ -157,20 +160,15 @@ nav .navWide .wideDiv a {
 
 nav .navWide .wideDiv a:hover {
   border-radius: 20px;
-  box-shadow: inset 0 0 50px #ffffff,
-  inset 20px 0 80px #40aaff,
-  inset -20px 0 80px #0ff,
-  inset 20px 0 200px rgb(153, 220, 247),
-  inset -20px 0 200px #0ff,
-  0 0 50px rgb(87, 238, 215),
-  -10px 0 80px #40aaff;
+ 
   
   color: #077499;
 }
 
 nav .navNarrow i {
   cursor: pointer;
-  color: #ffffff;
+  color:#0093ed ;
+  
 }
 
 nav .navNarrow .links-container {
@@ -182,18 +180,35 @@ nav .navNarrow .links-container {
 }
 
 nav .navNarrow .fa-bars {
+  margin-left: 3%;
   padding: 0.5rem;
 }
 
 nav .navNarrow .fa-times {
+  margin-left: 3%;
   padding: 0.5rem;
 }
+nav .navNarrow {
 
+  background: rgba( 135, 205, 240, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
 nav .navNarrow .narrowLinks a {
   text-decoration: none;
   display: block;
   padding: 1em 0;
-  margin-left: 1rem;
+  margin-left: 3%;
+}
+nav .navNarrow .narrowLinks a:hover {
+  border-radius: 20px;
+  opacity: 0.8;
+  color:#61a6d1 ;
+  
 }
 
 .hidden {
@@ -202,14 +217,14 @@ nav .navNarrow .narrowLinks a {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 705px) {
+/* @media (min-width: 705px) {
   nav .navWide {
     display: block;
   }
   nav .navNarrow {
     display: none;
   }
-}
+} */
 
 /* Landing Page Start  */
 .container-landing {
