@@ -76,11 +76,16 @@ body {
 /* Navbar */
 
 nav {
-  background-color: #0093ed;
+  margin-top: 0.3%;
+  border-radius: 40px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   overflow: hidden;
+  width: 100%;
 
   a {
-    color: #ffffff;
+    margin-left: 3%;
+    color: #0093ed;
   }
 
   .links-container {
@@ -119,16 +124,37 @@ nav {
   }
 
   .navNarrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    background: rgba( 135, 205, 240, 0.25 );
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
     i {
+      margin-right: 2%;
       cursor: pointer;
-      color: #ffffff;
+      color:#0093ed;
     }
 
     .links-container {
       flex-direction: column;
       margin-top: 0.5rem;
     }
+    .Nav-text-devEmpire{
+      display: flex;
+      justify-content: space-between;
+      color:#0093ed ;
 
+      .x-button{
+        display: flex;
+        justify-content: right;
+      }
+
+    }
     .fa-bars {
       padding: 0.5rem;
     }
@@ -143,7 +169,22 @@ nav {
         padding: 1em 0;
         margin-left: 1rem;
       }
+      a:hover{
+        border-radius: 20px;
+        opacity: 0.8;
+        color:#61a6d1 ;
+      }
     }
+  .navc{
+    margin-left: 2%;
+    width: 150px;
+
+    .nav-contents{
+      width: 100%;
+      display: flex;
+      justify-content: left;
+    }
+  }
   }
 }
 
@@ -153,17 +194,7 @@ nav {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 705px) {
-  nav {
-    .navWide {
-      display: block;
-    }
 
-    .navNarrow {
-      display: none;
-    }
-  }
-}
 
 /* Landing Page Start  */
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
@@ -43,6 +44,7 @@ const Links = () => {
           
           let narrowLinks = document.querySelector(".narrowLinks");
           narrowLinks.classList.toggle("hidden");
+          
           let i = document.getElementById("icon");
           if (!menuopen) {
             i.classList.replace("fa-bars", "fa-times");
@@ -55,7 +57,14 @@ const Links = () => {
           }
         }}
       >
+      <div className="Nav-text-devEmpire"><h2>DevEmpire</h2>
+      <div className="x-button">
         <i id="icon" className="fa fa-bars fa-2x" aria-hidden="true" />
+        </div>
+      </div>
+<div className="navc">
+
+  <div className="nav-contents">
         <div className="narrowLinks hidden">
           <Link href="/">
             <a className="current-nav-link">
@@ -83,6 +92,10 @@ const Links = () => {
             </a>
           </Link>
         </div>
+
+        
+        </div>
+      </div>
       </div>
     </nav>
   );

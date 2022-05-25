@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +98,7 @@ nav {
   border-bottom-right-radius: 0px;
   overflow: hidden;
   width: 100%;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); */
  
 }
 
@@ -105,15 +107,6 @@ nav a {
   color: #0093ed;
 }
 
-nav a:after{
-  content: "";
-  position: absolute;
-  height: 3px;
-  background-color: white;
-  width: 100%;
-  left: 0;
-  bottom: -10px;
-}
 
 nav .links-container {
   display: -webkit-box;
@@ -139,6 +132,7 @@ nav .navWide .wideDiv {
   text-align: center;
  
 }
+
 
 nav .navWide .wideDiv a {
   position: relative;
@@ -166,6 +160,7 @@ nav .navWide .wideDiv a:hover {
 }
 
 nav .navNarrow i {
+  margin-right: 2%;
   cursor: pointer;
   color:#0093ed ;
   
@@ -178,32 +173,63 @@ nav .navNarrow .links-container {
           flex-direction: column;
   margin-top: 0.5rem;
 }
+nav .navNarrow {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+}
+.Nav-text-devEmpire{
+  display: flex;
+  justify-content: space-between;
+  color:#0093ed ;
+  
+}
+.x-button{
+  display: flex;
+  justify-content: right;
+}
+.nav-contents{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+.Nav-text-devEmpire h2{
+  margin-left: 2%;
+}
+.navc{
+  margin-left: 2%;
+  width: 150px;
+}
 
 nav .navNarrow .fa-bars {
-  margin-left: 3%;
+ 
   padding: 0.5rem;
 }
 
 nav .navNarrow .fa-times {
-  margin-left: 3%;
+  margin-right: 3%;
   padding: 0.5rem;
 }
+
 nav .navNarrow {
 
   background: rgba( 135, 205, 240, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
   backdrop-filter: blur( 9.5px );
   -webkit-backdrop-filter: blur( 9.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
+
+
 nav .navNarrow .narrowLinks a {
   text-decoration: none;
   display: block;
   padding: 1em 0;
   margin-left: 3%;
 }
+
 nav .navNarrow .narrowLinks a:hover {
   border-radius: 20px;
   opacity: 0.8;
@@ -217,14 +243,14 @@ nav .navNarrow .narrowLinks a:hover {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-/* @media (min-width: 705px) {
-  nav .navWide {
+@media (min-width: 705px) {
+/*   nav .navWide {
     display: block;
   }
   nav .navNarrow {
     display: none;
-  }
-} */
+  } */
+}
 
 /* Landing Page Start  */
 .container-landing {
@@ -1205,3 +1231,5 @@ nav .navWide .wideDiv a {
   }
 }
 /*# sourceMappingURL=globals.css.map */
+
+
