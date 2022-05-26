@@ -6,11 +6,11 @@ Thank you for helping out and remember, **no contribution is too small.**
 
 # Color Codes 🎨
 #### Hex Color codes:
- 1. ![#d6f5ff](https://via.placeholder.com/15/d6f5ff/000000?text=+) `#d6f5ff` `lightcyan`
- 2. ![#0093ed](https://via.placeholder.com/15/0093ed/000000?text=+) `#0093ed` `dodgerblue`
- 3. ![#40aaff](https://via.placeholder.com/15/40aaff/000000?text=+) `#40aaff` `dodgerblue`
- 4. ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` `white`
- 5. ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` `black`
+ 1. ![#d6f5ff](http://via.placeholder.com/15/d6f5ff/000000?text=+) `#d6f5ff` `lightcyan`
+ 2. ![#0093ed](http://via.placeholder.com/15/0093ed/000000?text=+) `#0093ed` `dodgerblue`
+ 3. ![#40aaff](http://via.placeholder.com/15/40aaff/000000?text=+) `#40aaff` `dodgerblue`
+ 4. ![#ffffff](http://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` `white`
+ 5. ![#000000](http://via.placeholder.com/15/000000/000000?text=+) `#000000` `black`
 
 ## Need some help regarding the basics?🤔
 
