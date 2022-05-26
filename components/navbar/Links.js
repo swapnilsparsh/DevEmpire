@@ -40,6 +40,10 @@ const Links = () => {
       </div> */}
       <div
         className="navNarrow"
+        
+      >
+      <div className="Nav-text-devEmpire"><h2>DevEmpire</h2>
+      <div className="x-button"
         onClick={function () {
           
           let narrowLinks = document.querySelector(".narrowLinks");
@@ -57,8 +61,6 @@ const Links = () => {
           }
         }}
       >
-      <div className="Nav-text-devEmpire"><h2>DevEmpire</h2>
-      <div className="x-button">
         <i id="icon" className="fa fa-bars fa-2x" aria-hidden="true" />
         </div>
       </div>
@@ -66,6 +68,9 @@ const Links = () => {
 
   <div className="nav-contents">
         <div className="narrowLinks hidden">
+          <div className="flexer">
+
+         
           <Link href="/">
             <a className="current-nav-link">
               <i className="fa fa-home" aria-hidden="true" /> Home
@@ -92,7 +97,7 @@ const Links = () => {
             </a>
           </Link>
         </div>
-
+        </div>
         
         </div>
       </div>

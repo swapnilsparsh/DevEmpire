@@ -153,6 +153,10 @@ nav {
         display: flex;
         justify-content: right;
       }
+      h2{
+        margin-top: 0.3%;
+        margin-left: 2%;
+      }
 
     }
     .fa-bars {
@@ -163,9 +167,12 @@ nav {
     }
 
     .narrowLinks {
+      width: 100%;
+
       a {
+        width: 93px;
         text-decoration: none;
-        display: block;
+        display: flex;
         padding: 1em 0;
         margin-left: 1rem;
       }
@@ -174,10 +181,14 @@ nav {
         opacity: 0.8;
         color:#61a6d1 ;
       }
+      .flexer{
+        display: flex;
+        justify-content: space-around;
+      }
     }
   .navc{
     margin-left: 2%;
-    width: 150px;
+    width: 100%;
 
     .nav-contents{
       width: 100%;
@@ -197,6 +208,11 @@ replaced by just the links.*/
 
 
 /* Landing Page Start  */
+@media(max-width:705px){
+  .flexer{
+    flex-direction: column;
+  }
+}
 
 .container-landing {
   width: 90%;
