@@ -52,11 +52,9 @@ const Links = () => {
           let i = document.getElementById("icon");
           if (!menuopen) {
             i.classList.replace("fa-bars", "fa-times");
-            console.log(i.classList)
             setmenuopen(true);
           } else {
             i.classList.replace("fa-times", "fa-bars");
-            console.log(i.classList)
             setmenuopen(false);
           }
         }}
