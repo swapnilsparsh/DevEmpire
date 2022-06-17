@@ -217,6 +217,13 @@ const AmbassadorDatas = [
         alt: "Hackerearth Logo"
     },
     {
+        link: "https://hashedem.notion.site/Hashed-Student-Chapters-f143e30fa5d540d6b6aa8561a0bdc5ba",
+        head: "Hashed Student Chapters ",
+        image: "../assets/ambassador-img/Hashed.png",
+        about: "You will be in charge of the chapter activities while working closely with the web3 community.",
+        alt: "Hashed Logo"
+    },
+    {
         link: "https://zambassador.com/",
         head: "IBM ZAMBASSADOR",
         image: "../assets/ambassador-img/IBM.png",
