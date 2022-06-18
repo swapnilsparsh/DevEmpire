@@ -21,6 +21,13 @@ const AmbassadorDatas = [
         alt: "Amazon Logo"
     },
     {
+        link: "https://archway.io/ambassador-program/",
+        head: "Archway Ambassador",
+        image: "../assets/ambassador-img/Archway.jpg",
+        about: "Join the global program to play a key role in supporting web3 developers.",
+        alt: "Archway Logo"
+    },
+    {
         link: "https://auth0.com/ambassador-program/",
         head: "Auth0 Ambassador Program",
         image: "../assets/ambassador-img/Auth0ambassador.png",
