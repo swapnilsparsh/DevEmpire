@@ -101,8 +101,15 @@ const AmbassadorDatas = [
         link: "https://codedamn.com/campus",
         head: "Codedamn",
         image: "../assets/ambassador-img/Codedamn.png",
-        about: "It is a program that will help you to ignite and build your Entrepreneurial skills and Leadership mindset.",
+        about: "It will help you to ignite and build your Entrepreneurial skills and Leadership mindset.",
         alt: "Codedamn Logo"
+    },
+    {
+        link: "https://www.cudos.org/ambassador/",
+        head: "Cudos Rangers",
+        image: "../assets/ambassador-img/Cudos.png",
+        about: "Take this role further and become an empowered voice of the Cudos community, a Cudos Ranger!",
+        alt: "Cudos Logo"
     },
     {
         link: "https://www.cypress.io/ambassadors",
