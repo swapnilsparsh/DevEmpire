@@ -103,7 +103,7 @@ This project follows the [MIT License](/LICENSE).
 
 ## Discord
 
-[![Discord](https://img.shields.io/discord/829038891611717753?color=7389DA&label=Discord&logo=Discord&logoColor=FFF&style=for-the-badge)](https://discord.com/invite/V4W4Z4sTmh)
+[![Discord Shield](https://discordapp.com/api/guilds/890878491766181909/widget.png?style=shield)](https://discord.com/invite/V4W4Z4sTmh)
 
 
 ## 📃 License
