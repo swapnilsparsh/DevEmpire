@@ -427,6 +427,13 @@ const AmbassadorDatas = [
         alt: "Twilio Logo"
     },
     {
+        link: "https://developer.twitter.com/en/community/student-ambassadors",
+        head: "Twitter Student Ambassador",
+        image: "../assets/ambassador-img/Twitter.png",
+        about: "It is a program set up to support our enthusiastic student builders who uses Twitter API.",
+        alt: "Twitter Logo"
+    },
+    {
         link: "https://community.uipath.com/uipath-student-developers-program/",
         head: "UiPath Student Developer Program",
         image: "../assets/ambassador-img/UiPath.png",
