@@ -118,6 +118,13 @@ const ProgramsDatas = [
         about: "It is a open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
         alt: "Open Mainframe Project Mentorship Program"
     },
+    {
+        link: "https://fellowship.mlh.io/",
+        head: "MLH Fellowship: Learn by Doing",
+        image: "../assets/programs-img/mlh-fellowship-white.png",
+        about: "A fully remote, 12-week internship where participants earn a stipend and learn to collaborate on real open source projects with peers and engineers from top companies.",
+        alt: "MLH Fellowship: Learn by Doing"
+    },
 ];
 
 export default ProgramsDatas;
