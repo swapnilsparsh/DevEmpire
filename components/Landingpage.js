@@ -1,11 +1,17 @@
 import React, { useRef } from "react";
 import Home from "../public/assets/svg/Home.svg";
 import JS from "../public/assets/svg/JSToolkit.svg";
-import Ambassador from "../public/assets/svg/Ambassador.svg";
+// import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
 import Image from "next/image";
 import Link from "next/link";
+import Lottie from 'react-lottie-player';
+import Computeranim from '../components/lotties/programming-computer.json';
+import Ambassador from '../components/lotties/ambassador.json';
+import Program from '../components/lotties/Program.json'
+import webdev from '../components/lotties/web-development.json'
+import javascript from '../components/lotties/javascript.json'
 
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);
@@ -46,8 +52,13 @@ const Landingpage = () => {
                 </div>
               </div>
             </div>
-            <div className="homesvg">
-              <Image id="home" src={Home} alt="website logo" />
+            <div className="header-image">
+            <Lottie
+                            loop
+                            animationData={Computeranim}
+                            play
+                            style={{ width: 600, height: 600 }}
+                          />
             </div>
           </div>
         </div>
@@ -58,7 +69,12 @@ const Landingpage = () => {
         >
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={Ambassador} alt="Ambassador Illustration" />
+            <Lottie
+                            loop
+                            animationData={Ambassador}
+                            play
+                            style={{ width: 600, height: 600 }}
+                          />
             </div>
             <div className="heading-text">
               <Link href="/ambassador">
@@ -87,12 +103,22 @@ const Landingpage = () => {
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={Programs} alt="Programs Illustration" />
+            <Lottie
+                            loop
+                            animationData={Program}
+                            play
+                            style={{ width: 600, height: 600 }}
+                          />
             </div>
           </div>
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={WebDev} alt="Web Dev Illustration" />
+            <Lottie
+                            loop
+                            animationData={webdev}
+                            play
+                            style={{ width: 600, height: 600 }}
+                          />
             </div>
             <div className="heading-text">
               <Link href="/webdev">
@@ -122,7 +148,12 @@ const Landingpage = () => {
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={JS} alt="JS Illustration" />
+                <Lottie 
+                                loop
+                                animationData={javascript}
+                                play
+                                style={{ width: 500, height: 500 }}
+                              />
             </div>
           </div>
         </div>
