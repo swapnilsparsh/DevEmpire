@@ -5,12 +5,21 @@ We are happy to welcome all the contributions from anyone willing to improve/add
 Thank you for helping out and remember, **no contribution is too small.**
 
 # Color Codes 🎨
-#### Hex Color codes:
- 1. ![#d6f5ff](http://via.placeholder.com/15/d6f5ff/000000?text=+) `#d6f5ff` `lightcyan`
- 2. ![#0093ed](http://via.placeholder.com/15/0093ed/000000?text=+) `#0093ed` `dodgerblue`
- 3. ![#40aaff](http://via.placeholder.com/15/40aaff/000000?text=+) `#40aaff` `dodgerblue`
- 4. ![#ffffff](http://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` `white`
- 5. ![#000000](http://via.placeholder.com/15/000000/000000?text=+) `#000000` `black`
+#### Native Color:
+1. ![#FFFFFF](http://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` `Native White`
+2. ![#00253A](http://via.placeholder.com/15/00253A/000000?text=+) `#00253A` `Native White`
+
+#### Light Mode:
+1. ![#0093ED](http://via.placeholder.com/15/0093ED/000000?text=+) `#0093ED` `Light/Primary`
+2. ![#0072B1](http://via.placeholder.com/15/0072B1/000000?text=+) `#0072B1` `Light/10`
+3. ![#7DD8FF](http://via.placeholder.com/15/7DD8FF/000000?text=+) `#7DD8FF` `Light/20`
+4. ![#D6F5FF](http://via.placeholder.com/15/D6F5FF/000000?text=+) `#D6F5FF` `Light/30`
+
+#### Dark Mode:
+1. ![#03A4FF](http://via.placeholder.com/15/03A4FF/000000?text=+) `#03A4FF` `Dark/Primary`
+2. ![#52C1FF](http://via.placeholder.com/15/52C1FF/000000?text=+) `#52C1FF` `Dark/10`
+3. ![#044468](http://via.placeholder.com/15/044468/000000?text=+) `#044468` `Dark/20`
+4. ![#00314D](http://via.placeholder.com/15/00314D/000000?text=+) `#00314D` `Dark/30`
 
 ## Need some help regarding the basics?🤔
 
