@@ -37,7 +37,7 @@ const Games= [
   {
         link: "https://betterwebtype.com/triangle/",
         head: "Better Web Type Triangle",
-        image: "../assets/games-img/Bezier.png",
+        image: "../assets/games-img/PerfectParagraph.png",
         about: "A game to learn typography.",
         alt: "Better Web Type Triangle"
     },
@@ -72,7 +72,7 @@ const Games= [
   {
         link: "https://vim-adventures.com/",
         head: "VIM Adventures",
-        image: "../assets/games-img/Bezier.png",
+        image: "../assets/games-img/VimAdventures.png",
         about: "Learn VIM while playing a game.",
         alt: "VIM Adventures"
     },
