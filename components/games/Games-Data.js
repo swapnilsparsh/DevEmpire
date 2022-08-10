@@ -117,14 +117,7 @@ const Games= [
         image: "../assets/games-img/CrunchZilla.png",
         about: "Play with code, experiment, build, and learn.",
         alt: "Crunchzilla"
-    },
-  {
-        link: "https://www.crunchzilla.com/",
-        head: "Crunchzilla",
-        image: "../assets/games-img/Bezier.png",
-        about: "Play with code, experiment, build, and learn.",
-        alt: "Crunchzilla"
-    },
+    }
 ];
 
 export default Games
