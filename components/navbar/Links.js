@@ -24,9 +24,9 @@ const Links = () => {
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
               </a>
             </Link>
-            <Link href="/webdev">
+            <Link href="/games">
               <a className="current-nav-link">
-                <i className="fa fa-code" aria-hidden="true" /> Web Dev
+                <i className="fa fa-code" aria-hidden="true" /> Games
               </a>
             </Link>
             <Link href="/jstoolkits">
