@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Script from "next/script";
 import * as gtag from "../lib/gtag";
 import Head from "next/head";
-
+import Lottie from 'lottie-web';
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 

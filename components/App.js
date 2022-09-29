@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import BackToTop from "./Backtotop";
 import Navbar from "./Menu";
 import Preloader from "./Preloader";
-
+import Lottie from 'lottie-web';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
