@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import SearchNotFound from  "../pages/lottie/SearchNotFound.json";
+import SearchNotFound from  "../public/assets/lottie/SearchNotFound.json";
 import Image from "next/image";
 import lottie from 'lottie-web';
 import Link from "next/link";
@@ -33,7 +33,7 @@ export function NoResults({search}) {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      animationData: require('../pages/lottie/SearchNotFound.json')
+      animationData: require('../public/assets/lottie/SearchNotFound.json')
     })
   }, [])
  

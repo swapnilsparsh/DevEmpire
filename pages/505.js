@@ -2,7 +2,7 @@
 import lottie from 'lottie-web';
 import React, { useEffect, useRef } from 'react';
 
-import Error from "./lottie/Error505.json"
+import Error from "../public/assets/lottie/Error505.json"
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/404.module.css";
@@ -20,7 +20,7 @@ export function Error505() {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      animationData: require('./lottie/Error505.json')
+      animationData: require('../public/assets/lottie/Error505.json')
     })
   }, [])
  
