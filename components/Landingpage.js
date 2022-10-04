@@ -7,7 +7,7 @@ import Programs from "../public/assets/svg/Programs.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-const Landingpage = () => {
+const Landingpage = () => {   
   const ambassadorSectionRef = useRef(null);
   const callToActionScroll = () => {
     ambassadorSectionRef.current.scrollIntoView({ behavior: "smooth" });

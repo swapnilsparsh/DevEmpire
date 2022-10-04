@@ -903,6 +903,16 @@ replaced by just the links.*/
   padding: 6rem 0rem 2rem 0rem;
 }
 
+// .footer .wave{
+// position: absolute;
+// top:0;
+// left: 0;
+// width: 100%;
+// height: 100px;
+// background-color: #d6f5ff url("../public/assets/svg/Footer.svg") ;
+
+// }
+
 .footer-question {
   width: 70%;
   margin: 0 auto;
@@ -930,6 +940,8 @@ hr {
   color: rgba(255, 255, 255, 0.808);
   margin-bottom: 1rem;
 }
+
+
 
 /* Footer End */
 /* Back To Top Start */
@@ -1126,6 +1138,7 @@ hr {
     width: 100px;
   }
 }
+
 
 @media (max-width: 281px) {
   .container .card-js {
