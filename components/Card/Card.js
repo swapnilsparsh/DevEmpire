@@ -1,4 +1,5 @@
 import React from "react";
+import image from "next/image";
 
 function Card({ head, link, image, alt, about }) {
   return (
