@@ -6,20 +6,20 @@ Thank you for helping out and remember, **no contribution is too small.**
 
 # Color Codes 🎨
 #### Native Color:
-1. ![#FFFFFF](http://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` `Native White`
-2. ![#00253A](http://via.placeholder.com/15/00253A/000000?text=+) `#00253A` `Native White`
+1. ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` `Native White`
+2. ![#00253A](https://via.placeholder.com/15/00253A/000000?text=+) `#00253A` `Native White`
 
 #### Light Mode:
-1. ![#0093ED](http://via.placeholder.com/15/0093ED/000000?text=+) `#0093ED` `Light/Primary`
-2. ![#0072B1](http://via.placeholder.com/15/0072B1/000000?text=+) `#0072B1` `Light/10`
-3. ![#7DD8FF](http://via.placeholder.com/15/7DD8FF/000000?text=+) `#7DD8FF` `Light/20`
-4. ![#D6F5FF](http://via.placeholder.com/15/D6F5FF/000000?text=+) `#D6F5FF` `Light/30`
+1. ![#0093ED](https://via.placeholder.com/15/0093ED/000000?text=+) `#0093ED` `Light/Primary`
+2. ![#0072B1](https://via.placeholder.com/15/0072B1/000000?text=+) `#0072B1` `Light/10`
+3. ![#7DD8FF](https://via.placeholder.com/15/7DD8FF/000000?text=+) `#7DD8FF` `Light/20`
+4. ![#D6F5FF](https://via.placeholder.com/15/D6F5FF/000000?text=+) `#D6F5FF` `Light/30`
 
 #### Dark Mode:
-1. ![#03A4FF](http://via.placeholder.com/15/03A4FF/000000?text=+) `#03A4FF` `Dark/Primary`
-2. ![#52C1FF](http://via.placeholder.com/15/52C1FF/000000?text=+) `#52C1FF` `Dark/10`
-3. ![#044468](http://via.placeholder.com/15/044468/000000?text=+) `#044468` `Dark/20`
-4. ![#00314D](http://via.placeholder.com/15/00314D/000000?text=+) `#00314D` `Dark/30`
+1. ![#03A4FF](https://via.placeholder.com/15/03A4FF/000000?text=+) `#03A4FF` `Dark/Primary`
+2. ![#52C1FF](https://via.placeholder.com/15/52C1FF/000000?text=+) `#52C1FF` `Dark/10`
+3. ![#044468](https://via.placeholder.com/15/044468/000000?text=+) `#044468` `Dark/20`
+4. ![#00314D](https://via.placeholder.com/15/00314D/000000?text=+) `#00314D` `Dark/30`
 
 ## Need some help regarding the basics?🤔
 
