@@ -113,13 +113,6 @@ nav .navWide .wideDiv {
   text-align: center;
 }
 
-.links-container{
-  background-color: #0072B1;
-}
-.navWide .wideDiv a{
-  background-color: #007cc8;
-}
-
 nav .navWide .wideDiv a {
   text-decoration: none;
   display: -webkit-inline-box;
@@ -127,7 +120,6 @@ nav .navWide .wideDiv a {
   display: inline-flex;
   padding: 0 2em;
   height: 4rem;
-  margin: 0 0.4em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -135,12 +127,8 @@ nav .navWide .wideDiv a {
   transition: 0.5s background-color;
 }
 
-
-
 nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
-  padding: 0 4em;
-  transition: 1s;
 }
 
 nav .navNarrow i {
