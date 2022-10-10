@@ -83,7 +83,7 @@ body {
 /*End scrollbar*/
 /* Navbar */
 nav {
-  background-color: #0093ed;
+  background-color: #0072B1;
   overflow: hidden;
 }
 
@@ -102,6 +102,7 @@ nav .links-container {
 
 nav .links-container a > i {
   margin-right: 0.4rem;
+  background-color: #0093ed;
 }
 
 nav .navWide {
@@ -120,6 +121,9 @@ nav .navWide .wideDiv a {
   display: inline-flex;
   padding: 0 2em;
   height: 4rem;
+  margin-left:0.5em;
+  margin-right:0.5em;
+  background-color: #0093ed ;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -128,7 +132,8 @@ nav .navWide .wideDiv a {
 }
 
 nav .navWide .wideDiv a:hover {
-  background-color: #007cc8;
+  padding: 0 4em;
+  transition:1s;
 }
 
 nav .navNarrow i {
