@@ -98,7 +98,7 @@ function MyApp({ Component, pageProps }) {
         />
         <title>DevEmpire</title>
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Layout>
   );
 }
