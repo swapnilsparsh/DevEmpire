@@ -1,13 +1,59 @@
 import React, { useRef } from "react";
-import Home from "../public/assets/svg/Home.svg";
-import JS from "../public/assets/svg/JSToolkit.svg";
-import Ambassador from "../public/assets/svg/Ambassador.svg";
-import WebDev from "../public/assets/svg/WebDev.svg";
-import Programs from "../public/assets/svg/Programs.svg";
-import Image from "next/image";
 import Link from "next/link";
+import Lottie from 'react-lottie';
+import animationData0 from "../pages/lotties/Devempire.json";
+import animationData1 from "../pages/lotties/Ambassador.json";
+import animationData2 from "../pages/lotties/teamwork.json";
+import animationData3 from "../pages/lotties/webdev.json";
+import animationData4 from "../pages/lotties/jstoolkit.json";
+
+
+
+
 
 const Landingpage = () => {
+  const defaultOptions0 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData0,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+  const defaultOptions1 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData1,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+  const defaultOptions2 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData2,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+  const defaultOptions3 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData3,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+  const defaultOptions4 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData4,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   const ambassadorSectionRef = useRef(null);
   const callToActionScroll = () => {
     ambassadorSectionRef.current.scrollIntoView({ behavior: "smooth" });
@@ -47,7 +93,12 @@ const Landingpage = () => {
               </div>
             </div>
             <div className="homesvg">
-              <Image id="home" src={Home} alt="website logo" />
+              {/* <Image id="home" src={Home} alt="website logo" /> */}
+              <Lottie 
+	              options={defaultOptions0}
+                height="100%"
+                width={600}
+            />
             </div>
           </div>
         </div>
@@ -58,7 +109,12 @@ const Landingpage = () => {
         >
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={Ambassador} alt="Ambassador Illustration" />
+              {/* <Image id="home" src={Ambassador} alt="Ambassador Illustration" /> */}
+            <Lottie 
+	              options={defaultOptions1}
+                height="100%"
+                width={600}
+            />
             </div>
             <div className="heading-text">
               <Link href="/ambassador">
@@ -87,12 +143,22 @@ const Landingpage = () => {
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={Programs} alt="Programs Illustration" />
+            <Lottie 
+	              options={defaultOptions2}
+                height="100%"
+                width={400}
+            />
             </div>
           </div>
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={WebDev} alt="Web Dev Illustration" />
+              {/* <Image id="home" src={WebDev} alt="Web Dev Illustration" /> */}
+              <Lottie 
+                id="home"
+	              options={defaultOptions3}
+                height={300}
+                width={400}
+            />
             </div>
             <div className="heading-text">
               <Link href="/webdev">
@@ -122,7 +188,12 @@ const Landingpage = () => {
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={JS} alt="JS Illustration" />
+              {/* <Image id="home" src={JS} alt="JS Illustration" /> */}
+              <Lottie 
+	              options={defaultOptions4}
+                height="100%"
+                width={200}
+            />
             </div>
           </div>
         </div>
