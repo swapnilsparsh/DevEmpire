@@ -489,6 +489,20 @@ const AmbassadorDatas = [
         about: "Community leaders around the world passionate about achieving gender parity in technology.",
         alt: "WTM Logo"
     },
+    {
+        link: "https://www.isacindia.org/campus-ambassador/",
+        head: "ISAC Campus Ambassador",
+        image: "https://www.isacindia.org/wp-content/uploads/2017/02/isac-100pxlogo.png",
+        about: "Expanding the knowledge and culture of cybersecurity and safety, especially in youth and teenagers.",
+        alt: "ISAC Logo"
+    },
+    {
+        link: "https://www.techgig.com/campus-ambassador",
+        head: "TechGig Campus Ambassador",
+        image: "https://static.techgig.com/Themes/Release/images/tg_style_new/tg-logo.svg",
+        about: "If you love to code and want to develop your leadership skills as well, then the TechGig's Campus Ambassador is just the right program for you.",
+        alt: "TechGig Logo"
+    },
 ]
 
 export default AmbassadorDatas;
