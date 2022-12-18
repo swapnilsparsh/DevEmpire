@@ -504,5 +504,4 @@ const AmbassadorDatas = [
         alt: "CN Logo"
     },    
 ]
-
 export default AmbassadorDatas;
