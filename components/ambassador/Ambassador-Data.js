@@ -489,6 +489,20 @@ const AmbassadorDatas = [
         about: "Community leaders around the world passionate about achieving gender parity in technology.",
         alt: "WTM Logo"
     },
+    {
+        link: "https://www.solanau.org/",
+        head: ".Solana Student Ambassador.",
+        image: "../assets/ambassador-img/solana_logo.png",
+        about: "Get access to training courses, mentorships, accelerators, and special opportunities for ambassadors.",
+        alt: "Solana Logo"
+    },
+    {
+        link: "https://campus.codingninjas.com/",
+        head: "NINJA ENTREPRENEUR PROGRAMME ",
+        image: "../assets/ambassador-img/cn.png",
+        about: "Bring together your peers to aid learning and assimilation of new skills.",
+        alt: "CN Logo"
+    },    
 ]
 
 export default AmbassadorDatas;
