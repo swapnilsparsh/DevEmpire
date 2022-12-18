@@ -1,8 +1,32 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
+import { useRouter } from 'next/router'
+
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
+  const router = useRouter();
+  const { pathname } = useRouter();
+
+  //Routing to results page and passing search word  
+  useEffect(() => {
+    const timeOutId = setTimeout(() => {
+      if (searchTerm.length) {
+        router.replace(
+          { pathname: "/results", query: { term: searchTerm } },
+          "/results"
+        );
+      } else {
+        if (pathname === "/results") {
+          router.push("/");
+          // router.back();
+        }
+      }
+    }, 0);
+    return () => clearTimeout(timeOutId);
+  }, [searchTerm]);
+
   return (
     <nav>
       <div className="navWide">
@@ -34,6 +58,23 @@ const Links = () => {
                 <i className="fa fa-wrench" aria-hidden="true" /> Games
               </a>
             </Link>
+            {/* Global search bar starts */}
+            <div className="global-search ">
+              <i className="fa fa-search search-icon"></i>
+              <input
+                className="search"
+                text="type"
+                placeholder="Search"
+                value={searchTerm}
+                onChange={(event) => {
+                  setSearchTerm(event.target.value);
+                }}
+              />
+            </div>
+            <i className="fa fa-times search-clear" role="button"
+              onClick={() => setSearchTerm("")}
+              style={{ visibility: searchTerm.length ? "visible" : "hidden" }}></i>
+            {/* Global search bar ends */}
           </div>
         </div>
       </div>
@@ -53,6 +94,23 @@ const Links = () => {
         }}
       >
         <i id="icon" className="fa fa-bars fa-2x" aria-hidden="true" />
+        {/* Global search bar for collapsed nav starts */}
+        <div className="global-search global-search-collapsed" onClick={(e)=> e.stopPropagation()}>
+          <i className="fa fa-search search-icon"></i>
+          <input
+            className="search"
+            text="type"
+            placeholder="Search"
+            value={searchTerm}
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
+          />
+        </div>
+        <i className="fa fa-times search-clear-collapsed" role="button"
+          onClick={(e) => {setSearchTerm(""); e.stopPropagation();}}
+          style={{ visibility: searchTerm.length ? "visible" : "hidden" }}></i>
+        {/* Global search bar for collapsed nav ends */}
         <div className="narrowLinks hidden">
           <Link href="/">
             <a className="current-nav-link">
