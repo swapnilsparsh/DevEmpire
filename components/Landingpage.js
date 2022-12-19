@@ -1,13 +1,12 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import Lottie from 'react-lottie';
+// import Lottie from "react-lottie-player";
 import animationData0 from "../pages/lotties/Devempire.json";
 import animationData1 from "../pages/lotties/Ambassador.json";
 import animationData2 from "../pages/lotties/teamwork.json";
 import animationData3 from "../pages/lotties/webdev.json";
 import animationData4 from "../pages/lotties/jstoolkit.json";
-
-
 
 
 
