@@ -491,7 +491,7 @@ const AmbassadorDatas = [
     },
     {
         link: "https://www.solanau.org/",
-        head: ".Solana Student Ambassador.",
+        head: "Solana Student Ambassador",
         image: "../assets/ambassador-img/solana_logo.png",
         about: "Get access to training courses, mentorships, accelerators, and special opportunities for ambassadors.",
         alt: "Solana Logo"
