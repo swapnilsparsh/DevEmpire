@@ -28,7 +28,8 @@ const Content = () => {
             <h1>Games</h1>
 
             <p>
-              
+              A collection of fun games that help you 
+              learn web technologies in an enjoyable way
             </p>
 
             <Link to="container" smooth={true} duration={1000}>
