@@ -1,9 +1,10 @@
 import React, { useRef } from "react";
 import Home from "../public/assets/svg/Home.svg";
-import JS from "../public/assets/svg/JSToolkit.svg";
+// import JS from "../public/assets/svg/JSToolkit.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
+import Games from "../public/assets/svg/Gaming.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -109,20 +110,17 @@ const Landingpage = () => {
           </div>
           <div className="landing-page-details">
             <div className="heading-text second">
-              <Link href="/jstoolkits">
+              <Link href="/games">
                 <h1>
-                  <u> JS Toolkits </u>
+                  <u> Games </u>
                 </h1>
               </Link>
               <p>
-                While the number of ways to organize JavaScript is almost
-                infinite, here are some collection of JS framework and libraries
-                that can help you while you are working on a project or
-                searching around the web.
+                A collection of fun games that help you learn web technologies in an enjoyable way.
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={JS} alt="JS Illustration" />
+              <Image id="home" src={Games} alt="Games Illustration" />
             </div>
           </div>
         </div>

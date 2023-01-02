@@ -55,7 +55,7 @@ const Links = () => {
             </Link>
             <Link href="/games">
               <a className="current-nav-link">
-                <i className="fa fa-wrench" aria-hidden="true" /> Games
+                <i className="fa fa-gamepad" aria-hidden="true" /> Games
               </a>
             </Link>
             {/* Global search bar starts */}
@@ -132,9 +132,9 @@ const Links = () => {
               <i className="fa fa-code" aria-hidden="true" /> Web Dev
             </a>
           </Link>
-          <Link href="/jstoolkits">
+          <Link href="/games">
             <a className="current-nav-link">
-              <i className="fa fa-wrench" aria-hidden="true" /> JS Toolkits
+              <i className="fa fa-gamepad" aria-hidden="true" /> Games
             </a>
           </Link>
         </div>
