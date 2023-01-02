@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import { useRouter } from 'next/router'
+import dynamic from "next/dynamic";
+
+const ThemeToggle = dynamic(() => import("../ThemeToggle"), {
+  ssr: false,
+});
 
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
@@ -138,6 +143,9 @@ const Links = () => {
             </a>
           </Link>
         </div>
+      </div>
+      <div className="theme-toggle-button" id="toggle-button">
+        <ThemeToggle />
       </div>
     </nav>
   );
