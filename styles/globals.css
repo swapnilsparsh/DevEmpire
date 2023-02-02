@@ -154,6 +154,10 @@ nav .navWide .wideDiv a {
 
 nav .navWide .wideDiv a:hover {
   background-color: #007cc8;
+  /* font-weight: bolder; */
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 nav .navNarrow i {

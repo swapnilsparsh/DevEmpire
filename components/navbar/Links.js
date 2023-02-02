@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 
 const ThemeToggle = dynamic(() => import("../ThemeToggle"), {
@@ -14,7 +14,7 @@ const Links = () => {
   const router = useRouter();
   const { pathname } = useRouter();
 
-  //Routing to results page and passing search word  
+  //Routing to results page and passing search word
   useEffect(() => {
     const timeOutId = setTimeout(() => {
       if (searchTerm.length) {
@@ -76,9 +76,12 @@ const Links = () => {
                 }}
               />
             </div>
-            <i className="fa fa-times search-clear" role="button"
+            <i
+              className="fa fa-times search-clear"
+              role="button"
               onClick={() => setSearchTerm("")}
-              style={{ visibility: searchTerm.length ? "visible" : "hidden" }}></i>
+              style={{ visibility: searchTerm.length ? "visible" : "hidden" }}
+            ></i>
             {/* Global search bar ends */}
           </div>
         </div>
@@ -100,7 +103,10 @@ const Links = () => {
       >
         <i id="icon" className="fa fa-bars fa-2x" aria-hidden="true" />
         {/* Global search bar for collapsed nav starts */}
-        <div className="global-search global-search-collapsed" onClick={(e)=> e.stopPropagation()}>
+        <div
+          className="global-search global-search-collapsed"
+          onClick={(e) => e.stopPropagation()}
+        >
           <i className="fa fa-search search-icon"></i>
           <input
             className="search"
@@ -112,9 +118,15 @@ const Links = () => {
             }}
           />
         </div>
-        <i className="fa fa-times search-clear-collapsed" role="button"
-          onClick={(e) => {setSearchTerm(""); e.stopPropagation();}}
-          style={{ visibility: searchTerm.length ? "visible" : "hidden" }}></i>
+        <i
+          className="fa fa-times search-clear-collapsed"
+          role="button"
+          onClick={(e) => {
+            setSearchTerm("");
+            e.stopPropagation();
+          }}
+          style={{ visibility: searchTerm.length ? "visible" : "hidden" }}
+        ></i>
         {/* Global search bar for collapsed nav ends */}
         <div className="narrowLinks hidden">
           <Link href="/">
