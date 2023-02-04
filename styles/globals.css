@@ -150,6 +150,10 @@ nav .navWide .wideDiv a {
           align-items: center;
   -webkit-transition: 0.5s background-color;
   transition: 0.5s background-color;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 nav .navWide .wideDiv a:hover {
@@ -191,7 +195,7 @@ nav .navNarrow .narrowLinks a {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 705px) {
+@media (min-width: 950px) {
   nav .navWide {
     display: block;
   }
