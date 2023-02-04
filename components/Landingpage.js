@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
+
 import Home from "../public/assets/svg/Home.svg";
-// import JS from "../public/assets/svg/JSToolkit.svg";
+import JS from "../public/assets/svg/JSToolkit.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
@@ -48,7 +49,9 @@ const Landingpage = () => {
               </div>
             </div>
             <div className="homesvg">
-              <Image id="home" src={Home} alt="website logo" />
+              {/* <Image id="home" src={Home} alt="website logo" /> */
+              <img src="https://doodleipsum.com/400/flat?shape=circle&bg=d6f5ff&n=1" />
+              }
             </div>
           </div>
         </div>
@@ -59,7 +62,9 @@ const Landingpage = () => {
         >
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={Ambassador} alt="Ambassador Illustration" />
+              {/* <Image id="home" src={Ambassador} alt="Ambassador Illustration" /> */
+              <img src="https://doodleipsum.com/300/flat?bg=d6f5ff&n=2" />
+              }
             </div>
             <div className="heading-text">
               <Link href="/ambassador">
@@ -88,12 +93,16 @@ const Landingpage = () => {
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={Programs} alt="Programs Illustration" />
+              {/* <Image id="home" src={Programs} alt="Programs Illustration" /> */
+              <img src="https://doodleipsum.com/300/flat?bg=d6f5ff&n=3" />
+              }
             </div>
           </div>
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={WebDev} alt="Web Dev Illustration" />
+              {/* <Image id="home" src={WebDev} alt="Web Dev Illustration" /> */
+              <img src="https://doodleipsum.com/300/flat?bg=d6f5ff&n=4" />
+              }
             </div>
             <div className="heading-text">
               <Link href="/webdev">
@@ -120,7 +129,9 @@ const Landingpage = () => {
               </p>
             </div>
             <div className="header-image">
-              <Image id="home" src={Games} alt="Games Illustration" />
+              {/* <Image id="home" src={Games} alt="Games Illustration" /> */
+              <img src="https://doodleipsum.com/300/flat?bg=d6f5ff&n=5" />
+              }
             </div>
           </div>
         </div>

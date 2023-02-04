@@ -209,7 +209,7 @@ replaced by just the links.*/
 }
 
 .container-landing .landing-page-details {
-  margin: 1rem 0;
+  margin: 0.3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,7 +220,7 @@ replaced by just the links.*/
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .container-landing .landing-page-details .heading-text {
@@ -299,7 +299,7 @@ replaced by just the links.*/
 .landing-page-header .header-details p {
   color: #40aaff;
   font-size: 20px;
-  padding: 1.5rem;
+  padding: 1.0rem;
 }
 
 .landing-page-header .header-details a {
@@ -391,7 +391,7 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
