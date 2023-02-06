@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
         }}
       />
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
           name="google-site-verification"
           content="Z70nuxlfRajrcIVmpDJ7iQnm6ppobITKcbhdhWzywfU"
