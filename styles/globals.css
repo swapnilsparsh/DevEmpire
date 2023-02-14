@@ -10,11 +10,16 @@ body[data-theme="light"] {
   --native1: #FFFFFF;
   --native2: #00253A;
   --primary: #0093ED;
+  --headerP:#40aaff;
   --accent-10: #0072B1;
   --accent-20: #7DD8FF;
+  --navcolor:#FFFFFF;
+  --accent-69:#FFFFFF;
   --accent-30: #D6F5FF;
   --extra1:#eafaff;
+  --hovercolor:#007cc8;
   --extra2:#000000;
+  --svgimg:url("..//public//assets//svg/Home.svg");
   --extra3:var(--accent-30);
   --extra4:var(--native1);
   background: url("../public//assets//svg/Home-Background.svg");
@@ -25,19 +30,36 @@ body[data-theme="light"] {
 }
 
 body[data-theme="dark"] {
-  --native2: #FFFFFF;
-  --native1: #00253A;
-  --primary: #03A4FF;
-  --accent-10: #00314D;
+  --native2: #FFFFFF;  /*scroll to top btn*/
+  --native1: #364e59; /*txt viewds and nav items*/
+  --primary: #02897a; /*heading nav lightdarbtn "line above made with" */
+   --accent-10: #202f36;/* body bg and search btn */
   --accent-20: #044468;
-  --accent-30: #52C1FF;
+  --headerP:#9ccac5;
+  --accent-69:#131a1a;
+  --hovercolor:#017366;
+  --navcolor:#1e1e1e;
+  /* --svgimg:url("..//public//assets//svg/homeDark.svg"); */
+  --accent-30: #69c4b9; /*githubwala button*/
   --extra1: var(--native1);
   --extra2:var(--accent-30);
   --extra3:var(--accent-10);
   --extra4:var(--accent-10);
   background: var(--accent-10);
 }
-
+/*
+.btn {
+  width: 260px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  background: center;
+  margin: 15px;
+  color: crimson;
+  border-radius: 10px;
+  cursor: pointer;
+}
+*/
 .nav-version {
   text-align: center;
   padding: 0.5rem;
@@ -113,7 +135,7 @@ nav {
 }
 
 nav a {
-  color: var(--native1);
+  color: var(--navcolor);
 }
 
 nav .links-container {
@@ -157,7 +179,7 @@ nav .navWide .wideDiv a {
 }
 
 nav .navWide .wideDiv a:hover {
-  background-color: #007cc8;
+  background-color:var(--hovercolor);
 }
 
 nav .navNarrow i {
@@ -253,7 +275,7 @@ replaced by just the links.*/
 }
 
 .container-landing .landing-page-details .heading-text p {
-  color: #40aaff;
+  color:var(--headerP);
   padding: 1rem;
   font-size: 1.3rem;
   background-color: var(--native1);
@@ -301,7 +323,7 @@ replaced by just the links.*/
 }
 
 .landing-page-header .header-details p {
-  color: #40aaff;
+  color: var(--headerP);
   font-size: 20px;
   padding: 1.5rem;
 }
@@ -624,6 +646,7 @@ replaced by just the links.*/
   padding: 4px 12px;
   border-radius: 10px;
   -webkit-transition: all 0.3s ease-in-out;
+  background-color: var(--accent-69);
   transition: all 0.3s ease-in-out;
 }
 

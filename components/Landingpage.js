@@ -1,5 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Home from "../public/assets/svg/Home.svg";
+import homeDark from "../public/assets/svg/homeDark.svg";
 // import JS from "../public/assets/svg/JSToolkit.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
@@ -7,12 +8,32 @@ import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+{/*
+const ThemeToggle = dynamic(() => import("./ThemeToggle"), {
+  ssr: false,
+});
 
+*/}
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);
   const callToActionScroll = () => {
     ambassadorSectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
+
+const [name, setName] = useState(Home);
+
+ const changeName = () => {
+  let value = name;
+
+  if (value === Home) {
+    setName(homeDark);
+  } else {
+    setName(Home);
+  }
+};
+
+
   return (
     <>
       <div className="landingpage">
@@ -47,9 +68,15 @@ const Landingpage = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="homesvg">
+    <Image  id="home" alt="website logo" src={name} />
+    <button className="theme-toggle-button" id="toggle-button"onClick={changeName}>Change Image </button>
+  </div>
+            {/* <div className="homesvg">
               <Image id="home" src={Home} alt="website logo" />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -116,7 +143,8 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                A collection of fun games that help you learn web technologies in an enjoyable way.
+                A collection of fun games that help you learn web technologies
+                in an enjoyable way.
               </p>
             </div>
             <div className="header-image">
