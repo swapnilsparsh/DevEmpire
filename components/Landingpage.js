@@ -8,31 +8,12 @@ import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
 import Image from "next/image";
 import Link from "next/link";
-import dynamic from "next/dynamic";
-{/*
-const ThemeToggle = dynamic(() => import("./ThemeToggle"), {
-  ssr: false,
-});
 
-*/}
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);
   const callToActionScroll = () => {
     ambassadorSectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
-
-const [name, setName] = useState(Home);
-
- const changeName = () => {
-  let value = name;
-
-  if (value === Home) {
-    setName(homeDark);
-  } else {
-    setName(Home);
-  }
-};
-
 
   return (
     <>
@@ -69,14 +50,10 @@ const [name, setName] = useState(Home);
               </div>
             </div>
 
-
+            
             <div className="homesvg">
-    <Image  id="home" alt="website logo" src={name} />
-    <button className="theme-toggle-button" id="toggle-button"onClick={changeName}>Change Image </button>
-  </div>
-            {/* <div className="homesvg">
-              <Image id="home" src={Home} alt="website logo" />
-            </div> */}
+              <img id="home" alt="website logo" />
+            </div>
           </div>
         </div>
 
@@ -85,8 +62,8 @@ const [name, setName] = useState(Home);
           className="container-landing ambassador-section"
         >
           <div className="landing-page-details">
-            <div className="header-image">
-              <Image id="home" src={Ambassador} alt="Ambassador Illustration" />
+            <div className="header-image ambassador">
+              <img alt="Ambassador Illustration" />
             </div>
             <div className="heading-text">
               <Link href="/ambassador">
@@ -114,13 +91,13 @@ const [name, setName] = useState(Home);
                 countries.
               </p>
             </div>
-            <div className="header-image">
-              <Image id="home" src={Programs} alt="Programs Illustration" />
+            <div className="header-image program">
+              <img alt="Programs Illustration" />
             </div>
           </div>
           <div className="landing-page-details">
-            <div className="header-image">
-              <Image id="home" src={WebDev} alt="Web Dev Illustration" />
+            <div className="header-image web">
+              <img alt="Web Dev Illustration" />
             </div>
             <div className="heading-text">
               <Link href="/webdev">
@@ -147,8 +124,8 @@ const [name, setName] = useState(Home);
                 in an enjoyable way.
               </p>
             </div>
-            <div className="header-image">
-              <Image id="home" src={Games} alt="Games Illustration" />
+            <div className="header-image gaming">
+              <img alt="Games Illustration" />
             </div>
           </div>
         </div>
