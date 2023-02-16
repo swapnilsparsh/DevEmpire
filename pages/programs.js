@@ -82,8 +82,8 @@ const Content = () => {
           )}
         </div>
         <ReactPaginate
-          previousLabel={<i class="fa fa-angle-left"></i>}
-          nextLabel={<i class="fa fa-angle-right"></i>}
+          previousLabel={<i className="fa fa-angle-left"></i>}
+          nextLabel={<i className="fa fa-angle-right"></i>}
           pageCount={cardsCount}
           onPageChange={changeCard}
           containerClassName={"paginationBttns"}
