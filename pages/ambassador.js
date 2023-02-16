@@ -4,7 +4,6 @@ import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import Card from "../components/Card/Card";
-// import Pagination from "../components/Pagination";
 import ReactPaginate from "react-paginate";
 
 const Content = () => {
