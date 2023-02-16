@@ -4,10 +4,12 @@ import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import Card from "../components/Card/Card";
-
+import ReactPaginate from "react-paginate";
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
   // const { pathname } = useLocation();
+  const [pageNumber, setPageNumber] = useState(0);
+  const cardsPerPage = 12;
   const [selectedLabel, setSelectedLabel] = useState("");
   const labels = [
     ...new Set(
@@ -22,11 +24,26 @@ const Content = () => {
   //   window.scrollTo(0, 0);
   // }, [pathname]);
 
-  const filterOptions = selectedLabel !== "" || searchTerm !== ""
-    ? Datas.filter((data) => (selectedLabel === "" || data.label === selectedLabel) &&
-        (searchTerm === "" || data.head.toLowerCase().includes(searchTerm.toLowerCase())))
-    : Datas;
+  const filterOptions =
+    selectedLabel !== "" || searchTerm !== ""
+      ? Datas.filter(
+          (data) =>
+            (selectedLabel === "" || data.label === selectedLabel) &&
+            (searchTerm === "" ||
+              data.head.toLowerCase().includes(searchTerm.toLowerCase()))
+        )
+      : Datas;
 
+  const cardsVisited = pageNumber * cardsPerPage;
+  const displayCards = filterOptions.slice(
+    cardsVisited,
+    cardsVisited + cardsPerPage
+  );
+  const cardsCount = Math.ceil(filterOptions.length / cardsPerPage);
+
+  const changeCard = ({ selected }) => {
+    setPageNumber(selected);
+  };
   return (
     <>
       <div className="container-landing">
@@ -34,8 +51,10 @@ const Content = () => {
           <div className="header-details">
             <h1>Web Development Tools</h1>
 
-            <p>A collection of all the tools that are required in web development made by the community to ease the 
-              process of web development.</p>
+            <p>
+              A collection of all the tools that are required in web development
+              made by the community to ease the process of web development.
+            </p>
 
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
@@ -91,14 +110,30 @@ const Content = () => {
 
       <div className="container" id="container">
         <div className="align-flex">
-          {filterOptions.length > 0 ? (
-            filterOptions.map((data, indx) => (
-                <Card image={data.image} alt={data.alt} link={data.link} head={data.head} about={data.about} key={indx} />
-              ))
+          {displayCards.length > 0 ? (
+            displayCards.map((data, indx) => (
+              <Card
+                image={data.image}
+                alt={data.alt}
+                link={data.link}
+                head={data.head}
+                about={data.about}
+                key={indx}
+              />
+            ))
           ) : (
             <NoResults search={searchTerm} />
           )}
         </div>
+        <ReactPaginate
+          previousLabel={<i class="fa fa-chevron-left"></i>}
+          nextLabel={<i class="fa fa-chevron-right"></i>}
+          pageCount={cardsCount}
+          onPageChange={changeCard}
+          containerClassName={"paginationBttns"}
+          disabledLinkClassName={"disabledLinkClassName"}
+          activeClassName={"paginationActive"}
+        />
       </div>
     </>
   );
