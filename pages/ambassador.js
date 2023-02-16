@@ -4,9 +4,13 @@ import { useState, useEffect, React } from "react";
 import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import Card from "../components/Card/Card";
+import ReactPaginate from "react-paginate";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [pageNumber, setPageNumber] = useState(0);
+  const cardsPerPage = 12;
+
   // const { pathname } = useLocation();
 
   // useEffect(() => {
@@ -20,6 +24,16 @@ const Content = () => {
         )
       : Datas;
 
+  const cardsVisited = pageNumber * cardsPerPage;
+  const displayCards = filterOptions.slice(
+    cardsVisited,
+    cardsVisited + cardsPerPage
+  );
+  const cardsCount = Math.ceil(filterOptions.length / cardsPerPage);
+
+  const changeCard = ({ selected }) => {
+    setPageNumber(selected);
+  };
   return (
     <>
       <div className="container-landing">
@@ -55,8 +69,8 @@ const Content = () => {
 
       <div className="container" id="container">
         <div className="align-flex">
-          {filterOptions.length > 0 ? (
-            filterOptions.map((data, indx) => (
+          {displayCards.length > 0 ? (
+            displayCards.map((data, indx) => (
               <Card
                 key={indx}
                 about={data.about}
@@ -70,6 +84,15 @@ const Content = () => {
             <NoResults search={searchTerm} />
           )}
         </div>
+        <ReactPaginate
+          previousLabel={<i className="fa fa-chevron-left"></i>}
+          nextLabel={<i className="fa fa-chevron-right"></i>}
+          pageCount={cardsCount}
+          onPageChange={changeCard}
+          containerClassName={"paginationBttns"}
+          disabledLinkClassName={"disabledLinkClassName"}
+          activeClassName={"paginationActive"}
+        />
       </div>
     </>
   );
