@@ -92,14 +92,14 @@ const AmbassadorDatas = [
     },
     {
         link: "https://www.codechef.com/college-chapter/about",
-        head: "CodeChef College Chapter",
+        head: "CodeChef's DSA Learning Program",
         image: "../assets/ambassador-img/Codechef.png",
         about: "The mission is to build a Competitive Programming culture in educational institutions.",
         alt: "Codechef Logo"
     },
     {
         link: "https://codedamn.com/campus",
-        head: "Codedamn",
+        head: "Campus Evangelist Program",
         image: "../assets/ambassador-img/Codedamn.png",
         about: "It will help you to ignite and build your Entrepreneurial skills and Leadership mindset.",
         alt: "Codedamn Logo"
@@ -153,13 +153,13 @@ const AmbassadorDatas = [
         about: "Figma Community Advocates are the heart and soul of our global community.",
         alt: "Figma Community"
     },
-    {
-        link: "https://friends.figma.com/become-a-student-leader/",
-        head: "Figma Student Leader",
-        image: "../assets/ambassador-img/FigmaStudent.png",
-        about: "Student Leaders facilitate a space for students to connect, grow, and learn.",
-        alt: "Figma Student"
-    },
+    // {
+    //     link: "https://friends.figma.com/become-a-student-leader/",
+    //     head: "Figma Student Leader",
+    //     image: "../assets/ambassador-img/FigmaStudent.png",
+    //     about: "Student Leaders facilitate a space for students to connect, grow, and learn.",
+    //     alt: "Figma Student"
+    // },
     {
         link: "https://developers.google.com/community/gdg/organizers",
         head: "Google Developer Groups Organizer",
@@ -190,24 +190,31 @@ const AmbassadorDatas = [
     },
     {
         link: "https://education.github.com/experts",
-        head: "Github Campus Expert",
-        image: "../assets/ambassador-img/Github-campus.png",
+        head: "Github Campus Experts",
+        image: "../assets/ambassador-img/Github-campus-experts.png",
         about: "They are student leaders that strive to build diverse spaces to learn skills, and etc.",
-        alt: "Github Logo"
+        alt: "Github-campus-expert Logo"
     },
     {
-        link: "https://classroom.github.com/",
-        head: "Github Classroom",
+        link: "https://education.github.com/schools",
+        head: "GitHub Campus Program",
+        image: "../assets/ambassador-img/Github-campus.png",
+        about: "Get a package of technical tools, training for faculty members, and support to grow technical communities",
+        alt: "Github-campus Logo"
+    },
+    {
+        link: "https://education.github.com/schools",
+        head: "GitHub Octernships",
+        image: "../assets/ambassador-img/Github-octernship.png",
+        about: "Connects students with industry partners in paid professional experiences and mentorship.",
+        alt: "Github-octernship Logo"
+    },
+    {
+        link: "https://education.github.com/teachers",
+        head: "Github Teacher Program",
         image: "../assets/ambassador-img/Github-classroom.png",
-        about: "Track and manage assignments in your dashboard and help students when they get stuck.",
+        about: "Teach your students with the industry-standard tools, so they can shine on technical teams.",
         alt: "Github-classroom Logo"
-    },
-    {
-        link: "https://education.github.com/teachers/advisors",
-        head: "Github Campus Advisor",
-        image: "../assets/ambassador-img/Github-advisor.png",
-        about: "You’re master of Git and GitHub, but you champion the use of real-world tools at your school.",
-        alt: "Github-advisor Logo"
     },
     {
         link: "https://www.gitkraken.com/ambassador",
@@ -218,32 +225,32 @@ const AmbassadorDatas = [
     },
     {
         link: "https://about.gitlab.com/community/heroes/",
-        head: "GitLab Hero",
+        head: "GitLab Heroes",
         image: "../assets/ambassador-img/Gitlab.png",
         about: "They engages, supports, connects, and recognizes members of the wider GitLab community.",
         alt: "Gitlab Logo"
     },
     {
-        link: "https://www.hackerearth.com/university/intro/",
+        link: "https://www.hackerearth.com/campus-ambassador-program/",
         head: "HackerEarth Campus Ambassador",
         image: "../assets/ambassador-img/Hackerearth.jpg",
         about: "Leader with a keen interest in starting and building a programming community.",
         alt: "Hackerearth Logo"
     },
-    {
-        link: "https://hashedem.notion.site/Hashed-Student-Chapters-f143e30fa5d540d6b6aa8561a0bdc5ba",
-        head: "Hashed Student Chapters ",
-        image: "../assets/ambassador-img/Hashed.png",
-        about: "You will be in charge of the chapter activities while working closely with the web3 community.",
-        alt: "Hashed Logo"
-    },
-    {
-        link: "https://zambassador.com/",
-        head: "IBM ZAMBASSADOR",
-        image: "../assets/ambassador-img/IBM.png",
-        about: "They are volunteers who spread the word about MTM and other learning opportunities.",
-        alt: "IBM Logo"
-    },
+    // {
+    //     link: "https://hashedem.notion.site/Hashed-Student-Chapters-f143e30fa5d540d6b6aa8561a0bdc5ba",
+    //     head: "Hashed Student Chapters ",
+    //     image: "../assets/ambassador-img/Hashed.png",
+    //     about: "You will be in charge of the chapter activities while working closely with the web3 community.",
+    //     alt: "Hashed Logo"
+    // },
+    // {
+    //     link: "https://zambassador.com/",
+    //     head: "IBM ZAMBASSADOR",
+    //     image: "../assets/ambassador-img/IBM.png",
+    //     about: "They are volunteers who spread the word about MTM and other learning opportunities.",
+    //     alt: "IBM Logo"
+    // },
     {
         link: "https://software.intel.com/content/www/us/en/develop/community/ambassadors.html",
         head: "Intel Student Ambassador",
@@ -322,14 +329,14 @@ const AmbassadorDatas = [
         alt: "MongoDB Logo"
     },
     {
-        link: "https://campus.mozilla.community/",
+        link: "https://community.mozilla.org/en/groups/",
         head: "Mozilla Campus Club",
         image: "../assets/ambassador-img/Mozilla.jpeg",
         about: "Mozilla’s mission is to ensure the Internet is a global public resource, open and accessible to all.",
         alt: "Mozilla Logo"
     },
     {
-        link: "https://www.notion.so/Notion-Ambassadors-99857c0d03e8431ab3c430d0afa1c1fe",
+        link: "https://www.notion.so/Notion-Ambassadors-40c3b3ee8c744e7fad34ab4ac9765773",
         head: "Notion Ambassador",
         image: "../assets/ambassador-img/Notion.png",
         about: "Notion Ambassadors are passionate, volunteer enthusiasts who teach and share Notion with others.",
@@ -383,6 +390,13 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/SAP.png",
         about: "The SAP influencer programs include SAP Mentors and SAP Champions.",
         alt: "SAP Influencer"
+    },
+    {
+        link: "https://www.solanau.org/",
+        head: "Solana Student Ambassador",
+        image: "../assets/ambassador-img/solana_logo.png",
+        about: "Get access to training courses, mentorships, accelerators, and special opportunities for ambassadors.",
+        alt: "Solana Logo"
     },
     {
         link: "https://sparkar.reskilll.com/campus",
@@ -440,15 +454,15 @@ const AmbassadorDatas = [
         about: "They are self-motivated, and multi-tasking who lead the UiPath Student Developer communities.",
         alt: "UiPath Logo"
     },
+    // {
+    //     link: "https://unity.com/learn/student-ambassadors",
+    //     head: "Unity Student Ambassador Champions",
+    //     image: "../assets/ambassador-img/Unity.png",
+    //     about: "Talented Unity developers, artists, and designers from a diverse mix of backgrounds.",
+    //     alt: "Unity Logo"
+    // },
     {
-        link: "https://unity.com/learn/student-ambassadors",
-        head: "Unity Student Ambassador Program",
-        image: "../assets/ambassador-img/Unity.png",
-        about: "Talented Unity developers, artists, and designers from a diverse mix of backgrounds.",
-        alt: "Unity Logo"
-    },
-    {
-        link: "https://careers.vmware.com/campus-ambassador-program",
+        link: "https://community.veeam.com/general-information-58/veeam-legends-program-overview-71",
         head: "Veeam Legends",
         image: "../assets/ambassador-img/Veeam.png",
         about: "Veeam Legends are Veeam users and data protection industry experts.",
@@ -489,12 +503,6 @@ const AmbassadorDatas = [
         about: "Community leaders around the world passionate about achieving gender parity in technology.",
         alt: "WTM Logo"
     },
-    {
-        link: "https://www.solanau.org/",
-        head: "Solana Student Ambassador",
-        image: "../assets/ambassador-img/solana_logo.png",
-        about: "Get access to training courses, mentorships, accelerators, and special opportunities for ambassadors.",
-        alt: "Solana Logo"
-    }, 
+
 ]
 export default AmbassadorDatas;

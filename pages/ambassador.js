@@ -20,8 +20,8 @@ const Content = () => {
   const filterOptions =
     searchTerm !== ""
       ? Datas.filter((data) =>
-          data.head.toLowerCase().includes(searchTerm.toLowerCase())
-        )
+        data.head.toLowerCase().includes(searchTerm.toLowerCase())
+      )
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
