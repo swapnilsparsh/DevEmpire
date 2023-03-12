@@ -80,7 +80,7 @@ function MyApp({ Component, pageProps }) {
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta propert="twitter:creator" content="@swapnilsparsh" />
+        <meta property="twitter:creator" content="@swapnilsparsh" />
         <meta property="twitter:url" content="https://devempire.netlify.app/" />
         <meta property="twitter:title" content="Developer Empire" />
         <meta
