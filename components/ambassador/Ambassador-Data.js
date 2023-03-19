@@ -21,6 +21,13 @@ const AmbassadorDatas = [
         alt: "Amazon Logo"
     },
     {
+        link: "https://appwrite.io/heroes",
+        head: "Appwrite Heroes",
+        image: "../assets/ambassador-img/appwrite.png",
+        about: "The Appwrite Heroes program is an exclusive group of developers who are experts in Appwrite",
+        alt: "Appwrite Heroes Logo"
+    },
+    {
         link: "https://archway.io/ambassador-program/",
         head: "Archway Ambassador",
         image: "../assets/ambassador-img/Archway.jpg",
