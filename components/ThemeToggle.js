@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 const ToggleButton = styled.button`
   --toggle-width: 80px;
-  --toggle-height: 38px;
+  --toggle-height: 41px;
   --toggle-padding: 4px;
   position: relative;
   display: flex;

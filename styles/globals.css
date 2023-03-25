@@ -1070,6 +1070,7 @@ hr {
   color: #ffe5b5;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  background-color: var(--native1);
 }
 
 /* Back To Top End */
