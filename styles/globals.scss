@@ -87,7 +87,7 @@ nav {
     display: flex;
     justify-content: center;
 
-    a > i {
+    a>i {
       margin-right: 0.4rem;
     }
   }
@@ -132,7 +132,8 @@ nav {
     .fa-bars {
       padding: 0.5rem;
     }
-    .fa-times{
+
+    .fa-times {
       padding: 0.5rem;
     }
 
@@ -398,6 +399,7 @@ replaced by just the links.*/
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
       }
+
       img {
         width: 140px;
         height: 36px;
@@ -957,6 +959,7 @@ hr {
   &:hover {
     color: rgb(255, 229, 181);
     transform: scale(1.1);
+    background-color: #111e44;
   }
 }
 
@@ -964,25 +967,27 @@ hr {
 /* Preloader Start */
 .preload {
   position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #d6f5ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #d6f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#logo{
+#logo {
   animation: preload_logo 1s ease infinite alternate;
 }
-@keyframes preload_logo{
-  from{
-  transform: scale(1.2);
+
+@keyframes preload_logo {
+  from {
+    transform: scale(1.2);
   }
-  to{
-      transform: scale(0.8);
-      filter: opacity(50%);
+
+  to {
+    transform: scale(0.8);
+    filter: opacity(50%);
   }
 }
 
@@ -1097,7 +1102,7 @@ hr {
     -ms-flex-direction: column;
     flex-direction: column;
 
-    .product-hunt-button{
+    .product-hunt-button {
       margin-top: 10px;
     }
 
