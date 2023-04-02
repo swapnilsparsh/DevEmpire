@@ -245,7 +245,7 @@ const AmbassadorDatas = [
         alt: "Github-campus Logo"
     },
     {
-        link: "https://education.github.com/schools",
+        link: "https://education.github.com/students/octernships",
         head: "GitHub Octernships",
         image: "../assets/ambassador-img/Github-octernship.png",
         about: "Connects students with industry partners in paid professional experiences and mentorship.",
