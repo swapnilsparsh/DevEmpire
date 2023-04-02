@@ -7,11 +7,25 @@ const AmbassadorDatas = [
         alt: "Adobe Logo"
     },
     {
+        link: "https://www.aleo.org/post/the-ambassador-program-continues",
+        head: "Aleo Ambassador Program",
+        image: "../assets/ambassador-img/Aleo.png",
+        about: " Aleo is a Layer 1 blockchain bringing privacy to the web.",
+        alt: "Aleo Logo"
+    },
+    {
         link: "https://developer.amazon.com/en-IN/alexa/alexa-student-influencer/",
         head: "Alexa Student Influencer Program",
         image: "../assets/ambassador-img/Alexa.png",
         about: "It is a campus connect program that aims to form a network of like-minded students across India.",
         alt: "Amazon Logo"
+    },
+    {
+        link: "https://apillon.io/community",
+        head: "Apillon Ambassador",
+        image: "../assets/ambassador-img/Apillon.png",
+        about: "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
+        alt: "Apillon Logo"
     },
     {
         link: "https://aws.amazon.com/partners/ambassadors/",
@@ -112,6 +126,20 @@ const AmbassadorDatas = [
         alt: "Codedamn Logo"
     },
     {
+        link: "https://confluxnetwork.org/en/community/ambassador",
+        head: "Conflux Ambassador Program",
+        image: "../assets/ambassador-img/Conflux.jpg",
+        about: "Conflux Ambassadors are passionate enthusiasts who help drive community awareness.",
+        alt: "Conflux Logo"
+    },
+    {
+        link: "https://credits.com/en/ambassadors/",
+        head: "Credits Ambassador Program",
+        image: "../assets/ambassador-img/Credits.jpg",
+        about: "A program for building and supporting Credits local communities in your country.",
+        alt: "Credits Logo"
+    },
+    {
         link: "https://www.cudos.org/ambassador/",
         head: "Cudos Rangers",
         image: "../assets/ambassador-img/Cudos.png",
@@ -152,6 +180,13 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/Docker.png",
         about: "It is a distinction that Docker awards select members of the community that are experts in Docker.",
         alt: "Docker Captain Logo"
+    },
+    {
+        link: "https://medium.com/equilibrium-eosdt/join-the-equilibrium-ambassador-dao-and-earn-eq-5e21911d1134",
+        head: "Equilibrium Ambassador DAO",
+        image: "../assets/ambassador-img/Equilibrium.webp",
+        about: "DeFi 2.0 with high leverage. One-stop platform to earn, borrow and trade at max efficiency.",
+        alt: "Equilibrium Ambassador Image"
     },
     {
         link: "https://friends.figma.com/become-a-community-advocate/",
@@ -266,6 +301,13 @@ const AmbassadorDatas = [
         alt: "Intel Logo"
     },
     {
+        link: "https://blog.kattana.io/the-launch-of-kattanas-ambassador-program/",
+        head: "Kattana Ambassador Program",
+        image: "../assets/ambassador-img/Kattana.jpg",
+        about: "The goal is to bring together people who are passionate about Kattana",
+        alt: "Kattana Logo"
+    },
+    {
         link: "https://konghq.com/kong-champions/",
         head: "Kong Champions Program",
         image: "../assets/ambassador-img/Kong.png",
@@ -355,6 +397,13 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/NVIDIA.png",
         about: "It gives you the training and resources to deliver hands-on DLI workshops.",
         alt: "NVIDIA Logo"
+    },
+    {
+        link: "https://www.oasisprotocol.org/community#ambassador",
+        head: "Oasis Ambassador Program",
+        image: "../assets/ambassador-img/OasisNetwork.png",
+        about: "Community for node operators, creators to token holders, and builders to Web3 enthusiasts",
+        alt: "Oasis Logo"
     },
     {
         link: "https://www.oneplus.in/campus",
