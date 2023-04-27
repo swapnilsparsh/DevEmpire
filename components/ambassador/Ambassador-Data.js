@@ -182,6 +182,13 @@ const AmbassadorDatas = [
         alt: "Docker Captain Logo"
     },
     {
+        link: "https://eclipsepad.notion.site/The-Ambassadors-Guide-to-the-Galaxy-6d33e1c277fc415ca60621a55c7cd58c",
+        head: "Eclipse Pad Ambassador",
+        image: "../assets/ambassador-img/EclipsePad.jpg",
+        about: "It serves as a hub for community building and leadership development.",
+        alt: "Eclipse Pad Ambassador Image"
+    },
+    {
         link: "https://medium.com/equilibrium-eosdt/join-the-equilibrium-ambassador-dao-and-earn-eq-5e21911d1134",
         head: "Equilibrium Ambassador DAO",
         image: "../assets/ambassador-img/Equilibrium.webp",
