@@ -704,20 +704,24 @@ replaced by just the links.*/
 
 .navigation .twitter-button .twitter {
   line-height: 0;
-  border: 0.5px solid rgba(0, 147, 237, 1);
   display: inline-block;
-  padding: 4px 12px;
-  border-radius: 10px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(to right, #9cbfe6, #78b4f0);
 }
 
 .navigation .twitter-button .twitter:hover {
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
   display: inline-block;
-  padding: 4px 12px;
-  border-radius: 10px;
+  padding: 8px 16px;
+  border-radius: 30px;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
