@@ -4,6 +4,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 
+import { useSelector, useDispatch } from 'react-redux';
+import { toggleConditon } from './navbarSlice';
+
 const ThemeToggle = dynamic(() => import("../ThemeToggle"), {
   ssr: false,
 });
@@ -13,6 +16,9 @@ const Links = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const router = useRouter();
   const { pathname } = useRouter();
+
+  const navNarrowCondition = useSelector((state) => state.toggle.condition);
+  const dispatch = useDispatch();
 
   const isActive = (href) => {
     return pathname === href ? "active" : "";
@@ -116,20 +122,9 @@ const Links = () => {
         <div className="navNarrow-Bar">
           <i
             id="icon"
-            className="fa fa-bars fa-2x"
+            className={`fa fa-${navNarrowCondition ? "times" : "bars"} fa-2x`}
             aria-hidden="true"
-            onClick={function () {
-              let narrowLinks = document.querySelector(".narrowLinks");
-              narrowLinks.classList.toggle("hidden");
-              let i = document.getElementById("icon");
-              if (!menuopen) {
-                i.classList.replace("fa-bars", "fa-times");
-                setmenuopen(true);
-              } else {
-                i.classList.replace("fa-times", "fa-bars");
-                setmenuopen(false);
-              }
-            }}
+            onClick={() => dispatch(toggleConditon())}
           />
           <div
             style={{
@@ -182,37 +177,39 @@ const Links = () => {
           </div>
           {/* Global search bar for collapsed nav ends */}
         </div>
+        { navNarrowCondition && 
         <div className="navNarrow">
-          <div className="narrowLinks hidden">
+          <div className="narrowLinks">
             <Link href="/">
-              <a className="current-nav-link">
+              <a className="current-nav-link" onClick={() => dispatch(toggleConditon())}>
                 <i className="fa fa-home" aria-hidden="true" />
                 Home
               </a>
             </Link>
             <Link href="/ambassador">
-              <a className="current-nav-link">
+              <a className="current-nav-link" onClick={() => dispatch(toggleConditon())}>
                 <i className="fa fa-users" aria-hidden="true" />
                 Ambassador
               </a>
             </Link>
             <Link href="/programs">
-              <a className="current-nav-link">
+              <a className="current-nav-link" onClick={() => dispatch(toggleConditon())}>
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
               </a>
             </Link>
             <Link href="/webdev">
-              <a className="current-nav-link">
+              <a className="current-nav-link" onClick={() => dispatch(toggleConditon())}>
                 <i className="fa fa-code" aria-hidden="true" /> Web Dev
               </a>
             </Link>
             <Link href="/games">
-              <a className="current-nav-link">
+              <a className="current-nav-link" onClick={() => dispatch(toggleConditon())}>
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
               </a>
             </Link>
           </div>
         </div>
+                }
       </div>
       <div className="theme-toggle-button" id="toggle-button">
         <ThemeToggle />
