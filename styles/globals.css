@@ -1566,6 +1566,16 @@ hr {
   align-items: center;
   color: var(--primary);
 }
+
+@media only screen and (max-width: 767px) {
+  .paginationBttns{
+    flex-wrap : wrap;
+    align-content:flex-start;
+  
+
+
+  }
+}
 .paginationBttns a {
   display: flex;
   align-items: center;
@@ -1598,7 +1608,7 @@ hr {
   background: var(--primary);
 }
 .disabledLinkClassName {
-  opacity: 0;
+  opacity: 1;
 }
 .disabledLinkClassName:hover {
   cursor: default;
