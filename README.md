@@ -6,7 +6,25 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 All in one place where you can find all the resources and details of ambassador/fellowship, open source events, web dev sites, js toolkits and etc. that are available across different sites. Consider this repository as your personal space to find or add any new resource that can make life easier for the community.
-
+<div align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/uses-brains.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
+   <br>
+<img src="https://img.shields.io/github/repo-size/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/issues/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/issues-raw/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/issues-pr/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/issues-closed-raw/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/issues-pr-closed-raw/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/license/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/forks/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/stars/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/contributors/swapnilsparsh/DevEmpire" />
+	<img src="https://img.shields.io/github/last-commit/swapnilsparsh/DevEmpire" />
+	</div>
+	
+	
 ##  🚀 View Live Demo
 <img src="https://img.shields.io/badge/website-up-greene" />
 <pre><center><a href="https://devempire.netlify.app/"><b>devempire.netlify.app</b></a></center></pre>
@@ -107,7 +125,5 @@ This project follows the [MIT License](/LICENSE).
 
 
 ## 📃 License
-
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 
 This project follows the [MIT License](/LICENSE).
