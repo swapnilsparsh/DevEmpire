@@ -8,11 +8,13 @@
 body,
 body[data-theme="light"] {
   --native1: #ffffff;
-  --native2: #00253a;
+  --native2: #333aa1;
   --primary: #0093ed;
   --accent-10: #0072b1;
   --accent-20: #7dd8ff;
   --accent-30: #d6f5ff;
+  --accent-40: #9fcdef89;
+  --accent-50: #ffffff;
   --extra1: #eafaff;
   --extra2: #000000;
   --extra3: var(--accent-30);
@@ -32,6 +34,8 @@ body[data-theme="dark"] {
   --accent-10: #00314d;
   --accent-20: #044468;
   --accent-30: #52c1ff;
+  --accent-40: #9cbfe6;
+  --accent-50: #b0d5fa;
   --extra1: var(--native1);
   --extra2: var(--accent-30);
   --extra3: var(--accent-10);
@@ -713,7 +717,7 @@ replaced by just the links.*/
   font-weight: bold;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-image: linear-gradient(to right, #9cbfe6, #78b4f0);
+  background-image: linear-gradient(to right, var(--accent-40),var(--accent-50));
 }
 
 .navigation .twitter-button .twitter:hover {
