@@ -1,13 +1,15 @@
-import Datas from "../components/ambassador/Ambassador-Data";
-import NoResults from "../components/NoResults";
-import { useState, useEffect, React } from "react";
-import { Link } from "react-scroll";
-import { useLocation } from "react-router-dom";
-import Card from "../components/Card/Card";
-import ReactPaginate from "react-paginate";
+/** @format */
+
+import Datas from '../components/ambassador/Ambassador-Data';
+import NoResults from '../components/NoResults';
+import { useState, useEffect, React } from 'react';
+import { Link } from 'react-scroll';
+import { useLocation } from 'react-router-dom';
+import Card from '../components/Card/Card';
+import ReactPaginate from 'react-paginate';
 
 const Content = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
   const [pageNumber, setPageNumber] = useState(0);
   const cardsPerPage = 12;
 
@@ -18,10 +20,10 @@ const Content = () => {
   // }, [pathname]);
 
   const filterOptions =
-    searchTerm !== ""
+    searchTerm !== ''
       ? Datas.filter((data) =>
-        data.head.toLowerCase().includes(searchTerm.toLowerCase())
-      )
+          data.head.toLowerCase().includes(searchTerm.toLowerCase())
+        )
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
@@ -42,8 +44,8 @@ const Content = () => {
             <h1>Ambassador</h1>
 
             <p>
-              Place where you can find all the resources and details of
-              ambassador/fellowship that are available across different
+              A place where you can find all the resources and details of
+              ambassador/fellowship that is available across different
               companies.
             </p>
 
@@ -89,9 +91,9 @@ const Content = () => {
           nextLabel={<i className="fa fa-chevron-right"></i>}
           pageCount={cardsCount}
           onPageChange={changeCard}
-          containerClassName={"paginationBttns"}
-          disabledLinkClassName={"disabledLinkClassName"}
-          activeClassName={"paginationActive"}
+          containerClassName={'paginationBttns'}
+          disabledLinkClassName={'disabledLinkClassName'}
+          activeClassName={'paginationActive'}
         />
       </div>
     </>
