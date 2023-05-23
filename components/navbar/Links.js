@@ -18,6 +18,14 @@ const Links = () => {
     return pathname === href ? "active" : "";
   };
 
+  const setmenuopenFunc = () => {
+    if (menuopen) {
+      setmenuopen(false)
+    } else {
+      setmenuopen(true)
+    }
+  };
+
   //Routing to results page and passing search word
   useEffect(() => {
     const timeOutId = setTimeout(() => {
@@ -116,19 +124,11 @@ const Links = () => {
         <div className="navNarrow-Bar">
           <i
             id="icon"
-            className="fa fa-bars fa-2x"
+            // className="fa fa-bars fa-2x"
+            className={`fa fa-${menuopen ? "times" : "bars"} fa-2x`}
             aria-hidden="true"
-            onClick={function () {
-              let narrowLinks = document.querySelector(".narrowLinks");
-              narrowLinks.classList.toggle("hidden");
-              let i = document.getElementById("icon");
-              if (!menuopen) {
-                i.classList.replace("fa-bars", "fa-times");
-                setmenuopen(true);
-              } else {
-                i.classList.replace("fa-times", "fa-bars");
-                setmenuopen(false);
-              }
+            onClick={() => {
+              setmenuopenFunc()
             }}
           />
           <div
@@ -139,7 +139,7 @@ const Links = () => {
             className="logo-containter"
           >
             <Link href="/">
-              <p>Dev Empire</p>
+              <p onClick={() => setmenuopenFunc()}>Dev Empire</p>
             </Link>
           </div>
           {/* Global search bar for collapsed nav starts */}
@@ -182,37 +182,39 @@ const Links = () => {
           </div>
           {/* Global search bar for collapsed nav ends */}
         </div>
-        <div className="navNarrow">
-          <div className="narrowLinks hidden">
-            <Link href="/">
-              <a className="current-nav-link">
-                <i className="fa fa-home" aria-hidden="true" />
-                Home
-              </a>
-            </Link>
-            <Link href="/ambassador">
-              <a className="current-nav-link">
-                <i className="fa fa-users" aria-hidden="true" />
-                Ambassador
-              </a>
-            </Link>
-            <Link href="/programs">
-              <a className="current-nav-link">
-                <i className="fa fa-calendar" aria-hidden="true" /> Programs
-              </a>
-            </Link>
-            <Link href="/webdev">
-              <a className="current-nav-link">
-                <i className="fa fa-code" aria-hidden="true" /> Web Dev
-              </a>
-            </Link>
-            <Link href="/games">
-              <a className="current-nav-link">
-                <i className="fa fa-gamepad" aria-hidden="true" /> Games
-              </a>
-            </Link>
+        {menuopen &&
+          <div className="navNarrow">
+            <div className="narrowLinks">
+              <Link href="/">
+                <a className="current-nav-link" onClick={() => setmenuopenFunc()}>
+                  <i className="fa fa-home" aria-hidden="true" />
+                  Home
+                </a>
+              </Link>
+              <Link href="/ambassador">
+                <a className="current-nav-link" onClick={() => setmenuopenFunc()}>
+                  <i className="fa fa-users" aria-hidden="true" />
+                  Ambassador
+                </a>
+              </Link>
+              <Link href="/programs">
+                <a className="current-nav-link" onClick={() => setmenuopenFunc()}>
+                  <i className="fa fa-calendar" aria-hidden="true" /> Programs
+                </a>
+              </Link>
+              <Link href="/webdev">
+                <a className="current-nav-link" onClick={() => setmenuopenFunc()}>
+                  <i className="fa fa-code" aria-hidden="true" /> Web Dev
+                </a>
+              </Link>
+              <Link href="/games">
+                <a className="current-nav-link" onClick={() => setmenuopenFunc()}>
+                  <i className="fa fa-gamepad" aria-hidden="true" /> Games
+                </a>
+              </Link>
+            </div>
           </div>
-        </div>
+        }
       </div>
       <div className="theme-toggle-button" id="toggle-button">
         <ThemeToggle />
