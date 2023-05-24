@@ -1,5 +1,4 @@
 const WebDevDatas = [
-
   // Colors
 
   {
@@ -72,7 +71,8 @@ const WebDevDatas = [
     link: "https://powerpeopleplatform.com/",
     head: "Power People Platform",
     image: "../assets/webdev-img/PowerPeoplePlatform.png",
-    about: "It is a delicious design library of 3D avatars. Made with love for more fun and color in your work.",
+    about:
+      "It is a delicious design library of 3D avatars. Made with love for more fun and color in your work.",
     alt: "Power People Platform",
     label: "Illustration",
   },
@@ -252,7 +252,8 @@ const WebDevDatas = [
     link: "https://culrs.com",
     head: "Culrs",
     image: "../assets/webdev-img/Culrs.png",
-    about: "Colors that work together are curated and fashioned into quality palettes that you can incorporate.",
+    about:
+      "Colors that work together are curated and fashioned into quality palettes that you can incorporate.",
     alt: "Culrs",
     label: "Colors",
   },
@@ -320,7 +321,7 @@ const WebDevDatas = [
     about:
       "This generator makes it easy to create the shapes and comes with 50+ presets for inspiration.",
     alt: "Neumorphic Generator",
-    label: "CSS"
+    label: "CSS",
   },
   {
     link: "https://css-generator.netlify.app/",
@@ -464,6 +465,15 @@ const WebDevDatas = [
     image: "../assets/webdev-img/Unsplash.png",
     about: "The internet’s source of freely-usable images.",
     alt: "Unsplash",
+    label: "Stock Photos",
+  },
+  {
+    link: "https://csspeeper.com/",
+    head: "CSSPeeper",
+    image: "../assets/webdev-img/CSSPeeper.png",
+    about:
+      "CSS Peeper allows you to inspect whole color palette used on a website",
+    alt: "CSSPeeper",
     label: "Stock Photos",
   },
   {
