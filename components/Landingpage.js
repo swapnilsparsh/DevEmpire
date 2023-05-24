@@ -7,6 +7,7 @@ import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
 import Image from "next/image";
 import Link from "next/link";
+import AdBanner from "./AdBanner";
 
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);
@@ -125,6 +126,10 @@ const Landingpage = () => {
           </div>
         </div>
       </div>
+      <AdBanner data-ad-slot="7434970023"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </>
   );
 };

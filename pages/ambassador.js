@@ -1,3 +1,4 @@
+ gmmr-issue
 /** @format */
 
 import Datas from '../components/ambassador/Ambassador-Data';
@@ -7,35 +8,53 @@ import { Link } from 'react-scroll';
 import { useLocation } from 'react-router-dom';
 import Card from '../components/Card/Card';
 import ReactPaginate from 'react-paginate';
+=======
+import Datas from "../components/ambassador/Ambassador-Data";
+import NoResults from "../components/NoResults";
+import { useState, React } from "react";
+import { Link } from "react-scroll";
+import Card from "../components/Card/Card";
+import ReactPaginateComponent from "../components/ReactPaginateComponent";
+ master
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [pageNumber, setPageNumber] = useState(0);
+  const [filteredPageNumber, setfilteredPageNumber] = useState(0);
+
   const cardsPerPage = 12;
 
-  // const { pathname } = useLocation();
-
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [pathname]);
-
   const filterOptions =
+ gmmr-issue
     searchTerm !== ''
       ? Datas.filter((data) =>
           data.head.toLowerCase().includes(searchTerm.toLowerCase())
         )
+
+    searchTerm !== ""
+      ? Datas.filter((data) => {
+          return data.head.toLowerCase().includes(searchTerm.toLowerCase());
+        })
+ master
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
-  const displayCards = filterOptions.slice(
-    cardsVisited,
-    cardsVisited + cardsPerPage
-  );
-  const cardsCount = Math.ceil(filterOptions.length / cardsPerPage);
+  const filteredCardsVisited = filteredPageNumber * cardsPerPage;
 
-  const changeCard = ({ selected }) => {
-    setPageNumber(selected);
+  const displayCards = filterOptions.slice(
+    searchTerm !== "" ? filteredCardsVisited : cardsVisited,
+    (searchTerm !== "" ? filteredCardsVisited : cardsVisited) + cardsPerPage
+  );
+  const pageCount = Math.ceil(filterOptions.length / cardsPerPage);
+
+  const changePageNumber = ({ selected }) => {
+    if (searchTerm !== "") {
+      setfilteredPageNumber(selected);
+    } else {
+      setPageNumber(selected);
+    }
   };
+
   return (
     <>
       <div className="container-landing">
@@ -62,6 +81,7 @@ const Content = () => {
                 placeholder="Search"
                 onChange={(event) => {
                   setSearchTerm(event.target.value);
+                  setfilteredPageNumber(0);
                 }}
               />
             </div>
@@ -86,6 +106,7 @@ const Content = () => {
             <NoResults search={searchTerm} />
           )}
         </div>
+ gmmr-issue
         <ReactPaginate
           previousLabel={<i className="fa fa-chevron-left"></i>}
           nextLabel={<i className="fa fa-chevron-right"></i>}
@@ -94,6 +115,12 @@ const Content = () => {
           containerClassName={'paginationBttns'}
           disabledLinkClassName={'disabledLinkClassName'}
           activeClassName={'paginationActive'}
+
+        <ReactPaginateComponent
+          pageCount={pageCount}
+          changePage={changePageNumber}
+          forcePage={searchTerm !== "" ? filteredPageNumber : pageNumber}
+ master
         />
       </div>
     </>
