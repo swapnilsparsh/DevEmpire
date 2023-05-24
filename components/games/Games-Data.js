@@ -10,7 +10,7 @@ const Games= [
         link: "https://shape.method.ac/",
         head: "Shape Type",
         image: "../assets/games-img/ShapeType.png",
-        about: "A letter shaping game.",
+        about: "A letter shaping the game.",
         alt: "Shape Type"
     },
   {

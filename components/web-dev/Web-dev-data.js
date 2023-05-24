@@ -24,7 +24,7 @@ const WebDevDatas = [
     head: "Storyset",
     image: "../assets/webdev-img/StorySet.png",
     about:
-      "Customize, animate and download our illustrations to make incredible landing pages, etc.",
+      "Customize, animate, and download our illustrations to make incredible landing pages, etc.",
     alt: "Storyset",
     label: "Illustration",
   },
@@ -64,7 +64,7 @@ const WebDevDatas = [
     link: "https://freeillustrations.xyz/",
     head: "Free Illustration",
     image: "../assets/webdev-img/FreeIllustration.png",
-    about: "Find free to use illustrations.",
+    about: "Find free-to-use illustrations.",
     alt: "Free Illustration",
     label: "Illustration",
   },
@@ -146,7 +146,7 @@ const WebDevDatas = [
     head: "DiceBear",
     image: "../assets/webdev-img/DiceBear.png",
     about:
-      "DiceBear is an avatar library with a simple and free HTTP API to choose between identicons",
+      "DiceBear is an avatar library with a simple and free HTTP API to choose between identicals",
     alt: "DiceBear",
     label: "Vectors/Svg",
   },
@@ -179,7 +179,7 @@ const WebDevDatas = [
     link: "https://www.freepik.com/",
     head: "Freepik",
     image: "../assets/webdev-img/Freepik.png",
-    about: "Find Free Vectors, Stock Photos and PSD.",
+    about: "Find Free Vectors, Stock Photos, and PSD.",
     alt: "Freepik",
     label: "Vectors/Svg",
   },
@@ -204,7 +204,7 @@ const WebDevDatas = [
     head: "Font Awesome",
     image: "../assets/webdev-img/FontAwesome.png",
     about:
-      "Get vector icons and social logos on your website with most popular icon set and toolkit.",
+      "Get vector icons and social logos on your website with the most popular icon set and toolkit.",
     alt: "Font Awesome",
     label: "Icons",
   },
@@ -343,7 +343,7 @@ const WebDevDatas = [
     head: "Colordoo",
     image: "../assets/webdev-img/Colordoo.jpeg",
     about:
-      "We create the new ways to find the top color trends for your next logo, branding, website, illustrations.",
+      "We create new ways to find the top color trends for your next logo, branding, website,and illustrations.",
     alt: "Colordoo",
     label: "CSS",
   },
@@ -352,7 +352,7 @@ const WebDevDatas = [
     head: "Glass UI Generator",
     image: "../assets/webdev-img/GlassUI.png",
     about:
-      "Get started with this free generator based on the glassmorphism design.",
+      "Get started with this free generator based on the glass morphism design.",
     alt: "Glass UI Generator",
     label: "CSS",
   },
@@ -422,7 +422,7 @@ const WebDevDatas = [
     head: "Blobmaker",
     image: "../assets/webdev-img/BlobMaker.png",
     about:
-      "It help you quickly create random, unique, and organic-looking SVG shapes.",
+      "It helps you quickly create random, unique, and organic-looking SVG shapes.",
     alt: "Blobmaker",
     label: "Vectors/Svg",
   },
@@ -471,7 +471,7 @@ const WebDevDatas = [
     head: "Pixabay",
     image: "../assets/webdev-img/Pixabay.png",
     about:
-      "Over 2.4 million+ high quality stock images, videos and music shared by our talented community.",
+      "Over 2.4 million+ high quality stock images, videos, and music shared by our talented community.",
     alt: "Pixabay",
     label: "Stock Photos",
   },

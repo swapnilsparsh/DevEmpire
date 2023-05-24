@@ -61,7 +61,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           name="description"
           content="All in one place where you can find all the resources and details of 
-    ambassador/fellowship, open-source events, web dev sites, js toolkits and etc."
+    ambassador/fellowship, open-source events, web dev sites, js toolkits etc."
         />
 
         {/* Open Graph / Facebook  */}
@@ -71,7 +71,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           property="og:description"
           content="All in one place where you can find all the resources and details of 
-      ambassador/fellowship, open-source events, web dev sites, js toolkits and etc."
+      ambassador/fellowship, open-source events, web dev sites, js toolkits etc."
         />
         <meta
           property="og:image"
@@ -86,7 +86,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           property="twitter:description"
           content="All in one place where you can find all the resources and details of 
-      ambassador/fellowship, open-source events, web dev sites, js toolkits and etc."
+      ambassador/fellowship, open-source events, web dev sites, js toolkits etc."
         />
         <meta
           name="twitter:image:src"

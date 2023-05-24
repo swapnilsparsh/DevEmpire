@@ -29,7 +29,7 @@ Thank you for helping out and remember, **no contribution is too small.**
 - Do styling changes in the respective **Sass** file.
 - If you are facing any difficulties you can refer to this [documentation](https://sass-lang.com/guide).
 
-You can refer to the following articles on basics of Git and Github and also contact the Project Mentors,
+You can refer to the following articles on the basics of Git and GitHub and also contact the Project Mentors,
 in case you are stuck:
 
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
@@ -75,7 +75,7 @@ git rebase upstream/<branch-name>
 
 ### Step 2 : Branch
 
-Create a new branch. Use its name to identify the issue your addressing.
+Create a new branch. Use its name to identify the issue you addressing.
 
 ```bash
 # It will create a new branch with name Branch_Name and switch to that branch 
@@ -98,7 +98,7 @@ git add <some files>
 
 ### Step 4 : Commit
 
-- To commit give a descriptive message for the convenience of reviewer by:
+- To commit give a descriptive message for the convenience of the reviewer by:
 
 ```bash
 # This message get associated with all files you have changed  
@@ -123,7 +123,7 @@ git push -u origin Branch_Name
 
 ### Step 6 : Pull Request
 
-- Go to your repository in browser and click on compare and pull requests.
+- Go to your repository in the browser and click on compare and pull requests.
 Then add a title and description to your pull request that explains your contribution.  
 
 ![PR](https://user-images.githubusercontent.com/73248007/135501122-6d3bde84-5a50-4baf-8be7-80a4e9f9d51a.png)
