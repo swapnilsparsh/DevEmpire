@@ -117,6 +117,7 @@ const Content = () => {
           activeClassName={'paginationActive'}
 
         <ReactPaginateComponent
+          pageNumber={pageNumber}
           pageCount={pageCount}
           changePage={changePageNumber}
           forcePage={searchTerm !== "" ? filteredPageNumber : pageNumber}
