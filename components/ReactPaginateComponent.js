@@ -5,11 +5,16 @@ export default function ReactPaginateComponent({
   pageCount,
   changePage,
   forcePage,
+  pageNumber,
 }) {
   return (
     <ReactPaginate
-      previousLabel={<i className="fa fa-chevron-left"></i>}
-      nextLabel={<i className="fa fa-chevron-right"></i>}
+    previousLabel={
+      pageNumber === 0 ? null : <i className="fa fa-chevron-left"></i>
+    }
+    nextLabel={
+      pageNumber === pageCount-1 ? null : <i className="fa fa-chevron-right"></i>
+    }
       pageCount={pageCount}
       onPageChange={changePage}
       containerClassName={"paginationBttns"}
