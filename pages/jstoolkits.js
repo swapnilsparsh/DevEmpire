@@ -28,8 +28,8 @@ const Content = () => {
             <h1>JavaScript Toolkits</h1>
 
             <p>
-              While the number of ways to organize JavaScript is almost
-              infinite, here are some collection of JS framework and libraries
+            While the number of ways to organize JavaScript is almost
+              infinite, here are some collections of JS frameworks and libraries
               that can help you while you are working on a project or searching
               around the web.
             </p>

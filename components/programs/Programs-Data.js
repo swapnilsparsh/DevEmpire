@@ -43,10 +43,10 @@ const ProgramsDatas = [
     },
     {
         link: "https://letsgrowmore.in/soc/",
-        head: "Lets Grow More Summer Of Code",
+        head: "Let's Grow More Summer Of Code",
         image: "../assets/programs-img/LGMSOC.png",
         about: "Encourage student participation in open source software development.",
-        alt: "Lets Grow More Summer Of Code"
+        alt: "Let's Grow More Summer Of Code"
     },
     {
         link: "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
@@ -59,7 +59,7 @@ const ProgramsDatas = [
         link: "https://osoc.be/",
         head: "Open Summer of Code",
         image: "../assets/programs-img/OSOC.jpg",
-        about: "It is for anyone who brings motivation, enthusiasm and talent to the table.",
+        about: "It is for anyone who brings motivation, enthusiasm. and talent to the table.",
         alt: "Open Summer of Code"
     },
     {
@@ -108,14 +108,14 @@ const ProgramsDatas = [
         link: "https://www.fsf.org/volunteer/internships",
         head: "Free Software Foundation (FSF) Internship Program",
         image: "../assets/programs-img/fsf.png",
-        about: "If you want to intern at the Free Software Foundation and you know web development, systems, networking, software licensing you can consider the FSF internship program.",
+        about: "If you want to intern at the Free Software Foundation, and you know web development, systems, networking, software licensing you can consider the FSF internship program.",
         alt: "Free Software Foundation (FSF) Internship Program"
     },
     {
         link: "https://www.openmainframeproject.org/projects/mentorship-program",
         head: "Open Mainframe Project Mentorship Program",
         image: "../assets/programs-img/openmainframe.png",
-        about: "It is a open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
+        about: "It is an open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
         alt: "Open Mainframe Project Mentorship Program"
     },
 ];

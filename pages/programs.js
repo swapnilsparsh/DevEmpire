@@ -44,8 +44,8 @@ const Content = () => {
             <h1>Open Source Programs</h1>
 
             <p>
-              Here you can find all the resources and details of Open Source
-              Programs and event that are available across different countries.
+            Here you can find all the resources and details of Open Source
+              Programs and events are available across different countries.
             </p>
 
             <Link to="container" smooth={true} duration={1000}>

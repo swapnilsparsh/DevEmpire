@@ -52,7 +52,7 @@ const AmbassadorDatas = [
         link: "https://auth0.com/ambassador-program/",
         head: "Auth0 Ambassador Program",
         image: "../assets/ambassador-img/Auth0ambassador.png",
-        about: "Join the community by sharing knowledge on identity and security related topics.",
+        about: "Join the community by sharing knowledge on identity and security-related topics.",
         alt: "Auth0 Logo"
     },
     {
@@ -87,7 +87,7 @@ const AmbassadorDatas = [
         link: "https://www.binance.com/en-IN/event/binance_campus_buidler",
         head: "Binance Campus BUIDLers Program",
         image: "../assets/ambassador-img/Binance.jpg",
-        about: "A platform for students to explore new opportunities, accelerate crypto literacy.",
+        about: "A platform for students to explore new opportunities,and accelerate crypto literacy.",
         alt: "Binance Logo"
     },
     {
@@ -164,7 +164,7 @@ const AmbassadorDatas = [
         link: "https://developers.facebook.com/developercircles/",
         head: "Developer Circles from Facebook",
         image: "../assets/ambassador-img/Facebook.png",
-        about: "Communities of innovators, where they receive opportunities to strengthen in Facebook products.",
+        about: "Communities of innovators, where they receive opportunities to strengthen  Facebook products.",
         alt: "Facebook Logo"
     },
     {
@@ -239,9 +239,9 @@ const AmbassadorDatas = [
     },
     {
         link: "https://education.github.com/experts",
-        head: "Github Campus Experts",
+        head: "GitHub Campus Experts",
         image: "../assets/ambassador-img/Github-campus-experts.png",
-        about: "They are student leaders that strive to build diverse spaces to learn skills, and etc.",
+        about: "They are student leaders that strive to build diverse spaces to learn skills, etc.",
         alt: "Github-campus-expert Logo"
     },
     {
@@ -249,7 +249,7 @@ const AmbassadorDatas = [
         head: "GitHub Campus Program",
         image: "../assets/ambassador-img/Github-campus.png",
         about: "Get a package of technical tools, training for faculty members, and support to grow technical communities",
-        alt: "Github-campus Logo"
+        alt: "GitHub-campus Logo"
     },
     {
         link: "https://education.github.com/students/octernships",
@@ -260,7 +260,7 @@ const AmbassadorDatas = [
     },
     {
         link: "https://education.github.com/teachers",
-        head: "Github Teacher Program",
+        head: "GitHub Teacher Program",
         image: "../assets/ambassador-img/Github-classroom.png",
         about: "Teach your students with the industry-standard tools, so they can shine on technical teams.",
         alt: "Github-classroom Logo"
@@ -276,7 +276,7 @@ const AmbassadorDatas = [
         link: "https://about.gitlab.com/community/heroes/",
         head: "GitLab Heroes",
         image: "../assets/ambassador-img/Gitlab.png",
-        about: "They engages, supports, connects, and recognizes members of the wider GitLab community.",
+        about: "They engage, support, connect, and recognize members of the wider GitLab community.",
         alt: "Gitlab Logo"
     },
     {
@@ -332,7 +332,7 @@ const AmbassadorDatas = [
         link: "https://studentambassadors.microsoft.com/",
         head: "Microsoft Learn Student Ambassador",
         image: "../assets/ambassador-img/MLSA.png",
-        about: "Amplify your impact and bring together your peers to learn new skills, and etc.",
+        about: "Amplify your impact and bring together your peers to learn new skills, etc.",
         alt: "MLSA Logo"
     },
     {
@@ -367,7 +367,7 @@ const AmbassadorDatas = [
         link: "https://mlh.io/event-membership",
         head: "MLH Event Membership Program",
         image: "../assets/ambassador-img/MLH.png",
-        about: "Join the MLH Event Membership and get support for every step for the hackathon.",
+        about: "Join the MLH Event Membership and get support of every step for the hackathon.",
         alt: "MLH Logo"
     },
     {
@@ -409,14 +409,14 @@ const AmbassadorDatas = [
         link: "https://www.oasisprotocol.org/community#ambassador",
         head: "Oasis Ambassador Program",
         image: "../assets/ambassador-img/OasisNetwork.png",
-        about: "Community for node operators, creators to token holders, and builders to Web3 enthusiasts",
+        about: "A community for node operators, creators to token holders, and builders to Web3 enthusiasts",
         alt: "Oasis Logo"
     },
     {
         link: "https://www.oneplus.in/campus",
         head: "OnePlus Student Ambassador Program",
         image: "../assets/ambassador-img/OnePlus.jpg",
-        about: "It is a campus connect program that aims to make a difference in the world through technology.",
+        about: "Its campus connects program aims to make a difference in the world through technology. ",
         alt: "OnePlus Logo"
     },
     {
@@ -437,7 +437,7 @@ const AmbassadorDatas = [
         link: "https://www.postman.com/company/student-program/#student-leader-program",
         head: "Postman Student Leader Program",
         image: "../assets/ambassador-img/Postman-Leader.png",
-        about: "Become a leader, educator and advocate for API literacy on your campus.",
+        about: "Become a leader, educator, and advocate for API literacy on your campus.",
         alt: "Postman-Leader Logo"
     },
     {
@@ -500,14 +500,14 @@ const AmbassadorDatas = [
         link: "https://www.twilio.com/quest/students",
         head: "Twilio Field Operator",
         image: "../assets/ambassador-img/TwilioFieldOperator.png",
-        about: "Student leaders looking for opportunities to lead, explore new technologies and serve their communities.",
+        about: "Student leaders looking for opportunities to lead, explore new technologies, and serve their communities.",
         alt: "Twilio Logo"
     },
     {
         link: "https://developer.twitter.com/en/community/student-ambassadors",
         head: "Twitter Student Ambassador",
         image: "../assets/ambassador-img/Twitter.png",
-        about: "It is a program set up to support our enthusiastic student builders who uses Twitter API.",
+        about: "It is a program set up to support our enthusiastic student builders who use Twitter API.",
         alt: "Twitter Logo"
     },
     {
@@ -535,7 +535,7 @@ const AmbassadorDatas = [
         link: "https://careers.vmware.com/campus-ambassador-program",
         head: "VMware Campus Ambassador",
         image: "../assets/ambassador-img/VMware.png",
-        about: "Connect your student peers with the latest VMware products and solutions, interactive session, etc.",
+        about: "Connect your student peers with the latest VMware products and solutions, interactive sessions, etc.",
         alt: "VMware Logo"
     },
     {
