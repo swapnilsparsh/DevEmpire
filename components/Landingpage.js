@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Home from "../public/assets/svg/Home.svg";
-// import JS from "../public/assets/svg/JSToolkit.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
@@ -22,7 +21,7 @@ const Landingpage = () => {
             <div className="header-details">
               <h1>Developer Empire</h1>
               <p>
-              All in one place where you can find all the resources and
+                All in one place where you can find all the resources and
                 details of ambassador/fellowship, open source events, web dev
                 sites, js toolkits, etc. that are available across different
                 sites.
@@ -69,7 +68,7 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-              A place where you can find all the resources and details of
+                A place where you can find all the resources and details of
                 ambassador/fellowship that is available across different
                 countries and companies.
               </p>
@@ -83,7 +82,7 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-              Here you can find all the resources and details of Open Source
+                Here you can find all the resources and details of Open Source
                 Programs and events that are available across different
                 countries.
               </p>
@@ -103,8 +102,8 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-              A collection of all the tools that are required for web
-                the development made by the community to ease the process of web
+                A collection of all the tools that are required for web the
+                development made by the community to ease the process of web
                 development like CSS Generators, Icons, Illustrations, etc.
               </p>
             </div>
@@ -117,7 +116,8 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                A collection of fun games that help you learn web technologies in an enjoyable way.
+                A collection of fun games that help you learn web technologies
+                in an enjoyable way.
               </p>
             </div>
             <div className="header-image">
@@ -126,7 +126,8 @@ const Landingpage = () => {
           </div>
         </div>
       </div>
-      <AdBanner data-ad-slot="7434970023"
+      <AdBanner
+        data-ad-slot="7434970023"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />

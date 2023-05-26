@@ -1,41 +1,22 @@
- gmmr-issue
-/** @format */
-
-import Datas from '../components/ambassador/Ambassador-Data';
-import NoResults from '../components/NoResults';
-import { useState, useEffect, React } from 'react';
-import { Link } from 'react-scroll';
-import { useLocation } from 'react-router-dom';
-import Card from '../components/Card/Card';
-import ReactPaginate from 'react-paginate';
-=======
 import Datas from "../components/ambassador/Ambassador-Data";
 import NoResults from "../components/NoResults";
 import { useState, React } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
 import ReactPaginateComponent from "../components/ReactPaginateComponent";
- master
 
 const Content = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
   const [pageNumber, setPageNumber] = useState(0);
   const [filteredPageNumber, setfilteredPageNumber] = useState(0);
 
   const cardsPerPage = 12;
 
   const filterOptions =
- gmmr-issue
-    searchTerm !== ''
+    searchTerm !== ""
       ? Datas.filter((data) =>
           data.head.toLowerCase().includes(searchTerm.toLowerCase())
         )
-
-    searchTerm !== ""
-      ? Datas.filter((data) => {
-          return data.head.toLowerCase().includes(searchTerm.toLowerCase());
-        })
- master
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
@@ -106,22 +87,11 @@ const Content = () => {
             <NoResults search={searchTerm} />
           )}
         </div>
- gmmr-issue
-        <ReactPaginate
-          previousLabel={<i className="fa fa-chevron-left"></i>}
-          nextLabel={<i className="fa fa-chevron-right"></i>}
-          pageCount={cardsCount}
-          onPageChange={changeCard}
-          containerClassName={'paginationBttns'}
-          disabledLinkClassName={'disabledLinkClassName'}
-          activeClassName={'paginationActive'}
-
         <ReactPaginateComponent
           pageNumber={pageNumber}
           pageCount={pageCount}
           changePage={changePageNumber}
           forcePage={searchTerm !== "" ? filteredPageNumber : pageNumber}
- master
         />
       </div>
     </>
