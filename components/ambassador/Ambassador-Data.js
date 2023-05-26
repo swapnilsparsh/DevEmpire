@@ -406,6 +406,13 @@ const AmbassadorDatas = [
         alt: "NVIDIA Logo"
     },
     {
+        link: "https://nx.dev/community",
+        head: "Nx Champions",
+        image: "../assets/ambassador-img/nx.png",
+        about: "These friendly people promote Nx in the community by publishing content and sharing their expertise. They also gather feedback from the community to help improve Nx.",
+        alt: "Nx Logo"
+    },
+    {
         link: "https://www.oasisprotocol.org/community#ambassador",
         head: "Oasis Ambassador Program",
         image: "../assets/ambassador-img/OasisNetwork.png",
