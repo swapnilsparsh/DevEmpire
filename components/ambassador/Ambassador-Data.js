@@ -408,7 +408,7 @@ const AmbassadorDatas = [
     {
         link: "https://nx.dev/community",
         head: "Nx Champions",
-        image: "../assets/ambassador-img/nx.png",
+        image: "../assets/ambassador-img/Nx.png",
         about: "These friendly people promote Nx in the community by publishing content and sharing their expertise. They also gather feedback from the community to help improve Nx.",
         alt: "Nx Logo"
     },
