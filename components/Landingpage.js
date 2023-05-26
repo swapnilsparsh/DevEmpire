@@ -7,6 +7,7 @@ import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
 import Image from "next/image";
 import Link from "next/link";
+import AdBanner from "./AdBanner";
 
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);
@@ -21,9 +22,9 @@ const Landingpage = () => {
             <div className="header-details">
               <h1>Developer Empire</h1>
               <p>
-                All in one place where you can find all the resources and
+              All in one place where you can find all the resources and
                 details of ambassador/fellowship, open source events, web dev
-                sites, js toolkits and etc. that are available across different
+                sites, js toolkits, etc. that are available across different
                 sites.
               </p>
               <div className="landing-page-btn-container">
@@ -68,8 +69,8 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                Place where you can find all the resources and details of
-                ambassador/fellowship that are available across different
+              A place where you can find all the resources and details of
+                ambassador/fellowship that is available across different
                 countries and companies.
               </p>
             </div>
@@ -82,8 +83,8 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                Here you can find all the resources and details of Open Source
-                Programs and event that are available across different
+              Here you can find all the resources and details of Open Source
+                Programs and events that are available across different
                 countries.
               </p>
             </div>
@@ -102,9 +103,9 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                A collection of all the tools that are required in web
-                development made by the community to ease the process of web
-                development like CSS Generators, Icons, Illustration, etc.
+              A collection of all the tools that are required for web
+                the development made by the community to ease the process of web
+                development like CSS Generators, Icons, Illustrations, etc.
               </p>
             </div>
           </div>
@@ -125,6 +126,10 @@ const Landingpage = () => {
           </div>
         </div>
       </div>
+      <AdBanner data-ad-slot="7434970023"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </>
   );
 };

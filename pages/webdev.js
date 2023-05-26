@@ -133,6 +133,7 @@ const Content = () => {
           )}
         </div>
         <ReactPaginateComponent
+          pageNumber={pageNumber}
           pageCount={pageCount}
           changePage={changePageNumber}
           forcePage={searchTerm !== "" ? filteredPageNumber : pageNumber}
