@@ -19,7 +19,7 @@ const Content = () => {
   const searchResults =
     searchTerm !== ""
       ? Datas.filter((data) =>
-        data.head.toLowerCase().includes(searchTerm.toLowerCase())
+        data.head.toLowerCase().includes(searchTerm.toLowerCase()) || data.about.toLowerCase().includes(searchTerm.toLowerCase())
       )
       : [];
   return (
