@@ -1002,7 +1002,10 @@ replaced by just the links.*/
   background: url("../public/assets/svg/Footer.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 6rem 0rem 2rem 0rem;
+  padding: 10rem 0rem 2rem 0rem;
+  display:grid;
+  grid-template-columns: auto auto;
+  position:relative;
 }
 
 .footer-question {
@@ -1013,28 +1016,27 @@ replaced by just the links.*/
 
 .footer-question h4 {
   /* color: rgba(255, 255, 255, 0.808); */
-  color: var(--extra1);
+  color: white;
   opacity: 0.8;
 }
 
 .footer-question a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--native1);
+  color: black;
   border-bottom: 1px dotted var(--accent-30);
   opacity: 1 !important;
 }
-
-hr {
-  margin-bottom: 1rem;
-  border: 0.1px solid var(--primary);
-  border-radius: 10px;
+.footer-question h2{
+  margin-top: 50px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
 }
-
-.footer-question p {
-  /* color: rgba(255, 255, 255, 0.808); */
-  color: var(--extra1);
-  margin-bottom: 1rem;
+.footer-copyright{
+  color: white;
+  display:flex;
+  margin-left: 110px;
 }
 
 /* Footer End */
