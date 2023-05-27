@@ -999,10 +999,10 @@ replaced by just the links.*/
 /* Searching No Results End*/
 /*Start footer*/
 .footer {
-  background: url("../public/assets/svg/Footer.svg");
+  background-color: #0093ed;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 10rem 0rem 2rem 0rem;
+  padding: 2rem 0rem 2rem 0rem;
   display:grid;
   grid-template-columns: auto auto;
   width:100%;
@@ -1147,7 +1147,7 @@ replaced by just the links.*/
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .landing-page-header .homesvg img {
     height: 100%;
     width: 280px;
@@ -1159,9 +1159,13 @@ replaced by just the links.*/
   .landing-page-header .header-details p {
     font-size: 14px;
   }
+  /* footer */
+  .theme-toggle-button{
+    display:flex;
+    margin-left: 40vw;
 }
-
-@media screen and (max-width: 780px) {
+}
+@media screen and (max-width: 768px) {
   .container-landing .landing-page-details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1200,6 +1204,34 @@ replaced by just the links.*/
   .top-navbar .navigation {
     padding: 12px 2px;
   }
+
+  /* footer */
+
+  .footer{
+    background-color: #0093ed;
+  }
+  .footer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  #toggle-button{
+    margin-top: -5rem!important;
+  }
+  
+ .column1,.column2 {
+   width: 50%;
+   text-align: left;
+ }
+ .theme-toggle-button{
+  display:flex;
+  margin-bottom: 30vw;
+ }
+ h2 span {
+   font-size: 1em!important;
+ }
 }
 
 @media screen and (max-width: 600px) {
