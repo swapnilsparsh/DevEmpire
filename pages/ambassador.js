@@ -8,7 +8,6 @@ import { Link } from 'react-scroll';
 import { useLocation } from 'react-router-dom';
 import Card from '../components/Card/Card';
 import ReactPaginate from 'react-paginate';
-=======
 import Datas from "../components/ambassador/Ambassador-Data";
 import NoResults from "../components/NoResults";
 import { useState, React } from "react";
