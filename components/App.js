@@ -5,11 +5,9 @@ import BackToTop from "./Backtotop";
 import Navbar from "./Menu";
 import Preloader from "./Preloader";
 
-
 const App = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 3200);
@@ -17,7 +15,7 @@ const App = () => {
 
   return loading ? (
     <Preloader />
-    ) : (
+  ) : (
     <>
       <Navbar />
       <BackToTop />
