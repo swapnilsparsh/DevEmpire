@@ -1042,8 +1042,8 @@ replaced by just the links.*/
 .footer-details{
   /* margin-right: 20%; */
   display:grid;
-  grid-column-gap: 20%;
-  grid-template-columns: auto auto;
+  grid-column-gap: 50%;
+  grid-template-columns: auto auto auto;
   justify-items: center;
   align-items: center;
   width:50%;
@@ -1555,16 +1555,14 @@ replaced by just the links.*/
 .theme-toggle-button {
   display: flex;
   align-items: center;
-  position: fixed;
-  background: var(--primary);
+  /* background: var(--primary); */
   padding: 7.5px;
-  z-index: 1;
   bottom: 20px;
   border-end-end-radius: 20px;
   border-start-end-radius: 20px;
   padding-inline-start: 25px;
-  border: 1px solid var(--accent-10);
-  border-inline-start: none;
+  /* border: 1px solid var(--accent-10); */
+  /* border-inline-start: none; */
 }
 
 /*Theme Change toggle button ends*/

@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Box,
   Container,
@@ -9,6 +10,11 @@ import {
   Heading1,
   Heading2
 } from "./FooterStyles";
+import dynamic from "next/dynamic";
+
+const ThemeToggle = dynamic(() => import("./ThemeToggle"), {
+  ssr: false,
+});
 const Footer = () => {
   return (
     <div className="footer">
@@ -72,6 +78,9 @@ const Footer = () => {
             <FooterLink href="/webdev">WebDev</FooterLink>
             <FooterLink href="/games">Games</FooterLink>
           </Column2>
+          </div>
+          <div className="theme-toggle-button" id="toggle-button">
+            <ThemeToggle />
           </div>
         </div>
     </div>
