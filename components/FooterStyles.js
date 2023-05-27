@@ -1,32 +1,30 @@
 import styled from 'styled-components';
 
-export const Box = styled.div`
-padding: 80px 60px;
-background: blue;
-position: relative;
-bottom: 0;
-width: 100%;
+// export const Box = styled.div`
+// padding: 80px 60px;
+// background: blue;
+// position: relative;
+// bottom: 0;
+// width: 100%;
 
 
-@media (max-width: 1000px) {
-	padding: 70px 30px;
-}
-`;
+// @media (max-width: 1000px) {
+// 	padding: 70px 30px;
+// }
+// `;
 
-export const Container = styled.div`
-	display:inline-block;
-	float:right;
-`
+// export const Container = styled.div`
+// 	display:inline-block;
+// 	float:right;
+// `
 
 export const Column1 = styled.div`
-display: flex;
-flex-direction: column;
-float:left;
+display: grid;
+width: 50%;
 `;
 export const Column2 = styled.div`
-display: flex;
-flex-direction: column;
-float :right;
+display: grid;
+width:50%;
 `;
 
 // export const Row = styled.div`
@@ -48,8 +46,8 @@ font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: green;
-	transition: 200ms ease-in;
+	color: purple;
+	transition: color .1s ease-in;
 }
 `;
 

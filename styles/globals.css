@@ -1005,7 +1005,7 @@ replaced by just the links.*/
   padding: 10rem 0rem 2rem 0rem;
   display:grid;
   grid-template-columns: auto auto;
-  position:relative;
+  width:100%;
 }
 
 .footer-question {
@@ -1028,7 +1028,7 @@ replaced by just the links.*/
   opacity: 1 !important;
 }
 .footer-question h2{
-  margin-top: 50px;
+  margin-top: 3.2rem;
   font-weight: 400;
   text-decoration: none;
   color: white;
@@ -1036,10 +1036,20 @@ replaced by just the links.*/
 .footer-copyright{
   color: white;
   display:flex;
-  margin-left: 110px;
+  margin-left: 6.9rem;
+  width:50%;
 }
-
+.footer-details{
+  /* margin-right: 20%; */
+  display:grid;
+  grid-column-gap: 20%;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+  width:50%;
+}
 /* Footer End */
+
 /* Back To Top Start */
 .back-to-top .top {
   position: fixed;
