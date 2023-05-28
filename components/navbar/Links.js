@@ -110,24 +110,15 @@ const Links = () => {
           </div>
         </div>
       </div>
-      <div className="navNarrow-container">
-        <div className="navNarrow-Bar">
+      <div className="navNarrow-container" onMouseLeave={()=>{setmenuopen(!menuopen)}} >
+        <div className="navNarrow-Bar"
+      
+      >
           <i
             id="icon"
-            className="fa fa-bars fa-2x"
+            className={`fa ${menuopen ? "fa-bars" : "fa-times"} fa-2x`}
             aria-hidden="true"
-            onClick={function () {
-              let narrowLinks = document.querySelector(".narrowLinks");
-              narrowLinks.classList.toggle("hidden");
-              let i = document.getElementById("icon");
-              if (!menuopen) {
-                i.classList.replace("fa-bars", "fa-times");
-                setmenuopen(true);
-              } else {
-                i.classList.replace("fa-times", "fa-bars");
-                setmenuopen(false);
-              }
-            }}
+            onClick={ ()=> {setmenuopen(!menuopen) }}
           />
           <div
             style={{
@@ -181,7 +172,7 @@ const Links = () => {
           {/* Global search bar for collapsed nav ends */}
         </div>
         <div className="navNarrow">
-          <div className="narrowLinks hidden">
+        <div className={`narrowLinks ${menuopen ? 'hidden' : ''}`}>
             <Link href="/">
               <a className="current-nav-link">
                 <i className="fa fa-home" aria-hidden="true" />
