@@ -29,7 +29,21 @@ const Content = () => {
             (selectedLabel === "" || data.label === selectedLabel) &&
             (searchTerm === "" ||
               data.head.toLowerCase().includes(searchTerm.toLowerCase())  || data.about.toLowerCase().includes(searchTerm.toLowerCase()))
-        )
+        ).map((data) => {
+          let newHead = data.head.replace(
+            new RegExp(searchTerm, 'gi'),
+            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
+          )
+          let newAbout = data.about.replace(
+            new RegExp(searchTerm, 'gi'),
+            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
+          )
+          return {
+            ...data,
+            head: newHead,
+            about: newAbout
+          }
+        })
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
