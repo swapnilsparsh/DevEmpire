@@ -116,7 +116,7 @@ const Links = () => {
       >
           <i
             id="icon"
-            className={`fa ${menuopen ? "fa-bars" : "fa-times"} fa-2x`}
+            className={`fa ${menuopen ? "fa-times" : "fa-bars"} fa-2x`}
             aria-hidden="true"
             onClick={ ()=> {setmenuopen(!menuopen) }}
           />
@@ -172,7 +172,7 @@ const Links = () => {
           {/* Global search bar for collapsed nav ends */}
         </div>
         <div className="navNarrow">
-        <div className={`narrowLinks ${menuopen ? 'hidden' : ''}`}>
+        <div className={`narrowLinks ${menuopen ? '' : 'hidden'}`}>
             <Link href="/">
               <a className="current-nav-link">
                 <i className="fa fa-home" aria-hidden="true" />
