@@ -101,6 +101,14 @@ const WebDevDatas = [
     label: "Illustration",
   },
   {
+    link: "https://icons8.com/illustrations",
+    head: "Ouch",
+    image: "../assets/webdev-img/Ouch.png",
+    about: "Free illustrations for your website",
+    alt: "Ouch",
+    label: "Illustration",
+  },
+  {
     link: "https://www.iconshock.com",
     head: "Iconshock",
     image: "../assets/webdev-img/Iconshock.png",
@@ -148,6 +156,14 @@ const WebDevDatas = [
     about:
       "DiceBear is an avatar library with a simple and free HTTP API to choose between identicals",
     alt: "DiceBear",
+    label: "Vectors/Svg",
+  },
+  {
+    link: "https://www.svgrepo.com/",
+    head: "SVG Repo",
+    image: "../assets/webdev-img/SVGRepo.png",
+    about: "Free SVG vectors and icons",
+    alt: "SVG Repo",
     label: "Vectors/Svg",
   },
   {
@@ -214,6 +230,14 @@ const WebDevDatas = [
     image: "../assets/webdev-img/IconFinder.png",
     about: "Search through 5,789,724 icons and illustrations.",
     alt: "Icon Finder",
+    label: "Icons",
+  },
+  {
+    link: "https://iconscout.com/",
+    head: "IconScout",
+    image: "../assets/webdev-img/IconScout.png",
+    about: "Search from over 6.5 million design assets",
+    alt: "IconScout",
     label: "Icons",
   },
   {
@@ -314,6 +338,14 @@ const WebDevDatas = [
     label: "Colors",
   },
   {
+    link: "https://coolors.co/",
+    head: "Coolors",
+    image: "../assets/webdev-img/Coolors.png",
+    about: "The super fast color palettes generator",
+    alt: "Coolors",
+    label: "Colors",
+  },
+  {
     link: "https://neumorphic.design/",
     head: "Neumorphic Generator",
     image: "../assets/webdev-img/Neumorphic.png",
@@ -409,6 +441,14 @@ const WebDevDatas = [
     label: "CSS",
   },
   {
+    link: "https://animista.net/",
+    head: "Animista",
+    image: "../assets/webdev-img/Animista.png",
+    about: "On-demand CSS animations library",
+    alt: "Animista",
+    label: "CSS",
+  },
+  {
     link: "https://app.haikei.app/",
     head: "Haikei",
     image: "../assets/webdev-img/Haikei.png",
@@ -473,6 +513,15 @@ const WebDevDatas = [
     about:
       "Over 2.4 million+ high quality stock images, videos, and music shared by our talented community.",
     alt: "Pixabay",
+    label: "Stock Photos",
+  },
+  {
+    link: "https://www.shutterstock.com/",
+    head: "Shutterstock",
+    image: "../assets/webdev-img/Shutterstock.png",
+    about:
+      "Stock images, photos, vectors, video, and music",
+    alt: "Shutterstock",
     label: "Stock Photos",
   },
 ];
