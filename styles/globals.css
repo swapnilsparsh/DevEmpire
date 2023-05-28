@@ -999,10 +999,13 @@ replaced by just the links.*/
 /* Searching No Results End*/
 /*Start footer*/
 .footer {
-  background: url("../public/assets/svg/Footer.svg");
+  background-color: #0093ed;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 6rem 0rem 2rem 0rem;
+  padding: 2rem 0rem 2rem 0rem;
+  display:grid;
+  grid-template-columns: auto auto;
+  width:100%;
 }
 
 .footer-question {
@@ -1013,31 +1016,40 @@ replaced by just the links.*/
 
 .footer-question h4 {
   /* color: rgba(255, 255, 255, 0.808); */
-  color: var(--extra1);
+  color: white;
   opacity: 0.8;
 }
 
 .footer-question a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--native1);
+  color: black;
   border-bottom: 1px dotted var(--accent-30);
   opacity: 1 !important;
 }
-
-hr {
-  margin-bottom: 1rem;
-  border: 0.1px solid var(--primary);
-  border-radius: 10px;
+.footer-question h2{
+  margin-top: 3.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
 }
-
-.footer-question p {
-  /* color: rgba(255, 255, 255, 0.808); */
-  color: var(--extra1);
-  margin-bottom: 1rem;
+.footer-copyright{
+  color: white;
+  display:flex;
+  margin-left: 6.9rem;
+  width:50%;
 }
-
+.footer-details{
+  /* margin-right: 20%; */
+  display:grid;
+  grid-column-gap: 50%;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-items: center;
+  width:50%;
+}
 /* Footer End */
+
 /* Back To Top Start */
 .back-to-top .top {
   position: fixed;
@@ -1135,7 +1147,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .landing-page-header .homesvg img {
     height: 100%;
     width: 280px;
@@ -1147,9 +1159,13 @@ hr {
   .landing-page-header .header-details p {
     font-size: 14px;
   }
+  /* footer */
+  .theme-toggle-button{
+    display:flex;
+    margin-left: 40vw;
 }
-
-@media screen and (max-width: 780px) {
+}
+@media screen and (max-width: 768px) {
   .container-landing .landing-page-details {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1188,6 +1204,34 @@ hr {
   .top-navbar .navigation {
     padding: 12px 2px;
   }
+
+  /* footer */
+
+  .footer{
+    background-color: #0093ed;
+  }
+  .footer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  #toggle-button{
+    margin-top: -5rem!important;
+  }
+  
+ .column1,.column2 {
+   width: 50%;
+   text-align: left;
+ }
+ .theme-toggle-button{
+  display:flex;
+  margin-bottom: 30vw;
+ }
+ h2 span {
+   font-size: 1em!important;
+ }
 }
 
 @media screen and (max-width: 600px) {
@@ -1543,16 +1587,14 @@ hr {
 .theme-toggle-button {
   display: flex;
   align-items: center;
-  position: fixed;
-  background: var(--primary);
+  /* background: var(--primary); */
   padding: 7.5px;
-  z-index: 1;
   bottom: 20px;
   border-end-end-radius: 20px;
   border-start-end-radius: 20px;
   padding-inline-start: 25px;
-  border: 1px solid var(--accent-10);
-  border-inline-start: none;
+  /* border: 1px solid var(--accent-10); */
+  /* border-inline-start: none; */
 }
 
 /*Theme Change toggle button ends*/
