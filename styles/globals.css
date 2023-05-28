@@ -119,6 +119,9 @@ body[data-theme="dark"] {
 nav {
   background-color: var(--primary);
   overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav .links-container {
