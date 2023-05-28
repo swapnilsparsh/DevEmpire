@@ -44,8 +44,7 @@ const Content = () => {
             <h1>Open Source Programs</h1>
 
             <p>
-            Here you can find all the resources and details of Open Source
-              Programs and events are available across different countries.
+              Looking for an open-source program to apply to? You're just a click away. Find all details right here!
             </p>
 
             <Link to="container" smooth={true} duration={1000}>

@@ -44,9 +44,7 @@ const Content = () => {
             <h1>Ambassador</h1>
 
             <p>
-              A place where you can find all the resources and details of
-              ambassador/fellowship that is available across different
-              companies.
+             Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
             </p>
 
             <Link to="container" smooth={true} duration={1000}>

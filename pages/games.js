@@ -44,8 +44,7 @@ const Content = () => {
             <h1>Games</h1>
 
             <p>
-              A collection of fun games that help you learn web technologies in
-              an enjoyable way
+             Ever heard of 'All work and no play makes the developer dull' ? Here's your chance to mix some play into your work !
             </p>
 
             <Link to="container" smooth={true} duration={1000}>

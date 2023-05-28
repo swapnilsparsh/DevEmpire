@@ -57,8 +57,8 @@ const Content = () => {
             <h1>Web Development Tools</h1>
 
             <p>
-              A collection of all the tools that are required in web development
-              made by the community to ease the process of web development.
+                Power up your website with awesome tools from 
+                CSS generators and stock photos, to icons, illustrations, vectors and so much more, all at one place
             </p>
 
             <Link to="container" smooth={true} duration={1000}>
