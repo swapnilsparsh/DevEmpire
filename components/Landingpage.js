@@ -21,10 +21,8 @@ const Landingpage = () => {
             <div className="header-details">
               <h1>Developer Empire</h1>
               <p>
-                All in one place where you can find all the resources and
-                details of ambassador/fellowship, open source events, web dev
-                sites, js toolkits, etc. that are available across different
-                sites.
+                It's time to close those extra tabs. Welcome to your one-stop solution for all 
+                resources and details on ambassador/fellowship programs, open source programs, web dev tools and so much more!
               </p>
               <div className="landing-page-btn-container">
                 <div className="discord-button">
@@ -68,9 +66,7 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                A place where you can find all the resources and details of
-                ambassador/fellowship that is available across different
-                countries and companies.
+                Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
               </p>
             </div>
           </div>
@@ -82,9 +78,7 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                Here you can find all the resources and details of Open Source
-                Programs and events that are available across different
-                countries.
+                Looking for an open-source program to apply to? You're just a click away. Find all details right here!
               </p>
             </div>
             <div className="header-image">
@@ -102,9 +96,8 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                A collection of all the tools that are required for web the
-                development made by the community to ease the process of web
-                development like CSS Generators, Icons, Illustrations, etc.
+                Power up your website with awesome tools from 
+                CSS generators and stock photos, to icons, illustrations, vectors and so much more, all at one place
               </p>
             </div>
           </div>
@@ -116,8 +109,7 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                A collection of fun games that help you learn web technologies
-                in an enjoyable way.
+                Ever heard of 'All work and no play makes the developer dull' ? Here's your chance to mix some play into your work !
               </p>
             </div>
             <div className="header-image">
