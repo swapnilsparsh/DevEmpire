@@ -118,6 +118,13 @@ const ProgramsDatas = [
         about: "It is an open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
         alt: "Open Mainframe Project Mentorship Program"
     },
+    {
+        link: "https://xrosfellowship.ficci.in/organization/list",
+        head: "XR Open Source Fellowship Program",
+        image: "../assets/programs-img/XROS.png",
+        about: "XROS Fellowship Program is a uniquely curated initiative aimed at supporting Indian developers working on XR technologies by providing fellowships which will include a stipend and mentoring by industry experts.",
+        alt: "XR Open Source Fellowship Program"
+    },
 ];
 
 export default ProgramsDatas;
