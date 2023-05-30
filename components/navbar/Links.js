@@ -110,24 +110,15 @@ const Links = () => {
           </div>
         </div>
       </div>
-      <div className="navNarrow-container">
-        <div className="navNarrow-Bar">
+      <div className="navNarrow-container" onMouseLeave={()=>{setmenuopen(!menuopen)}} >
+        <div className="navNarrow-Bar"
+      
+      >
           <i
             id="icon"
-            className="fa fa-bars fa-2x"
+            className={`fa ${menuopen ? "fa-times" : "fa-bars"} fa-2x`}
             aria-hidden="true"
-            onClick={function () {
-              let narrowLinks = document.querySelector(".narrowLinks");
-              narrowLinks.classList.toggle("hidden");
-              let i = document.getElementById("icon");
-              if (!menuopen) {
-                i.classList.replace("fa-bars", "fa-times");
-                setmenuopen(true);
-              } else {
-                i.classList.replace("fa-times", "fa-bars");
-                setmenuopen(false);
-              }
-            }}
+            onClick={ ()=> {setmenuopen(!menuopen) }}
           />
           <div
             style={{
@@ -181,31 +172,31 @@ const Links = () => {
           {/* Global search bar for collapsed nav ends */}
         </div>
         <div className="navNarrow">
-          <div className="narrowLinks hidden">
-            <Link href="/">
-              <a className="current-nav-link">
+        <div className={`narrowLinks ${menuopen ? '' : 'hidden'}`} >
+            <Link href="/" >
+              <a className="current-nav-link"  onClick={()=>{setmenuopen(false)}}>
                 <i className="fa fa-home" aria-hidden="true" />
                 Home
               </a>
             </Link>
-            <Link href="/ambassador">
-              <a className="current-nav-link">
+            <Link href="/ambassador"  >
+              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
                 <i className="fa fa-users" aria-hidden="true" />
                 Ambassador
               </a>
             </Link>
-            <Link href="/programs">
-              <a className="current-nav-link">
+            <Link href="/programs" >
+              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
               </a>
             </Link>
-            <Link href="/webdev">
-              <a className="current-nav-link">
+            <Link href="/webdev" >
+              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
                 <i className="fa fa-code" aria-hidden="true" /> Web Dev
               </a>
             </Link>
-            <Link href="/games">
-              <a className="current-nav-link">
+            <Link href="/games" >
+              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
               </a>
             </Link>
