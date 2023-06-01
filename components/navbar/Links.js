@@ -26,7 +26,7 @@ const Links = () => {
         );
       } else {
         if (pathname === "/results") {
-          router.push("/");
+          // router.push("/");
           // router.back();
         }
       }
