@@ -15,14 +15,14 @@ function Card({ head, link, image, alt, about }) {
           <h3 dangerouslySetInnerHTML={createMarkup(head)}></h3>
           <img src={image} alt={alt} />
           <p dangerouslySetInnerHTML={createMarkup(about)}></p>
-          <a
-            className="card__link"
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            View More
-          </a>
+          <button className="glow-button">
+          <a className="glowing-button"
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+           >
+           View More</a>
+          </button>
         </div>
       </div>
     </div>
