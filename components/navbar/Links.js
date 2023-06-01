@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [searchopen,setsearchopen]=useState(null)
   const router = useRouter();
   const { pathname } = useRouter();
 
@@ -36,7 +37,7 @@ const Links = () => {
 
   return (
     <nav>
-      <div className="navWide">
+      <div className="navWide" >
         <div className="wideDiv">
           <div className="logo-containter">
             <Link href="/">
@@ -72,36 +73,25 @@ const Links = () => {
             </Link>
             {/* Global search bar starts */}
             <div className="global-search">
-              <div className="search-container">
+              <div className={`search-container  ${searchopen ? "open":""}`}>
                 <i
                   className="fa fa-search search-icon"
-                  onClick={() => {
-                    document
-                      .querySelector(".search-container")
-                      .classList.add("open");
-                    document.querySelector(".search").focus();
-                    document.querySelector(".search").classList.add("open");
+                  onClick={() => { setsearchopen(true)
                   }}
                 ></i>
                 <input
-                  className="search"
+                  className={`search`}
                   text="type"
                   placeholder="Search"
                   value={searchTerm}
                   onChange={(event) => {
                     setSearchTerm(event.target.value);
                   }}
-                  onBlur={() => {
-                    document
-                      .querySelector(".search-container")
-                      .classList.remove("open");
-                    setSearchTerm("");
-                  }}
                 />
                 <i
                   className="fa fa-times search-clear"
                   role="button"
-                  onClick={() => setSearchTerm("")}
+                  onClick={() => {setSearchTerm("");} }
                   style={{ display: searchTerm.length ? "block" : "none" }}
                 ></i>
               </div>
@@ -110,7 +100,7 @@ const Links = () => {
           </div>
         </div>
       </div>
-      <div className="navNarrow-container" onMouseLeave={()=>{setmenuopen(!menuopen)}} >
+      <div className="navNarrow-container" onMouseLeave={()=>{setmenuopen(false)}} >
         <div className="navNarrow-Bar"
       
       >
@@ -153,12 +143,6 @@ const Links = () => {
                 value={searchTerm}
                 onChange={(event) => {
                   setSearchTerm(event.target.value);
-                }}
-                onBlur={() => {
-                  document
-                    .querySelector(".search-container-navNarrow")
-                    .classList.remove("open");
-                  setSearchTerm("");
                 }}
               />
               <i
