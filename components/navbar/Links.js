@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchopen,setsearchopen]=useState(null)
+  const [searchopen,setsearchopen]=useState(false)
   const router = useRouter();
   const { pathname } = useRouter();
 
@@ -91,7 +91,7 @@ const Links = () => {
                 <i
                   className="fa fa-times search-clear"
                   role="button"
-                  onClick={() => {setSearchTerm("");} }
+                  onClick={() => {setSearchTerm("");setsearchopen(false);} }
                   style={{ display: searchTerm.length ? "block" : "none" }}
                 ></i>
               </div>
