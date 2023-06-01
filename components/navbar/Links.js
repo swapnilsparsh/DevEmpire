@@ -92,10 +92,11 @@ const Links = () => {
                     setSearchTerm(event.target.value);
                   }}
                   onBlur={() => {
-                    document
+                    if(searchTerm==""){
+                      document
                       .querySelector(".search-container")
                       .classList.remove("open");
-                    setSearchTerm("");
+                    }
                   }}
                 />
                 <i
