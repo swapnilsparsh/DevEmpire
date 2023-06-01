@@ -118,6 +118,13 @@ const ProgramsDatas = [
         about: "It is an open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
         alt: "Open Mainframe Project Mentorship Program"
     },
+    {
+        link: "https://lfx.linuxfoundation.org/tools/mentorship/",
+        head: "LFX Mentorship Program",
+        image: "../assets/programs-img/LFX.png",
+        about: "The Linux Foundation aims to makes it easy to sponsor and help train the next generation of open source developers by serving key needs of the community.",
+        alt: "LFX Mentorship Program"
+    },
 ];
 
 export default ProgramsDatas;
