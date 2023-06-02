@@ -17,7 +17,6 @@ body[data-theme="light"] {
   --extra2: #000000;
   --extra3: var(--accent-30);
   --extra4: var(--native1);
-  --extra5: #8B8A92;
   background: url("../public//assets//svg/Home-Background.svg");
   background-size: cover;
   background-attachment: fixed;
@@ -786,30 +785,22 @@ replaced by just the links.*/
   height: 100%;
 }
 
+.container .card-js .content a {
+  color: var(--extra2);
+}
 
 .container .card-js .content p {
   font-size: 1em;
   padding-top: 1rem;
-  color:var(--extra5);
+  color: var(--extra2);
   font-size: 300;
-  transition: color 1s ;
 }
-
-.card-js:hover .content p{
-  color:var(--extra2);
-}
-
 
 .container .card-js .content h3 {
   font-size: 1.4rem;
-  color: var(--extra5);
+  color: var(--extra2);
   text-align: center;
   margin-bottom: 1.3rem;
-  transition: color 1s ;
-}
-
-.card-js:hover .content h3{
-  color:var(--extra2);
 }
 
 .container .card-js .content img {
