@@ -876,6 +876,66 @@ replaced by just the links.*/
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.container .card-js .content .glow-button {
+  appearance: none;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 11px;
+  border: #0093ED 1.5px solid;
+  position: relative;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background: none;
+  z-index: 1;
+  box-shadow: 0 8px 20px rgba(33, 4, 104, 0.2);
+  display: block;
+  margin-top: 2rem !important;
+  text-decoration: none;
+  color:var(--native1);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.container .card-js .content .glow-button .glowing-button {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 0.6rem 0;
+  width: inherit;
+  border-radius: inherit;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.container .card-js .content .glow-button .glowing-button::before{
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #7DD8FF, var(--accent-10));
+    opacity: 0;
+    filter: blur(20px);
+    transition: opacity 0.5s;
+}
+
+.container .card-js .content .glow-button:hover .glowing-button::before {
+  animation: glowAnimation 1s forwards;
+}
+
+@keyframes glowAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(1) translateZ(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(4.5) translateZ(0);
+  }
+}
 
 .container .card {
   position: relative;
