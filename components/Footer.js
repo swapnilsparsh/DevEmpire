@@ -16,6 +16,9 @@ const ThemeToggle = dynamic(() => import("./ThemeToggle"), {
   ssr: false,
 });
 const Footer = () => {
+
+  let year = new Date().getFullYear();
+
   return (
     <div className="footer">
       <footer className="copyright">
@@ -58,7 +61,7 @@ const Footer = () => {
         <br/>
         <br/>
         <br/>
-        <p className="footer-copyright">© 2023 DevEmpire</p>
+        <p className="footer-copyright">© {year} DevEmpire</p>
       </footer>
         <div className="footer-details">
         <div className="column1">
