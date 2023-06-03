@@ -64,7 +64,7 @@ const Content = () => {
     <div className="container result-container" id="container">
       {displayCards.length ? (
         <div className="search-result-count">
-          Showing {displayCards.length} results found ...
+          Showing {searchResults.length} results found ...
         </div>
       ) : (
         <></>
