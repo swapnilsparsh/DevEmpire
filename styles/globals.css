@@ -1051,6 +1051,89 @@ replaced by just the links.*/
   align-items: center;
   width:50%;
 }
+
+@media (min-width:320px) and (max-width:480px) {
+  .footer{
+    display:flex;
+    flex-direction: column;
+   /* grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem; */
+    width:100%;
+    font-size: 15px;
+    overflow-x: hidden;
+  }
+  .footer-question{
+    width: 100%;
+    margin:  auto 50px;
+    margin-left: 10px;
+  }
+  .footer-details{
+    /* display:flex; */
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    width:100%;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* font-size: 8px; */
+  }
+  .column2{
+    margin-left: 10px;
+  }
+}
+@media screen and  (min-width:481px ) and (max-width:768px) {
+  .footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
+    width:100%;
+    font-size: 15px;
+  }
+  .footer-details{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    flex-wrap: nowrap;
+    /* width:50%; */
+    /* margin-left: 10px; */
+    font-size: 15px;
+  }
+   .column1,.column2{
+    width: 0 !important;
+  }
+  .footer-copyright{
+    margin-left: 20px;
+  }
+  .footer-question{
+    /* margin-left: 20px; */
+    font-size: 15px;
+    width: 100%;
+    margin-top: -40px;
+  }
+}
+@media (max-width:320px) {
+  .footer{
+    width: fit-content;
+  }
+  .footer-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+    font-size: 8px;
+    margin-right: 0;
+    margin-bottom: -10px;
+  }
+  .footer-question{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+    margin-top: -40px;
+  }
+  .footer-copyright{
+    margin-left: 10px;
+    width: 100%;
+  }
+}
 /* Footer End */
 
 /* Back To Top Start */
@@ -1217,7 +1300,7 @@ replaced by just the links.*/
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 2rem;
   }
   #toggle-button{

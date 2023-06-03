@@ -27,7 +27,21 @@ const ToggleButton = styled.button`
   }
   &:hover {
     box-shadow: 0 0 5px 2px var(--accent-20);
-  },
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    left: -20px;
+    top: 90px;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    top: 120px;
+  }
+  @media (max-width: 320px) {
+    left: -20px;
+    top: 60px;
+  }
+  @media (min-width: 768px) {
+    left: -300px;
+  }
 `;
 
 const ToggleThumb = styled.span`
