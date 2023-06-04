@@ -26,7 +26,7 @@ const Links = () => {
         );
       } else {
         if (pathname === "/results") {
-          router.push("/");
+          // router.push("/");
           // router.back();
         }
       }
@@ -92,10 +92,11 @@ const Links = () => {
                     setSearchTerm(event.target.value);
                   }}
                   onBlur={() => {
-                    document
+                    if(searchTerm===""){
+                      document
                       .querySelector(".search-container")
                       .classList.remove("open");
-                    setSearchTerm("");
+                    }
                   }}
                 />
                 <i
@@ -155,10 +156,12 @@ const Links = () => {
                   setSearchTerm(event.target.value);
                 }}
                 onBlur={() => {
-                  document
+                  if(searchTerm===""){
+                    document
                     .querySelector(".search-container-navNarrow")
                     .classList.remove("open");
-                  setSearchTerm("");
+                    setSearchTerm("");
+                  }
                 }}
               />
               <i
