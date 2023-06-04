@@ -29,11 +29,11 @@ const ToggleButton = styled.button`
     box-shadow: 0 0 5px 2px var(--accent-20);
   }
   @media (min-width: 320px) and (max-width: 480px) {
-    left: -20px;
+    left: 0px;
     top: 90px;
   }
   @media screen and (min-width: 481px) and (max-width: 768px) {
-    top: 120px;
+    top: 50px;
   }
   @media (max-width: 320px) {
     left: -20px;
@@ -41,6 +41,13 @@ const ToggleButton = styled.button`
   }
   @media (min-width: 768px) {
     left: -300px;
+  }
+  @media (min-width: 1024px) {
+    left: 70px;
+    top: 20px;
+  }
+  @media (min-width: 1200px) {
+    left: 90px;
   }
 `;
 
