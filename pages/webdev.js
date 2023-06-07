@@ -1,10 +1,8 @@
 import Datas from "../components/web-dev/Web-dev-data";
 import NoResults from "../components/NoResults";
-import { useState, useEffect, React } from "react";
+import { useState, React } from "react";
 import { Link } from "react-scroll";
-import { useLocation } from "react-router-dom";
 import Card from "../components/Card/Card";
-import ReactPaginate from "react-paginate";
 import ReactPaginateComponent from "../components/ReactPaginateComponent";
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -25,25 +23,25 @@ const Content = () => {
   const filterOptions =
     selectedLabel !== "" || searchTerm !== ""
       ? Datas.filter(
-          (data) =>
-            (selectedLabel === "" || data.label === selectedLabel) &&
-            (searchTerm === "" ||
-              data.head.toLowerCase().includes(searchTerm.toLowerCase())  || data.about.toLowerCase().includes(searchTerm.toLowerCase()))
-        ).map((data) => {
-          let newHead = data.head.replace(
-            new RegExp(searchTerm, 'gi'),
-            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-          )
-          let newAbout = data.about.replace(
-            new RegExp(searchTerm, 'gi'),
-            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-          )
-          return {
-            ...data,
-            head: newHead,
-            about: newAbout
-          }
-        })
+        (data) =>
+          (selectedLabel === "" || data.label === selectedLabel) &&
+          (searchTerm === "" ||
+            data.head.toLowerCase().includes(searchTerm.toLowerCase()) || data.about.toLowerCase().includes(searchTerm.toLowerCase()))
+      ).map((data) => {
+        let newHead = data.head.replace(
+          new RegExp(searchTerm, 'gi'),
+          match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
+        )
+        let newAbout = data.about.replace(
+          new RegExp(searchTerm, 'gi'),
+          match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
+        )
+        return {
+          ...data,
+          head: newHead,
+          about: newAbout
+        }
+      })
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
@@ -71,8 +69,8 @@ const Content = () => {
             <h1>Web Development Tools</h1>
 
             <p>
-                Power up your website with awesome tools from 
-                CSS generators and stock photos, to icons, illustrations, vectors and so much more, all at one place
+              Power up your website with awesome tools from
+              CSS generators and stock photos, to icons, illustrations, vectors and so much more, all at one place
             </p>
 
             <Link to="container" smooth={true} duration={1000}>

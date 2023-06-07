@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.0.0",
     "@fortawesome/react-fontawesome": "^0.1.17",
     "font-awesome": "4.7",
-    "next": "12.0.10",
+    "next": "^12.3.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-paginate": "^8.1.4",

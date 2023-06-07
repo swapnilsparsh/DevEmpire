@@ -49,20 +49,8 @@ const Footer = () => {
               {" "}
               Jatin Yadav
             </a>
-            &nbsp; and
-            <a
-              href="https://github.com/iamutkarshmall"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              Utkarsh Mall
-            </a>
           </h4>
         </div>
-        <br/>
-        <br/>
-        <br/>
         <p className="footer-copyright">© {year} DevEmpire</p>
       </footer>
       <div className="footer-details">
@@ -76,7 +64,7 @@ const Footer = () => {
               GitHub
             </FooterLink>
             <FooterLink href="https://www.producthunt.com/products/developer-empire?utm_source=badge-featured&utm_medium=badge#developer-empire">
-              Producthunt
+              Product Hunt
             </FooterLink>
             <FooterLink href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://devempire.netlify.app&via=swapnilsparsh">
               Twitter
