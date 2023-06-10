@@ -11,6 +11,7 @@ import {
   Heading2
 } from "./FooterStyles";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 const ThemeToggle = dynamic(() => import("./ThemeToggle"), {
   ssr: false,
@@ -75,10 +76,18 @@ const Footer = () => {
         <div className="column2">
           <Column2>
             <Heading2>Explore</Heading2>
-            <FooterLink href="/ambassador">Ambasaddor</FooterLink>
-            <FooterLink href="/programs">Programs</FooterLink>
-            <FooterLink href="/webdev">WebDev</FooterLink>
-            <FooterLink href="/games">Games</FooterLink>
+            <Link href="/ambassador">
+            <FooterLink >Ambasaddor</FooterLink>
+            </Link>
+            <Link href="/programs">
+            <FooterLink>Programs</FooterLink>
+            </Link>
+            <Link href="/webdev">
+            <FooterLink >WebDev</FooterLink>
+            </Link>
+            <Link href="/games">
+            <FooterLink >Games</FooterLink>
+            </Link>
           </Column2>
         </div>
       </div>
