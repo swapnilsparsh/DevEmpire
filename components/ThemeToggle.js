@@ -5,7 +5,9 @@ const ToggleButton = styled.button`
   --toggle-width: 80px;
   --toggle-height: 41px;
   --toggle-padding: 4px;
-  position: relative;
+  position: fixed;
+  top: 80px;
+  right: 20px; /* Update this value to position the button on the top right */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -15,10 +17,12 @@ const ToggleButton = styled.button`
   height: var(--toggle-height);
   padding: var(--toggle-padding);
   border: 0;
-  border-radius: calc(var(--toggle-width) / 2);
+  border-radius: calc(var(--toggle-height) / 2);
   cursor: pointer;
   background: var(--extra4);
   transition: background 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+  z-index: 9999;
+
   &:focus {
     outline-offset: 5px;
   }
@@ -28,28 +32,10 @@ const ToggleButton = styled.button`
   &:hover {
     box-shadow: 0 0 5px 2px var(--accent-20);
   }
-  @media (min-width: 320px) and (max-width: 480px) {
-    left: 0px;
-    top: 90px;
-  }
-  @media screen and (min-width: 481px) and (max-width: 768px) {
-    top: 50px;
-  }
-  @media (max-width: 320px) {
-    left: -20px;
-    top: 60px;
-  }
-  @media (min-width: 768px) {
-    left: -300px;
-  }
-  @media (min-width: 1024px) {
-    left: 70px;
-    top: 20px;
-  }
-  @media (min-width: 1200px) {
-    left: 90px;
-  }
+  /* Media queries... */
 `;
+
+
 
 const ToggleThumb = styled.span`
   position: absolute;
