@@ -1,5 +1,12 @@
 const ProgramsDatas = [
     {
+        link: "https://gdsc.winterofcode.tech/",
+        head: "Winter Of Code",
+        image: "../assets/programs-img/Winter-of-code.jpeg",
+        about: "This is an open source program for which will go on for two months; rules are similar to that of GSoC with a few differences.",
+        alt: "Winter Of Code"
+    },
+    {
         link: "https://codeheat.org/",
         head: "Codeheat",
         image: "../assets/programs-img/Codeheat.png",
