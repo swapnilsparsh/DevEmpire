@@ -1,5 +1,19 @@
 const AmbassadorDatas = [
     {
+        link: "https://docs.github.com/en/get-started/exploring-integrations/github-developer-program",
+        head: "GitHub Developer Program Member",
+        image: "../assets/ambassador-img/GitHub-developer-program-member.png",
+        about: "If you build tools that integrate with GitHub, you can join the GitHub Developer Program.",
+        alt: "GitHub Developer Program Member"
+    },
+    {
+        link: "https://isp.internshala.com/",
+        head: "Internshala Student Partner",
+        image: "../assets/ambassador-img/Internshala-student-partner.png",
+        about: "They want every student to learn, grow and expand their knowledge in the tech industry.",
+        alt: "Internshala Student Partner"
+    },
+    {
         link: "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
         head: "Adobe India Women-in-Technology Scholarship",
         image: "../assets/ambassador-img/Adobe.png",
