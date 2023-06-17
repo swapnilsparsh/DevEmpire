@@ -6,8 +6,8 @@ const ToggleButton = styled.button`
   --toggle-height: 41px;
   --toggle-padding: 4px;
   position: fixed;
-  top: 80px;
-  right: 20px; /* Update this value to position the button on the top right */
+  top: 10px;
+  left: 170px;
   display: flex;
   align-items: center;
   justify-content: space-around;
