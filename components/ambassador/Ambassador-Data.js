@@ -573,6 +573,12 @@ const AmbassadorDatas = [
         about: "Community leaders around the world passionate about achieving gender parity in technology.",
         alt: "WTM Logo"
     },
-
+    {
+        link: "https://www.foundit.in/zuno/campus-ambassador?utm_source=FRT&utm_medium=frtzuno&utm_campaign=frtuser&utm_id=zuno_ia",
+        head: "Campus Ambassador Program by Foundit",
+        image: "../assets/ambassador-img/Zuno.jpeg",
+        about: "Connect with your friends globally and achieve your goals and vision by learning and networking and show your potential.",
+        alt: "Foundit logo"
+    },
 ]
 export default AmbassadorDatas;
