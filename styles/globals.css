@@ -135,7 +135,7 @@ nav .links-container {
   justify-content: center;
 }
 
-.logo-containter>p {
+.logo-containter > p {
   color: var(--native1);
   font-size: 1.5em;
   font-weight: 700;
@@ -146,7 +146,7 @@ nav .links-container a {
   color: var(--native1);
 }
 
-nav .links-container a>i {
+nav .links-container a > i {
   color: var(--native1);
 }
 
@@ -454,7 +454,10 @@ replaced by just the links.*/
   color: var(--native1);
 }
 
-.landing-page-header .header-details .search-container:hover .search::-webkit-input-placeholder {
+.landing-page-header
+  .header-details
+  .search-container:hover
+  .search::-webkit-input-placeholder {
   color: var(--native1);
 }
 
@@ -508,7 +511,11 @@ replaced by just the links.*/
   justify-content: flex-start;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button .discord:hover {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  .discord:hover {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -519,7 +526,11 @@ replaced by just the links.*/
   transform: scale(1.2);
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button .discord {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  .discord {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -530,12 +541,20 @@ replaced by just the links.*/
   transition: all 0.3s ease-in-out;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button img {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  img {
   width: 140px;
   height: 36px;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .explore-all-btn
+  .call-to-action-btn {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -561,7 +580,11 @@ replaced by just the links.*/
   margin: 0rem 1.5rem;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn:hover {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .explore-all-btn
+  .call-to-action-btn:hover {
   color: var(--native1);
   background: var(--primary);
 }
@@ -749,15 +772,22 @@ replaced by just the links.*/
   width: 290px;
   height: clamp(350px, 424px, 430px);
   margin: auto;
-  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: 1s all ease-in-out;
   border-radius: 15px;
   background: var(--extra1);
   overflow: hidden;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
-
+.container .card-js:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 .container .card-js .content {
   padding: 20px;
   text-align: center;
@@ -788,10 +818,11 @@ replaced by just the links.*/
 }
 
 .container .card-js .content h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--extra2);
+  text-shadow: 2px 1px 2px grey;
   text-align: center;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.1rem;
 }
 
 .container .card-js .content img {
@@ -799,6 +830,9 @@ replaced by just the links.*/
   height: 160px;
   width: 100%;
   -o-object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
   object-fit: contain;
   background: var(--native1);
   border-radius: 10px;
@@ -876,7 +910,7 @@ replaced by just the links.*/
   font-size: 16px;
   font-weight: 500;
   border-radius: 11px;
-  border: #0093ED 1.5px solid;
+  border: #0093ed 1.5px solid;
   position: relative;
   line-height: 24px;
   cursor: pointer;
@@ -905,12 +939,12 @@ replaced by just the links.*/
 }
 
 .container .card-js .content .glow-button .glowing-button::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: linear-gradient(to right, #7DD8FF, var(--accent-10));
+  background: linear-gradient(to right, #7dd8ff, var(--accent-10));
   opacity: 0;
   filter: blur(20px);
   transition: opacity 0.5s;
@@ -1115,7 +1149,7 @@ replaced by just the links.*/
   width: 50%;
 }
 
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -1151,7 +1185,7 @@ replaced by just the links.*/
   }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1187,7 +1221,7 @@ replaced by just the links.*/
   }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
   .footer {
     width: fit-content;
   }
@@ -1215,7 +1249,7 @@ replaced by just the links.*/
   }
 }
 
-@media (min-width:769px) and (max-width:1300px) {
+@media (min-width: 769px) and (max-width: 1300px) {
   .footer-copyright {
     margin-left: 90px;
   }
@@ -1831,9 +1865,6 @@ replaced by just the links.*/
   .paginationBttns {
     flex-wrap: wrap;
     align-content: flex-start;
-
-
-
   }
 }
 

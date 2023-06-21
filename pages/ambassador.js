@@ -14,22 +14,26 @@ const Content = () => {
 
   const filterOptions =
     searchTerm !== ""
-      ? Datas.filter((data) =>
-          data.head.toLowerCase().includes(searchTerm.toLowerCase()) || data.about.toLowerCase().includes(searchTerm.toLowerCase())
+      ? Datas.filter(
+          (data) =>
+            data.head.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            data.about.toLowerCase().includes(searchTerm.toLowerCase())
         ).map((data) => {
           let newHead = data.head.replace(
-            new RegExp(searchTerm, 'gi'),
-            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-          )
+            new RegExp(searchTerm, "gi"),
+            (match) =>
+              `<mark style = "background: #2769AA; color: white;">${match}</mark>`
+          );
           let newAbout = data.about.replace(
-            new RegExp(searchTerm, 'gi'),
-            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-          )
+            new RegExp(searchTerm, "gi"),
+            (match) =>
+              `<mark style = "background: #2769AA; color: white;">${match}</mark>`
+          );
           return {
             ...data,
             head: newHead,
-            about: newAbout
-          }
+            about: newAbout,
+          };
         })
       : Datas;
 
@@ -55,13 +59,23 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
-            <h1>Ambassador</h1>
+            <h1
+              style={{ textShadow: "2px 2px 4px black", marginLeft: "400px" }}
+            >
+              Ambassador
+            </h1>
 
-            <p>
-             Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
+            <p style={{ marginLeft: "200px" }}>
+              Find the perfect program for you from 75+ ambassador and
+              fellowship programs from all over the world
             </p>
 
-            <Link to="container" smooth={true} duration={1000}>
+            <Link
+              to="container"
+              smooth={true}
+              duration={1000}
+              style={{ marginLeft: "450px" }}
+            >
               <h4>Explore all</h4>
             </Link>
 

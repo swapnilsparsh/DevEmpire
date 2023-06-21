@@ -87,7 +87,7 @@ nav {
     display: flex;
     justify-content: center;
 
-    a>i {
+    a > i {
       margin-right: 0.4rem;
     }
   }
@@ -289,10 +289,8 @@ replaced by just the links.*/
     .search-container {
       background: #ffffff;
       border: 1px solid #0093ed;
-
-      /* padding: 0px 36px; */
       padding-top: 3px;
-      line-height: 33px;
+      line-height: 25px;
       cursor: pointer;
       display: inline-flex;
       -webkit-transition: all 0.2s ease;
@@ -300,8 +298,8 @@ replaced by just the links.*/
       border-radius: 16px;
       text-decoration: none;
       margin: 1rem 1.5rem;
-      width: 260px;
-      height: 65px;
+      width: 460px;
+      height: 55px;
       align-items: center;
       position: relative;
 
@@ -761,18 +759,17 @@ replaced by just the links.*/
         margin-top: 2rem !important;
         text-decoration: none;
         background-color: #0093ed;
-        color: #FFF;
+        color: #fff;
         padding: 0.6rem 0;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
       }
       .glow-button {
-
         font-family: inherit;
         font-size: 16px;
         font-weight: 500;
         border-radius: 11px;
-        border: #0093ED 1.5px solid;
+        border: #0093ed 1.5px solid;
         position: relative;
         line-height: 24px;
         cursor: pointer;
@@ -784,38 +781,38 @@ replaced by just the links.*/
         display: block;
         margin-top: 2rem !important;
         text-decoration: none;
-        color: #FFF;
+        color: #fff;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-      
+
         .glowing-button {
           position: relative;
           display: block;
           padding: 0.6rem 0;
           width: 132px;
           border-radius: inherit;
-          background-color: #00253A;
+          background-color: #00253a;
           overflow: hidden;
           -webkit-mask-image: -webkit-radial-gradient(white, black);
-      
+
           &:before {
-            content: '';
+            content: "";
             position: absolute;
             width: 32px;
             height: 32px;
             border-radius: 50%;
-            background-color: #7DD8FF;
+            background-color: #7dd8ff;
             opacity: 0;
             filter: blur(20px);
             transition: opacity 0.5s;
           }
         }
-      
+
         &:hover .glowing-button:before {
           animation: glowAnimation 1s forwards;
         }
       }
-      
+
       @keyframes glowAnimation {
         0% {
           opacity: 0;
@@ -826,7 +823,6 @@ replaced by just the links.*/
           transform: scale(4.5) translateZ(0);
         }
       }
-      
     }
   }
 
