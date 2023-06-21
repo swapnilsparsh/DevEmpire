@@ -154,6 +154,13 @@ const AmbassadorDatas = [
         alt: "Cypress Logo"
     },
     {
+        link: "https://www.devnetwork.com/devnetwork-advisory-boards/",
+        head: "DevNetwork Advisory Boards",
+        image: "../assets/ambassador-img/DevNetwork-Advisory-Boards-Image.jpg",
+        about: "DevNetwork produces definitive industry conferences for Mobile Tech, Developer Tech, and Integration Tech. DevNetwork produces many of the Bay area’s largest tech-focused conferences and hackathons including DeveloperWeek, API World, Integrate, and DataWeek",
+        alt: "DevNetwork Advisory Boards Logo"
+    },
+    {
         link: "https://www.deeplearning.ai/ambassador/",
         head: "DeepLearning.AI Ambassador",
         image: "../assets/ambassador-img/DeepLearning.png",
