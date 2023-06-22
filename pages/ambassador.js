@@ -60,7 +60,7 @@ const Content = () => {
         <div className="landing-page-header">
           <div className="header-details">
             <h1
-              style={{  marginLeft: "400px" }}
+              style={{  marginLeft: "395px" }}
             >
               Ambassador
             </h1>
