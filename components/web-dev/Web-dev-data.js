@@ -29,6 +29,14 @@ const WebDevDatas = [
     label: "Illustration",
   },
   {
+    link: "https://favicon.io/",
+    head: "Favicon",
+    image: "../assets/webdev-img/favicon.jpeg",
+    about: "Favicon is a free open-source icon generator that helps developer to main their website good looking.",
+    alt: "Favicon",
+    label: "Illustration",
+  },
+  {
     link: "https://undraw.co/",
     head: "unDraw",
     image: "../assets/webdev-img/unDraw.png",
