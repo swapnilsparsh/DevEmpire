@@ -18,21 +18,24 @@ const AmbassadorDatas = [
         head: "Alexa Student Influencer Program",
         image: "../assets/ambassador-img/Alexa.png",
         about: "It is a campus connect program that aims to form a network of like-minded students across India.",
-        alt: "Amazon Logo"
+        alt: "Amazon Logo",
+        label:"Amazon"
     },
     {
         link: "https://apillon.io/community",
         head: "Apillon Ambassador",
         image: "../assets/ambassador-img/Apillon.png",
         about: "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
-        alt: "Apillon Logo"
+        alt: "Apillon Logo",
+        
     },
     {
         link: "https://aws.amazon.com/partners/ambassadors/",
         head: "APN Ambassador",
         image: "../assets/ambassador-img/APNAmbassador.png",
         about: "It enables employees of AWS Partners to become technical experts in various domains.",
-        alt: "Amazon Logo"
+        alt: "Amazon Logo",
+        label:"Amazon"
     },
     {
         link: "https://appwrite.io/heroes",
@@ -60,7 +63,8 @@ const AmbassadorDatas = [
         head: "AWS Community Builders",
         image: "../assets/ambassador-img/AWSCommunityBuilders.png",
         about: "It offers technical resources, mentorship, and networking opportunities to AWS enthusiasts.",
-        alt: "AWS Logo"
+        alt: "AWS Logo",
+        label:"Amazon"
     },
     // {
     //     link: "https://aws.amazon.com/education/awseducate/cloud-ambassador-program/",
@@ -81,7 +85,8 @@ const AmbassadorDatas = [
         head: "AWS Heroes",
         image: "../assets/ambassador-img/AWSHeroes.png",
         about: "It recognizes a vibrant, worldwide group of AWS experts whose has a real impact within the community.",
-        alt: "AWS Logo"
+        alt: "AWS Logo",
+        label:"Amazon"
     },
     {
         link: "https://www.binance.com/en-IN/event/binance_campus_buidler",
@@ -215,13 +220,15 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/GDG.png",
         about: "GDG organizers plan and host meetup events on a wide range of technical topics.",
         alt: "GDG Logo"
+        ,label:"Google"
     },
     {
         link: "https://developers.google.com/community/dsc",
         head: "Google Developer Student Clubs",
         image: "../assets/ambassador-img/GDSC.png",
         about: "GDSC are community groups for college students interested in Google developer technologies.",
-        alt: "GDSC Logo"
+        alt: "GDSC Logo",
+        label:"Google"
     },
     {
         link: "https://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/",
@@ -235,49 +242,56 @@ const AmbassadorDatas = [
         head: "Generation Google Scholarship",
         image: "../assets/ambassador-img/Google.jpg",
         about: "It is for women in computer science to help them in pursuing computer science degrees.",
-        alt: "Google Logo"
+        alt: "Google Logo",
+        label:"Google"
     },
     {
         link: "https://education.github.com/experts",
         head: "GitHub Campus Experts",
         image: "../assets/ambassador-img/Github-campus-experts.png",
         about: "They are student leaders that strive to build diverse spaces to learn skills, etc.",
-        alt: "Github-campus-expert Logo"
+        alt: "Github-campus-expert Logo",
+        label:"Github"
     },
     {
         link: "https://education.github.com/schools",
         head: "GitHub Campus Program",
         image: "../assets/ambassador-img/Github-campus.png",
         about: "Get a package of technical tools, training for faculty members, and support to grow technical communities",
-        alt: "GitHub-campus Logo"
+        alt: "GitHub-campus Logo",
+        label:"Github"
     },
     {
         link: "https://education.github.com/students/octernships",
         head: "GitHub Octernships",
         image: "../assets/ambassador-img/Github-octernship.png",
         about: "Connects students with industry partners in paid professional experiences and mentorship.",
-        alt: "Github-octernship Logo"
+        alt: "Github-octernship Logo",
+        label:"Github"
     },
     {
         link: "https://education.github.com/teachers",
         head: "GitHub Teacher Program",
         image: "../assets/ambassador-img/Github-classroom.png",
         about: "Teach your students with the industry-standard tools, so they can shine on technical teams.",
-        alt: "Github-classroom Logo"
+        alt: "Github-classroom Logo",
+        label:"Github"
     },
     {
         link: "https://www.gitkraken.com/ambassador",
         head: "GitKraken Ambassador Program",
         image: "../assets/ambassador-img/GitKraken.jpg",
         about: "Build personal brands by creating, technical content to share with global GitKraken audience.",
-        alt: "GitKraken Logo"
+        alt: "GitKraken Logo",
+        label:"Github"
     },
     {
         link: "https://about.gitlab.com/community/heroes/",
         head: "GitLab Heroes",
         image: "../assets/ambassador-img/Gitlab.png",
         about: "They engage, support, connect, and recognize members of the wider GitLab community.",
-        alt: "Gitlab Logo"
+        alt: "Gitlab Logo",
+        label:"Github"
     },
     {
         link: "https://www.hackerearth.com/campus-ambassador-program/",
@@ -333,56 +347,65 @@ const AmbassadorDatas = [
         head: "Microsoft Learn Student Ambassador",
         image: "../assets/ambassador-img/MLSA.png",
         about: "Amplify your impact and bring together your peers to learn new skills, etc.",
-        alt: "MLSA Logo"
+        alt: "MLSA Logo",
+        label:"Microsoft"
     },
     {
         link: "https://careers.microsoft.com/us/en/codess",
         head: "Microsoft Codess",
         image: "../assets/ambassador-img/Codess.jpg",
         about: "Codess is a community for female coders initiated by Microsoft.",
-        alt: "Codess Logo"
+        alt: "Codess Logo",
+        label:"Microsoft"
     },
     {
         link: "https://mlh.io/coaches",
         head: "MLH Coach",
         image: "../assets/ambassador-img/MLHCoach.png",
         about: "MLH Coaches are community members who represent Major League Hacking at events.",
-        alt: "MLHCoach Logo"
+        alt: "MLHCoach Logo",
+        label:"Major league Hacking"
     },
     {
         link: "https://fellowship.mlh.io/",
         head: "MLH Fellowship",
         image: "../assets/ambassador-img/MLH-fellowship-white.png",
         about: "It is a remote internship alternative for aspiring technologists for 12 weeks.",
-        alt: "MLH-fellowship Logo"
+        alt: "MLH-fellowship Logo",
+        label:"Major league Hacking"
     },
     {
         link: "https://fellowship.mlh.io/programs/prep",
         head: "MLH Fellowship Prep Program",
         image: "../assets/ambassador-img/MLH-fellowship-blue.jpg",
         about: "It is a 3-week preparation program for aspiring technologists before committing to the full 12-weeks.",
-        alt: "MLH-fellowship Logo"
+        alt: "MLH-fellowship Logo",
+        label:"Major league Hacking"
     },
     {
         link: "https://mlh.io/event-membership",
         head: "MLH Event Membership Program",
         image: "../assets/ambassador-img/MLH.png",
         about: "Join the MLH Event Membership and get support of every step for the hackathon.",
-        alt: "MLH Logo"
+        alt: "MLH Logo",
+        label:"Major league Hacking"
     },
     {
         link: "https://www.mongodb.com/developer/community-champions/",
         head: "MongoDB Community Champions",
         image: "../assets/ambassador-img/MongoDBChampions.png",
         about: "Champions are a group of passionate, dedicated advocates of the MongoDB community.",
-        alt: "MongoDB Champions Logo"
+        alt: "MongoDB Champions Logo",
+        label:"MongoDB"
+
     },
     {
         link: "https://live.mongodb.com/start-a-group/",
         head: "MongoDB Community Leader",
         image: "../assets/ambassador-img/MongoDB.png",
         about: "Bring people together  who are interested in MongoDB technologies.",
-        alt: "MongoDB Logo"
+        alt: "MongoDB Logo",
+        label:"MongoDB"
     },
     {
         link: "https://community.mozilla.org/en/groups/",
@@ -431,21 +454,24 @@ const AmbassadorDatas = [
         head: "Postman Classroom Program",
         image: "../assets/ambassador-img/PostmanClassroom.png",
         about: "Bring API education to the classroom with our program for educators.",
-        alt: "PostmanClassroom Logo"
+        alt: "PostmanClassroom Logo",
+        label:"Postman"
     },
     {
         link: "https://www.postman.com/company/student-program/#student-expert-program",
         head: "Postman Student Expert Program",
         image: "../assets/ambassador-img/Postman.png",
         about: "Grow your API literacy with this industry-standard training created by Postman.",
-        alt: "PostmanClassroom Logo"
+        alt: "PostmanClassroom Logo",
+        label:"Postman"
     },
     {
         link: "https://www.postman.com/company/student-program/#student-leader-program",
         head: "Postman Student Leader Program",
         image: "../assets/ambassador-img/Postman-Leader.png",
         about: "Become a leader, educator, and advocate for API literacy on your campus.",
-        alt: "Postman-Leader Logo"
+        alt: "Postman-Leader Logo",
+        label:"Postman"
     },
     {
         link: "https://www.prisma.io/ambassador",
@@ -501,14 +527,16 @@ const AmbassadorDatas = [
         head: "Twilio Champion",
         image: "../assets/ambassador-img/Twilio.png",
         about: "It is a global network of expert developers who actively support developer communities.",
-        alt: "Twilio Logo"
+        alt: "Twilio Logo",
+        label:"Twillo"
     },
     {
         link: "https://www.twilio.com/quest/students",
         head: "Twilio Field Operator",
         image: "../assets/ambassador-img/TwilioFieldOperator.png",
         about: "Student leaders looking for opportunities to lead, explore new technologies, and serve their communities.",
-        alt: "Twilio Logo"
+        alt: "Twilio Logo",
+        label:"Twillo"
     },
     {
         link: "https://developer.twitter.com/en/community/student-ambassadors",
@@ -550,21 +578,24 @@ const AmbassadorDatas = [
         head: "Wakelet Community Ambassador",
         image: "../assets/ambassador-img/WakeletAmbassador.png",
         about: "You’re practically part of the Wakelet Team and  will represent Wakelet at events, etc.",
-        alt: "WakeletAmbassador Logo"
+        alt: "WakeletAmbassador Logo",
+        label:"Wakelet"
     },
     {
         link: "https://schools.wakelet.com/",
         head: "Wakelet Schools Program",
         image: "../assets/ambassador-img/WakeletSchool.png",
         about: "Empower your school community with the Wakelet Schools Program.",
-        alt: "WakeletSchool Logo"
+        alt: "WakeletSchool Logo",
+        label:"Wakelet"
     },
     {
         link: "https://community.wakelet.com/studentambassadors/",
         head: "Wakelet Student Ambassador",
         image: "../assets/ambassador-img/WakeletStudent.png",
         about: "It contains 6 fun tasks centered around creativity, critical thinking, curation, communication, etc.",
-        alt: "WakeletStudent Logo"
+        alt: "WakeletStudent Logo",
+        label:"Wakelet"
     },
     {
         link: "https://www.womentechmakers.com/ambassadors",
