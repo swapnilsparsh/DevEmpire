@@ -58,24 +58,15 @@ const Content = () => {
     <>
       <div className="container-landing">
         <div className="landing-page-header">
-          <div className="header-details">
-            <h1
-              style={{  marginLeft: "395px" }}
-            >
-              Ambassador
-            </h1>
+          <div className="header-details ambassador_head">
+            <h1>Ambassador</h1>
 
-            <p style={{ marginLeft: "200px" }}>
+            <p>
               Find the perfect program for you from 75+ ambassador and
               fellowship programs from all over the world
             </p>
 
-            <Link
-              to="container"
-              smooth={true}
-              duration={1000}
-              style={{ marginLeft: "450px" }}
-            >
+            <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
             </Link>
 
