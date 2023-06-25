@@ -4,7 +4,8 @@ const AmbassadorDatas = [
         head: "Adobe India Women-in-Technology Scholarship",
         image: "../assets/ambassador-img/Adobe.png",
         about: "They strive towards creating gender equality by encouraging women.",
-        alt: "Adobe Logo"
+        alt: "Adobe Logo",
+        label:"Female Centric"
     },
     {
         link: "https://www.aleo.org/post/the-ambassador-program-continues",
@@ -19,13 +20,15 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/Alexa.png",
         about: "It is a campus connect program that aims to form a network of like-minded students across India.",
         alt: "Amazon Logo"
+       
     },
     {
         link: "https://apillon.io/community",
         head: "Apillon Ambassador",
         image: "../assets/ambassador-img/Apillon.png",
         about: "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
-        alt: "Apillon Logo"
+        alt: "Apillon Logo",
+        
     },
     {
         link: "https://aws.amazon.com/partners/ambassadors/",
@@ -215,6 +218,7 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/GDG.png",
         about: "GDG organizers plan and host meetup events on a wide range of technical topics.",
         alt: "GDG Logo"
+        
     },
     {
         link: "https://developers.google.com/community/dsc",
@@ -222,6 +226,7 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/GDSC.png",
         about: "GDSC are community groups for college students interested in Google developer technologies.",
         alt: "GDSC Logo"
+        
     },
     {
         link: "https://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/",
@@ -235,7 +240,8 @@ const AmbassadorDatas = [
         head: "Generation Google Scholarship",
         image: "../assets/ambassador-img/Google.jpg",
         about: "It is for women in computer science to help them in pursuing computer science degrees.",
-        alt: "Google Logo"
+        alt: "Google Logo",
+        label:"Female Centric"
     },
     {
         link: "https://education.github.com/experts",
@@ -340,7 +346,8 @@ const AmbassadorDatas = [
         head: "Microsoft Codess",
         image: "../assets/ambassador-img/Codess.jpg",
         about: "Codess is a community for female coders initiated by Microsoft.",
-        alt: "Codess Logo"
+        alt: "Codess Logo",
+        label:"Female Centric"
     },
     {
         link: "https://mlh.io/coaches",
@@ -376,6 +383,7 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/MongoDBChampions.png",
         about: "Champions are a group of passionate, dedicated advocates of the MongoDB community.",
         alt: "MongoDB Champions Logo"
+
     },
     {
         link: "https://live.mongodb.com/start-a-group/",
@@ -432,6 +440,7 @@ const AmbassadorDatas = [
         image: "../assets/ambassador-img/PostmanClassroom.png",
         about: "Bring API education to the classroom with our program for educators.",
         alt: "PostmanClassroom Logo"
+       
     },
     {
         link: "https://www.postman.com/company/student-program/#student-expert-program",
@@ -571,7 +580,8 @@ const AmbassadorDatas = [
         head: "Women Techmakers Ambassador",
         image: "../assets/ambassador-img/WTM.jpg",
         about: "Community leaders around the world passionate about achieving gender parity in technology.",
-        alt: "WTM Logo"
+        alt: "WTM Logo",
+        label:"Female Centric"
     },
 
 ]

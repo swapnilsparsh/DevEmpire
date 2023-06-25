@@ -4,15 +4,24 @@ import { useState, React } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
 import ReactPaginateComponent from "../components/ReactPaginateComponent";
-
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [pageNumber, setPageNumber] = useState(0);
   const [filteredPageNumber, setfilteredPageNumber] = useState(0);
-
+  const [selectedLabel, setSelectedLabel] = useState("");
   const cardsPerPage = 12;
 
+  const labels = [
+    ...new Set(
+      Datas.map((data) => {
+        if (!data.label) return null;
+        return data.label;
+      })
+    ),
+  ].filter((label) => label);
+
   const filterOptions =
+
     searchTerm !== ""
       ? Datas.filter(
           (data) =>
@@ -35,6 +44,7 @@ const Content = () => {
             about: newAbout,
           };
         })
+
       : Datas;
 
   const cardsVisited = pageNumber * cardsPerPage;
@@ -62,8 +72,10 @@ const Content = () => {
             <h1>Ambassador</h1>
 
             <p>
+
               Find the perfect program for you from 75+ ambassador and
               fellowship programs from all over the world
+
             </p>
 
             <Link to="container" smooth={true} duration={1000}>
@@ -72,7 +84,6 @@ const Content = () => {
 
             <div className="search-container">
               <i className="fa fa-search search-icon"></i>
-
               <input
                 className="search"
                 text="type"
@@ -85,6 +96,40 @@ const Content = () => {
             </div>
           </div>
         </div>
+        <div className="label-container">
+          <span
+            className="label"
+            style={
+              selectedLabel === ""
+                ? { color: "white", background: "orange", border: "none" }
+                : {}
+            }
+            onClick={() => {
+              setSelectedLabel("");
+            }}
+          >
+            All
+          </span>
+          {labels.map((label) => {
+            return (
+              <span
+                key={label}
+                className="label"
+                style={
+                  selectedLabel === label
+                    ? { color: "white", background: "#0093ed" }
+                    : {}
+                }
+                onClick={() => {
+                  setSelectedLabel(label);
+                  setfilteredPageNumber(0);
+                }}
+              >
+                {label}
+              </span>
+            );
+          })}
+        </div>
       </div>
 
       <div className="container" id="container">
@@ -92,12 +137,12 @@ const Content = () => {
           {displayCards.length > 0 ? (
             displayCards.map((data, indx) => (
               <Card
-                key={indx}
-                about={data.about}
-                alt={data.alt}
-                head={data.head}
                 image={data.image}
+                alt={data.alt}
                 link={data.link}
+                head={data.head}
+                about={data.about}
+                key={indx}
               />
             ))
           ) : (
