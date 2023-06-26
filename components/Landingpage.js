@@ -97,7 +97,7 @@ const Landingpage = () => {
               </Link>
               <p>
                 Power up your website with awesome tools from 
-                CSS generators and stock photos, to icons, illustrations, vectors and so much more, all at one place
+                CSS generators and stock photos, to icons, illustrations, vectors, backend tools, APIs, and so much more, all at one place
               </p>
             </div>
           </div>
