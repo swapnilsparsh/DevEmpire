@@ -1033,6 +1033,10 @@ replaced by just the links.*/
   background-color: rgba(235, 12, 12, 0.15);
 }
 
+.card-js:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 /* Programs Section End */
 /* Searching No Results Start*/
 .noresult-description {
