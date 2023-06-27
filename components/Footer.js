@@ -91,9 +91,6 @@ const Footer = () => {
           </Column2>
         </div>
       </div>
-      <div className="theme-toggle-button" id="toggle-button">
-        <ThemeToggle />
-      </div>
     </div>
   );
 };
