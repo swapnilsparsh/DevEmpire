@@ -32,12 +32,14 @@ export const FooterLink = styled.a`
 export const Heading1 = styled.p`
   font-size: 24px;
   color: #fff;
+  margin-top: 20px;
   margin-bottom: 40px;
   font-weight: bold;
   display: block;
   @media (min-width: 320px) and (max-width: 480px) {
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
   }
   @media (max-width: 320px) {
     margin-bottom: 10px;
@@ -51,7 +53,7 @@ export const Heading2 = styled.p`
   display: block;
   @media (min-width: 320px) and (max-width: 480px) {
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
   @media (max-width: 320px) {
     margin-bottom: 10px;
