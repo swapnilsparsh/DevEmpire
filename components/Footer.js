@@ -64,10 +64,10 @@ const Footer = () => {
             >
               GitHub
             </FooterLink>
-            <FooterLink href="https://www.producthunt.com/products/developer-empire?utm_source=badge-featured&utm_medium=badge#developer-empire">
+            <FooterLink target="blank" href="https://www.producthunt.com/products/developer-empire?utm_source=badge-featured&utm_medium=badge#developer-empire">
               Product Hunt
             </FooterLink>
-            <FooterLink href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://devempire.netlify.app&via=swapnilsparsh">
+            <FooterLink target="blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://devempire.netlify.app&via=swapnilsparsh">
               Twitter
             </FooterLink>
             <FooterLink href="#">Newsletter</FooterLink>
