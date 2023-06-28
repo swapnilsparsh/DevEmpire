@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import ThemeToggle from "../ThemeToggle";
 
 
 
@@ -42,7 +43,11 @@ const Links = () => {
             <Link href="/">
               <p>Dev Empire</p>
             </Link>
+            <div className="theme-toggle-button" id="toggle-button">
+              <ThemeToggle />
+            </div>
           </div>
+
           <div className="links-container">
             <Link href="/">
               <a className={`current-nav-link ${isActive("/")}`}>
@@ -92,10 +97,10 @@ const Links = () => {
                     setSearchTerm(event.target.value);
                   }}
                   onBlur={() => {
-                    if(searchTerm===""){
+                    if (searchTerm === "") {
                       document
-                      .querySelector(".search-container")
-                      .classList.remove("open");
+                        .querySelector(".search-container")
+                        .classList.remove("open");
                     }
                   }}
                 />
@@ -111,15 +116,15 @@ const Links = () => {
           </div>
         </div>
       </div>
-      <div className="navNarrow-container" onMouseLeave={()=>{setmenuopen(!menuopen)}} >
+      <div className="navNarrow-container" onMouseLeave={() => { setmenuopen(!menuopen) }} >
         <div className="navNarrow-Bar"
-      
-      >
+
+        >
           <i
             id="icon"
             className={`fa ${menuopen ? "fa-times" : "fa-bars"} fa-2x`}
             aria-hidden="true"
-            onClick={ ()=> {setmenuopen(!menuopen) }}
+            onClick={() => { setmenuopen(!menuopen) }}
           />
           <div
             style={{
@@ -156,10 +161,10 @@ const Links = () => {
                   setSearchTerm(event.target.value);
                 }}
                 onBlur={() => {
-                  if(searchTerm===""){
+                  if (searchTerm === "") {
                     document
-                    .querySelector(".search-container-navNarrow")
-                    .classList.remove("open");
+                      .querySelector(".search-container-navNarrow")
+                      .classList.remove("open");
                     setSearchTerm("");
                   }
                 }}
@@ -175,34 +180,37 @@ const Links = () => {
           {/* Global search bar for collapsed nav ends */}
         </div>
         <div className="navNarrow">
-        <div className={`narrowLinks ${menuopen ? '' : 'hidden'}`} >
+          <div className={`narrowLinks ${menuopen ? '' : 'hidden'}`} >
             <Link href="/" >
-              <a className="current-nav-link"  onClick={()=>{setmenuopen(false)}}>
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-home" aria-hidden="true" />
                 Home
               </a>
             </Link>
             <Link href="/ambassador"  >
-              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-users" aria-hidden="true" />
                 Ambassador
               </a>
             </Link>
             <Link href="/programs" >
-              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
               </a>
             </Link>
             <Link href="/webdev" >
-              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-code" aria-hidden="true" /> Web Dev
               </a>
             </Link>
             <Link href="/games" >
-              <a className="current-nav-link" onClick={()=>{setmenuopen(false)}}>
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
               </a>
             </Link>
+            <div className="theme-toggle-collapsed-navbar" >
+              <ThemeToggle onClick={() => { setmenuopen(false) }} />
+            </div>
           </div>
         </div>
       </div>

@@ -29,25 +29,25 @@ const ToggleButton = styled.button`
     box-shadow: 0 0 5px 2px var(--accent-20);
   }
   @media (min-width: 320px) and (max-width: 480px) {
-    left: 0px;
-    top: 90px;
+    left: 8px;
   }
   @media screen and (min-width: 481px) and (max-width: 768px) {
-    top: 50px;
+    left: 8px;
   }
   @media (max-width: 320px) {
-    left: -20px;
-    top: 60px;
+    left: 8px;
   }
   @media (min-width: 768px) {
-    left: -300px;
+   left: 10px;
+   bottom: 4px;
   }
   @media (min-width: 1024px) {
-    left: 70px;
-    top: 20px;
+    left: 15px;
+    bottom: 4px;
   }
   @media (min-width: 1200px) {
-    left: 90px;
+    left : 20px;
+    bottom : 4px;
   }
 `;
 

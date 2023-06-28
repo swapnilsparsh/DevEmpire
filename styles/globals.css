@@ -135,11 +135,22 @@ nav .links-container {
   justify-content: center;
 }
 
+.logo-containter {
+  display: flex;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  padding-top: 5px;
+}
+
 .logo-containter>p {
   color: var(--native1);
   font-size: 1.5em;
   font-weight: 700;
   cursor: pointer;
+}
+
+.theme-toggle-collapsed-navbar {
+  margin-bottom: 5px;
 }
 
 nav .links-container a {
@@ -1337,12 +1348,6 @@ replaced by just the links.*/
   .landing-page-header .header-details p {
     font-size: 14px;
   }
-
-  /* footer */
-  .theme-toggle-button {
-    display: flex;
-    margin-left: 40vw;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1407,20 +1412,12 @@ replaced by just the links.*/
     gap: 2rem;
   }
 
-  #toggle-button {
-    margin-top: -5rem !important;
-  }
-
   .column1,
   .column2 {
     width: 50%;
     text-align: left;
   }
 
-  .theme-toggle-button {
-    display: flex;
-    margin-bottom: 30vw;
-  }
 
   h2 span {
     font-size: 1em !important;
@@ -1800,22 +1797,7 @@ replaced by just the links.*/
 
 /*  */
 /* Global Search Ends*/
-/*Theme Change toggle button starts*/
 
-.theme-toggle-button {
-  display: flex;
-  align-items: center;
-  /* background: var(--primary); */
-  padding: 7.5px;
-  bottom: 20px;
-  border-end-end-radius: 20px;
-  border-start-end-radius: 20px;
-  padding-inline-start: 25px;
-  /* border: 1px solid var(--accent-10); */
-  /* border-inline-start: none; */
-}
-
-/*Theme Change toggle button ends*/
 
 /* Pagination layout starts */
 .paginationBttns {
