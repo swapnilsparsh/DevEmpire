@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef ,useState, useEffect} from "react";
 import Home from "../public/assets/svg/Home.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
-import WebDev from "../public/assets/svg/WebDev.svg";
+ import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
 import Image from "next/image";
@@ -9,8 +9,20 @@ import Link from "next/link";
 import AdBanner from "./AdBanner";
 
 const Landingpage = () => {
+  const [contributorsData, setContributorsData] = useState([]);
+  useEffect(() => {
+    // Fetch the contributors' data from GitHub API
+    fetch("https://api.github.com/repos/swapnilsparsh/DevEmpire/contributors")
+      .then((response) => response.json())
+      .then((data) => {
+        setContributorsData(data);
+      })
+      .catch((error) => {
+        console.error("Error fetching contributors data:", error);
+      });
+  }, []);
   const ambassadorSectionRef = useRef(null);
-  const callToActionScroll = () => {
+    const callToActionScroll = () => {
     ambassadorSectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
@@ -116,13 +128,27 @@ const Landingpage = () => {
               <Image id="home" src={Games} alt="Games Illustration" />
             </div>
           </div>
+          <div className="landing-page-details">
+            <div className="heading-text second">
+              <h1>
+                Contributors
+              </h1>
+              </div>
+            </div>
         </div>
       </div>
+      {contributorsData.map((contributor) => (
+  <div  className="contributors"  key={contributor.id}>
+    <img src={contributor.avatar_url} alt={contributor.login} />
+    
+  </div>
+))}
       <AdBanner
         data-ad-slot="7434970023"
         data-ad-format="auto"
         data-full-width-responsive="true"
       />
+      
     </>
   );
 };

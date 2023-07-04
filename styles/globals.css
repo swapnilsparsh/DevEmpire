@@ -931,6 +931,7 @@ replaced by just the links.*/
   animation: glowAnimation 1s forwards;
 }
 
+
 @keyframes glowAnimation {
   0% {
     opacity: 0;
@@ -1125,7 +1126,31 @@ replaced by just the links.*/
   align-items: center;
   width: 50%;
 }
+/* contributors section */
+.contributors {
+   display: inline;
+   margin-left: 15px;
+  
+}
+ .contributors 
+ img{
+  border-radius: 250px;
+  width: 10%;
+  height:10%;
+  padding-top: 15px;
+  margin-left: 10px;
+  opacity: 70%;
+  
+  }
 
+ .contributors
+ img:hover{
+  transform: scale(1.1);
+  opacity: 100%;
+  transition: all 1s;
+  }
+
+  
 @media (min-width:320px) and (max-width:480px) {
   .footer {
     display: flex;
