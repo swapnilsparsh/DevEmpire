@@ -1134,12 +1134,12 @@ replaced by just the links.*/
 }
  .contributors 
  img{
-  border-radius: 250px;
+  border-radius:100px ;
   width: 10%;
   height:10%;
-  padding-top: 15px;
+  margin-top:15px;
   margin-left: 10px;
-  opacity: 70%;
+  opacity:70%;
   
   }
 
@@ -1147,9 +1147,15 @@ replaced by just the links.*/
  img:hover{
   transform: scale(1.1);
   opacity: 100%;
-  transition: all 1s;
   }
-
+@media (min-width:320) and (max-width:480px) {
+  .contributors{
+    width:100%;
+  }
+  .contributors img{
+  border-radius: 60px;
+  }
+}
   
 @media (min-width:320px) and (max-width:480px) {
   .footer {
