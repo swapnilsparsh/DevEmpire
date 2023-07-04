@@ -75,6 +75,11 @@ const Links = () => {
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
               </a>
             </Link>
+            <Link href="/backend">
+              <a className={`current-nav-link ${isActive("/backend")}`}>
+                <i className="fa fa-server" aria-hidden="true" /> Backend
+              </a>
+            </Link>
             {/* Global search bar starts */}
             <div className="global-search">
               <div className="search-container">
@@ -206,6 +211,11 @@ const Links = () => {
             <Link href="/games" >
               <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
+              </a>
+            </Link>
+            <Link href="/backend" >
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+                <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
             <div className="theme-toggle-collapsed-navbar" >
