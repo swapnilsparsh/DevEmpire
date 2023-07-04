@@ -60,6 +60,11 @@ const Links = () => {
                 <i className="fa fa-users" aria-hidden="true" /> Ambassador
               </a>
             </Link>
+            <Link href="/hackathons">
+              <a className={`current-nav-link ${isActive("/hacakthons")}`}>
+                <i className="fa fa-users" aria-hidden="true" /> Hackathons
+              </a>
+            </Link>
             <Link href="/programs">
               <a className={`current-nav-link ${isActive("/programs")}`}>
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
