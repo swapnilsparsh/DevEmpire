@@ -60,6 +60,11 @@ const Links = () => {
                 <i className="fa fa-users" aria-hidden="true" /> Ambassador
               </a>
             </Link>
+            <Link href="/hackathons">
+              <a className={`current-nav-link ${isActive("/hackathons")}`}>
+                <i className="fa fa-trophy" aria-hidden="true" /> Hackathons
+              </a>
+            </Link>
             <Link href="/programs">
               <a className={`current-nav-link ${isActive("/programs")}`}>
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
@@ -73,6 +78,11 @@ const Links = () => {
             <Link href="/games">
               <a className={`current-nav-link ${isActive("/games")}`}>
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
+              </a>
+            </Link>
+            <Link href="/backend">
+              <a className={`current-nav-link ${isActive("/backend")}`}>
+                <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
             {/* Global search bar starts */}
@@ -206,6 +216,11 @@ const Links = () => {
             <Link href="/games" >
               <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
+              </a>
+            </Link>
+            <Link href="/backend" >
+              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+                <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
             <div className="theme-toggle-collapsed-navbar" >

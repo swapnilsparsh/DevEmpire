@@ -4,6 +4,7 @@ import Ambassador from "../public/assets/svg/Ambassador.svg";
  import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
+import Backend from "../public/assets/svg/Backend.svg";
 import Image from "next/image";
 import Link from "next/link";
 import AdBanner from "./AdBanner";
@@ -33,7 +34,7 @@ const Landingpage = () => {
             <div className="header-details">
               <h1>Developer Empire</h1>
               <p>
-                It's time to close those extra tabs. Welcome to your one-stop solution for all 
+                It's time to close those extra tabs. Welcome to your one-stop solution for all
                 resources and details on ambassador/fellowship programs, open source programs, web dev tools and so much more!
               </p>
               <div className="landing-page-btn-container">
@@ -108,7 +109,7 @@ const Landingpage = () => {
                 </h1>
               </Link>
               <p>
-                Power up your website with awesome tools from 
+                Power up your website with awesome tools from
                 CSS generators and stock photos, to icons, illustrations, vectors and so much more, all at one place
               </p>
             </div>
@@ -128,15 +129,31 @@ const Landingpage = () => {
               <Image id="home" src={Games} alt="Games Illustration" />
             </div>
           </div>
-          <div className="landing-page-details">
+          
+            <div className="header-image">
+              <Image id="home" src={Backend} alt="Backend Illustration" />
+            </div>
+            <div className="heading-text">
+              <Link href="/backend">
+                <h1>
+                  <u> Backend </u>
+                </h1>
+              </Link>
+              <p>
+                Looking for a backend service for your next project? We've got you covered with a list of the best ones out there!
+              </p>
+            </div>
+            <div className="landing-page-details">
+
             <div className="heading-text second">
               <h1>
                 Contributors
               </h1>
               </div>
             </div>
+          </div>
         </div>
-      </div>
+     
       {contributorsData.map((contributor) => (
   <div  className="contributors"  key={contributor.id}>
     <a href={contributor.html_url} target="_blank" rel="noopener noreferrer">
