@@ -1129,19 +1129,20 @@ replaced by just the links.*/
 /* contributors section */
 .contributors {
    display: inline;
-   margin-left: 15px;
+   justify-items: center;
+   align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
   
 }
  .contributors 
  img{
-  border-radius:100px ;
-  width: 10%;
-  height:10%;
-  margin-top:15px;
-  margin-left: 10px;
-  opacity:70%;
-  
-  }
+  border-radius: 100px ;
+   width: 7%; 
+   height:10%;
+   opacity:70%;
+   margin-top:10px;
+    }
 
  .contributors
  img:hover{

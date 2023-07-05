@@ -139,8 +139,9 @@ const Landingpage = () => {
       </div>
       {contributorsData.map((contributor) => (
   <div  className="contributors"  key={contributor.id}>
-    <img src={contributor.avatar_url} alt={contributor.login} />
-    
+    <a href={contributor.html_url} target="_blank" rel="noopener noreferrer">
+    <img src={contributor.avatar_url}  alt={contributor.login} />
+    </a>
   </div>
 ))}
       <AdBanner
