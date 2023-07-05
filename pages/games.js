@@ -1,50 +1,65 @@
-import Datas from "../components/games/Games-Data";
-import NoResults from "../components/NoResults";
-import { useState, React } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
 import ReactPaginateComponent from "../components/ReactPaginateComponent";
+import NoResults from "../components/NoResults";
+import Games from "../components/games/Games-Data";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [pageNumber, setPageNumber] = useState(0);
-  const [filteredPageNumber, setfilteredPageNumber] = useState(0);
-
+  const [filteredPageNumber, setFilteredPageNumber] = useState(0);
+  const [filterOptions, setFilterOptions] = useState([]);
+  const [displayCards, setDisplayCards] = useState([]);
   const cardsPerPage = 12;
 
-  const filterOptions =
-    searchTerm !== ""
-      ? Datas.filter((data) => {
-          return data.head.toLowerCase().includes(searchTerm.toLowerCase()) || data.about.toLowerCase().includes(searchTerm.toLowerCase());
-        }).map((data) => {
-          let newHead = data.head.replace(
-            new RegExp(searchTerm, 'gi'),
-            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-          )
-          let newAbout = data.about.replace(
-            new RegExp(searchTerm, 'gi'),
-            match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-          )
-          return {
-            ...data,
-            head: newHead,
-            about: newAbout
-          }
-        })
-      : Datas;
+  const highlightSearchTerm = (text) => {
+    if (searchTerm !== "") {
+      return text.replace(
+        new RegExp(searchTerm, "gi"),
+        (match) =>
+          `<mark style="background: #2769AA; color: white;">${match}</mark>`
+      );
+    }
+    return text;
+  };
 
-  const cardsVisited = pageNumber * cardsPerPage;
-  const filteredCardsVisited = filteredPageNumber * cardsPerPage;
+  // Update filter options whenever searchTerm changes
+  useEffect(() => {
+    const filteredOptions =
+      searchTerm !== ""
+        ? Games.filter(({ head, about }) =>
+          (head.toLowerCase() + about.toLowerCase()).includes(
+            searchTerm.toLowerCase()
+          )
+        ).map(({ head, about, ...data }) => ({
+          ...data,
+          head: highlightSearchTerm(head),
+          about: highlightSearchTerm(about),
+        }))
+        : Games;
+    setFilterOptions(filteredOptions);
+  }, [searchTerm]);
 
-  const displayCards = filterOptions.slice(
-    searchTerm !== "" ? filteredCardsVisited : cardsVisited,
-    (searchTerm !== "" ? filteredCardsVisited : cardsVisited) + cardsPerPage
-  );
+  // Update displayed cards based on filter options and page number
+  useEffect(() => {
+    const cardsVisited = pageNumber * cardsPerPage;
+    const filteredCardsVisited = filteredPageNumber * cardsPerPage;
+    const displayed =
+      searchTerm !== ""
+        ? filterOptions.slice(
+          filteredCardsVisited,
+          filteredCardsVisited + cardsPerPage
+        )
+        : filterOptions.slice(cardsVisited, cardsVisited + cardsPerPage);
+    setDisplayCards(displayed);
+  }, [filterOptions, pageNumber, filteredPageNumber, searchTerm]);
+
   const pageCount = Math.ceil(filterOptions.length / cardsPerPage);
 
   const changePageNumber = ({ selected }) => {
     if (searchTerm !== "") {
-      setfilteredPageNumber(selected);
+      setFilteredPageNumber(selected);
     } else {
       setPageNumber(selected);
     }
@@ -56,26 +71,20 @@ const Content = () => {
         <div className="landing-page-header">
           <div className="header-details">
             <h1>Games</h1>
-
             <p>
-             Ever heard of 'All work and no play makes the developer dull' ? Here's your chance to mix some play into your work !
+              Ever heard of 'All work and no play makes the developer dull'? Here's your chance to mix some play into your work!
             </p>
-
             <Link to="container" smooth={true} duration={1000}>
               <h4>Explore all</h4>
             </Link>
-
             <div className="search-container">
               <i className="fa fa-search search-icon"></i>
-
               <input
                 className="search"
-                text="type"
+                type="text"
                 placeholder="Search"
-                onChange={(event) => {
-                  setSearchTerm(event.target.value);
-                  setfilteredPageNumber(0);
-                }}
+                value={searchTerm}
+                onChange={(event) => setSearchTerm(event.target.value)}
               />
             </div>
           </div>
@@ -85,9 +94,9 @@ const Content = () => {
       <div className="container" id="container">
         <div className="align-flex">
           {displayCards.length > 0 ? (
-            displayCards.map((data, indx) => (
+            displayCards.map((data, index) => (
               <Card
-                key={indx}
+                key={index}
                 about={data.about}
                 alt={data.alt}
                 head={data.head}
