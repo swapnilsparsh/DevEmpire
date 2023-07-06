@@ -413,8 +413,8 @@ replaced by just the links.*/
   color: var(--native1);
   background: var(--primary);
 }
-.header-details h1{
-  font-size: 4rem !important;
+.heading {
+  font-size: 5rem !important;
 }
 .landing-page-header .header-details .search-container {
   background: var(--native1);

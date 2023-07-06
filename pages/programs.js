@@ -66,7 +66,7 @@ const Content = () => {
       <div className="container-landing">
         <div className="landing-page-header">
           <div className="header-details">
-            <h1 >Open Source Programs</h1>
+            <h1 className="heading">Open Source Programs</h1>
 
             <p>
             Looking for an open-source program to apply to? You're just a click away. Find all details right here!
