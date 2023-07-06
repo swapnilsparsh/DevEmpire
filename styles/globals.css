@@ -374,6 +374,7 @@ replaced by just the links.*/
   -ms-flex-pack: start;
   justify-content: flex-start;
   text-align: left;
+  margin-top: 20px;
 }
 
 .landing-page-header .homesvg img {
@@ -397,7 +398,7 @@ replaced by just the links.*/
 .landing-page-header .header-details a {
   border: 1px solid var(--primary);
   color: var(--primary);
-  padding: 13px 36px;
+  padding: 7px 36px;
   line-height: 35px;
   cursor: pointer;
   display: inline-block;
@@ -405,14 +406,16 @@ replaced by just the links.*/
   transition: all 0.2s ease;
   border-radius: 16px;
   text-decoration: none;
-  margin: 1rem 1.5rem;
+  margin: 4rem 1.5rem;
 }
 
 .landing-page-header .header-details a:hover {
   color: var(--native1);
   background: var(--primary);
 }
-
+.header-details h1{
+  font-size: 4rem !important;
+}
 .landing-page-header .header-details .search-container {
   background: var(--native1);
   border: 1px solid var(--primary);
@@ -429,7 +432,7 @@ replaced by just the links.*/
   text-decoration: none;
   margin: 1rem 1.5rem;
   width: 260px;
-  height: 65px;
+  height: 50px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -483,7 +486,7 @@ replaced by just the links.*/
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 4rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;

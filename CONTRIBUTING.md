@@ -65,7 +65,7 @@ git remote add upstream https://github.com/<upstream-owner>/<repo-name>
 
 
 
-- If you have already forked the project, update your copy before working.
+- If you have already forked the project, update your copy before working.-
 
 ```bash
 git remote update
