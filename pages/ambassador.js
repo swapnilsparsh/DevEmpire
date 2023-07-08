@@ -1,14 +1,17 @@
 import Datas from "../components/ambassador/Ambassador-Data";
 import NoResults from "../components/NoResults";
-import { useState, React } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
 import ReactPaginateComponent from "../components/ReactPaginateComponent";
+
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [pageNumber, setPageNumber] = useState(0);
-  const [filteredPageNumber, setfilteredPageNumber] = useState(0);
+  const [filteredPageNumber, setFilteredPageNumber] = useState(0);
   const [selectedLabel, setSelectedLabel] = useState("");
+  const [filterOptions, setFilterOptions] = useState([]);
+  const [displayCards, setDisplayCards] = useState([]);
   const cardsPerPage = 12;
 
   const labels = [
@@ -20,42 +23,55 @@ const Content = () => {
     ),
   ].filter((label) => label);
 
-  const filterOptions =
-    selectedLabel !== "" || searchTerm !== ""
-      ? Datas.filter(
-        (data) =>
-          (selectedLabel === "" || data.label === selectedLabel) &&
-          (searchTerm === "" ||
-            data.head.toLowerCase().includes(searchTerm.toLowerCase()) || data.about.toLowerCase().includes(searchTerm.toLowerCase()))
-      ).map((data) => {
-        let newHead = data.head.replace(
-          new RegExp(searchTerm, 'gi'),
-          match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-        )
-        let newAbout = data.about.replace(
-          new RegExp(searchTerm, 'gi'),
-          match => `<mark style = "background: #2769AA; color: white;">${match}</mark>`
-        )
-        return {
+  const highlightSearchTerm = (text) => {
+    if (searchTerm !== "") {
+      return text.replace(
+        new RegExp(searchTerm, "gi"),
+        (match) =>
+          `<mark style="background: #2769AA; color: white;">${match}</mark>`
+      );
+    }
+    return text;
+  };
+
+  // Update filter options whenever searchTerm or selectedLabel changes
+  useEffect(() => {
+    const filteredOptions =
+      (selectedLabel !== "" || searchTerm !== "")
+        ? Datas.filter(
+          (data) =>
+            (selectedLabel === "" || data.label === selectedLabel) &&
+            (searchTerm === "" ||
+              data.head.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              data.about.toLowerCase().includes(searchTerm.toLowerCase()))
+        ).map(({ head, about, ...data }) => ({
           ...data,
-          head: newHead,
-          about: newAbout
-        }
-      })
-      : Datas;
+          head: highlightSearchTerm(head),
+          about: highlightSearchTerm(about),
+        }))
+        : Datas;
+    setFilterOptions(filteredOptions);
+  }, [searchTerm, selectedLabel]);
 
-  const cardsVisited = pageNumber * cardsPerPage;
-  const filteredCardsVisited = filteredPageNumber * cardsPerPage;
+  // Update displayed cards based on filter options and page number
+  useEffect(() => {
+    const cardsVisited = pageNumber * cardsPerPage;
+    const filteredCardsVisited = filteredPageNumber * cardsPerPage;
+    const displayed =
+      searchTerm !== ""
+        ? filterOptions.slice(
+          filteredCardsVisited,
+          filteredCardsVisited + cardsPerPage
+        )
+        : filterOptions.slice(cardsVisited, cardsVisited + cardsPerPage);
+    setDisplayCards(displayed);
+  }, [filterOptions, pageNumber, filteredPageNumber, searchTerm]);
 
-  const displayCards = filterOptions.slice(
-    searchTerm !== "" ? filteredCardsVisited : cardsVisited,
-    (searchTerm !== "" ? filteredCardsVisited : cardsVisited) + cardsPerPage
-  );
   const pageCount = Math.ceil(filterOptions.length / cardsPerPage);
 
   const changePageNumber = ({ selected }) => {
     if (searchTerm !== "") {
-      setfilteredPageNumber(selected);
+      setFilteredPageNumber(selected);
     } else {
       setPageNumber(selected);
     }
@@ -69,7 +85,7 @@ const Content = () => {
             <h1>Ambassador</h1>
 
             <p>
-            Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
+              Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
             </p>
 
             <Link to="container" smooth={true} duration={1000}>
@@ -80,11 +96,12 @@ const Content = () => {
               <i className="fa fa-search search-icon"></i>
               <input
                 className="search"
-                text="type"
+                type="text"
                 placeholder="Search"
+                value={searchTerm}
                 onChange={(event) => {
                   setSearchTerm(event.target.value);
-                  setfilteredPageNumber(0);
+                  setFilteredPageNumber(0);
                 }}
               />
             </div>
@@ -116,7 +133,7 @@ const Content = () => {
                 }
                 onClick={() => {
                   setSelectedLabel(label);
-                  setfilteredPageNumber(0);
+                  setFilteredPageNumber(0);
                 }}
               >
                 {label}
