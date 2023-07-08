@@ -5,7 +5,7 @@ import * as gtag from "../lib/gtag";
 import Head from "next/head";
 
 import "../styles/globals.css";
-import "../styles/index.css"
+import "../styles/index.scss"
 import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
