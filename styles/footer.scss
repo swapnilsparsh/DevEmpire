@@ -1,0 +1,138 @@
+.footer-support{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem ;
+    gap:1rem;
+    // justify-content: space-evenly;
+  }
+  .footer-about{
+  width:27rem;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+  }
+ .footer-second-section{
+  display: flex;
+  gap: 20%;
+ }
+  .footer{
+    width: 100%;
+  }
+  .footer-heading {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+  }
+  .support-heading{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .upper-footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+  }
+  
+  .support-section{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+ .heading-newsletter, .heading-explore{
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+  color: white;
+ }
+ .product-hunt-img{
+  height: 1.5rem;
+  width: 1.5rem;
+ }
+ .explore-footer > div{
+  height: 1.3rem;
+  margin-bottom: 1.2rem;
+  color: black;
+ }
+ .footer-lower-section{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0,0.5);
+  height: 3rem;
+  padding-top: 1rem;
+ }
+ .footer-second-section{
+  padding-right: 2rem;
+ }
+ .made-by-footer>a{
+  color: black;
+ }
+ .maintain-by-footer>a{
+  color: black;
+ }
+ .form-newsletter{
+  margin-top: 2rem;
+ }
+ .input-newsletter {
+  width: 80%;
+  height: 3rem;
+  z-index: 300;
+  font-size: 1.2rem;
+ }
+ .submit-newsletter{
+  height: 3rem;
+  margin-bottom: 0.5rem;
+  width: 2rem;
+
+ }
+ .footerBox{
+ background-color: #0093ed;
+ padding-top: 2rem;
+ }
+.product-hunt{
+ 
+  background-color: #bbb;
+  
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+}
+ @media screen and (max-width:1170px) {
+  .footer-about{
+    width:20rem;}
+ }
+ @media screen and (max-width:800px) {
+  .footer-about{
+    width:20rem;}
+    .upper-footer-section{
+      padding-left: 1rem;
+    }
+ }
+ @media screen and (max-width:700px) {
+  .input-newsletter{
+    width: 70%;
+   padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .footer-second-section{
+    gap:10%;
+  }
+ }
+ @media screen and (max-width:670px) {
+  .upper-footer-section{
+    flex-direction: column;
+  }
+  .footer-about{
+    width: 90%;
+  }
+ }
+ @media screen and (max-width:498px){
+  .footer-lower-section{
+    height: 4rem;
+  }
+  .input-newsletter{
+    height:2rem;
+  }
+  .submit-newsletter{
+    height:2rem;
+  }
+ }
