@@ -1,7 +1,4 @@
 const WebDevDatas = [
-
-  // Colors
-
   {
     link: "https://drawkit.io/",
     head: "DrawKit",
@@ -72,7 +69,8 @@ const WebDevDatas = [
     link: "https://powerpeopleplatform.com/",
     head: "Power People Platform",
     image: "../assets/webdev-img/PowerPeoplePlatform.png",
-    about: "It is a delicious design library of 3D avatars. Made with love for more fun and color in your work.",
+    about:
+      "It is a delicious design library of 3D avatars. Made with love for more fun and color in your work.",
     alt: "Power People Platform",
     label: "Illustration",
   },
@@ -276,7 +274,8 @@ const WebDevDatas = [
     link: "https://culrs.com",
     head: "Culrs",
     image: "../assets/webdev-img/Culrs.png",
-    about: "Colors that work together are curated and fashioned into quality palettes that you can incorporate.",
+    about:
+      "Colors that work together are curated and fashioned into quality palettes that you can incorporate.",
     alt: "Culrs",
     label: "Colors",
   },
@@ -352,7 +351,7 @@ const WebDevDatas = [
     about:
       "This generator makes it easy to create the shapes and comes with 50+ presets for inspiration.",
     alt: "Neumorphic Generator",
-    label: "CSS"
+    label: "CSS",
   },
   {
     link: "https://css-generator.netlify.app/",
@@ -519,8 +518,7 @@ const WebDevDatas = [
     link: "https://www.shutterstock.com/",
     head: "Shutterstock",
     image: "../assets/webdev-img/Shutterstock.png",
-    about:
-      "Stock images, photos, vectors, video, and music",
+    about: "Stock images, photos, vectors, video, and music",
     alt: "Shutterstock",
     label: "Stock Photos",
   },
@@ -528,7 +526,8 @@ const WebDevDatas = [
     link: "https://levinunnink.gumroad.com/l/humanities-illustrations",
     head: "Humanities Illustrations",
     image: "../assets/webdev-img/humanities-illustrations.avif",
-    about: "Hand-drawn illustration library for your website or app that brings a human touch",
+    about:
+      "Hand-drawn illustration library for your website or app that brings a human touch",
     alt: "Humanities Illustrations",
     label: "Illustration",
   },
@@ -536,7 +535,8 @@ const WebDevDatas = [
     link: "https://farbvelo.elastiq.ch/",
     head: "FarbVélo",
     image: "../assets/webdev-img/farbvelo.avif",
-    about: "FarbVélo is a playful color picking tool. It can come up with the most pleasing color combinations.",
+    about:
+      "FarbVélo is a playful color picking tool. It can come up with the most pleasing color combinations.",
     alt: "FarbVélo",
     label: "Colors",
   },
@@ -552,7 +552,8 @@ const WebDevDatas = [
     link: "https://ui-buttons.web.app/",
     head: "100 CSS Buttons",
     image: "../assets/webdev-img/100-css-buttons.avif",
-    about: "From Signups to Sales, digital actions would be impossible without buttons. Here's the curated collection of buttons.",
+    about:
+      "From Signups to Sales, digital actions would be impossible without buttons. Here's the curated collection of buttons.",
     alt: "100 CSS Buttons",
     label: "CSS",
   },
@@ -560,17 +561,82 @@ const WebDevDatas = [
     link: "https://www.pxfuel.com/",
     head: "Pxfuel",
     image: "../assets/webdev-img/pxfuel.avif",
-    about: "The Best site to Free download Royalty free stock photos for unlimited time.",
+    about:
+      "The Best site to Free download Royalty free stock photos for unlimited time.",
     alt: "Pxfuel",
     label: "Stock Photos",
   },
-    {
+  {
     link: "https://10015.io/tools/svg-pattern-generator",
     head: "SVG Pattern Generator",
     image: "../assets/webdev-img/svg-pattern-generator.png",
-    about: "Generate SVG patterns with different shapes and download it as SVG or an image file",
+    about:
+      "Generate SVG patterns with different shapes and download it as SVG or an image file",
     alt: "SVG Pattern Generator",
     label: "Vectors/Svg",
+  },
+  {
+    link: "https://mui.com/",
+    head: "Material UI Components",
+    image: "../assets/webdev-img/Material-UI.png",
+    about:
+      "Material UI for React: Your shortcut to powerful UI tools and production-ready components",
+    alt: "Material UI React Components",
+    label: "Components",
+  },
+  {
+    link: "https://tailwindui.com/",
+    head: "Tailwind UI Components",
+    image: "../assets/webdev-img/Tailwind-UI.png",
+    about:
+      "Accelerate your development with our extensive collection of production-ready UI components, designed for seamless integration with Tailwind CSS",
+    alt: "Tailwind UI Components",
+    label: "Components",
+  },
+  {
+    link: "https://tailwind-elements.com/quick-start/",
+    head: "Tailwind Elements",
+    image: "../assets/webdev-img/Tailwind-Elements.png",
+    about:
+      "Bootstrap components recreated with Tailwind CSS, but with better design and more functionalities",
+    alt: "Tailwind Elements",
+    label: "Components",
+  },
+  {
+    link: "https://flowbite.com/",
+    head: "Flowbite Elements",
+    image: "../assets/webdev-img/Flowbite.png",
+    about:
+      "Flowbite is an open-source library of UI components based on the utility-first Tailwind CSS framework featuring dark mode support, a Figma design system, templates, and more.",
+    alt: "Flowbite Elements",
+    label: "Components",
+  },
+  {
+    link: "https://tailblocks.cc/",
+    head: "Tailblocks",
+    image: "../assets/webdev-img/Tailblocks.png",
+    about:
+      "Tailblocks is a collection of 60+ minimalist layout blocks, like testimonial, team, steps, statistics, pricing, hero, header, gallery, footer, feature, and ecommerce",
+    alt: "Tailblocks",
+    label: "Components",
+  },
+  {
+    link: "https://merakiui.com/",
+    head: "Meraki UI",
+    image: "../assets/webdev-img/Meraki-UI.png",
+    about:
+      "Meraki UI is a collection of responsive Tailwind CSS components that enhance the user experience of your website.",
+    alt: "Meraki UI",
+    label: "Components",
+  },
+  {
+    link: "https://daisyui.com/",
+    head: "Daisy UI",
+    image: "../assets/webdev-img/Daisy.png",
+    about:
+      "Enhance Tailwind CSS with component class names for rapid website development. Create stunning websites faster than ever with semantic class names",
+    alt: "Daisy UI",
+    label: "Components",
   },
 ];
 
