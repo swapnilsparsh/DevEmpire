@@ -8,7 +8,7 @@ const ProgramsDatas = [
         label: "Beginner Friendly"
     },
     {
-        link: "https://unstop.com/hackathons/flipkart-grid-50-software-development-track-flipkart-grid-50-flipkart-686157https://rsvp.withgoogle.com/events/girl-hackathon-2023",
+        link: "https://unstop.com/hackathons/flipkart-grid-50-software-development-track-flipkart-grid-50-flipkart-686157",
         head: "Flipkart GRiD 5.0",
         image: "../assets/hackathons-img/Flipkart-grid-5.0.webp",
         about: "Flipkart GRiD 5.0 helps Global engineering minds tackle real-world E-Commerce challenges.",
