@@ -117,6 +117,41 @@ const Games= [
         image: "../assets/games-img/CrunchZilla.png",
         about: "Play with code, experiment, build, and learn.",
         alt: "Crunchzilla"
+    },
+    {
+      link: "https://codecombat.com/play/level/dungeons-of-kithgard?",
+      head: "CodeCombat",
+      image: "../assets/games-img/CodeCombat.png",
+      about: "A RPG Game set up that teaches you web fundamentals and more.",
+      alt: "CodeCombat"
+    },
+    {
+      link: "https://www.codewars.com/dashboard",
+      head: "CodeWars",
+      image: "../assets/games-img/CodeWars.png",
+      about: "Codewars is a cool concept where you have to solve puzzles by filling out the blanks.",
+      alt: "CodeWars"
+    },
+    {
+      link: "https://screeps.com/a/#!/sim/tutorial/1",
+      head: "Screeps",
+      image: "../assets/games-img/Screeps.png",
+      about: "Screeps is a sandboxed game where you can control a colony by providing JavaScript code.",
+      alt: "Screeps" 
+    },
+    {
+      link: "https://js.checkio.org/",
+      head: "CheckIO",
+      image: "../assets/games-img/CheckIO.png",
+      about: "CheckIO is an excellent text-based game with some fantastic graphics for the level indicators",
+      alt: "CheckIO" 
+    },
+    {
+      link: "https://play.elevatorsaga.com/",
+      head: "Elevator Saga",
+      image: "../assets/games-img/ElevatorSaga.png",
+      about: "Another excellent game is the elevator saga, where you learn how to transport people in a lift by writing JavaScript code.",
+      alt: "Elevator Saga" 
     }
 ];
 
