@@ -18,7 +18,7 @@ const NavigationBar = () => {
             rel="noreferrer"
           >
             <img
-              src="../assets/share-img/Github-share.png"
+              src="../assets/share-img/Github-share.webp"
               alt="Github-Share-Button"
             />
           </a>
@@ -44,7 +44,7 @@ const NavigationBar = () => {
             rel="noreferrer"
           >
             <img
-              src="../assets/share-img/Twitter-share.png"
+              src="../assets/share-img/Twitter-share.webp"
               alt="Twitter-Share-Button"
             />
           </a>
