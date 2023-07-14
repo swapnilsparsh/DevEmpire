@@ -16,6 +16,7 @@ const Footer = () => {
   let year = new Date().getFullYear();
 
   return (
+
    <div className="footerBox">
    <footer className="copyright">
    
@@ -138,6 +139,7 @@ const Footer = () => {
   
    </footer>
    </div>
+
   );
 };
 
