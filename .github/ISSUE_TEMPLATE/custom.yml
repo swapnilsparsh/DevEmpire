@@ -1,0 +1,14 @@
+name: Custom Isuue
+description: Report a custom issue
+title: '[Issue]: '
+labels: ['🔧 goal: fix']
+body:
+- type: textarea
+  id: what-happened
+  attributes:
+    label: Description
+    placeholder: Describe the issue in detail
+  validations:
+    required: true
+
+
