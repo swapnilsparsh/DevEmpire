@@ -4,9 +4,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import ThemeToggle from "../ThemeToggle";
 
-
-
-
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -126,15 +123,20 @@ const Links = () => {
           </div>
         </div>
       </div>
-      <div className="navNarrow-container" onMouseLeave={() => { setmenuopen(!menuopen) }} >
-        <div className="navNarrow-Bar"
-
-        >
+      <div
+        className="navNarrow-container"
+        onMouseLeave={() => {
+          setmenuopen(!menuopen);
+        }}
+      >
+        <div className="navNarrow-Bar">
           <i
             id="icon"
             className={`fa ${menuopen ? "fa-times" : "fa-bars"} fa-2x`}
             aria-hidden="true"
-            onClick={() => { setmenuopen(!menuopen) }}
+            onClick={() => {
+              setmenuopen(!menuopen);
+            }}
           />
           <div
             style={{
@@ -190,41 +192,86 @@ const Links = () => {
           {/* Global search bar for collapsed nav ends */}
         </div>
         <div className="navNarrow">
-          <div className={`narrowLinks ${menuopen ? '' : 'hidden'}`} >
-            <Link href="/" >
-              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+          <div className={`narrowLinks ${menuopen ? "" : "hidden"}`}>
+            <Link href="/">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
                 <i className="fa fa-home" aria-hidden="true" />
                 Home
               </a>
             </Link>
-            <Link href="/ambassador"  >
-              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+            <Link href="/ambassador">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
                 <i className="fa fa-users" aria-hidden="true" />
                 Ambassador
               </a>
             </Link>
-            <Link href="/programs" >
-              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+            <Link href="/hackathons">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
+                <i className="fa fa-trophy" aria-hidden="true" />
+                Hackathons
+              </a>
+            </Link>
+            <Link href="/programs">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
                 <i className="fa fa-calendar" aria-hidden="true" /> Programs
               </a>
             </Link>
-            <Link href="/webdev" >
-              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+            <Link href="/webdev">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
                 <i className="fa fa-code" aria-hidden="true" /> Web Dev
               </a>
             </Link>
-            <Link href="/games" >
-              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+            <Link href="/games">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
                 <i className="fa fa-gamepad" aria-hidden="true" /> Games
               </a>
             </Link>
-            <Link href="/backend" >
-              <a className="current-nav-link" onClick={() => { setmenuopen(false) }}>
+            <Link href="/backend">
+              <a
+                className="current-nav-link"
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              >
                 <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
-            <div className="theme-toggle-collapsed-navbar" >
-              <ThemeToggle onClick={() => { setmenuopen(false) }} />
+            <div className="theme-toggle-collapsed-navbar">
+              <ThemeToggle
+                onClick={() => {
+                  setmenuopen(false);
+                }}
+              />
             </div>
           </div>
         </div>
