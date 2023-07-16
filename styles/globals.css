@@ -1877,3 +1877,7 @@ replaced by just the links.*/
   height: 10vh;
 
 }
+.label:hover{
+background-color:#0093ed ;
+color: white;
+}
