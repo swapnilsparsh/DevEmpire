@@ -2,7 +2,7 @@ const ProgramsDatas = [
     {
         link: "https://unstop.com/hackathons/tally-codebrewers-tally-solutions-343510",
         head: "Tally CodeBrewers",
-        image: "../assets/hackathons-img/test5.png",
+        image: "../assets/hackathons-img/test5.webp",
         about: " Tally CodeBrewers inspires innovative engineers through intense coding and product challenges.",
         alt: "Tally CodeBrewers",
         label: "Beginner Friendly"
@@ -18,7 +18,7 @@ const ProgramsDatas = [
     {
         link: "https://unstop.com/competitions/walmart-codehers-2022-walmart-global-tech-india-266010",
         head: "Walmart CodeHers",
-        image: "../assets/hackathons-img/FinalCodehers.PNG",
+        image: "../assets/hackathons-img/FinalCodehers.webp",
         about: "Walmart's CodeHers program empowers talented female coders to make a significant impact in the tech industry.",
         alt: "Walmart CodeHers",
         label: "Female Centric"
@@ -34,7 +34,7 @@ const ProgramsDatas = [
     {
         link: "https://flow-hackathon-s2.devfolio.co/",
         head: "FlowHackathon Season 2",
-        image: "../assets/hackathons-img/flow.PNG",
+        image: "../assets/hackathons-img/flow.webp",
         about: "The Flow to the Future hackathon is a global competition taking place virtually with over $500,000 in prizes",
         alt: "FlowHackathon Season 2",
         label: "Blockchain"
@@ -51,7 +51,7 @@ const ProgramsDatas = [
     {
         link: "https://filecoin-orbit-india-hackathon-hackafil.devfolio.co/",
         head: "Filecoin Hackathon ",
-        image: "../assets/hackathons-img/filecoin3.PNG",
+        image: "../assets/hackathons-img/filecoin3.webp",
         about: "Filecoin Orbit India Hackathon is a 30 day long hackathon organized by Loarr in partnership with the Filecoin foundation",
         alt: "Filecoin Hackathon",
         label: "Blockchain"
@@ -59,7 +59,7 @@ const ProgramsDatas = [
     {
         link: "https://hackthespace.co",
         head: "Hack The Space",
-        image: "../assets/hackathons-img/space.PNG",
+        image: "../assets/hackathons-img/space.webp",
         about: "Hack The Space is a 24-hour innovation extravaganza fostering creativity, collaboration, and competition across India.",
         alt: "Hack The Space",
         label: "Upcoming"
@@ -75,7 +75,7 @@ const ProgramsDatas = [
     {
         link: "https://www.ethwomen.com/",
         head: "ETHWOMEN",
-        image: "../assets/hackathons-img/ETHWOMENs.png",
+        image: "../assets/hackathons-img/ETHWOMENs.webp",
         about: "A female-focused and inclusive online and in-person event series part of ETHToronto and Blockchain Futurist Conference.",
         alt: "ETHWOMEN",
         label: "Female Centric"
@@ -84,7 +84,7 @@ const ProgramsDatas = [
     {
         link: "https://hackmit.org",
         head: "HackMIT",
-        image: "../assets/hackathons-img/Hackmit_1243x765.png",
+        image: "../assets/hackathons-img/Hackmit_1243x765.webp",
         about: "HackMIT is a weekend-long event where students from around the world come together to work on cool software and/or hardware projects",
         alt: "HackMIT",
         label: "Competitive"
@@ -92,7 +92,7 @@ const ProgramsDatas = [
     {
         link: "https://code-relay.devfolio.co/",
         head: "Code Relay 2.0",
-        image: "../assets/hackathons-img/relay.png",
+        image: "../assets/hackathons-img/relay.webp",
         about: "Code Relay 2.0 is an annual coding hackathon conducted by the Web & Design society of IIT Bhubaneswar..",
         alt: "Code Relay 2.0",
         label: "Competitive"
@@ -110,7 +110,7 @@ const ProgramsDatas = [
     {
         link: "https://odyssey.devfolio.co/",
         head: "Odyssey",
-        image: "../assets/hackathons-img/odyssyeas1_862x625.png",
+        image: "../assets/hackathons-img/odyssyeas1_862x625.webp",
        
         about: "Odyssey is the annual hackathon organised by IECSE - the Official Computer Science Club of Manipal Institute of Technology..",
         alt: "Odyssey",
@@ -129,7 +129,7 @@ const ProgramsDatas = [
     // {
     //     link: "https://wiki.hyperledger.org/display/INTERN",
     //     head: "Hyperledger Mentorship Program",
-    //     image: "../assets/programs-img/HLF_Mentorship_Program.png",
+    //     image: "../assets/programs-img/HLF_Mentorship_Program.webp",
     //     about: "If you’re into the blockchain, this is for you. You can contribute to Hyperledger. This mentorship program allows you to get practical exposure to Hyperledger open source development.",
     //     alt: "Hyperledger Mentorship Program",
     //     label: "Blockchain"
@@ -137,7 +137,7 @@ const ProgramsDatas = [
     // {
     //     link: "https://www.fsf.org/volunteer/internships",
     //     head: "Free Software Foundation (FSF) Internship Program",
-    //     image: "../assets/programs-img/fsf.png",
+    //     image: "../assets/programs-img/fsf.webp",
     //     about: "If you want to intern at the Free Software Foundation, and you know web development, systems, networking, software licensing you can consider the FSF internship program.",
     //     alt: "Free Software Foundation (FSF) Internship Program",
     //     label: "Internship"
@@ -145,7 +145,7 @@ const ProgramsDatas = [
     // {
     //     link: "https://www.openmainframeproject.org/projects/mentorship-program",
     //     head: "Open Mainframe Project Mentorship Program",
-    //     image: "../assets/programs-img/openmainframe.png",
+    //     image: "../assets/programs-img/openmainframe.webp",
     //     about: "It is an open-source program that is hosted by the Linux Foundation and aims to introduce everyone to the mainframe community and development environment on Linux.",
     //     alt: "Open Mainframe Project Mentorship Program",
     //     label: "Community Mentorship"
@@ -153,7 +153,7 @@ const ProgramsDatas = [
     // {
     //     link: "https://lfx.linuxfoundation.org/tools/mentorship/",
     //     head: "LFX Mentorship Program",
-    //     image: "../assets/programs-img/LFX.png",
+    //     image: "../assets/programs-img/LFX.webp",
     //     about: "The Linux Foundation aims to makes it easy to sponsor and help train the next generation of open source developers by serving key needs of the community.",
     //     alt: "LFX Mentorship Program",
     //     label: "Community Mentorship"

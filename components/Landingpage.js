@@ -33,7 +33,7 @@ const Landingpage = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src="../assets/share-img/Discord-share.png" alt="" />
+                    <img src="../assets/share-img/Discord-share.webp" alt="" />
                   </a>
                 </div>
                 <div className="explore-all-btn">
