@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Home from "../public/assets/svg/Home.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
-import Hackathon from "../public/assets/svg/Hackathon.png";
+import Hackathon from "../public/assets/svg/Hackathon.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
 import Games from "../public/assets/svg/Gaming.svg";
