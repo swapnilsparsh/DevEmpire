@@ -796,7 +796,7 @@ replaced by just the links.*/
           border-radius: inherit;
           background-color: #00253A;
           overflow: hidden;
-          -webkit-mask-image: -webkit-radial-gradient(white, black);
+          --webkit-mask-image: -webkit-radial-gradient(white, black);
       
           &:before {
             content: '';

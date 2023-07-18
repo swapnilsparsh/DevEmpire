@@ -1,8 +1,28 @@
 import React, { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
+import classNames from "classnames";
+import styles from "../styles/Home.module.css";
+
 
 const NavigationBar = () => {
+  const [menuopen, setmenuopen] = useState(false);
+  
   return (
     <>
+        <div className={classNames(styles.mobileIcon)} >
+         <a href="https://github.com/swapnilsparsh/DevEmpire" target="_blank">
+           <i className={classNames("fa fa-github", styles.githubIcon)}
+            area-hidden="true"
+            onClick={() => {
+              setmenuopen(true);
+            }}
+            ></i>
+         </a>
+         <div className="theme-toggle-collapsed-navbar" area-hidden="true" >
+           <ThemeToggle/>
+         </div>
+       </div>
+      
       <div className="nav-version">
         <h2>
           Introducing Dev Empire v2! We&apos;re currently in early release 🚀

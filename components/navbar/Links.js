@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import ThemeToggle from "../ThemeToggle";
 
+
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -34,15 +35,12 @@ const Links = () => {
 
   return (
     <nav>
-      <div className="navWide">
+      <div className="navWide" >
         <div className="wideDiv">
           <div className="logo-containter">
             <Link href="/">
               <p>Dev Empire</p>
             </Link>
-            <div className="theme-toggle-button" id="toggle-button">
-              <ThemeToggle />
-            </div>
           </div>
 
           <div className="links-container">
@@ -82,8 +80,14 @@ const Links = () => {
                 <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
+            <a href="https://github.com/swapnilsparsh/DevEmpire" target="_blank">
+            <i className="fa fa-github" style={{fontSize:'45px', color:'white'}} ></i>
+            </a>
+            <div className="theme-toggle-button" id="toggle-button">
+              <ThemeToggle />
+            </div>
             {/* Global search bar starts */}
-            <div className="global-search">
+            <div className="global-search" style={{paddingLeft:'15px'}}>
               <div className="search-container">
                 <i
                   className="fa fa-search search-icon"
@@ -266,13 +270,6 @@ const Links = () => {
                 <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
-            <div className="theme-toggle-collapsed-navbar">
-              <ThemeToggle
-                onClick={() => {
-                  setmenuopen(false);
-                }}
-              />
-            </div>
           </div>
         </div>
       </div>

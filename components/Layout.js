@@ -7,6 +7,7 @@ import BackToTop from "../components/Backtotop";
 
 export default function Layout({ children }) {
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
