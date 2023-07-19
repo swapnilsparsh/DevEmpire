@@ -931,6 +931,27 @@ replaced by just the links.*/
   animation: glowAnimation 1s forwards;
 }
 
+/* CSS for image zoom effect */
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 450px;
+  transition: transform 0.3s;
+}
+
+.img-container img:hover {
+  transform: scale(0.7);
+}
+
+
 @keyframes glowAnimation {
   0% {
     opacity: 0;
