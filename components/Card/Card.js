@@ -11,8 +11,8 @@ function Card({ head, link, image, alt, about }) {
   return (
     <div className="frame-border" key={`${head}_${link}`}>
       <div className="pointer"></div>
-      <div className="card-js">
-        <div className="content">
+      <div className="card-js app">
+        <div className="content img-container">
           <h3 dangerouslySetInnerHTML={createMarkup(head)}></h3>
           <img
             src={image}
