@@ -9,7 +9,7 @@ width:50%;
 `;
 
 export const FooterLink = styled.a`
-  color: #fff;
+  color: var(--native2);
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
@@ -31,7 +31,7 @@ export const FooterLink = styled.a`
 
 export const Heading1 = styled.p`
   font-size: 24px;
-  color: #fff;
+  color: var(--native2);
   margin-top: 20px;
   margin-bottom: 40px;
   font-weight: bold;
@@ -47,7 +47,7 @@ export const Heading1 = styled.p`
 `;
 export const Heading2 = styled.p`
   font-size: 24px;
-  color: #fff;
+  color: var(--native2);
   margin-bottom: 40px;
   font-weight: bold;
   display: block;
