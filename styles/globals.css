@@ -1114,9 +1114,12 @@ replaced by just the links.*/
 .footer-question a {
   font-weight: 600;
   text-decoration: none;
-  color: black;
+  color: var(--native1);
   border-bottom: 1px dotted var(--accent-30);
-  opacity: 1 !important;
+}
+
+.footer-question a:hover{
+  border-bottom: 1px dotted var(--native2);
 }
 
 .footer-question h2 {

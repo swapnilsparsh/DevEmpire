@@ -13,10 +13,14 @@ export const FooterLink = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
-  cursor:pointer;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
 
   &:hover {
-    color: purple;
+    color: var(--native1);
     transition: color 0.1s ease-in;
   }
 
