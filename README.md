@@ -1,5 +1,5 @@
 ## DevEmpire
-![DevEmpire](https://res.cloudinary.com/dxxeks4o5/image/upload/v1690128171/Meta_niqqe1.png)
+![DevEmpire](https://github.com/swapnilsparsh/DevEmpire/blob/master/public/assets/meta-img/Meta.webp)
 
 ## 📌 Introduction
 
