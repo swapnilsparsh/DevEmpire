@@ -10,6 +10,7 @@ body[data-theme="light"] {
   --native1: #ffffff;
   --native2: #00253a;
   --primary: #0093ed;
+  --secondary: #7dd8ff;
   --accent-10: #0072b1;
   --accent-20: #7dd8ff;
   --accent-30: #d6f5ff;
@@ -29,6 +30,7 @@ body[data-theme="dark"] {
   --native2: #ffffff;
   --native1: #00253a;
   --primary: #03a4ff;
+  --secondary: #03a4ff;
   --accent-10: #00314d;
   --accent-20: #044468;
   --accent-30: #52c1ff;
@@ -931,6 +933,27 @@ replaced by just the links.*/
   animation: glowAnimation 1s forwards;
 }
 
+/* CSS for image zoom effect */
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 450px;
+  transition: transform 0.3s;
+}
+
+.img-container img:hover {
+  transform: scale(0.7);
+}
+
+
 @keyframes glowAnimation {
   0% {
     opacity: 0;
@@ -1068,7 +1091,7 @@ replaced by just the links.*/
 /* Searching No Results End*/
 /*Start footer*/
 .footer {
-  background-color: #0093ed;
+  background-color: var(--secondary);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 2rem 0rem 2rem 0rem;
@@ -1084,24 +1107,26 @@ replaced by just the links.*/
 }
 
 .footer-question h4 {
-  /* color: rgba(255, 255, 255, 0.808); */
-  color: white;
-  opacity: 0.8;
+  color: var(--native2);
+  letter-spacing: 0.06em;
 }
 
 .footer-question a {
   font-weight: 600;
   text-decoration: none;
-  color: black;
+  color: var(--native1);
   border-bottom: 1px dotted var(--accent-30);
-  opacity: 1 !important;
+}
+
+.footer-question a:hover{
+  border-bottom: 1px dotted var(--native2);
 }
 
 .footer-question h2 {
   margin-top: 3.2rem;
   font-weight: 400;
   text-decoration: none;
-  color: white;
+  color: var(--native2);
 }
 
 .footer-question h2 span {
@@ -1876,4 +1901,8 @@ replaced by just the links.*/
   width: 100%;
   height: 10vh;
 
+}
+.label:hover{
+background-color:#0093ed ;
+color: white;
 }

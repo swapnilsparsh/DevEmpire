@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
 
         <link
           rel="shortcut icon"
-          href="assets/icon/favicon.png"
+          href="assets/icon/favicon.webp"
           type="image/x-icon"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -75,7 +75,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://devempire.netlify.app/assets/meta-img/Meta.png"
+          content="https://devempire.netlify.app/assets/meta-img/Meta.webp"
         />
 
         {/* Twitter */}
@@ -90,11 +90,11 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name="twitter:image:src"
-          content="https://devempire.netlify.app/assets/meta-img/Meta.png"
+          content="https://devempire.netlify.app/assets/meta-img/Meta.webp"
         />
         <meta
           property="twitter:image"
-          content="https://devempire.netlify.app/assets/meta-img/Meta.png"
+          content="https://devempire.netlify.app/assets/meta-img/Meta.webp"
         />
         <title>DevEmpire</title>
       </Head>

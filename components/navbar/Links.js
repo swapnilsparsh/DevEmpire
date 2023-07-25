@@ -126,7 +126,7 @@ const Links = () => {
       <div
         className="navNarrow-container"
         onMouseLeave={() => {
-          setmenuopen(!menuopen);
+
         }}
       >
         <div className="navNarrow-Bar">
