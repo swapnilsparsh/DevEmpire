@@ -1,5 +1,5 @@
 ## DevEmpire
-![DevEmpire](https://github.com/swapnilsparsh/DevEmpire/blob/master/public/assets/meta-img/Meta.png)
+![DevEmpire](https://github.com/swapnilsparsh/DevEmpire/blob/master/public/assets/meta-img/Meta.webp)
 
 ## 📌 Introduction
 
