@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="footer" role="footer">
         <footer className="copyright">
           <div className="footer-question">
-            <h2>
+            <h2 style={{color:"var(--navbar-links)"}}>
               <span>👑</span>DevEmpire
             </h2>
             <br />
@@ -60,20 +60,20 @@ const Footer = () => {
         <div className="footer-details">
           <div className="column1">
             <Column1>
-              <Heading1>Support</Heading1>
-              <FooterLink target="_blank" href="https://github.com/swapnilsparsh/DevEmpire" aria-label="Visit us on Github" rel="noopener noreferrer">
+              <Heading1 style={{color:"var(--navbar-links)"}}>Support</Heading1>
+              <FooterLink style={{color:"var(--navbar-links)"}} target="_blank" href="https://github.com/swapnilsparsh/DevEmpire" aria-label="Visit us on Github" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
               <span>GitHub</span>
               </FooterLink>
-              <FooterLink target="blank" href="https://www.producthunt.com/products/developer-empire?utm_source=badge-featured&utm_medium=badge#developer-empire" aria-label="Our product on Product Hunt" rel="noopener noreferrer">
+              <FooterLink style={{color:"var(--navbar-links)"}} target="blank" href="https://www.producthunt.com/products/developer-empire?utm_source=badge-featured&utm_medium=badge#developer-empire" aria-label="Our product on Product Hunt" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faProductHunt} />
               <span>Product Hunt</span>
               </FooterLink>
-              <FooterLink target="blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://devempire.netlify.app&via=swapnilsparsh" aria-label="Visit us on Twitter" rel="noopener noreferrer">
+              <FooterLink style={{color:"var(--navbar-links)"}} target="blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20website%20having%20a%20collection%20of%20all%20the%20campus%20ambassador%20and%20fellowship%20programs&url=https://devempire.netlify.app&via=swapnilsparsh" aria-label="Visit us on Twitter" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} />
               <span>Twitter</span>
               </FooterLink>
-              <FooterLink href="#" aria-label="Our Newsletter" rel="noopener noreferrer">
+              <FooterLink style={{color:"var(--navbar-links)"}} href="#" aria-label="Our Newsletter" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faEnvelope} />
               <span>Newsletter</span>
               </FooterLink>
@@ -81,21 +81,21 @@ const Footer = () => {
           </div>
           <div className="column2">
             <Column2>
-              <Heading2>Explore</Heading2>
+              <Heading2 style={{color:"var(--navbar-links)"}}>Explore</Heading2>
               <Link href="/ambassador">
-                <FooterLink aria-label="Ambassador Page"><FontAwesomeIcon icon={faMedal} />
+                <FooterLink style={{color:"var(--navbar-links)"}} aria-label="Ambassador Page"><FontAwesomeIcon icon={faMedal} />
               <span>Ambassador</span></FooterLink>
               </Link>
               <Link href="/programs">
-                <FooterLink aria-label="Programs Page"><FontAwesomeIcon icon={faCalendar} />
+                <FooterLink style={{color:"var(--navbar-links)"}} aria-label="Programs Page"><FontAwesomeIcon icon={faCalendar} />
               <span>Programs</span></FooterLink>
               </Link>
               <Link href="/webdev">
-                <FooterLink aria-label="WebDev Page"><FontAwesomeIcon icon={faGlobe} />
+                <FooterLink style={{color:"var(--navbar-links)"}} aria-label="WebDev Page"><FontAwesomeIcon icon={faGlobe} />
               <span>WebDev</span></FooterLink>
               </Link>
               <Link href="/games">
-                <FooterLink aria-label="Games Page"><FontAwesomeIcon icon={faGamepad} />
+                <FooterLink style={{color:"var(--navbar-links)"}} aria-label="Games Page"><FontAwesomeIcon icon={faGamepad} />
               <span>Games</span></FooterLink>
               </Link>
             </Column2>

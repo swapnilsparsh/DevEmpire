@@ -24,6 +24,9 @@ body[data-theme="light"] {
   background-size: 300vh;
   font-family: "open-sans";
   --logo-color: brightness(0) invert(1);
+  --navbar-links: #ffffff;  
+  --footer-links: #000;
+  --navbar-color: #0093ED;
 }
 
 body[data-theme="dark"] {
@@ -40,6 +43,9 @@ body[data-theme="dark"] {
   --extra4: var(--accent-10);
   background: var(--accent-10);
   --logo-color: brightness(0) invert(0);
+  --navbar-links: #03a4ff;  
+  --footer-links: #fff;
+  --navbar-color: #001B2B;
 }
 
 .nav-version {
@@ -120,7 +126,7 @@ body[data-theme="dark"] {
 }
 
 nav {
-  background-color: var(--primary);
+  background-color: var(--navbar-color);
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -145,7 +151,7 @@ nav .links-container {
 }
 
 .logo-containter>p {
-  color: var(--native1);
+  color: var(--navbar-links);
   font-size: 1.5em;
   font-weight: 700;
   cursor: pointer;
@@ -156,11 +162,11 @@ nav .links-container {
 }
 
 nav .links-container a {
-  color: var(--native1);
+  color: var(--navbar-links);
 }
 
 nav .links-container a>i {
-  color: var(--native1);
+  color: var(--navbar-links);
 }
 
 nav .navWide {
@@ -1091,7 +1097,7 @@ replaced by just the links.*/
 /* Searching No Results End*/
 /*Start footer*/
 .footer {
-  background-color: var(--secondary);
+  background-color: var(--navbar-color);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 2rem 0rem 2rem 0rem;
@@ -1107,14 +1113,14 @@ replaced by just the links.*/
 }
 
 .footer-question h4 {
-  color: var(--native2);
+  color: var(--navbar-links);
   letter-spacing: 0.06em;
 }
 
 .footer-question a {
   font-weight: 600;
   text-decoration: none;
-  color: var(--native1);
+  color: var(--footer-links);
   border-bottom: 1px dotted var(--accent-30);
 }
 
