@@ -30,8 +30,8 @@ All in one place where you can find all the resources and details of ambassador/
 <pre><center><a href="https://devempire.netlify.app/"><b>devempire.netlify.app</b></a></center></pre>
 
 ## 👨‍💻 Tech Stack
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+[![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/docs)
+[![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)](https://sass-lang.com/)
 
 ## 🛠️ Installation Steps
 Star and Fork the Repo 🌟 and this will keep us motivated.
