@@ -1419,11 +1419,12 @@ replaced by just the links.*/
     padding-left: 10%;
   }
   .footer-question {
+    width: 300px;
     padding-left: 3px;
   }
 
   .footer-details {
-    width: 60%;
+    width: 55%;
     display: flex;
     justify-content: space-evenly;
     font-size: 8px;
@@ -1434,7 +1435,7 @@ replaced by just the links.*/
   .footer-question {
     font-size: 15px;
     /* margin-left: 10px; */
-    width: 100%;
+    width: 300px;
     margin-top: -40px;
   }
   .column1 {
