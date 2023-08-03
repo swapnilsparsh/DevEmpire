@@ -144,7 +144,7 @@ nav .links-container {
   padding-top: 5px;
 }
 
-.logo-containter>p {
+.logo-containter > p {
   color: var(--native1);
   font-size: 1.5em;
   font-weight: 700;
@@ -159,7 +159,7 @@ nav .links-container a {
   color: var(--native1);
 }
 
-nav .links-container a>i {
+nav .links-container a > i {
   color: var(--native1);
 }
 
@@ -467,7 +467,10 @@ replaced by just the links.*/
   color: var(--native1);
 }
 
-.landing-page-header .header-details .search-container:hover .search::-webkit-input-placeholder {
+.landing-page-header
+  .header-details
+  .search-container:hover
+  .search::-webkit-input-placeholder {
   color: var(--native1);
 }
 
@@ -521,7 +524,11 @@ replaced by just the links.*/
   justify-content: flex-start;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button .discord:hover {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  .discord:hover {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -532,7 +539,11 @@ replaced by just the links.*/
   transform: scale(1.2);
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button .discord {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  .discord {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -543,12 +554,20 @@ replaced by just the links.*/
   transition: all 0.3s ease-in-out;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .discord-button img {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .discord-button
+  img {
   width: 140px;
   height: 36px;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .explore-all-btn
+  .call-to-action-btn {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -574,7 +593,11 @@ replaced by just the links.*/
   margin: 0rem 1.5rem;
 }
 
-.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn:hover {
+.landing-page-header
+  .header-details
+  .landing-page-btn-container
+  .explore-all-btn
+  .call-to-action-btn:hover {
   color: var(--native1);
   background: var(--primary);
 }
@@ -889,7 +912,7 @@ replaced by just the links.*/
   font-size: 16px;
   font-weight: 500;
   border-radius: 11px;
-  border: #0093ED 1.5px solid;
+  border: #0093ed 1.5px solid;
   position: relative;
   line-height: 24px;
   cursor: pointer;
@@ -918,12 +941,12 @@ replaced by just the links.*/
 }
 
 .container .card-js .content .glow-button .glowing-button::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: linear-gradient(to right, #7DD8FF, var(--accent-10));
+  background: linear-gradient(to right, #7dd8ff, var(--accent-10));
   opacity: 0;
   filter: blur(20px);
   transition: opacity 0.5s;
@@ -952,7 +975,6 @@ replaced by just the links.*/
 .img-container img:hover {
   transform: scale(0.7);
 }
-
 
 @keyframes glowAnimation {
   0% {
@@ -1118,7 +1140,7 @@ replaced by just the links.*/
   border-bottom: 1px dotted var(--accent-30);
 }
 
-.footer-question a:hover{
+.footer-question a:hover {
   border-bottom: 1px dotted var(--native2);
 }
 
@@ -1151,7 +1173,7 @@ replaced by just the links.*/
   width: 50%;
 }
 
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -1187,7 +1209,7 @@ replaced by just the links.*/
   }
 }
 
-@media screen and (min-width:481px) and (max-width:768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1221,17 +1243,21 @@ replaced by just the links.*/
     width: 100%;
     margin-top: -40px;
   }
+  .explore {
+    margin-top: 21px;
+  }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
   .footer {
-    width: fit-content;
+    width: 100%;
+    display: flex;
   }
 
   .footer-details {
     display: flex;
     align-items: center;
-    justify-content: space-around !important;
+    justify-content: start !important;
     flex-wrap: wrap;
     font-size: 8px;
     margin-right: 0;
@@ -1240,18 +1266,29 @@ replaced by just the links.*/
 
   .footer-question {
     font-size: 15px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     width: 100%;
     margin-top: -40px;
   }
-
+  .column1 {
+    margin-top: 14px;
+  }
+  .column2 {
+    margin-left: 0px;
+  }
   .footer-copyright {
     margin-left: 10px;
     width: 100%;
   }
 }
 
-@media (min-width:769px) and (max-width:1300px) {
+@media (min-width: 769px) {
+  .footer-details {
+    align-items: center;
+  }
+  .explore {
+    margin-top: 20px;
+  }
   .footer-copyright {
     margin-left: 90px;
   }
@@ -1374,6 +1411,46 @@ replaced by just the links.*/
     font-size: 14px;
   }
 }
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+  }
+  .footer-question {
+    width: 300px;
+    padding-left: 3px;
+  }
+
+  .footer-details {
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 8px;
+    padding-left: 22px;
+    margin-bottom: -10px;
+  }
+
+  .footer-question {
+    font-size: 15px;
+    /* margin-left: 10px; */
+    width: 300px;
+    margin-top: -40px;
+  }
+  .column1 {
+    margin-left: 0px;
+    margin-top: 14px;
+  }
+  .column2 {
+    margin-left: 0px;
+    margin-top: 21px;
+  }
+  .footer-copyright {
+    margin-left: 10px;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .container-landing .landing-page-details {
@@ -1442,7 +1519,6 @@ replaced by just the links.*/
     width: 50%;
     text-align: left;
   }
-
 
   h2 span {
     font-size: 1em !important;
@@ -1823,7 +1899,6 @@ replaced by just the links.*/
 /*  */
 /* Global Search Ends*/
 
-
 /* Pagination layout starts */
 .paginationBttns {
   margin-top: 50px;
@@ -1838,9 +1913,6 @@ replaced by just the links.*/
   .paginationBttns {
     flex-wrap: wrap;
     align-content: flex-start;
-
-
-
   }
 }
 
@@ -1896,13 +1968,12 @@ replaced by just the links.*/
   justify-content: center;
   align-items: center;
   height: 20px;
-  background-color: #00253A ;
-  margin:0px;
+  background-color: #00253a;
+  margin: 0px;
   width: 100%;
   height: 10vh;
-
 }
-.label:hover{
-background-color:#0093ed ;
-color: white;
+.label:hover {
+  background-color: #0093ed;
+  color: white;
 }
