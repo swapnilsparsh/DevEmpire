@@ -3,7 +3,9 @@
 
 ## 📌 Introduction
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://awesome.re" target="_blank" rel="noopener noreferrer">
+  <img src="https://awesome.re/badge.svg" alt="Awesome" />
+</a>
 
 All in one place where you can find all the resources and details of ambassador/fellowship, open source events, web dev sites, js toolkits  etc. that are available across different sites. Consider this repository as your personal space to find or add any new resource that can make life easier for the community.
 <div align="center">
@@ -30,8 +32,13 @@ All in one place where you can find all the resources and details of ambassador/
 <pre><center><a href="https://devempire.netlify.app/"><b>devempire.netlify.app</b></a></center></pre>
 
 ## 👨‍💻 Tech Stack
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+<a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="NextJS" />
+</a>
+
+<a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SASS" />
+</a>
 
 ## 🛠️ Installation Steps
 Star and Fork the Repo 🌟 and this will keep us motivated.

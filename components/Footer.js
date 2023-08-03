@@ -21,7 +21,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footer" role="footer">
+      <div className="footer" role="footer" >
         <footer className="copyright">
           <div className="footer-question">
             <h2 style={{color:"var(--navbar-links)"}}>
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
           <div className="column2">
             <Column2>
-              <Heading2 style={{color:"var(--navbar-links)"}}>Explore</Heading2>
+              <Heading2 className="explore" style={{color:"var(--navbar-links)"}}>Explore</Heading2>
               <Link href="/ambassador">
                 <FooterLink style={{color:"var(--navbar-links)"}} aria-label="Ambassador Page"><FontAwesomeIcon icon={faMedal} />
               <span>Ambassador</span></FooterLink>
