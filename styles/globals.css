@@ -235,13 +235,13 @@ nav .navWide .wideDiv a {
 
 nav .navNarrow-Bar i {
   cursor: pointer;
-  color: var(--native1);
+  color: var(--navbar-links);
   position: relative;
 }
 
 .current-nav-link {
   display: flex;
-  color: var(--native1);
+  color: var(--navbar-links);
   width: max-content;
 }
 
@@ -1432,7 +1432,7 @@ replaced by just the links.*/
   /* footer */
 
   .footer {
-    background-color: #0093ed;
+    background-color: var(--navbar-color);
   }
 
   .footer-details {
@@ -1601,7 +1601,7 @@ replaced by just the links.*/
 }
 
 .search-container .search-icon {
-  color: var(--native1);
+  color: var(--navbar-links);
   font-size: 20px;
   position: absolute;
   left: 1.1rem;
@@ -1744,11 +1744,11 @@ replaced by just the links.*/
 }
 
 .search-container-navNarrow.open .search-icon {
-  color: #03a4ff;
+  color: var(--navbar-links);
 }
 
 .search-container-navNarrow .search-icon {
-  color: var(--native1);
+  color: var(--navbar-links);
   font-size: 20px;
   position: absolute;
   left: 0.5rem;
