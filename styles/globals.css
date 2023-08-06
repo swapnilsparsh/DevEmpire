@@ -928,7 +928,7 @@ replaced by just the links.*/
   z-index: 1;
   box-shadow: 0 8px 20px rgba(33, 4, 104, 0.2);
   display: block;
-  margin-top: 2rem !important;
+  margin-top: 1rem !important;
   text-decoration: none;
   color: var(--native1);
   border-bottom-left-radius: 15px;
