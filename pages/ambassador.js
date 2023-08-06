@@ -14,14 +14,12 @@ const Content = () => {
   const [displayCards, setDisplayCards] = useState([]);
   const cardsPerPage = 12;
 
-  const labels = [
-    ...new Set(
-      Datas.map((data) => {
-        if (!data.label) return null;
-        return data.label;
-      })
-    ),
-  ].filter((label) => label);
+  const labels = [...new Set(Datas.flatMap((data) => {
+    if (data.label) {
+      return data.label;
+    }
+    return [];
+  }))];
 
   const highlightSearchTerm = (text) => {
     if (searchTerm !== "") {
@@ -40,9 +38,8 @@ const Content = () => {
       (selectedLabel !== "" || searchTerm !== "")
         ? Datas.filter(
           (data) =>
-            (selectedLabel === "" || data.label === selectedLabel) &&
-            (searchTerm === "" ||
-              data.head.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            data.label?.includes(selectedLabel) &&
+            (data.head.toLowerCase().includes(searchTerm.toLowerCase()) ||
               data.about.toLowerCase().includes(searchTerm.toLowerCase()))
         ).map(({ head, about, ...data }) => ({
           ...data,
@@ -51,7 +48,9 @@ const Content = () => {
         }))
         : Datas;
     setFilterOptions(filteredOptions);
-  }, [searchTerm, selectedLabel]);
+  }
+    , [searchTerm, selectedLabel]);
+
 
   // Update displayed cards based on filter options and page number
   useEffect(() => {
