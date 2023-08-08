@@ -314,13 +314,13 @@ const BackendData = [
     alt: "Okta",
   },
   {
-    head: "Back4App",
+    head: "Prisma",
     label: ["Cloud"],
-    image: "../assets/backend/Back4App.webp",
-    link: "https://www.back4app.com",
+    image: "../assets/backend/Prisma.webp",
+    link: "https://www.prisma.io",
     about:
-      "Back4App is Cloud database for apps which provides Scalable MongoDB, user auth, file storage. Simplifies backend, real-time sync.",
-    alt: "Back4App",
+      "The Prisma schema is intuitive and lets you declare your database tables in a human-readable way — making your data modeling experience a delight. You define your models by hand or introspect them from an existing database.",
+    alt: "Prisma",
   },
   {
     head: "NewYork Times API",
