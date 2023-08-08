@@ -568,6 +568,17 @@ input.search {
   height: 36px;
 }
 
+.discord-button 
+  .discord:hover {
+  background: var(--primary) !important;
+}
+
+.discord-button 
+  .discord:hover 
+  img {
+  filter: brightness(.15);
+}
+
 .landing-page-header
   .header-details
   .landing-page-btn-container
