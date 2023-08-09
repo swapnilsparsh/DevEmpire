@@ -24,7 +24,7 @@ body[data-theme="light"] {
   background-size: 300vh;
   font-family: "open-sans";
   --logo-color: brightness(0) invert(1);
-  --navbar-links: #ffffff;  
+  --navbar-links: #ffffff;
   --footer-links: #000;
   --navbar-color: #0093ED;
 }
@@ -43,7 +43,7 @@ body[data-theme="dark"] {
   --extra4: var(--accent-10);
   background: var(--accent-10);
   --logo-color: brightness(0) invert(0);
-  --navbar-links: #03a4ff;  
+  --navbar-links: #03a4ff;
   --footer-links: #fff;
   --navbar-color: #001B2B;
 }
@@ -150,7 +150,7 @@ nav .links-container {
   padding-top: 5px;
 }
 
-.logo-containter > p {
+.logo-containter>p {
   color: var(--navbar-links);
   font-size: 1.5em;
   font-weight: 700;
@@ -165,7 +165,7 @@ nav .links-container a {
   color: var(--navbar-links);
 }
 
-nav .links-container a > i {
+nav .links-container a>i {
   color: var(--navbar-links);
 }
 
@@ -473,10 +473,7 @@ replaced by just the links.*/
   color: var(--native1);
 }
 
-.landing-page-header
-  .header-details
-  .search-container:hover
-  .search::-webkit-input-placeholder {
+.landing-page-header .header-details .search-container:hover .search::-webkit-input-placeholder {
   color: var(--native1);
 }
 
@@ -530,11 +527,7 @@ replaced by just the links.*/
   justify-content: flex-start;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .discord-button
-  .discord:hover {
+.landing-page-header .header-details .landing-page-btn-container .discord-button .discord:hover {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -545,11 +538,7 @@ replaced by just the links.*/
   transform: scale(1.2);
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .discord-button
-  .discord {
+.landing-page-header .header-details .landing-page-btn-container .discord-button .discord {
   background: none;
   line-height: 0;
   border: 0.5px solid #7289da;
@@ -560,20 +549,12 @@ replaced by just the links.*/
   transition: all 0.3s ease-in-out;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .discord-button
-  img {
+.landing-page-header .header-details .landing-page-btn-container .discord-button img {
   width: 140px;
   height: 36px;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .explore-all-btn
-  .call-to-action-btn {
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn {
   background: none;
   line-height: 0;
   border: 0.5px solid rgba(0, 147, 237, 0.3);
@@ -599,11 +580,7 @@ replaced by just the links.*/
   margin: 0rem 1.5rem;
 }
 
-.landing-page-header
-  .header-details
-  .landing-page-btn-container
-  .explore-all-btn
-  .call-to-action-btn:hover {
+.landing-page-header .header-details .landing-page-btn-container .explore-all-btn .call-to-action-btn:hover {
   color: var(--native1);
   background: var(--primary);
 }
@@ -1249,6 +1226,7 @@ replaced by just the links.*/
     width: 100%;
     margin-top: -40px;
   }
+
   .explore {
     margin-top: 21px;
   }
@@ -1276,12 +1254,15 @@ replaced by just the links.*/
     width: 100%;
     margin-top: -40px;
   }
+
   .column1 {
     margin-top: 14px;
   }
+
   .column2 {
     margin-left: 0px;
   }
+
   .footer-copyright {
     margin-left: 10px;
     width: 100%;
@@ -1292,9 +1273,11 @@ replaced by just the links.*/
   .footer-details {
     align-items: center;
   }
+
   .explore {
     margin-top: 20px;
   }
+
   .footer-copyright {
     margin-left: 90px;
   }
@@ -1345,9 +1328,11 @@ replaced by just the links.*/
   width: 100%;
   height: 100vh;
   background-color: var(--extra3);
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1417,6 +1402,7 @@ replaced by just the links.*/
     font-size: 14px;
   }
 }
+
 @media screen and (min-width: 426px) and (max-width: 767px) {
   .footer {
     width: 100%;
@@ -1424,6 +1410,7 @@ replaced by just the links.*/
     flex-direction: column;
     padding-left: 10%;
   }
+
   .footer-question {
     width: 300px;
     padding-left: 3px;
@@ -1444,14 +1431,17 @@ replaced by just the links.*/
     width: 300px;
     margin-top: -40px;
   }
+
   .column1 {
     margin-left: 0px;
     margin-top: 14px;
   }
+
   .column2 {
     margin-left: 0px;
     margin-top: 21px;
   }
+
   .footer-copyright {
     margin-left: 10px;
     width: 100%;
@@ -1979,6 +1969,7 @@ replaced by just the links.*/
   width: 100%;
   height: 10vh;
 }
+
 .label:hover {
   background-color: #0093ed;
   color: white;

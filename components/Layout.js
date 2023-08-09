@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3200);
+    }, 2200);
   }, []);
   return loading ? (
     <Preloader />
