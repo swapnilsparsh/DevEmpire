@@ -22,6 +22,7 @@ body[data-theme="light"] {
   background-size: cover;
   background-attachment: fixed;
   background-size: 300vh;
+  scroll-behavior: smooth;
   font-family: "open-sans";
   --logo-color: brightness(0) invert(1);
   --navbar-links: #ffffff;  
