@@ -1974,10 +1974,19 @@ input.search {
   color: white;
 
 }
+
+.search-container {
+  background: unset;
+}
+
+.landing-page-header .header-details .search-container:hover .search {
+  color: var(--native1) !important;
+}
+
 a.sc-eqUAAy.cZwkbm:hover {
   color: #00253a;
 }
+
 svg:hover {
   color: #00253a;
-
 }
