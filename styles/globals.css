@@ -256,7 +256,7 @@ nav .navNarrow-Bar i {
   content: "";
   height: 5px;
   width: 100%;
-  background-color: var(--native1);
+  background-color: #0397ec;
   transition: width 0.3s ease-in-out;
   left: 0;
   bottom: 1px;
