@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  scroll-behavior: smooth;
 }
 
 .error_page h2 {
