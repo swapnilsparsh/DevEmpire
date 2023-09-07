@@ -9,9 +9,9 @@
 
 All in one place where you can find all the resources and details of ambassador/fellowship, open source events, web dev sites, js toolkits  etc. that are available across different sites. Consider this repository as your personal space to find or add any new resource that can make life easier for the community.
 <div align="center">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<!-- <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 <img src="https://forthebadge.com/images/badges/uses-brains.svg" />
-<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" /> -->
    <br>
 <img src="https://img.shields.io/github/repo-size/swapnilsparsh/DevEmpire" />
 	<img src="https://img.shields.io/github/issues/swapnilsparsh/DevEmpire" />
