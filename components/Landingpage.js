@@ -3,7 +3,7 @@ import Home from "../public/assets/svg/Home.svg";
 import Ambassador from "../public/assets/svg/Ambassador.svg";
 import WebDev from "../public/assets/svg/WebDev.svg";
 import Programs from "../public/assets/svg/Programs.svg";
-import Hackathon from "../public/assets/hackathons-img/HackathonLanding.png";
+import Hackathon from "../public/assets/svg/Hackathon.svg";
 import Games from "../public/assets/svg/Gaming.svg";
 import Backend from "../public/assets/svg/Backend.svg";
 import Image from "next/image";
@@ -74,22 +74,7 @@ const Landingpage = () => {
               </p>
             </div>
           </div>
-          <div className="landing-page-details">
-            <div className="heading-text second">
-              <Link href="/hackathons">
-                <h1>
-                  <u> Hackathon </u>
-                </h1>
-              </Link>
-              <p>
-                Participate in various hackathons to showcase your skills & get
-                rewarded!
-              </p>
-            </div>
-            <div className="header-image">
-              <Image id="home" src={Hackathon} alt="Programs Illustration" />
-            </div>
-          </div>
+
           <div className="landing-page-details">
             <div className="header-image">
               <Image id="home" src={Programs} alt="Programs Illustration" />
