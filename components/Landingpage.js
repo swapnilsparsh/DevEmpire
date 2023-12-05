@@ -75,22 +75,6 @@ const Landingpage = () => {
           </div>
 
           <div className="landing-page-details">
-            <div className="header-image">
-              <Image id="home" src={Programs} alt="Programs Illustration" />
-            </div>
-            <div className="heading-text">
-              <Link href="/programs">
-                <h1>
-                  <u> Programs </u>
-                </h1>
-              </Link>
-              <p>
-                Looking for an open-source program to apply to? You're just a
-                click away. Find all details right here!
-              </p>
-            </div>
-          </div>
-          <div className="landing-page-details">
             <div className="heading-text second">
               <Link href="/webdev">
                 <h1>
@@ -107,22 +91,24 @@ const Landingpage = () => {
               <Image id="home" src={WebDev} alt="Web Dev Illustration" />
             </div>
           </div>
+
           <div className="landing-page-details">
             <div className="header-image">
-              <Image id="home" src={Games} alt="Games Illustration" />
+              <Image id="home" src={Programs} alt="Programs Illustration" />
             </div>
             <div className="heading-text">
-              <Link href="/games">
+              <Link href="/programs">
                 <h1>
-                  <u> Games </u>
+                  <u> Programs </u>
                 </h1>
               </Link>
               <p>
-                Ever heard of 'All work and no play makes the developer dull' ?
-                Here's your chance to mix some play into your work !
+                Looking for an open-source program to apply to? You're just a
+                click away. Find all details right here!
               </p>
             </div>
           </div>
+
           <div className="landing-page-details">
             <div className="heading-text second">
               <Link href="/backend">
@@ -139,6 +125,24 @@ const Landingpage = () => {
               <Image id="home" src={Backend} alt="Backend Illustration" />
             </div>
           </div>
+
+          <div className="landing-page-details">
+            <div className="header-image">
+              <Image id="home" src={Games} alt="Games Illustration" />
+            </div>
+            <div className="heading-text">
+              <Link href="/games">
+                <h1>
+                  <u> Games </u>
+                </h1>
+              </Link>
+              <p>
+                Ever heard of 'All work and no play makes the developer dull' ?
+                Here's your chance to mix some play into your work !
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
       <AdBanner
