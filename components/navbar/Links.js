@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import ThemeToggle from "../ThemeToggle";
+import Image from "next/image";
 
 const Links = () => {
   const [menuopen, setmenuopen] = useState(false);
@@ -40,9 +40,6 @@ const Links = () => {
             <Link href="/">
               <p>Dev Empire</p>
             </Link>
-            <div className="theme-toggle-button" id="toggle-button">
-              <ThemeToggle />
-            </div>
           </div>
 
           <div className="links-container">
@@ -261,13 +258,6 @@ const Links = () => {
                 <i className="fa fa-server" aria-hidden="true" /> Backend
               </a>
             </Link>
-            <div className="theme-toggle-collapsed-navbar">
-              <ThemeToggle
-                onClick={() => {
-                  setmenuopen(false);
-                }}
-              />
-            </div>
           </div>
         </div>
       </div>
