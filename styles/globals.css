@@ -921,7 +921,6 @@ input.search {
   width: inherit;
   border-radius: inherit;
   overflow: hidden;
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .container .card-js .content .glow-button .glowing-button::before {
@@ -1100,10 +1099,6 @@ input.search {
   background-color: var(--navbar-color);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 2rem 0rem 2rem 0rem;
-  display: grid;
-  grid-template-columns: auto auto;
-  width: 100%;
 }
 
 .footer-question {
@@ -1290,7 +1285,7 @@ input.search {
 .back-to-top .top {
   position: fixed;
   cursor: pointer;
-  bottom: 20px;
+  bottom: 7px;
   right: 15px;
   font-size: 16px;
   color: var(--native1);
