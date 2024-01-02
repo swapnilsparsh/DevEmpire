@@ -1,13 +1,13 @@
 import React, { useRef } from "react";
-import Home from "../public/assets/svg/Home.svg";
-import Ambassador from "../public/assets/svg/Ambassador.svg";
-import WebDev from "../public/assets/svg/WebDev.svg";
-import Programs from "../public/assets/svg/Programs.svg";
-import Games from "../public/assets/svg/Gaming.svg";
-import Backend from "../public/assets/svg/Backend.svg";
+import Home from "../../public/assets/svg/Home.svg";
+import Ambassador from "../../public/assets/svg/Ambassador.svg";
+import WebDev from "../../public/assets/svg/WebDev.svg";
+import Programs from "../../public/assets/svg/Programs.svg";
+import Games from "../../public/assets/svg/Gaming.svg";
+import Backend from "../../public/assets/svg/Backend.svg";
 import Image from "next/image";
 import Link from "next/link";
-import AdBanner from "./AdBanner";
+import AdBanner from "../AdBanner/AdBanner";
 
 const Landingpage = () => {
   const ambassadorSectionRef = useRef(null);

@@ -1,5 +1,5 @@
 import React from "react";
-import SearchNotFound from "../public/assets/svg/SearchNotFound.svg";
+import SearchNotFound from "../../public/assets/svg/SearchNotFound.svg";
 import Image from "next/image";
 
 export default function NoResults({ search }) {

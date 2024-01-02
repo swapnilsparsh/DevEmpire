@@ -1,9 +1,9 @@
-import Datas from "../components/ambassador/Ambassador-Data";
-import NoResults from "../components/NoResults";
+import Datas from "../components/data/ambassador";
+import NoResults from "../components/Error/NoResults";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
-import ReactPaginateComponent from "../components/ReactPaginateComponent";
+import ReactPaginateComponent from "../components/Pagination/ReactPaginateComponent";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");

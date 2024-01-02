@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router';
 import React, { useState, useEffect, useMemo } from 'react';
 import Card from '../components/Card/Card';
-import NoResults from '../components/NoResults';
-import AmbassadorDatas from "../components/ambassador/Ambassador-Data";
-import ProgramsDatas from "../components/programs/Programs-Data";
-import WebData from "../components/web-dev/Web-dev-data";
-import GamesData from "../components/games/Games-Data";
-import JstoolkitsData from "../components/js-toolkits/JSToolkits-Data";
-import ReactPaginateComponent from "../components/ReactPaginateComponent";
+import NoResults from '../components/Error/NoResults';
+import AmbassadorDatas from "../components/data/ambassador";
+import ProgramsDatas from "../components/data/programs";
+import WebData from "../components/data/webdev";
+import GamesData from "../components/data/games";
+import JstoolkitsData from "../components/data/jstoolkits";
+import ReactPaginateComponent from "../components/Pagination/ReactPaginateComponent";
 
 const Content = () => {
   const Datas = [...AmbassadorDatas, ...ProgramsDatas, ...WebData, ...GamesData, ...JstoolkitsData];

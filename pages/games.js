@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
-import ReactPaginateComponent from "../components/ReactPaginateComponent";
-import NoResults from "../components/NoResults";
-import Games from "../components/games/Games-Data";
+import ReactPaginateComponent from "../components/Pagination/ReactPaginateComponent";
+import NoResults from "../components/Error/NoResults";
+import Games from "../components/data/games";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");

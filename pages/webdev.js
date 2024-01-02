@@ -1,9 +1,9 @@
-import Datas from "../components/web-dev/Web-dev-data";
-import NoResults from "../components/NoResults";
+import Datas from "../components/data/webdev";
+import NoResults from "../components/Error/NoResults";
 import { useState, useMemo } from "react";
 import { Link } from "react-scroll";
 import Card from "../components/Card/Card";
-import ReactPaginateComponent from "../components/ReactPaginateComponent";
+import ReactPaginateComponent from "../components/Pagination/ReactPaginateComponent";
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = useState("");

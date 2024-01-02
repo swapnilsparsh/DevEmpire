@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +25,7 @@ body[data-theme="light"] {
   background-attachment: fixed;
   background-size: 300vh;
   scroll-behavior: smooth;
-  font-family: "open-sans";
+  font-family: 'Inter', sans-serif;
   --logo-color: brightness(0) invert(1);
   --navbar-links: #ffffff;
   --footer-links: #000;
@@ -98,7 +100,7 @@ body[data-theme="dark"] {
 }
 
 @font-face {
-  font-family: "open-sans";
+  font-family: 'Inter', sans-serif;
   src: url(../public/assets/font/sans.ttf);
 }
 
@@ -1237,7 +1239,7 @@ input.search {
   .footer-details {
     display: flex;
     align-items: center;
-    justify-content: start !important;
+    justify-content: flex-start !important;
     flex-wrap: wrap;
     font-size: 8px;
     margin-right: 0;
@@ -1694,7 +1696,7 @@ input.search {
   margin: 0px 0px 20px 0px;
   text-align: start;
   padding-left: auto;
-  font-family: "open-sans";
+  font-family: 'Inter', sans-serif;
   color: var(--primary);
   font-size: xx-large;
   padding-inline: 5%;
@@ -1841,7 +1843,7 @@ input.search {
   margin: 0px 0px 20px 0px;
   text-align: start;
   padding-left: auto;
-  font-family: "open-sans";
+  font-family: 'Inter', sans-serif;
   color: var(--primary);
   font-size: xx-large;
   padding-inline: 5%;
@@ -1916,7 +1918,7 @@ input.search {
   padding: 20px;
   margin: 10px;
   font-size: 20px;
-  font-family: "open-sans";
+  font-family: 'Inter', sans-serif;
   border: 1px solid transparent;
   border-radius: 50%;
   cursor: pointer;
@@ -1929,7 +1931,7 @@ input.search {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "open-sans";
+  font-family: 'Inter', sans-serif;
 }
 
 .paginationBttns a:hover {
