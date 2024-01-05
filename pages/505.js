@@ -1,7 +1,6 @@
 import Error from "../public/assets/svg/Error505.svg";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/404.module.css";
 
 const Error505 = () => {
   return (
