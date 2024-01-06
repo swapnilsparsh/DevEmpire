@@ -1,0 +1,67 @@
+.card-js {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0)
+  );
+  padding: 30px;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow-border {
+  height: 0.05rem;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: -0.07rem;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    rgb(255, 255, 255),
+    rgba(17, 17, 17, 0)
+  );
+  /* animation: zoom-in-zoom-out 4s ease infinite; */
+}
+
+.bg {
+  background-color: #111111;
+}
+
+.align-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frame-border {
+  width: 30%;
+  margin: 3rem auto;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+}
+
+.content img {
+  background-color: #111111;
+  border-radius: 0.5rem;
+  margin-top: -4rem;
+}
+
+.glowing-button {
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}

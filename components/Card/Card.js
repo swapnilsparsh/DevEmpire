@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@mui/material";
 import Link from "next/link";
 
 const createMarkup = (html) => {
@@ -9,11 +10,10 @@ const createMarkup = (html) => {
 
 function Card({ head, link, image, alt, about }) {
   return (
-    <div className="frame-border" key={`${head}_${link}`}>
+    <div className="frame-border bg" key={`${head}_${link}`}>
       <div className="pointer"></div>
       <div className="card-js app">
         <div className="content">
-          <h3 dangerouslySetInnerHTML={createMarkup(head)}></h3>
           <img
             src={image}
             alt={alt}
@@ -21,16 +21,17 @@ function Card({ head, link, image, alt, about }) {
             decoding="async"
             width="300" // Adjust the width according to your design
           />
-          <p dangerouslySetInnerHTML={createMarkup(about)}></p>
-          <button className="glow-button">
+          <h3 dangerouslySetInnerHTML={createMarkup(head)}></h3>
+          <p dangerouslySetInnerHTML={createMarkup(about)} style={{width: '75%', margin: '1rem auto'}}></p>
+          <Button variant="outlined">
             <Link href={link} passHref>
               <a className="glowing-button" target="_blank" rel="noreferrer">
                 View More
               </a>
-            </Link>
-          </button>
+            </Link></Button>
         </div>
       </div>
+      <div className="glow-border" ></div>
     </div>
   );
 }

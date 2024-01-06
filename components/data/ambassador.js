@@ -2,7 +2,7 @@ const AmbassadorDatas = [
     {
         link: "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
         head: "Adobe India Women-in-Technology Scholarship",
-        image: "../assets/ambassador-img/Adobe.webp",
+        image: "../assets/ambassador-img/Adobe.png",
         about: "They strive towards creating gender equality by encouraging women.",
         alt: "Adobe Logo",
         label: ["Female Centric"]
@@ -10,7 +10,7 @@ const AmbassadorDatas = [
     {
         link: "https://www.aleo.org/post/the-ambassador-program-continues",
         head: "Aleo Ambassador Program",
-        image: "../assets/ambassador-img/Aleo.webp",
+        image: "../assets/ambassador-img/Aleo.png",
         about: " Aleo is a Layer 1 blockchain bringing privacy to the web.",
         alt: "Aleo Logo",
 
@@ -18,7 +18,7 @@ const AmbassadorDatas = [
     {
         link: "https://developer.amazon.com/en-IN/alexa/alexa-student-influencer/",
         head: "Alexa Student Influencer Program",
-        image: "../assets/ambassador-img/Alexa.webp",
+        image: "../assets/ambassador-img/Alexa.png",
         about: "It is a campus connect program that aims to form a network of like-minded students across India.",
         alt: "Amazon Logo",
 
@@ -26,7 +26,7 @@ const AmbassadorDatas = [
     {
         link: "https://apillon.io/community",
         head: "Apillon Ambassador",
-        image: "../assets/ambassador-img/Apillon.webp",
+        image: "../assets/ambassador-img/Apillon.png",
         about: "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
         alt: "Apillon Logo",
 
@@ -35,7 +35,7 @@ const AmbassadorDatas = [
     {
         link: "https://aws.amazon.com/partners/ambassadors/",
         head: "APN Ambassador",
-        image: "../assets/ambassador-img/APNAmbassador.webp",
+        image: "../assets/ambassador-img/APNAmbassador.png",
         about: "It enables employees of AWS Partners to become technical experts in various domains.",
         alt: "Amazon Logo",
 
@@ -43,7 +43,7 @@ const AmbassadorDatas = [
     {
         link: "https://appwrite.io/heroes",
         head: "Appwrite Heroes",
-        image: "../assets/ambassador-img/appwrite.webp",
+        image: "../assets/ambassador-img/Appwrite.png",
         about: "The Appwrite Heroes program is an exclusive group of developers who are experts in Appwrite",
         alt: "Appwrite Heroes Logo",
 
@@ -51,7 +51,7 @@ const AmbassadorDatas = [
     {
         link: "https://archway.io/ambassador-program/",
         head: "Archway Ambassador",
-        image: "../assets/ambassador-img/Archway.webp",
+        image: "../assets/ambassador-img/Archway.png",
         about: "Join the global program to play a key role in supporting web3 developers.",
         alt: "Archway Logo",
 
@@ -59,7 +59,7 @@ const AmbassadorDatas = [
     {
         link: "https://auth0.com/ambassador-program/",
         head: "Auth0 Ambassador Program",
-        image: "../assets/ambassador-img/Auth0ambassador.webp",
+        image: "../assets/ambassador-img/Auth0ambassador.png",
         about: "Join the community by sharing knowledge on identity and security-related topics.",
         alt: "Auth0 Logo",
 
@@ -75,15 +75,15 @@ const AmbassadorDatas = [
     {
         link: "https://aws.amazon.com/developer/community/heroes/",
         head: "AWS Heroes",
-        image: "../assets/ambassador-img/AWSHeroes.webp",
-        about: "It recognizes a vibrant, worldwide group of AWS experts whose has a real impact within the community.",
+        image: "../assets/ambassador-img/AWSHeroes.png",
+        about: "A worldwide group of AWS experts whose has a real impact within the community.",
         alt: "AWS Logo",
 
     },
     {
         link: "https://www.binance.com/en-IN/event/binance_campus_buidler",
         head: "Binance Campus BUIDLers Program",
-        image: "../assets/ambassador-img/Binance.webp",
+        image: "../assets/ambassador-img/Binance.png",
         about: "A platform for students to explore new opportunities,and accelerate crypto literacy.",
         alt: "Binance Logo",
 
@@ -91,7 +91,7 @@ const AmbassadorDatas = [
     {
         link: "https://app.smartsheet.com/b/form/a92f74ca555f44e4aa638a4f00a77213",
         head: "Cisco Campus Ambassador Program",
-        image: "../assets/ambassador-img/Cisco.webp",
+        image: "../assets/ambassador-img/Cisco.png",
         about: "It is a platform for passionate students to partner with Cisco.",
         alt: "Cisco Logo",
 

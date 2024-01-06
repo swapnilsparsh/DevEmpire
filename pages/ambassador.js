@@ -2,6 +2,7 @@ import Datas from "../components/data/ambassador";
 import NoResults from "../components/Error/NoResults";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import img from "../public/assets/ambassador-img/AWSHeroes.webp"
 import Card from "../components/Card/Card";
 import ReactPaginateComponent from "../components/Pagination/ReactPaginateComponent";
 
@@ -78,94 +79,98 @@ const Content = () => {
 
   return (
     <>
-      <div className="container-landing">
-        <div className="landing-page-header">
-          <div className="header-details">
-            <h1>Ambassador</h1>
+      <div className="bg">
 
-            <p>
-              Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
-            </p>
+        <div className="container-landing" >
+          <div className="landing-page-header">
+            <div className="header-details">
+              <h1>Ambassador</h1>
 
-            <Link to="container" smooth={true} duration={1000}>
-              <h4>Explore all</h4>
-            </Link>
+              <p>
+                Find the perfect program for you from 75+ ambassador and fellowship programs from all over the world
+              </p>
 
-            <div className="search-container">
-              <i className="fa fa-search search-icon"></i>
-              <input
-                className="search"
-                type="text"
-                placeholder="Search"
-                value={searchTerm}
-                onChange={(event) => {
-                  setSearchTerm(event.target.value);
-                  setFilteredPageNumber(0);
-                }}
-              />
+              <Link to="container" smooth={true} duration={1000}>
+                <h4>Explore all</h4>
+              </Link>
+
+              <div className="search-container">
+                <i className="fa fa-search search-icon"></i>
+                <input
+                  className="search"
+                  type="text"
+                  placeholder="Search"
+                  value={searchTerm}
+                  onChange={(event) => {
+                    setSearchTerm(event.target.value);
+                    setFilteredPageNumber(0);
+                  }}
+                />
+              </div>
             </div>
           </div>
+          <div className="label-container">
+            <span
+              className="label"
+              style={
+                selectedLabel === ""
+                  ? { color: "white", background: "orange", border: "none" }
+                  : {}
+              }
+              onClick={() => {
+                setSelectedLabel("");
+              }}
+            >
+              All
+            </span>
+            {labels.map((label) => {
+              return (
+                <span
+                  key={label}
+                  className="label"
+                  style={
+                    selectedLabel === label
+                      ? { color: "white", background: "#0093ed" }
+                      : {}
+                  }
+                  onClick={() => {
+                    setSelectedLabel(label);
+                    setFilteredPageNumber(0);
+                  }}
+                >
+                  {label}
+                </span>
+              );
+            })}
+          </div>
         </div>
-        <div className="label-container">
-          <span
-            className="label"
-            style={
-              selectedLabel === ""
-                ? { color: "white", background: "orange", border: "none" }
-                : {}
-            }
-            onClick={() => {
-              setSelectedLabel("");
-            }}
-          >
-            All
-          </span>
-          {labels.map((label) => {
-            return (
-              <span
-                key={label}
-                className="label"
-                style={
-                  selectedLabel === label
-                    ? { color: "white", background: "#0093ed" }
-                    : {}
-                }
-                onClick={() => {
-                  setSelectedLabel(label);
-                  setFilteredPageNumber(0);
-                }}
-              >
-                {label}
-              </span>
-            );
-          })}
+
+        <div className="container" id="container">
+          <div className="align-flex">
+            {displayCards.length > 0 ? (
+              displayCards.map((data, indx) => (
+                <Card
+                  image={data.image}
+                  alt={data.alt}
+                  link={data.link}
+                  head={data.head}
+                  about={data.about}
+                  key={indx}
+                />
+              ))
+            ) : (
+              <NoResults search={searchTerm} />
+            )}
+          </div>
+          <ReactPaginateComponent
+            pageNumber={pageNumber}
+            pageCount={pageCount}
+            changePage={changePageNumber}
+            forcePage={searchTerm !== "" ? filteredPageNumber : pageNumber}
+          />
         </div>
       </div>
 
-      <div className="container" id="container">
-        <div className="align-flex">
-          {displayCards.length > 0 ? (
-            displayCards.map((data, indx) => (
-              <Card
-                image={data.image}
-                alt={data.alt}
-                link={data.link}
-                head={data.head}
-                about={data.about}
-                key={indx}
-              />
-            ))
-          ) : (
-            <NoResults search={searchTerm} />
-          )}
-        </div>
-        <ReactPaginateComponent
-          pageNumber={pageNumber}
-          pageCount={pageCount}
-          changePage={changePageNumber}
-          forcePage={searchTerm !== "" ? filteredPageNumber : pageNumber}
-        />
-      </div>
     </>
   );
 };

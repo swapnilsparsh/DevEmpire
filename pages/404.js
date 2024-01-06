@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Error404 = () => {
   return (
-    <div className={styles.error_page}>
+    <div>
       <h2>Error 404!  Page Not Found!</h2>
       <Image src={Error} width={300} height={300} className="error-svg" alt="404 Not Found Image" />
       <Link href="/">
