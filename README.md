@@ -86,12 +86,12 @@ npm run dev
 <td align="center"><a href="https://github.com/swapnilsparsh"><img src="https://avatars.githubusercontent.com/u/69387608?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Swapnil Srivastava</h4>
 <a href="https://swapnilsparsh.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
 <a href="https://www.linkedin.com/in/swapnil-srivastava-sparsh/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
-<a href="https://www.twitter.com/swapnilsparsh/"><img src="https://img.icons8.com/ios/50/FFFFFF/twitterx--v2.png" width="32px" height="32px"></a></td>
+<a href="https://www.twitter.com/swapnilsparsh/"><img src="https://img.icons8.com/ios/50/F5DEB3/twitterx--v2.png" width="32px" height="32px"></a></td>
 
 <td align="center" ><a href="https://github.com/jatiinyadav"><img src="https://avatars.githubusercontent.com/u/73248007?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Jatin Yadav</h4>
 <a href="https://jatiinyadav.github.io/"><img src="https://img.icons8.com/fluency/50/000000/link.png" width="32px" height="32px"></a>
 <a href="https://www.linkedin.com/in/jatiinyadav/"><img src="https://img.icons8.com/fluency/50/000000/linkedin.png" width="32px" height="32px"></a>
-<a href="https://www.twitter.com/jatiin_yadav/"><img src="https://img.icons8.com/ios/50/FFFFFF/twitterx--v2.png" width="32px" height="32px"></a></td>
+<a href="https://www.twitter.com/jatiin_yadav/"><img src="https://img.icons8.com/ios/50/F5DEB3/twitterx--v2.png" width="32px" height="32px"></a></td>
 
 </tr>
 </table>
