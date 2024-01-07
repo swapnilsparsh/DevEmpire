@@ -53,6 +53,11 @@
   text-decoration: none;
 }
 
+.description {
+  width: 75%;
+  margin: 1rem auto;
+}
+
 @keyframes zoom-in-zoom-out {
   0% {
     transform: scale(0, 0);

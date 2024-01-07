@@ -23,13 +23,14 @@ function Card({ head, link, image, alt, about }) {
               width="300" // Adjust the width according to your design
             />
             <h3 dangerouslySetInnerHTML={createMarkup(head)}></h3>
-            <p dangerouslySetInnerHTML={createMarkup(about)} style={{ width: '75%', margin: '1rem auto' }}></p>
+            <p dangerouslySetInnerHTML={createMarkup(about)} className="description"></p>
             <Button variant="outlined">
               <Link href={link} passHref key={`${head}_${link}`}>
                 <a className="glowing-button" target="_blank" rel="noreferrer">
                   View More
                 </a>
-              </Link></Button>
+              </Link>
+            </Button>
           </div>
         </div>
         <div className="glow-border"></div>
