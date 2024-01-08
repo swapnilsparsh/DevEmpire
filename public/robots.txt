@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://devempire.netlify.app/sitemap.xml
