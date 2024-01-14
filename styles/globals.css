@@ -25,3 +25,116 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Card Layout */
+.card-layout {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.5rem;
+  width: 25rem;
+  position: relative;
+  margin: 2rem 0.5rem;
+}
+
+.card-mr {
+  margin: 0rem 1rem;
+}
+
+.card-img {
+  margin: -2rem auto 2rem auto;
+  border-radius: 0.5rem;
+}
+
+.card-heading {
+  color: #ddc4a4;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-description {
+  color: ghostwhite;
+  font-weight: bold;
+}
+
+/* Card Layout */
+
+/* Card Border */
+.glow-border {
+  height: 0.04rem;
+  width: 40%;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    rgb(255, 255, 255),
+    rgba(17, 17, 17, 0)
+  );
+  animation: zoom-in-zoom-out 3.5s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0, 0);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}
+/* Card Border */
+
+/* Navbar */
+.navbar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  background-color: #0e0e0e;
+  color: #f8f8ff;
+  font-weight: bold;
+}
+/* Navbar */
+
+/* Ambassador Page */
+.layout {
+  min-height: 93vh;
+  color: #0e0e0e;
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.ambassador-padding {
+  padding-bottom: 6rem;
+}
+
+.ambassador-heading {
+  font-size: 6rem;
+  color: #ddc4a4;
+}
+
+.ambassador-description {
+  color: ghostwhite;
+  font-size: 1.3rem;
+}
+
+.flex-alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+/* Ambassador Page */
+
+@media screen and (max-width: 700px) {
+  .ambassador-heading{
+    font-size: 3.5rem;
+  }
+
+  .ambassador-description{
+    font-size: 0.8rem;
+  }
+
+  .ambassador-padding{
+    padding-bottom: 4rem;
+  }
+}
