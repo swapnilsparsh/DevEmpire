@@ -1,7 +1,8 @@
 import { Inter } from "next/font/google";
 import Card from "../components/card";
 import React from "react";
-import AmbassadorDatas, { Data } from "@/data/ambassador";
+import AmbassadorDatas from "@/data/ambassador";
+import { Data } from "@/data/obj_type";
 
 const inter = Inter({ subsets: ["latin"], weight: "600" });
 
