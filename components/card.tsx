@@ -6,7 +6,7 @@ export default function Card({
   description,
   url,
 }: {
-  img: StaticImageData;
+  img: string;
   name: string;
   description: string;
   url: string;
@@ -14,7 +14,7 @@ export default function Card({
   return (
     <div className="card-layout">
       <div className="card-mr">
-        <Image src={img} alt={`${img}.png`} className="card-img" />
+        <img src={img} alt={`${img}`} className="card-img" />
         <div>
           <h2 className="card-heading">{name}</h2>
         </div>
