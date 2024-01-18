@@ -21,6 +21,12 @@ export default function Navbar() {
             <li>
             <Link href="/development">Development</Link>
             </li>
+            <li>
+            <Link href="/opensource">Open Source</Link>
+            </li>
+            <li>
+            <Link href="/games">Games</Link>
+            </li>
           </ul>
         </div>
       </div>
