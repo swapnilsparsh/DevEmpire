@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import Card from "../components/card";
-import React from "react";
 import WebDevDatas from "@/data/development";
 import { Data } from "@/data/obj_type";
 

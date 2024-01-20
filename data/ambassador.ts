@@ -204,7 +204,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://medium.com/equilibrium-eosdt/join-the-equilibrium-ambassador-dao-and-earn-eq-5e21911d1134",
         head: "Equilibrium Ambassador DAO",
-        image: "/images/ambassador-img/Auth0ambassador.png",
+        image: "/images/ambassador-img/equillibrium.png",
         about: "DeFi 2.0 with high leverage. One-stop platform to earn, borrow and trade at max efficiency.",
         alt: "Equilibrium Ambassador Image",
         label: ""
@@ -309,7 +309,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://software.intel.com/content/www/us/en/develop/community/ambassadors.html",
         head: "Intel Student Ambassador",
-        image: "/images/ambassador-img/Auth0ambassador.png",
+        image: "/images/ambassador-img/intel.png",
         about: "Gain access to the Intel's latest software, oneAPI.",
         alt: "Intel Logo",
         label: ""
@@ -405,7 +405,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://community.mozilla.org/en/groups/",
         head: "Mozilla Campus Club",
-        image: "/images/ambassador-img/Mozilla.jpeg",
+        image: "/images/ambassador-img/mozilla.png",
         about: "To ensure the Internet is a global public resource, open and accessible to all.",
         alt: "Mozilla Logo",
         label: ""
@@ -558,7 +558,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://developer.twitter.com/en/community/student-ambassadors",
         head: "Twitter Student Ambassador",
-        image: "/images/ambassador-img/Twitter.webp",
+        image: "/images/ambassador-img/twitter.png",
         about: "A program set up to support our enthusiastic student builders who use Twitter API.",
         alt: "Twitter Logo",
         label: ""
@@ -566,7 +566,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://community.uipath.com/uipath-student-developers-program/",
         head: "UiPath Student Program",
-        image: "/images/ambassador-img/UiPath.webp",
+        image: "/images/ambassador-img/uipath.png",
         about: "They are self-motivated, and multi-tasking who lead the UiPath Student Communities.",
         alt: "UiPath Logo",
         label: ""
@@ -574,7 +574,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://community.veeam.com/general-information-58/veeam-legends-program-overview-71",
         head: "Veeam Legends",
-        image: "/images/ambassador-img/Veeam.webp",
+        image: "/images/ambassador-img/veeam.png",
         about: "Veeam Legends are Veeam users and data protection industry experts.",
         alt: "Veeam Legends Logo",
         label: ""
@@ -582,7 +582,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://careers.vmware.com/campus-ambassador-program",
         head: "VMware Campus Ambassador",
-        image: "/images/ambassador-img/VMware.webp",
+        image: "/images/ambassador-img/vmware.png",
         about: "Connect your student peers with the latest VMware products and solutions etc.",
         alt: "VMware Logo",
         label: ""
@@ -590,7 +590,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://community.wakelet.com/",
         head: "Wakelet Ambassador",
-        image: "/images/ambassador-img/WakeletAmbassador.webp",
+        image: "/images/ambassador-img/wakeletambassador.png",
         about: "You’re practically part of the Wakelet Team and  will represent Wakelet at events, etc.",
         alt: "WakeletAmbassador Logo",
         label: ""
@@ -598,7 +598,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://schools.wakelet.com/",
         head: "Wakelet Schools Program",
-        image: "/images/ambassador-img/WakeletSchool.webp",
+        image: "/images/ambassador-img/wakeletschool.png",
         about: "Empower your school community with the Wakelet Schools Program.",
         alt: "WakeletSchool Logo",
         label: ""
@@ -606,7 +606,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://community.wakelet.com/studentambassadors/",
         head: "Wakelet Student Ambassador",
-        image: "/images/ambassador-img/WakeletStudent.webp",
+        image: "/images/ambassador-img/wakelet.png",
         about: "It contains 6 fun tasks centered around creativity, curation, communication, etc.",
         alt: "WakeletStudent Logo",
         label: ""
@@ -614,7 +614,7 @@ const AmbassadorDatas: Data[] = [
     {
         link: "https://www.womentechmakers.com/ambassadors",
         head: "Women Techmakers Ambassador",
-        image: "/images/ambassador-img/WTM.webp",
+        image: "/images/ambassador-img/womentechmakers.png",
         about: "Leaders around the world passionate about achieving gender parity in technology.",
         alt: "WTM Logo", label: ""
     },

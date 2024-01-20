@@ -4,5 +4,5 @@ export interface Data {
     image: string,
     about: string,
     alt: string,
-    label: string
+    label: string | string[]
 }

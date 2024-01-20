@@ -19,13 +19,16 @@ export default function Navbar() {
               <Link href="/ambassador">Ambassador</Link>
             </li>
             <li>
-            <Link href="/development">Development</Link>
+              <Link href="/development">Development</Link>
             </li>
             <li>
-            <Link href="/opensource">Open Source</Link>
+              <Link href="/opensource">Open Source</Link>
             </li>
             <li>
-            <Link href="/games">Games</Link>
+              <Link href="/backend">Backend</Link>
+            </li>
+            <li>
+              <Link href="/games">Games</Link>
             </li>
           </ul>
         </div>
