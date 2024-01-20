@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,6 +28,22 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+section {
+  padding: 4rem 0rem;
+}
+
+.divider {
+  height: 0.05rem;
+  width: 40%;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    rgb(255, 255, 255),
+    rgba(17, 17, 17, 0)
+  );
 }
 
 /* Card Layout */
@@ -125,16 +145,55 @@ body {
 }
 /* Ambassador Page */
 
+.filters {
+  width: 90%;
+  align-items: center;
+  padding: 2rem 0rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: fixed;
+  background-color: black;
+  z-index: 99;
+}
+
+.filter-buttons {
+  background-color: #cfae86;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #f5f1eb;
+}
+
+/* Section Slot */
+.subheading {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+
+.subheading-padding {
+  padding-bottom: 2rem;
+}
+
 @media screen and (max-width: 700px) {
-  .ambassador-heading{
+  .ambassador-heading {
     font-size: 3.5rem;
   }
 
-  .ambassador-description{
+  .ambassador-description {
     font-size: 0.8rem;
   }
 
-  .ambassador-padding{
+  .ambassador-padding {
     padding-bottom: 4rem;
   }
 }
