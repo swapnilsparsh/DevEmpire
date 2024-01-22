@@ -1,10 +1,8 @@
-import { Inter } from "next/font/google";
 import Card from "../components/card";
 import React from "react";
 import OpenSourceData from "@/data/opensource";
 import { Data } from "@/data/obj_type";
 
-const inter = Inter({ subsets: ["latin"], weight: "600" });
 
 export default function OpenSource(){
     const renderedItems = OpenSourceData.map(
@@ -19,7 +17,7 @@ export default function OpenSource(){
         )
       );
     return (
-        <div className={`${inter.className} layout`}>
+        <div className="layout">
           <div className="ambassador-padding">
             <h1 className="ambassador-heading">Open Source Programs</h1>
             <p className="ambassador-description">

@@ -1,10 +1,8 @@
-import { Inter } from "next/font/google";
+
 import Card from "../components/card";
 import React from "react";
 import AmbassadorDatas from "@/data/ambassador";
 import { Data } from "@/data/obj_type";
-
-const inter = Inter({ subsets: ["latin"], weight: "600" });
 
 export default function AmbassadorPage() {
   const renderedItems = AmbassadorDatas.map(
@@ -20,7 +18,7 @@ export default function AmbassadorPage() {
   );
 
   return (
-    <div className={`${inter.className} layout`}>
+    <div className="layout">
       <div className="ambassador-padding">
         <h1 className="ambassador-heading">Ambassador</h1>
         <p className="ambassador-description">

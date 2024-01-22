@@ -1,9 +1,6 @@
-import { Inter } from "next/font/google";
 import { CloudData, AuthData, HostingData, APIData } from "@/data/backend";
 import SectionSlot from "@/components/section-slot";
 import { useEffect } from "react";
-
-const inter = Inter({ subsets: ["latin"], weight: "600" });
 
 export default function Backend() {
   useEffect(() => {
@@ -31,7 +28,7 @@ export default function Backend() {
   });
 
   return (
-    <div className={`${inter.className} layout`}>
+    <div className="layout">
       <div className="filters">
         <a className="filter-buttons" href="#cloud">
           Cloud
