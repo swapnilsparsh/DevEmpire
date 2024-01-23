@@ -122,16 +122,16 @@ section {
   text-align: center;
 }
 
-.ambassador-padding {
+.de-padding {
   padding-bottom: 6rem;
 }
 
-.ambassador-heading {
+.de-heading {
   font-size: 6rem;
   color: #ddc4a4;
 }
 
-.ambassador-description {
+.de-description {
   color: ghostwhite;
   font-size: 1.3rem;
 }
@@ -185,15 +185,15 @@ section {
 }
 
 @media screen and (max-width: 700px) {
-  .ambassador-heading {
+  .de-heading {
     font-size: 3.5rem;
   }
 
-  .ambassador-description {
+  .de-description {
     font-size: 0.8rem;
   }
 
-  .ambassador-padding {
+  .de-padding {
     padding-bottom: 4rem;
   }
 }

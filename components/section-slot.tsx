@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import Card from "../components/card";
-import { Data } from "@/data/obj_type";
+import { Data } from "@/interfaces/obj_type";
 
 const inter = Inter({ subsets: ["latin"], weight: "600" });
 

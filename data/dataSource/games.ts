@@ -1,4 +1,4 @@
-import { Data } from "@/data/obj_type";
+import { Data } from "@/interfaces/obj_type";
 
 const GamesData: Data[] = [
     {

@@ -1,7 +1,7 @@
 import Card from "../components/card";
 import React from "react";
-import OpenSourceData from "@/data/opensource";
-import { Data } from "@/data/obj_type";
+import OpenSourceData from "@/data/dataSource/opensource";
+import { Data } from "@/interfaces/obj_type";
 
 
 export default function OpenSource(){
@@ -18,9 +18,9 @@ export default function OpenSource(){
       );
     return (
         <div className="layout">
-          <div className="ambassador-padding">
-            <h1 className="ambassador-heading">Open Source Programs</h1>
-            <p className="ambassador-description">
+          <div className="de-padding">
+            <h1 className="de-heading">Open Source Programs</h1>
+            <p className="de-description">
             Looking for an open-source program to apply to? You're just a click away. Find all the details right here!
             </p>
           </div>

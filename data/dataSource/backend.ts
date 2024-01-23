@@ -1,4 +1,4 @@
-import { Data } from "./obj_type";
+import { Layout, Data } from "../../interfaces/obj_type";
 
 const CloudData: Data[] = [
     {
@@ -389,4 +389,27 @@ const APIData: Data[] = [
     },
 ]
 
-export { CloudData, AuthData, HostingData, APIData };
+const backend_data: Layout[] = [
+    {
+      subheading: "Cloud Platforms",
+      id: "cloud",
+      dataSource: CloudData,
+    },
+    {
+      subheading: "Authentication",
+      id: "authentication",
+      dataSource: AuthData,
+    },
+    {
+      subheading: "Hosting",
+      id: "hosting",
+      dataSource: HostingData,
+    },
+    {
+      subheading: "API & API Testing",
+      id: "api",
+      dataSource: APIData,
+    },
+  ];
+
+export { backend_data };

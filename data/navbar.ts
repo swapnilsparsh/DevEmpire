@@ -11,11 +11,11 @@ export const navbarData = [
     icon: AmbassadorIcon,
   },
   {
-    name: "Games",
+    name: "Backend",
     icon: GamesIcon,
   },
   {
-    name: "Games",
+    name: "Development",
     icon: GamesIcon,
   },
   {

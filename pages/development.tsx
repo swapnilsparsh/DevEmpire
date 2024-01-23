@@ -1,6 +1,6 @@
 import Card from "../components/card";
-import WebDevDatas from "@/data/development";
-import { Data } from "@/data/obj_type";
+import WebDevDatas from "@/data/dataSource/development";
+import { Data } from "@/interfaces/obj_type";
 
 export default function Development() {
 
@@ -18,9 +18,9 @@ export default function Development() {
 
   return (
     <div className="layout">
-      <div className="ambassador-padding">
-        <h1 className="ambassador-heading">Web Development</h1>
-        <p className="ambassador-description">
+      <div className="de-padding">
+        <h1 className="de-heading">Web Development</h1>
+        <p className="de-description">
           Power up your website with awesome tools from CSS generators to icons,
           illustrations, vectors and so much more.
         </p>

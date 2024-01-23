@@ -6,3 +6,9 @@ export interface Data {
     alt: string,
     label: string | string[]
 }
+
+export interface Layout{
+    subheading: string,
+    id: string,
+    dataSource: Data[]
+}
