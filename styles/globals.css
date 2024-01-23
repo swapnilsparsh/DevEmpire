@@ -35,8 +35,8 @@ section {
 }
 
 .divider {
-  height: 0.05rem;
-  width: 40%;
+  height: 0.07rem;
+  width: 30%;
   margin: 0 auto;
   background: linear-gradient(
     90deg,

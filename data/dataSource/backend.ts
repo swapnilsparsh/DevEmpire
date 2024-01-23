@@ -254,7 +254,7 @@ const APIData: Data[] = [
         about:
             "The API is a RESTful web service to obtain movie information, all content and images.",
         alt: "Movie API",
-    },{
+    }, {
         head: "Spotify API",
         label: ["API"],
         image: "/images/backend-img/spotify.png",
@@ -343,7 +343,7 @@ const APIData: Data[] = [
         about:
             "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators.",
         alt: "Stock API",
-    },{
+    }, {
         head: "Postman",
         label: ["API Testing"],
         image: "/images/backend-img/postman.png",
@@ -378,7 +378,7 @@ const APIData: Data[] = [
         about:
             "Postwoman is an open-source API request builder. It helps you create your requests faster, saving you precious time.",
         alt: "Postwoman",
-    },    {
+    }, {
         head: "NewYork Times API",
         label: ["API"],
         image: "/images/backend-img/times.png",
@@ -391,25 +391,25 @@ const APIData: Data[] = [
 
 const backend_data: Layout[] = [
     {
-      subheading: "Cloud Platforms",
-      id: "cloud",
-      dataSource: CloudData,
+        subheading: "Cloud Platforms",
+        id: "cloud",
+        dataSource: CloudData,
     },
     {
-      subheading: "Authentication",
-      id: "authentication",
-      dataSource: AuthData,
+        subheading: "Authentication",
+        id: "authentication",
+        dataSource: AuthData,
     },
     {
-      subheading: "Hosting",
-      id: "hosting",
-      dataSource: HostingData,
+        subheading: "Hosting",
+        id: "hosting",
+        dataSource: HostingData,
     },
     {
-      subheading: "API & API Testing",
-      id: "api",
-      dataSource: APIData,
+        subheading: "API & API Testing",
+        id: "api",
+        dataSource: APIData,
     },
-  ];
+];
 
-export { backend_data };
+export default backend_data;

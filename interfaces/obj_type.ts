@@ -12,3 +12,8 @@ export interface Layout{
     id: string,
     dataSource: Data[]
 }
+
+export interface Filter {
+    id: string,
+    name: string
+}

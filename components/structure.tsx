@@ -12,12 +12,15 @@ export default function Structure({
   layout: Layout[];
 }) {
   const renderedItems = layout.map((item: Layout, index: number) => (
-    <section id={`${item.id}`} key={item.id}>
-      <SectionSlot
-        subheading={`${item.subheading}`}
-        dataSource={item.dataSource}
-      />
-    </section>
+    <div key={item.id}>
+      <section id={`${item.id}`} >
+        <SectionSlot
+          subheading={`${item.subheading}`}
+          dataSource={item.dataSource}
+        />
+      </section>
+      <div className="divider"></div>
+    </div>
   ));
 
   return (

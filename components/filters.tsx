@@ -1,12 +1,18 @@
-export default function Filters({ filter_names }: { filter_names: string[] }) {
-  const rendered_filters = filter_names.map((filter: string) => (
-    <a key={filter}
+import { Filter, Layout } from "@/interfaces/obj_type";
+
+export default function Filters({ filters }: { filters: Layout[] }) {
+  const filters_names: Filter[] = [];
+  filters.forEach((development: Layout) => {
+    filters_names.push({id: development.id, name: development.subheading});
+  });
+
+  const rendered_filters = filters_names.map((filter: Filter) => (    
+    <a
+      key={filter.id}
       className="filter-buttons"
-      href={`#${filter.charAt(0).toLowerCase()}${filter
-        .substring(1)
-        .toLowerCase()}`}
+      href={`#${filter.id}`}
     >
-      {filter}
+      {filter.name}
     </a>
   ));
 
