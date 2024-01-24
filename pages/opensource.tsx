@@ -1,30 +1,17 @@
-import Card from "../components/card";
-import React from "react";
-import OpenSourceData from "@/data/dataSource/opensource";
-import { Data } from "@/interfaces/obj_type";
+import Filters from "@/components/filters";
+import Structure from "@/components/structure";
+import opensource_data from "@/data/dataSource/opensource";
 
+export default function OpenSource() {
+  return (
+    <div className="layout">
+      <Filters filters={opensource_data} />
 
-export default function OpenSource(){
-    const renderedItems = OpenSourceData.map(
-        (item: Data) => (
-            <Card
-              key={item.link}
-              img={item.image}
-              name={item.head}
-              description={item.about}
-              url={item.link}
-            />
-        )
-      );
-    return (
-        <div className="layout">
-          <div className="de-padding">
-            <h1 className="de-heading">Open Source Programs</h1>
-            <p className="de-description">
-            Looking for an open-source program to apply to? You're just a click away. Find all the details right here!
-            </p>
-          </div>
-          <div className="flex-alignment">{renderedItems}</div>
-        </div>
-      );
+      <Structure
+        heading="Open Source Programs"
+        description="Looking for an open-source program to apply to? You're just a click away. Find all the details right here!"
+        layout={opensource_data}
+      />
+    </div>
+  );
 }

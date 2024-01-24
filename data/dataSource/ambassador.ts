@@ -1,14 +1,6 @@
-import { Data } from "../../interfaces/obj_type";
+import { Data, Layout } from "../../interfaces/obj_type";
 
-const AmbassadorDatas: Data[] = [
-    {
-        link: "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
-        head: "Women-in-Technology",
-        image: "/images/ambassador-img/Adobe.png",
-        about: "They strive towards creating gender equality by encouraging women.",
-        alt: "Adobe Logo",
-        label: ""
-    },
+const ForAllData: Data[] = [
     {
         link: "https://www.aleo.org/post/the-ambassador-program-continues",
         head: "Aleo Ambassador Program",
@@ -244,13 +236,6 @@ const AmbassadorDatas: Data[] = [
         label: ""
     },
     {
-        link: "https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac/",
-        head: "Generation Google Scholarship",
-        image: "/images/ambassador-img/Auth0ambassador.png",
-        about: "It is for women in computer science to help them in pursuing computer science degrees.",
-        alt: "Google Logo", label: ""
-    },
-    {
         link: "https://education.github.com/experts",
         head: "GitHub Campus Experts",
         image: "/images/ambassador-img/Auth0ambassador.png",
@@ -345,13 +330,6 @@ const AmbassadorDatas: Data[] = [
         about: "Amplify your impact and bring together your peers to learn new skills, etc.",
         alt: "MLSA Logo",
         label: ""
-    },
-    {
-        link: "https://careers.microsoft.com/us/en/codess",
-        head: "Microsoft Codess",
-        image: "/images/ambassador-img/Codess.webp",
-        about: "Codess is a community for female coders initiated by Microsoft.",
-        alt: "Codess Logo", label: ""
     },
     {
         link: "https://mlh.io/coaches",
@@ -610,14 +588,52 @@ const AmbassadorDatas: Data[] = [
         about: "It contains 6 fun tasks centered around creativity, curation, communication, etc.",
         alt: "WakeletStudent Logo",
         label: ""
-    },
+    }
+
+]
+
+const FemaleCentricData: Data[] = [
     {
+        link: "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
+        head: "Women-in-Technology",
+        image: "/images/ambassador-img/Adobe.png",
+        about: "They strive towards creating gender equality by encouraging women.",
+        alt: "Adobe Logo",
+        label: ""
+    }, {
+        link: "https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac/",
+        head: "Generation Google Scholarship",
+        image: "/images/ambassador-img/Auth0ambassador.png",
+        about: "It is for women in computer science to help them in pursuing computer science degrees.",
+        alt: "Google Logo", 
+        label: ""
+    }, {
         link: "https://www.womentechmakers.com/ambassadors",
         head: "Women Techmakers Ambassador",
         image: "/images/ambassador-img/womentechmakers.png",
         about: "Leaders around the world passionate about achieving gender parity in technology.",
-        alt: "WTM Logo", label: ""
+        alt: "WTM Logo", 
+        label: ""
+    }, {
+        link: "https://careers.microsoft.com/us/en/codess",
+        head: "Microsoft Codess",
+        image: "/images/ambassador-img/Codess.webp",
+        about: "Codess is a community for female coders initiated by Microsoft.",
+        alt: "Codess Logo", 
+        label: ""
     },
-
 ]
-export default AmbassadorDatas;
+
+const ambassador_data : Layout[] = [
+    {
+        subheading: "Female Centric",
+        id: "female-centric",
+        dataSource: FemaleCentricData,
+    },
+    {
+        subheading: "Open for All",
+        id: "for-all",
+        dataSource: ForAllData,
+    },
+]
+export default ambassador_data;
