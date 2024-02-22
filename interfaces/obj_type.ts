@@ -7,7 +7,7 @@ export interface Data {
     label: string | string[]
 }
 
-export interface Layout{
+export interface Layout {
     subheading: string,
     id: string,
     dataSource: Data[]

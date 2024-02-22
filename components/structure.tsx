@@ -1,5 +1,4 @@
-import { Layout, Data } from "@/interfaces/obj_type";
-import Card from "./card";
+import { Layout } from "@/interfaces/obj_type";
 import SectionSlot from "./section-slot";
 
 export default function Structure({
@@ -13,7 +12,7 @@ export default function Structure({
 }) {
   const renderedItems = layout.map((item: Layout, index: number) => (
     <div key={item.id}>
-      <section id={`${item.id}`} >
+      <section id={`${item.id}`}>
         <SectionSlot
           subheading={`${item.subheading}`}
           dataSource={item.dataSource}

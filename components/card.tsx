@@ -21,9 +21,8 @@ export default function Card({
         <br />
         <p className="card-description">{description}</p>
         <br />
-        <a href={url} target="_blank">
-          {" "}
-          <button className="btn btn-outline">View More</button>{" "}
+        <a href={url} target="_blank" className="view-more">
+          View More
         </a>
         <br />
       </div>

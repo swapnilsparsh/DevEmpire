@@ -8,7 +8,7 @@ export default function Development() {
       <Filters filters={development_data} />
 
       <Structure
-        heading="Web Development."
+        heading="Web Development"
         description="Power up your website with awesome tools from CSS generators to icons,
           illustrations, vectors and so much more."
         layout={development_data}

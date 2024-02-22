@@ -48,11 +48,14 @@ section {
 
 /* Card Layout */
 .card-layout {
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  /* border: 1px solid rgba(255, 255, 255, 0.15); */
   border-radius: 0.5rem;
   width: 25rem;
   position: relative;
   margin: 2rem 0.5rem;
+  background: linear-gradient(to top left, #ffffff08, transparent),
+  linear-gradient(to top, #ffffff05, transparent),
+  linear-gradient(to top right, #ffffff15, transparent);
 }
 
 .card-mr {
@@ -123,7 +126,7 @@ section {
 }
 
 .de-padding {
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
 }
 
 .de-heading {
@@ -142,20 +145,23 @@ section {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 /* Ambassador Page */
 
 .filters {
-  width: 90%;
+  width: 100%;
+  margin: 0 auto;
   align-items: center;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   color: #ffffff;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  position: fixed;
   background-color: black;
   z-index: 99;
+  position: sticky;
+  top: 0;
 }
 
 .filter-buttons {
@@ -182,6 +188,17 @@ section {
 
 .subheading-padding {
   padding-bottom: 2rem;
+}
+
+.view-more {
+  transition: 0.3s;
+  color: #cfae86;
+}
+
+.view-more:hover{
+  transition: 0.3s;
+  color: #f5f1eb;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 700px) {

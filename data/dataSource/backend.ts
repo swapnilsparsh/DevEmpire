@@ -7,7 +7,7 @@ const CloudData: Data[] = [
         image: "/images/backend-img/firebase.png",
         link: "https://firebase.google.com",
         about:
-            "Firebase offers backend services like database, authentication, hosting, cloud functions and more.",
+            "Firebase offers backend services like database, authentication, hosting etc.",
         alt: "Firebase",
     },
     {
@@ -16,9 +16,10 @@ const CloudData: Data[] = [
         image: "/images/backend-img/aws.png",
         link: "https://aws.amazon.com",
         about:
-            "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals.",
+            "AWS is a subsidiary of Amazon providing on-demand cloud computing platforms.",
         alt: "AWS",
-    }, {
+    },
+    {
         head: "MongoDB Atlas",
         label: ["Cloud"],
         image: "/images/backend-img/mongo.png",
@@ -37,20 +38,21 @@ const CloudData: Data[] = [
         alt: "Heroku",
     },
     {
-        head: "Google Cloud",
+        head: "Google Cloud Platform",
         label: ["Cloud"],
         image: "/images/backend-img/google-cloud.png",
         link: "https://cloud.google.com",
         about:
-            "Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally.",
+            "A cloud computing service that runs on the same infrastructure that Google uses.",
         alt: "Google Cloud",
-    }, {
+    },
+    {
         head: "Azure",
         label: ["Cloud"],
         image: "/images/backend-img/azure.png",
         link: "https://azure.microsoft.com",
         about:
-            "Azure is a cloud computing service created for building, testing, deploying, and managing applications.",
+            "A cloud computing service created for building, testing, and managing applications.",
         alt: "Azure",
     },
     {
@@ -59,7 +61,7 @@ const CloudData: Data[] = [
         image: "/images/backend-img/digitalocean.png",
         link: "https://www.digitalocean.com",
         about:
-            "DigitalOcean, Inc. is an American cloud infrastructure provider headquartered in New York City with data centers worldwide.",
+            "An American cloud infrastructure provider headquartered in New York City.",
         alt: "Digital Ocean",
     },
     {
@@ -68,7 +70,7 @@ const CloudData: Data[] = [
         image: "/images/backend-img/prisma.png",
         link: "https://www.prisma.io",
         about:
-            "The Prisma schema is intuitive and lets you declare your database tables in a human-readable way — making your data modeling experience a delight. You define your models by hand or introspect them from an existing database.",
+            "A intuitive that lets you declare your database tables in a human-readable way",
         alt: "Prisma",
     },
 ]
@@ -80,22 +82,24 @@ const AuthData: Data[] = [
         image: "/images/backend-img/firebase.png",
         link: "https://firebase.google.com",
         about:
-            "Firebase offers backend services like database, authentication, hosting, cloud functions and more.",
+            "Firebase offers backend services like database, authentication, hosting etc.",
         alt: "Firebase",
-    }, {
+    },
+    {
         head: "Auth0",
         label: ["Authentication"],
         image: "/images/backend-img/auth0.png",
         link: "https://auth0.com",
-        about: "Auth0 is an authentication and authorization platform.",
+        about: "Auth0 is an authentication and authorization platform that is used widely.",
         alt: "Auth0",
-    }, {
+    },
+    {
         head: "Passport",
         label: ["Authentication"],
         image: "/images/backend-img/passport.png",
         link: "http://www.passportjs.org",
         about:
-            "Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application.",
+            "Passport is authentication middleware for Node.js. Extremely flexible and modular.",
         alt: "Passport",
     },
     {
@@ -104,7 +108,7 @@ const AuthData: Data[] = [
         image: "/images/backend-img/aws-cognito.png",
         link: "https://aws.amazon.com/cognito",
         about:
-            "Amazon Cognito is a simple user identity and data synchronization service that helps you securely manage and synchronize app data.",
+            "A simple data synchronization service that helps you securely synchronize app data.",
         alt: "AWS Cognito",
     },
     {
@@ -113,7 +117,7 @@ const AuthData: Data[] = [
         image: "/images/backend-img/jwt.png",
         link: "https://jwt.io",
         about:
-            "JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties.",
+            "A compact and self-contained way for securely transmitting information between parties.",
         alt: "JWT",
     },
     {
@@ -122,7 +126,7 @@ const AuthData: Data[] = [
         image: "/images/backend-img/okta.png",
         link: "https://www.okta.com",
         about:
-            "Okta is an identity and access management software provider. Okta is the leading independent provider of identity for the enterprise.",
+            "Okta is the leading independent provider of identity for the enterprise.",
         alt: "Okta",
     }, {
         head: "Stytch Auth",
@@ -130,7 +134,7 @@ const AuthData: Data[] = [
         image: "/images/backend-img/stytch.png",
         link: "https://stytch.com",
         about:
-            "Stytch is a one-stop shop for all your authentication and security requirements. From device fingerprinting to bot protection, we have everything you need to protect your product and your customers, now and in the future.",
+            "Stytch is a one-stop shop for all your authentication and security requirements.",
         alt: "NewYorkTimes",
     },
 ]
@@ -142,15 +146,16 @@ const HostingData: Data[] = [
         image: "/images/backend-img/firebase.png",
         link: "https://firebase.google.com",
         about:
-            "Firebase offers backend services like database, authentication, hosting, cloud functions and more.",
+            "Firebase offers backend services like database, authentication, hosting etc.",
         alt: "Firebase",
-    }, {
+    },
+    {
         head: "Docker",
         label: ["Hosting"],
         image: "/images/backend-img/docker.png",
         link: "https://www.docker.com",
         about:
-            "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
+            "Docker is a set of platform as a service products that use OS-level virtualization.",
         alt: "Docker",
     },
     {
@@ -168,7 +173,7 @@ const HostingData: Data[] = [
         image: "/images/backend-img/netlify.png",
         link: "https://www.netlify.com",
         about:
-            "Netlify is a San Francisco-based cloud computing company that offers hosting and serverless backend services for web applications and static websites.",
+            "A cloud computing company that offers hosting and serverless backend services.",
         alt: "Netlify",
     },
     {
@@ -177,7 +182,7 @@ const HostingData: Data[] = [
         image: "/images/backend-img/vercel.png",
         link: "https://vercel.com",
         about:
-            "Vercel is a cloud platform for static sites and Serverless Functions that fits perfectly with your workflow.",
+            "A cloud platform for static sites that fits perfectly with your workflow.",
         alt: "Vercel",
     },
     {
@@ -195,7 +200,7 @@ const HostingData: Data[] = [
         image: "/images/backend-img/render.png",
         link: "https://render.com/",
         about:
-            "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.",
+            "A unified cloud to build and run all your apps and websites with free TLS certificates.",
         alt: "Render",
     },
 ]
@@ -225,7 +230,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/aws.png",
         link: "https://aws.amazon.com",
         about:
-            "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals.",
+            "AWS is a subsidiary of Amazon providing on-demand cloud computing platforms.",
         alt: "AWS",
     },
     {
@@ -234,7 +239,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/youtube.png",
         link: "https://developers.google.com/youtube",
         about:
-            "The YouTube Data API (v3) lets you incorporate YouTube functionality into your own application.",
+            "Lets you incorporate YouTube functionality into your own application.",
         alt: "Youtube API",
     },
     {
@@ -243,7 +248,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/rapid-api.png",
         link: "https://rapidapi.com",
         about:
-            "RapidAPI is the world's largest API marketplace with over 1,000,000 developers and 10,000 APIs.",
+            "The world's largest API marketplace with over 1,000,000 developers and 10,000 APIs.",
         alt: "Genral API",
     },
     {
@@ -254,13 +259,14 @@ const APIData: Data[] = [
         about:
             "The API is a RESTful web service to obtain movie information, all content and images.",
         alt: "Movie API",
-    }, {
+    },
+    {
         head: "Spotify API",
         label: ["API"],
         image: "/images/backend-img/spotify.png",
         link: "https://developer.spotify.com",
         about:
-            "The Spotify Web API is a set of web APIs to access Spotify's database of music, artists, albums, and playlists.",
+            "A set of web APIs to access Spotify's database of music, artists, albums, and playlists.",
         alt: "Spotify API",
     },
     {
@@ -269,7 +275,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/weather-api.png",
         link: "https://openweathermap.org/api",
         about:
-            "OpenWeather is a team of IT experts and data scientists that has been practising deep weather.",
+            "A team of IT experts and data scientists that has been practising deep weather.",
         alt: "Free Weather API",
     },
     {
@@ -296,7 +302,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/fb.png",
         link: "https://developers.facebook.com",
         about:
-            "The Facebook API is a platform for building applications that are available to the members of the social network of Facebook.",
+            "A platform for building applications that are available to the members of the social network.",
         alt: "Facebook API",
     },
     {
@@ -305,7 +311,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/instagram.png",
         link: "https://developers.facebook.com/docs/instagram",
         about:
-            "The Instagram API Platform can be used to build non-automated, authentic, high-quality apps and services.",
+            "Can be used to build non-automated, authentic, high-quality apps.",
         alt: "Instagram API",
     },
     {
@@ -314,7 +320,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/paypal.png",
         link: "https://developer.paypal.com/docs/api/overview",
         about:
-            "PayPal is an American company operating an online payments system in majority of countries that supports online money transfers and server.",
+            "A payments system in majority of countries that supports online money transfers.",
         alt: "Payments API",
     },
     {
@@ -323,7 +329,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/whatsapp.png",
         link: "https://developers.facebook.com/docs/whatsapp",
         about:
-            "The WhatsApp Business API is a fast, secure, and reliable way for businesses to reach their customers all over the world.",
+            "A fast, secure, and reliable way for businesses to reach their customers all over the world.",
         alt: "WhatsApp API",
     },
     {
@@ -332,7 +338,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/paytm.png",
         link: "https://developer.paytm.com/docs",
         about:
-            "Paytm is an Indian e-commerce payment system and financial technology company, based in Noida, India.",
+            "An Indian e-commerce payment system company, based in Noida, India.",
         alt: "PayTM API",
     },
     {
@@ -341,15 +347,16 @@ const APIData: Data[] = [
         image: "/images/backend-img/alpha.png",
         link: "https://www.alphavantage.co",
         about:
-            "Alpha Vantage offers free stock APIs in JSON and CSV formats for realtime and historical equity, forex, cryptocurrency data and over 50 technical indicators.",
+            "Offers free stock APIs in JSON and CSV formats for realtime and historical equity.",
         alt: "Stock API",
-    }, {
+    }, 
+    {
         head: "Postman",
         label: ["API Testing"],
         image: "/images/backend-img/postman.png",
         link: "https://www.postman.com",
         about:
-            "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API.",
+            "Postman is a collaboration platform for API development.",
         alt: "Postman",
     },
     {
@@ -358,7 +365,7 @@ const APIData: Data[] = [
         image: "/images/backend-img/insomnia.png",
         link: "https://insomnia.rest",
         about:
-            "Insomnia is a cross-platform GraphQL and REST client, available for Mac, Windows, and Linux.",
+            "A cross-platform GraphQL and REST client, available for Mac, Windows, and Linux.",
         alt: "Insomnia",
     },
     {
@@ -376,15 +383,16 @@ const APIData: Data[] = [
         image: "/images/backend-img/postwoman.png",
         link: "https://hoppscotch.io",
         about:
-            "Postwoman is an open-source API request builder. It helps you create your requests faster, saving you precious time.",
+            "An open-source API request builder. It helps you create your requests faster, saving time.",
         alt: "Postwoman",
-    }, {
+    }, 
+    {
         head: "NewYork Times API",
         label: ["API"],
         image: "/images/backend-img/times.png",
         link: "https://developer.nytimes.com/apis",
         about:
-            "The New York Times API provides developers access to their content for integrating current and historical news into applications.",
+            "Provides developers access to their content for integrating current news into applications.",
         alt: "NewYorkTimes",
     },
 ]
