@@ -1,5 +1,5 @@
-import Navbar from "@/components/navbar";
+import Landing from "@/components/Landing";
 
-export default function Home() {
-  return <></>;
+export default function LandingPage() {
+  return <Landing />;
 }

@@ -23,63 +23,7 @@ export const navbarData = [
     icon: GamesIcon,
   },
   {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
-    icon: GamesIcon,
-  },
-  {
-    name: "Games",
+    name: "Programs",
     icon: GamesIcon,
   },
 ];
