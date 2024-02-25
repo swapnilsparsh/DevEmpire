@@ -1,4 +1,4 @@
-import { Data } from "@/interfaces/obj_type";
+import { Data, Layout } from "@/interfaces/obj_type";
 
 const GamesData: Data[] = [
     {
@@ -183,4 +183,12 @@ const GamesData: Data[] = [
     },
 ];
 
-export default GamesData;
+const games_data : Layout[] = [
+    {
+        subheading: "All Games",
+        id: "all-games",
+        dataSource: GamesData,
+    },
+]
+
+export default games_data;
