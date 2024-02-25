@@ -1,5 +1,12 @@
-import Landing from "@/components/Landing";
+// import Landing from "@/components/Landing";
+import dynamic from "next/dynamic";
 
-export default function LandingPage() {
-  return <Landing />;
-}
+const ComponentWithNoSSR = dynamic(() => import("@/components/Landing"), {
+  ssr: false,
+});
+
+export default () => <ComponentWithNoSSR />;
+
+// export default function LandingPage() {
+//   return <Landing />;
+// }
