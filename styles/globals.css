@@ -22,12 +22,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 section {
@@ -38,12 +35,10 @@ section {
   height: 0.07rem;
   width: 30%;
   margin: 0 auto;
-  background: linear-gradient(
-    90deg,
-    rgba(17, 17, 17, 0),
-    rgb(255, 255, 255),
-    rgba(17, 17, 17, 0)
-  );
+  background: linear-gradient(90deg,
+      rgba(17, 17, 17, 0),
+      rgb(255, 255, 255),
+      rgba(17, 17, 17, 0));
 }
 
 /* Card Layout */
@@ -54,8 +49,8 @@ section {
   position: relative;
   margin: 2rem 0.5rem;
   background: linear-gradient(to top left, #ffffff08, transparent),
-  linear-gradient(to top, #ffffff05, transparent),
-  linear-gradient(to top right, #ffffff15, transparent);
+    linear-gradient(to top, #ffffff05, transparent),
+    linear-gradient(to top right, #ffffff15, transparent);
 }
 
 .card-mr {
@@ -65,6 +60,10 @@ section {
 .card-img {
   margin: -2rem auto 2rem auto;
   border-radius: 0.5rem;
+  height: 170px;
+  width: 70%;
+  object-fit: contain;
+  background-color: #ffffff;
 }
 
 .card-heading {
@@ -79,7 +78,7 @@ section {
 }
 
 .landing-page {
-  width: 90%; 
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -89,7 +88,7 @@ section {
   flex-wrap: wrap;
 }
 
-.landing-cards-img{
+.landing-cards-img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -99,6 +98,9 @@ section {
 
 .landing-cards-img img {
   width: 40%;
+  height: 100px;
+  background-color: #ffffff;
+  object-fit: contain;
   border-radius: 0.2rem;
 }
 
@@ -109,12 +111,10 @@ section {
   height: 0.04rem;
   width: 40%;
   margin: 0 auto;
-  background: linear-gradient(
-    90deg,
-    rgba(17, 17, 17, 0),
-    rgb(255, 255, 255),
-    rgba(17, 17, 17, 0)
-  );
+  background: linear-gradient(90deg,
+      rgba(17, 17, 17, 0),
+      rgb(255, 255, 255),
+      rgba(17, 17, 17, 0));
   animation: zoom-in-zoom-out 3.5s ease infinite;
 }
 
@@ -122,13 +122,16 @@ section {
   0% {
     transform: scale(0, 0);
   }
+
   50% {
     transform: scale(1.5, 1.5);
   }
+
   100% {
     transform: scale(0, 0);
   }
 }
+
 /* Card Border */
 
 /* Navbar */
@@ -138,6 +141,7 @@ section {
   color: #f8f8ff;
   font-weight: bold;
 }
+
 /* Navbar */
 
 /* Ambassador Page */
@@ -171,6 +175,7 @@ section {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
 /* Ambassador Page */
 
 .filters {
@@ -186,6 +191,7 @@ section {
   z-index: 99;
   position: sticky;
   top: 0;
+  flex-wrap: wrap;
 }
 
 .filter-buttons {
@@ -219,7 +225,7 @@ section {
   color: #cfae86;
 }
 
-.view-more:hover{
+.view-more:hover {
   transition: 0.3s;
   color: #f5f1eb;
   text-decoration: underline;
@@ -236,5 +242,15 @@ section {
 
   .de-padding {
     padding-bottom: 4rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .card-layout {
+    width: 100%;
   }
 }
