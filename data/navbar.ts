@@ -29,7 +29,7 @@ export const navbarData = [
     img: "/images/ambassador-img/Alexa.png",
   },
   {
-    name: "Development",
+    name: "WebDev",
     icon: WebDevIcon,
     description:
       "Power up your website with awesome tools from CSS generators and stock photos, to icons, illustrations much more.",
