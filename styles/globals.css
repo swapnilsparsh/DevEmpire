@@ -22,9 +22,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 section {
@@ -35,10 +38,12 @@ section {
   height: 0.07rem;
   width: 30%;
   margin: 0 auto;
-  background: linear-gradient(90deg,
-      rgba(17, 17, 17, 0),
-      rgb(255, 255, 255),
-      rgba(17, 17, 17, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    rgb(255, 255, 255),
+    rgba(17, 17, 17, 0)
+  );
 }
 
 /* Card Layout */
@@ -77,6 +82,58 @@ section {
   font-weight: bold;
 }
 
+.landing-main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.landing-main h1 {
+  color: #ddc4a4;
+  font-size: 7rem;
+  line-height: 8rem;
+  margin-bottom: 3rem;
+}
+
+.landing-main p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.landing-main div {
+  flex: 1;
+}
+
+#home {
+  animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
 .landing-page {
   width: 90%;
   margin: 0 auto;
@@ -111,10 +168,12 @@ section {
   height: 0.04rem;
   width: 40%;
   margin: 0 auto;
-  background: linear-gradient(90deg,
-      rgba(17, 17, 17, 0),
-      rgb(255, 255, 255),
-      rgba(17, 17, 17, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    rgb(255, 255, 255),
+    rgba(17, 17, 17, 0)
+  );
   animation: zoom-in-zoom-out 3.5s ease infinite;
 }
 
@@ -249,8 +308,25 @@ section {
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .card-layout {
     width: 100%;
+  }
+}
+
+/* Landing Page Responsive Start */
+
+@media screen and (max-width: 1024px) {
+
+  .landing-main {
+    flex-direction: column;
+  }
+  
+  .landing-main h1 {
+    font-size: 4rem;
+  }
+
+  .landing-main p {
+    font-size: 14px;
   }
 }

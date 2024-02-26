@@ -14,7 +14,7 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="bg-black border-b-[1px] border-opacity-50 border-b-white">
+    <nav className={`${inter.className} bg-black border-b-[1px] border-opacity-50 border-b-white`}>
       <div className=" w-[90%] flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           {/* <img src="" className="h-8" alt="DevEmpire Logo" /> */}
