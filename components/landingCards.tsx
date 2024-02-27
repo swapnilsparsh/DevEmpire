@@ -1,4 +1,5 @@
 import { navbarData } from "@/data/navbar";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function LandingCard({
   randomImages,
@@ -13,18 +14,27 @@ export default function LandingCard({
             <div className="card-mr">
               <div className="landing-cards-img">
                 {randomImages[key].map((img: string) => (
-                  <img key={img} src={img} alt={`${item.img}`} />
+                  <img key={img} src={img} alt={`${item}`} />
                 ))}
               </div>
               <div>
-                <h2 className="card-heading">{item.name}</h2>
+                <h2 className="card-heading text-center">{item.name}</h2>
               </div>
               <br />
-              <p className="card-description">{item.description}</p>
+              <p className="card-description text-center">{item.description}</p>
               <br />
-              <a href={item.url} target="_blank" className="view-more">
-                View More
-              </a>
+              <div className="text-center">
+                <a
+                  href={`/${item.name.toLowerCase()}`}
+                  target="_blank"
+                  className="view-more"
+                  onClick={() =>
+                    sendGAEvent({ event: "fromLanding", value: item.name })
+                  }
+                >
+                  View More
+                </a>
+              </div>
               <br />
             </div>
             <br />

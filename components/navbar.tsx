@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { navbarData } from "@/data/navbar";
 import { CloseIcon, HamburgerIcon } from "./icons/navbarIcons";
 import React from "react";
+import { sendGAEvent } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], weight: "600" });
 
@@ -14,7 +15,7 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className={`${inter.className} bg-black border-b-[1px] border-opacity-50 border-b-white`}>
+    <nav className="bg-black border-b-[1px] border-opacity-50 border-b-white">
       <div className=" w-[90%] flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           {/* <img src="" className="h-8" alt="DevEmpire Logo" /> */}
@@ -39,6 +40,9 @@ export default function Navbar() {
                 className="flex items-center py-2 px-3 mx-1 text-white hover:bg-[#cfae86] hover:text-black rounded ease-in duration-300"
                 href={`/${item.name.toLowerCase()}`}
                 key={key}
+                onClick={() =>
+                  sendGAEvent({ event: "fromNavbar", value: item.name })
+                }
               >
                 {React.createElement(item.icon)}
                 <p className="navbar-text ml-2">{item.name}</p>

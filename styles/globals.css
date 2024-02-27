@@ -22,12 +22,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 section {
@@ -38,12 +35,10 @@ section {
   height: 0.07rem;
   width: 30%;
   margin: 0 auto;
-  background: linear-gradient(
-    90deg,
-    rgba(17, 17, 17, 0),
-    rgb(255, 255, 255),
-    rgba(17, 17, 17, 0)
-  );
+  background: linear-gradient(90deg,
+      rgba(17, 17, 17, 0),
+      rgb(255, 255, 255),
+      rgba(17, 17, 17, 0));
 }
 
 /* Card Layout */
@@ -168,12 +163,10 @@ section {
   height: 0.04rem;
   width: 40%;
   margin: 0 auto;
-  background: linear-gradient(
-    90deg,
-    rgba(17, 17, 17, 0),
-    rgb(255, 255, 255),
-    rgba(17, 17, 17, 0)
-  );
+  background: linear-gradient(90deg,
+      rgba(17, 17, 17, 0),
+      rgb(255, 255, 255),
+      rgba(17, 17, 17, 0));
   animation: zoom-in-zoom-out 3.5s ease infinite;
 }
 
@@ -321,7 +314,7 @@ section {
   .landing-main {
     flex-direction: column;
   }
-  
+
   .landing-main h1 {
     font-size: 4rem;
   }
