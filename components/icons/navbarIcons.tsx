@@ -18,8 +18,10 @@ export const HamburgerIcon: React.FC<React.SVGProps<SVGSVGElement>> = (
     />
   </svg>
 );
+
 export const CloseIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
+    className="w-5 h-5"
     xmlns="http://www.w3.org/2000/svg"
     width="200"
     height="200"
@@ -39,6 +41,7 @@ export const AmbassadorIcon: React.FC<React.SVGProps<SVGSVGElement>> = (
   props
 ) => (
   <svg
+    className="w-5 h-5"
     width="20"
     height="20"
     viewBox="0 0 24 24"
@@ -58,6 +61,7 @@ export const AmbassadorIcon: React.FC<React.SVGProps<SVGSVGElement>> = (
 
 export const BackendIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
+    className="w-5 h-5"
     xmlns="http://www.w3.org/2000/svg"
     width="20"
     height="20"
@@ -84,6 +88,7 @@ export const BackendIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 
 export const WebDevIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
+    className="w-5 h-5"
     xmlns="http://www.w3.org/2000/svg"
     width="20"
     height="20"
@@ -101,6 +106,7 @@ export const WebDevIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 
 export const GamesIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
+    className="w-5 h-5"
     width="20"
     height="20"
     viewBox="0 0 20 20"
@@ -118,6 +124,7 @@ export const ProgramsIcon: React.FC<React.SVGProps<SVGSVGElement>> = (
   props
 ) => (
   <svg
+    className="w-5 h-5"
     xmlns="http://www.w3.org/2000/svg"
     width="20"
     height="20"
