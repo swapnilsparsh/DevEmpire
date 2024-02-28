@@ -6,25 +6,9 @@
   scroll-behavior: smooth;
 }
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: #0e0d0d
 }
 
 section {
@@ -239,7 +223,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  background-color: black;
+  background-color: #0e0d0d;
   z-index: 99;
   position: sticky;
   top: 0;

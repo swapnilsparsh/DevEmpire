@@ -4,7 +4,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.aleo.org/post/the-ambassador-program-continues",
     head: "Aleo Ambassador Program",
-    image: "/images/ambassador-img/Aleo.png",
+    image: "/images/ambassador-img/Aleo.webp",
     about: " Aleo is a Layer 1 blockchain bringing privacy to the web.",
     alt: "Aleo Logo",
     label: "",
@@ -21,7 +21,7 @@ const ForAllData: Data[] = [
   {
     link: "https://apillon.io/community",
     head: "Apillon Ambassador",
-    image: "/images/ambassador-img/Apillon.png",
+    image: "/images/ambassador-img/Apillon.webp",
     about:
       "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
     alt: "Apillon Logo",

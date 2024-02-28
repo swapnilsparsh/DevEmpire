@@ -8,8 +8,6 @@ import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"], weight: "600" });
 
-console.log(process.env.GA_TRACKING_ID);
-
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     let sections = document.querySelectorAll("section");

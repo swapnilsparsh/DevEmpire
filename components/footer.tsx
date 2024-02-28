@@ -2,7 +2,7 @@ import { GithubIcon, ProductHuntIcon, TwitterIcon } from "./icons/footericons";
 
 export default function Footer() {
   return (
-    <footer className=" bg-black border-t-[1px] border-opacity-80 border-b-white">
+    <footer className=" bg-[#0e0d0d] border-t-[1px] border-opacity-80 border-b-white">
       <div className="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between flex-wrap gap-2">
         <span className="text-sm text-white sm:text-center">
           <p>
