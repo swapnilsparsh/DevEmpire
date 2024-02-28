@@ -2,9 +2,9 @@ import { GithubIcon, ProductHuntIcon, TwitterIcon } from "./icons/footericons";
 
 export default function Footer() {
   return (
-    <footer className=" bg-[#0e0d0d] border-t-[1px] border-opacity-80 border-b-white">
+    <footer className=" bg-[#0093ed] ">
       <div className="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between flex-wrap gap-2">
-        <span className="text-sm text-white sm:text-center">
+        <span className="text-md text-white sm:text-center">
           <p>
             Made with ❤️ by{" "}
             <a
@@ -12,7 +12,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="Follow Swapnil Srivastava on Github"
-              className="text-[#cfae86]"
+              className="text-[#00253a]"
             >
               {" "}
               Swapnil
@@ -23,14 +23,14 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="Follow Jatin Yadav on Github"
-              className="text-[#cfae86]"
+              className="text-[#00253a]"
             >
               {" "}
               Jatin
             </a>
           </p>
         </span>
-        <ul className="flex flex-wrap items-center text-sm justify-center font-medium text-gray-500 dark:text-gray-400">
+        <ul className="flex flex-wrap items-center text-md justify-center text-white">
           <a
             className="hover:underline me-4 md:me-6"
             href="https://github.com/swapnilsparsh/DevEmpire"

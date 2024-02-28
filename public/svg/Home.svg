@@ -1,14 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 2000 1800" style="enable-background:new 0 0 2000 1800;" xml:space="preserve" width="2000"  height="1800" >
 <style type="text/css">
-	.st1{fill:#ddc4a4;}
-	.st2{fill:#ddc4a4;}
-	.st3{fill:#ddc4a4;}
+	.st0{fill:#BBE2F2;}
+	.st1{fill:#1C31B5;}
+	.st2{fill:#009CF8;}
+	.st3{fill:#006BDE;}
+	.st4{fill:#18315B;}
+	.st5{fill:#000B29;}
 	.st6{fill:#F97853;}
 	.st7{fill:#EA5143;}
 	.st8{fill:#FFA681;}
 	.st9{fill:#FFFFFF;}
+	.st10{fill:#264CBE;}
 	.st11{fill:#E3E3E3;}
-	.st12{fill:#ddc4a4;}
+	.st12{fill:#1D567E;}
 </style>
 <g id="OBJECTS">
 	<g>
@@ -512,6 +516,16 @@
 					</g>
 				</g>
 			</g>
+		</g>
+		<g>
+			<path class="st1" d="M1871.2,1595v3.1c0,17.6-14.3,31.9-31.9,31.9H186.8c-17.6,0-31.9-14.3-31.9-31.9v-3.1     c0-17.6,14.3-31.9,31.9-31.9h1652.5C1856.9,1563.1,1871.2,1577.4,1871.2,1595z"/>
+			<path class="st3" d="M1871.2,1595v1.5H154.9v-1.5c0-17.6,14.3-31.9,31.9-31.9h1652.5C1856.9,1563.1,1871.2,1577.4,1871.2,1595z"/>
+		</g>
+		<g>
+			<path class="st4" d="M1283,1462.9H729.7c-3,0-5.4-2.4-5.4-5.4v-305.8c0-3,2.4-5.4,5.4-5.4H1283c3,0,5.4,2.4,5.4,5.4v305.8     C1288.4,1460.5,1286,1462.9,1283,1462.9z"/>
+			<rect x="962.7" y="1462.5" class="st5" width="87.4" height="99.6"/>
+			<circle class="st12" cx="1005.4" cy="1308.5" r="43.4"/>
+			<path class="st4" d="M1117.7,1562.1H892.3v-28.7c0-3.7,3-6.6,6.6-6.6h212c3.7,0,6.6,3,6.6,6.6V1562.1z"/>
 		</g>
 	</g>
 </g>

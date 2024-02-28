@@ -3,13 +3,35 @@
 @tailwind utilities;
 
 * {
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: #0e0d0d
+  background: url("../public//svg/Home-Background.svg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 300vh;
 }
+
+/*Start scrollbar*/
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0093ed;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d6f5ff;
+}
+
+/*End scrollbar*/
 
 section {
   padding: 4rem 0rem;
@@ -51,13 +73,13 @@ section {
 }
 
 .card-heading {
-  color: #ddc4a4;
+  color: #000;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
 .card-description {
-  color: ghostwhite;
+  color: #000;
   font-weight: bold;
 }
 
@@ -70,7 +92,7 @@ section {
 }
 
 .landing-main h1 {
-  color: #ddc4a4;
+  color: #0093ed;
   font-size: 7rem;
   line-height: 8rem;
   margin-bottom: 3rem;
@@ -79,6 +101,7 @@ section {
 .landing-main p {
   font-size: 1.5rem;
   margin-bottom: 3rem;
+  color: #40aaff;
 }
 
 .landing-main div {
@@ -170,20 +193,9 @@ section {
 
 /* Card Border */
 
-/* Navbar */
-.navbar {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-  background-color: #0e0e0e;
-  color: #f8f8ff;
-  font-weight: bold;
-}
-
-/* Navbar */
-
 /* Ambassador Page */
 .layout {
   min-height: 93vh;
-  color: #0e0e0e;
   width: 90%;
   margin: 2rem auto;
   text-align: center;
@@ -195,11 +207,11 @@ section {
 
 .de-heading {
   font-size: 6rem;
-  color: #ddc4a4;
+  color: #0093ed;
 }
 
 .de-description {
-  color: ghostwhite;
+  color: #40aaff;
   font-size: 1.3rem;
 }
 
@@ -223,7 +235,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  background-color: #0e0d0d;
   z-index: 99;
   position: sticky;
   top: 0;
@@ -231,21 +242,23 @@ section {
 }
 
 .filter-buttons {
-  background-color: #cfae86;
+  /* background-color: white; */
+  border: 1px #0093ed solid;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
-  color: black;
+  color: #0093ed;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .active {
-  background-color: #f5f1eb;
+  background-color: #0093ed;
+  color: white;
 }
 
 /* Section Slot */
 .subheading {
-  color: white;
+  color: #0093ed;
   font-weight: bold;
   text-align: center;
   margin-left: 2rem;
@@ -258,12 +271,12 @@ section {
 
 .view-more {
   transition: 0.3s;
-  color: #cfae86;
+  color: #000;
 }
 
 .view-more:hover {
   transition: 0.3s;
-  color: #f5f1eb;
+  color: #0093ed;
   text-decoration: underline;
 }
 

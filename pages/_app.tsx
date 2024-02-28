@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
           <link
             rel="shortcut icon"
-            href="icon/favicon.ico"
+            href="icon/favicon.webp"
             type="image/x-icon"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -1,12 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
-import { Inter } from "next/font/google";
 import { navbarData } from "@/data/navbar";
 import { CloseIcon, HamburgerIcon } from "./icons/navbarIcons";
 import React from "react";
 import { sendGAEvent } from "@next/third-parties/google";
-
-const inter = Inter({ subsets: ["latin"], weight: "600" });
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +12,7 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="bg-[#0e0d0d] border-b-[1px] border-opacity-50 border-b-white">
+    <nav className="bg-[#0093ed] border-b-[1px] border-opacity-50 border-b-white">
       <div className=" w-[90%] flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           {/* <img src="" className="h-8" alt="DevEmpire Logo" /> */}
@@ -26,7 +23,7 @@ export default function Navbar() {
         <button
           onClick={toggleMenu}
           type="button"
-          className="inline-flex items-center justify-center p-2 w-10 h-10 text-sm rounded-lg focus:outline-none text-gray-400 hover:bg-gray-900"
+          className="inline-flex items-center justify-center p-2 w-10 h-10 text-sm rounded-lg"
         >
           {isMenuOpen ? <CloseIcon /> : <HamburgerIcon />}
         </button>
@@ -37,7 +34,7 @@ export default function Navbar() {
           <ul className="flex flex-wrap justify-center font-medium mt-4 rounded-lg">
             {navbarData.map((item, key) => (
               <Link
-                className="flex items-center py-2 px-3 mx-1 text-white hover:bg-[#cfae86] hover:text-black rounded ease-in duration-300"
+                className="flex items-center py-2 px-3 mx-1 text-white hover:bg-[#77cbff] hover:text-black rounded ease-in duration-300"
                 href={`/${item.name.toLowerCase()}`}
                 key={key}
                 onClick={() =>
