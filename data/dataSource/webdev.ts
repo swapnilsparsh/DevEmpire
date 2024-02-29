@@ -4,7 +4,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://drawkit.io/",
         head: "DrawKit",
-        image: "../images/development-img/DrawKit.webp",
+        image: "../images/development-img/DrawKit.png",
         about:
             "Hand-drawn vector illustration and icon resources, perfect for your next project.",
         alt: "DrawKit",
@@ -13,7 +13,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.pixeltrue.com/free-illustrations",
         head: "Pixeltrue",
-        image: "../images/development-img/Pixeltrue.webp",
+        image: "../images/development-img/Pixeltrue.png",
         about: "500+ Free Illustrations & Animations. Updated Weekly.",
         alt: "Pixeltrue",
         label: "Illustration",
@@ -21,7 +21,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://storyset.com/",
         head: "Storyset",
-        image: "../images/development-img/StorySet.webp",
+        image: "../images/development-img/StorySet.png",
         about:
             "Customize, animate, and download illustrations to make incredible landing pages, etc.",
         alt: "Storyset",
@@ -30,7 +30,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://undraw.co/",
         head: "unDraw",
-        image: "../images/development-img/unDraw.webp",
+        image: "../images/development-img/unDraw.png",
         about: "Open-source illustrations for any idea you can imagine and create.",
         alt: "unDraw",
         label: "Illustration",
@@ -38,7 +38,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.handz.design/",
         head: "Handz",
-        image: "../images/development-img/Handz.webp",
+        image: "../images/development-img/Handz.jpeg",
         about: "Handz provide free 3D illustrations of diverse hands gestures.",
         alt: "Handz",
         label: "Illustration",
@@ -46,7 +46,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://3d.khagwal.co/",
         head: "3D Khagwal",
-        image: "../images/development-img/Khagwal3D.webp",
+        image: "../images/development-img/Khagwal3D.png",
         about: "Free 3D illustration pack for web & mobile app designers",
         alt: "3D Khagwal",
         label: "Illustration",
@@ -54,7 +54,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://humans.wannathis.one/",
         head: "Humans",
-        image: "../images/development-img/Humans.webp",
+        image: "../images/development-img/Humans.png",
         about: "The biggest set of 3D characters for Figma and Blender.",
         alt: "Humans",
         label: "Illustration",
@@ -62,7 +62,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://freeillustrations.xyz/",
         head: "Free Illustration",
-        image: "../images/development-img/FreeIllustration.webp",
+        image: "../images/development-img/FreeIllustration.png",
         about: "Find free-to-use illustrations, constructor, tools.",
         alt: "Free Illustration",
         label: "Illustration",
@@ -70,7 +70,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://powerpeopleplatform.com/",
         head: "Power People Platform",
-        image: "../images/development-img/PowerPeoplePlatform.webp",
+        image: "../images/development-img/PowerPeoplePlatform.png",
         about:
             "It is a delicious design library of 3D avatars. Made with love for fun and color in your work.",
         alt: "Power People Platform",
@@ -79,7 +79,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://lottiefiles.com/",
         head: "LottieFiles",
-        image: "../images/development-img/LottieFiles.webp",
+        image: "../images/development-img/LottieFiles.png",
         about: "Lightweight, scalable animations for your website and apps.",
         alt: "LottieFiles",
         label: "Illustration",
@@ -87,7 +87,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://illustrationkit.com/",
         head: "Illustration Kit",
-        image: "../images/development-img/Illustration-Kit.webp",
+        image: "../images/development-img/Illustration-Kit.png",
         about: "Free premium illustrations that is updated weekly.",
         alt: "Illustration Kit",
         label: "Illustration",
@@ -95,7 +95,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://error404.fun/",
         head: "404 error pages",
-        image: "../images/development-img/404-Error.webp",
+        image: "../images/development-img/404-Error.png",
         about: "Make a unique journey through 404 error pages on your website.",
         alt: "404 error pages",
         label: "Illustration",
@@ -103,7 +103,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://icons8.com/illustrations",
         head: "Ouch",
-        image: "../images/development-img/Ouch.webp",
+        image: "../images/development-img/Ouch.png",
         about: "Free illustrations for your website, for designing and user experience.",
         alt: "Ouch",
         label: "Illustration",
@@ -111,7 +111,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.iconshock.com",
         head: "Iconshock",
-        image: "../images/development-img/Iconshock.webp",
+        image: "../images/development-img/Iconshock.png",
         about: "2 Million+ professional icons library, for designing and user experience.",
         alt: "Iconshock",
         label: "Icons",
@@ -119,7 +119,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://boxicons.com/",
         head: "Boxicons",
-        image: "../images/development-img/Boxicons.webp",
+        image: "../images/development-img/Boxicons.png",
         about: "Simple vector icons carefully crafted for designers & developers",
         alt: "Boxicons",
         label: "Icons",
@@ -127,7 +127,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://akaricons.com/",
         head: "Akar Icons",
-        image: "../images/development-img/Akar-Icons.webp",
+        image: "../images/development-img/Akar-Icons.png",
         about:
             "Use these icons to bring life into your user interface and experience.",
         alt: "Akar Icons",
@@ -136,7 +136,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://icons.modulz.app/",
         head: "Radix Icons",
-        image: "../images/development-img/Radix-Icons.webp",
+        image: "../images/development-img/Radix-Icons.png",
         about: "A crisp set of 15×15 icons designed by the Modulz team.",
         alt: "Radix Icons",
         label: "Icons",
@@ -144,7 +144,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.shapefest.com/",
         head: "Shapefest",
-        image: "../images/development-img/Shapefest.webp",
+        image: "../images/development-img/Shapefest.png",
         about: "A massive library of free 3D shapes for anything all.",
         alt: "Shapefest",
         label: "Vectors/Svg",
@@ -152,7 +152,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://avatars.dicebear.com/",
         head: "DiceBear",
-        image: "../images/development-img/DiceBear.webp",
+        image: "../images/development-img/DiceBear.png",
         about:
             "DiceBear is an avatar library with a simple and free HTTP API to choose between identicals",
         alt: "DiceBear",
@@ -161,7 +161,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.svgrepo.com/",
         head: "SVG Repo",
-        image: "../images/development-img/SVGRepo.webp",
+        image: "../images/development-img/SVGRepo.png",
         about: "Free SVG vectors and icons, for designing and user experience.",
         alt: "SVG Repo",
         label: "Vectors/Svg",
@@ -169,7 +169,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.flaticon.com/",
         head: "Flaticon",
-        image: "../images/development-img/Flaticon.webp",
+        image: "../images/development-img/Flaticon.png",
         about: "Access +5.6M vector icons & stickers, for designing and user experience.",
         alt: "Flaticon",
         label: "Icons",
@@ -177,7 +177,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://freeicons.io/",
         head: "FreeIcons",
-        image: "../images/development-img/Freeicons.webp",
+        image: "../images/development-img/Freeicons.png",
         about: "The Largest Database of Free Icons, for designing and user experience.",
         alt: "FreeIcons",
         label: "Icons",
@@ -185,7 +185,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://ionic.io/ionicons",
         head: "Ionicons",
-        image: "../images/development-img/Ionicons.webp",
+        image: "../images/development-img/Ionicons.png",
         about:
             "Premium designed icons for use in web, iOS, Android, and desktop apps.",
         alt: "Ionicons",
@@ -194,7 +194,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.freepik.com/",
         head: "Freepik",
-        image: "../images/development-img/Freepik.webp",
+        image: "../images/development-img/Freepik.png",
         about: "Find Free Vectors, Stock Photos, and PSD, for designing and user experience.",
         alt: "Freepik",
         label: "Vectors/Svg",
@@ -202,7 +202,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://icons8.com/",
         head: "Icons8",
-        image: "../images/development-img/Icons8.webp",
+        image: "../images/development-img/Icons8.png",
         about:
             "Professional icons to beautify your work.Multiple formats, customization, and diverse styles.",
         alt: "Icons8",
@@ -211,7 +211,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.reshot.com/",
         head: "Reshot",
-        image: "../images/development-img/Reshot.webp",
+        image: "../images/development-img/Reshot.png",
         about: "Design freely with instant downloads and commercial licenses.",
         alt: "Reshot",
         label: ""
@@ -219,7 +219,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://fontawesome.com/",
         head: "Font Awesome",
-        image: "../images/development-img/FontAwesome.webp",
+        image: "../images/development-img/FontAwesome.png",
         about:
             "Get vector icons and social logos on your website with the most popular icon set",
         alt: "Font Awesome",
@@ -228,7 +228,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.iconfinder.com/",
         head: "Icon Finder",
-        image: "../images/development-img/IconFinder.webp",
+        image: "../images/development-img/IconFinder.png",
         about: "Search through 5,789,724 icons and illustrations.",
         alt: "Icon Finder",
         label: "Icons",
@@ -236,7 +236,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://iconscout.com/",
         head: "IconScout",
-        image: "../images/development-img/IconScout.webp",
+        image: "../images/development-img/IconScout.png",
         about: "Search from over 6.5 million design assets, for designing and user experience.",
         alt: "IconScout",
         label: "Icons",
@@ -244,7 +244,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.happyhues.co/",
         head: "Happy Hues",
-        image: "../images/development-img/HappyHues.webp",
+        image: "../images/development-img/HappyHues.png",
         about: "Curated colors in context, for designing and user experience.",
         alt: "Happy Hues",
         label: "Colors",
@@ -252,7 +252,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://instahues.com/",
         head: "Insta Hues",
-        image: "../images/development-img/InstaHues.webp",
+        image: "../images/development-img/InstaHues.png",
         about: "Free Color Palettes and Gradients for Designers.",
         alt: "Insta Hues",
         label: "Colors",
@@ -260,7 +260,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://brandcolors.net",
         head: "Brand Colors",
-        image: "../images/development-img/BrandColors.webp",
+        image: "../images/development-img/BrandColors.png",
         about: "The biggest collection of official brand color codes around.",
         alt: "Brand Colors",
         label: "Colors",
@@ -268,7 +268,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://vanschneider.com/colors",
         head: "Color Claim",
-        image: "../images/development-img/ColorClaim.webp",
+        image: "../images/development-img/ColorClaim.png",
         about: "Collect & combine unique colors for your future projects.",
         alt: "Color Claim",
         label: "Colors",
@@ -276,7 +276,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://culrs.com",
         head: "Culrs",
-        image: "../images/development-img/Culrs.webp",
+        image: "../images/development-img/Culrs.png",
         about:
             "Colors that work together are fashioned into quality palettes that you can incorporate.",
         alt: "Culrs",
@@ -285,7 +285,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://colors.eva.design/",
         head: "Eva Color",
-        image: "../images/development-img/EvaColor.webp",
+        image: "../images/development-img/EvaColor.png",
         about: "Complimentary color generator powered by deep learning.",
         alt: "Eva Color",
         label: "Colors",
@@ -293,7 +293,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://colorhunt.co/",
         head: "Color Hunt",
-        image: "../images/development-img/ColorHunt.webp",
+        image: "../images/development-img/ColorHunt.png",
         about: "Discover the newest hand-picked palettes of Color Hunt.",
         alt: "Color Hunt",
         label: "Colors",
@@ -301,7 +301,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://pigment.shapefactory.co/",
         head: "Pigment",
-        image: "../images/development-img/Pigment.webp",
+        image: "../images/development-img/Pigment.png",
         about: "A unique way to generate fresh and vibrant colors.",
         alt: "Pigment",
         label: "Colors",
@@ -309,7 +309,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://color.adobe.com/",
         head: "Adobe Color",
-        image: "../images/development-img/AdobeColor.webp",
+        image: "../images/development-img/AdobeColor.png",
         about:
             "It can be used to generate color palette and save into Creative Cloud.",
         alt: "Adobe Color",
@@ -318,7 +318,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://picular.co/",
         head: "Picular",
-        image: "../images/development-img/Picular.webp",
+        image: "../images/development-img/Picular.png",
         about: "Get color of anything you want, for designing and user experience.",
         alt: "Picular",
         label: "Colors",
@@ -326,7 +326,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://colorleap.app/home",
         head: " Color Leap",
-        image: "../images/development-img/Color-Leap.webp",
+        image: "../images/development-img/Color-Leap.png",
         about: "Take a leap through time and see the colors of history.",
         alt: "Color Leap",
         label: "Colors",
@@ -334,7 +334,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://maketintsandshades.com/",
         head: "Tint and Shade Generator",
-        image: "../images/development-img/MakeTintsandShades.webp",
+        image: "../images/development-img/MakeTintsandShades.png",
         about: "Make Tints and Shades by giving hex colors, for designing and user experience.",
         alt: "Tint and Shade Generator",
         label: "Colors",
@@ -342,7 +342,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://coolors.co/",
         head: "Coolors",
-        image: "../images/development-img/Coolors.webp",
+        image: "../images/development-img/Coolors.png",
         about: "The super fast color palettes generator, for designing and user experience.",
         alt: "Coolors",
         label: "Colors",
@@ -350,7 +350,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://neumorphic.design/",
         head: "Neumorphic Generator",
-        image: "../images/development-img/Neumorphic.webp",
+        image: "../images/development-img/Neumorphic.png",
         about:
             "This generator makes it easy to create the shapes and comes with 50+ presets for inspiration.",
         alt: "Neumorphic Generator",
@@ -359,7 +359,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://css-generator.netlify.app/",
         head: "CSS Generator",
-        image: "../images/development-img/CSSGenerator.webp",
+        image: "../images/development-img/CSSGenerator.png",
         about: "This generator lets you generate any CSS you want to create.",
         alt: "CSS Generator",
         label: "CSS",
@@ -367,7 +367,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://gradient.shapefactory.co/",
         head: "Gradient",
-        image: "../images/development-img/Gradient.webp",
+        image: "../images/development-img/Gradient.png",
         about: "A unique way to create color gradients, for designing and user experience.",
         alt: "Gradient",
         label: "CSS",
@@ -375,7 +375,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://designkiki.com/colordoo/",
         head: "Colordoo",
-        image: "../images/development-img/Colordoo.webp",
+        image: "../images/development-img/Colordoo.png",
         about:
             "We create new ways to find the top color trends for your next logo, illustrations etc.",
         alt: "Colordoo",
@@ -384,7 +384,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://ui.glass/generator/",
         head: "Glass UI Generator",
-        image: "../images/development-img/GlassUI.webp",
+        image: "../images/development-img/GlassUI.png",
         about:
             "Get started with this free generator based on the glass morphism design.",
         alt: "Glass UI Generator",
@@ -393,7 +393,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://glassmorphism.com/",
         head: "Glassmorphism CSS Generator",
-        image: "../images/development-img/GlassmorphismGenerator.webp",
+        image: "../images/development-img/GlassmorphismGenerator.png",
         about: "This generator lets you create Glassmorphism CSS.",
         alt: "Glassmorphism CSS Generator",
         label: "CSS",
@@ -401,7 +401,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.meshgradients.design/",
         head: "Mesh Gradients",
-        image: "../images/development-img/MeshGradients.webp",
+        image: "../images/development-img/MeshGradients.png",
         about:
             "Download 100 free mesh gradients to make your website look beautiful.",
         alt: "Mesh Gradients",
@@ -410,7 +410,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://cssgradient.io/",
         head: "CSS Gradient",
-        image: "../images/development-img/CSS-Gradient.webp",
+        image: "../images/development-img/CSS-Gradient.png",
         about:
             "It is a happy little website and free tool that lets you create a gradient background for websites.",
         alt: "Mesh Gradients",
@@ -419,7 +419,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://coolbackgrounds.io/",
         head: "Cool Backgrounds",
-        image: "../images/development-img/CoolBackgrounds.webp",
+        image: "../images/development-img/CoolBackgrounds.png",
         about:
             "Cool Backgrounds is a collection of tools to create compelling, colorful images.",
         alt: "Cool Backgrounds",
@@ -428,7 +428,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://cssgrid-generator.netlify.app/",
         head: "CSS Grid Generator",
-        image: "../images/development-img/CSSGrid.webp",
+        image: "../images/development-img/CSSGrid.png",
         about:
             "You can set the numbers, and units of your columns, rows, and it will generate a CSS grid.",
         alt: "CSS Grid Generator",
@@ -437,7 +437,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://cssbuttongenerator.com/",
         head: "CSS Button Generator",
-        image: "../images/development-img/CSSButton.webp",
+        image: "../images/development-img/CSSButton.png",
         about: "Generate CSS of any type of Button you want, for designing and user experience.",
         alt: "CSS Button Generator",
         label: "CSS",
@@ -445,7 +445,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://animista.net/",
         head: "Animista",
-        image: "../images/development-img/Animista.webp",
+        image: "../images/development-img/Animista.png",
         about: "On-demand CSS animations library, for designing and user experience.",
         alt: "Animista",
         label: "CSS",
@@ -453,7 +453,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://app.haikei.app/",
         head: "Haikei",
-        image: "../images/development-img/Haikei.webp",
+        image: "../images/development-img/Haikei.png",
         about:
             "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc.",
         alt: "Haikei",
@@ -462,7 +462,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.blobmaker.app/",
         head: "Blobmaker",
-        image: "../images/development-img/BlobMaker.webp",
+        image: "../images/development-img/BlobMaker.png",
         about:
             "It helps you quickly create random, unique, and organic-looking SVG shapes.",
         alt: "Blobmaker",
@@ -471,7 +471,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://meshgradient.com/",
         head: "Mesh Gradient Generator",
-        image: "../images/development-img/MeshGenerator.webp",
+        image: "../images/development-img/MeshGenerator.png",
         about: "It is a simple generator to create beautiful mesh gradients.",
         alt: "Mesh Gradient Generator",
         label: "Vectors/Svg",
@@ -479,7 +479,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://neumorphism.io/",
         head: "Neumorphism Generator",
-        image: "../images/development-img/Neumorphism.webp",
+        image: "../images/development-img/Neumorphism.png",
         about: "Generate CSS for your Neumorphism/Soft UI design.",
         alt: "Neumorphism Generator",
         label: "CSS",
@@ -487,7 +487,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://getwaves.io/",
         head: "Get Waves",
-        image: "../images/development-img/GetWave.webp",
+        image: "../images/development-img/GetWave.png",
         about: "A simple web app to generate svg waves, unique every time.",
         alt: "Get Waves",
         label: "Vectors/Svg",
@@ -495,7 +495,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.pexels.com/",
         head: "Pexels",
-        image: "../images/development-img/Pexels.webp",
+        image: "../images/development-img/Pexels.png",
         about: "The best free stock photos & videos shared by talented creators.",
         alt: "Pexels",
         label: "Stock Photos",
@@ -503,7 +503,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://unsplash.com/",
         head: "Unsplash",
-        image: "../images/development-img/Unsplash.webp",
+        image: "../images/development-img/Unsplash.png",
         about: "The internet’s source of freely-usable images, for designing and user experience.",
         alt: "Unsplash",
         label: "Stock Photos",
@@ -511,7 +511,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://pixabay.com/",
         head: "Pixabay",
-        image: "../images/development-img/Pixabay.webp",
+        image: "../images/development-img/Pixabay.png",
         about:
             "Over 2.4 million+ high quality stock images, videos, and music shared by our community.",
         alt: "Pixabay",
@@ -520,7 +520,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://www.shutterstock.com/",
         head: "Shutterstock",
-        image: "../images/development-img/Shutterstock.webp",
+        image: "../images/development-img/Shutterstock.png",
         about: "Stock images, photos, vectors, video, and music",
         alt: "Shutterstock",
         label: "Stock Photos",
@@ -572,7 +572,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://10015.io/tools/svg-pattern-generator",
         head: "SVG Pattern Generator",
-        image: "../images/development-img/svg-pattern-generator.webp",
+        image: "../images/development-img/svg-pattern-generator.png",
         about:
             "Generate SVG patterns with different shapes and download it as SVG or an image file",
         alt: "SVG Pattern Generator",
@@ -581,7 +581,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://mui.com/",
         head: "Material UI Components",
-        image: "../images/development-img/Material-UI.webp",
+        image: "../images/development-img/Material-UI.png",
         about:
             "Material UI for React: Your shortcut to powerful UI tools and production-ready components",
         alt: "Material UI React Components",
@@ -590,7 +590,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://tailwindui.com/",
         head: "Tailwind UI Components",
-        image: "../images/development-img/Tailwind-UI.webp",
+        image: "../images/development-img/Tailwind-UI.png",
         about:
             "Accelerate your development with our extensive collection of production-ready UI.",
         alt: "Tailwind UI Components",
@@ -599,7 +599,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://tailwind-elements.com/quick-start/",
         head: "Tailwind Elements",
-        image: "../images/development-img/Tailwind-Elements.webp",
+        image: "../images/development-img/Tailwind-Elements.png",
         about:
             "Bootstrap components recreated with Tailwind CSS, but with better design.",
         alt: "Tailwind Elements",
@@ -608,7 +608,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://flowbite.com/",
         head: "Flowbite Elements",
-        image: "../images/development-img/Flowbite.webp",
+        image: "../images/development-img/Flowbite.png",
         about:
             "Flowbite is an open-source library of UI, a Figma design system, templates, and more.",
         alt: "Flowbite Elements",
@@ -617,7 +617,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://tailblocks.cc/",
         head: "Tailblocks",
-        image: "../images/development-img/Tailblocks.webp",
+        image: "../images/development-img/Tailblocks.png",
         about:
             "Tailblocks is a collection of 60+ minimalist layout blocks, gallery, ecommerce etc.",
         alt: "Tailblocks",
@@ -626,7 +626,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://merakiui.com/",
         head: "Meraki UI",
-        image: "../images/development-img/Meraki-UI.webp",
+        image: "../images/development-img/Meraki-UI.png",
         about:
             "Meraki UI is a collection of responsive Tailwind CSS components.",
         alt: "Meraki UI",
@@ -635,7 +635,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://daisyui.com/",
         head: "Daisy UI",
-        image: "../images/development-img/Daisy.webp",
+        image: "../images/development-img/Daisy.png",
         about:
             "Enhance Tailwind CSS with component class names for rapid website development.",
         alt: "Daisy UI",
@@ -647,7 +647,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://drawkit.io/",
         head: "DrawKit",
-        image: "../images/development-img/DrawKit.webp",
+        image: "../images/development-img/DrawKit.png",
         about:
             "Hand-drawn vector illustration and icon resources, perfect for your next project.",
         alt: "DrawKit",
@@ -656,7 +656,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://www.pixeltrue.com/free-illustrations",
         head: "Pixeltrue",
-        image: "../images/development-img/Pixeltrue.webp",
+        image: "../images/development-img/Pixeltrue.png",
         about: "500+ Free Illustrations & Animations. Updated Weekly.",
         alt: "Pixeltrue",
         label: "Illustration",
@@ -664,7 +664,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://storyset.com/",
         head: "Storyset",
-        image: "../images/development-img/StorySet.webp",
+        image: "../images/development-img/StorySet.png",
         about:
             "Customize, animate, and download illustrations to make incredible landing pages, etc.",
         alt: "Storyset",
@@ -673,7 +673,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://undraw.co/",
         head: "unDraw",
-        image: "../images/development-img/unDraw.webp",
+        image: "../images/development-img/unDraw.png",
         about: "Open-source illustrations for any idea you can imagine and create.",
         alt: "unDraw",
         label: "Illustration",
@@ -681,7 +681,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://www.handz.design/",
         head: "Handz",
-        image: "../images/development-img/Handz.webp",
+        image: "../images/development-img/Handz.jpeg",
         about: "Handz provide free 3D illustrations of diverse hands gestures.",
         alt: "Handz",
         label: "Illustration",
@@ -689,7 +689,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://3d.khagwal.co/",
         head: "3D Khagwal",
-        image: "../images/development-img/Khagwal3D.webp",
+        image: "../images/development-img/Khagwal3D.png",
         about: "Free 3D illustration pack for web & mobile app designers",
         alt: "3D Khagwal",
         label: "Illustration",
@@ -697,7 +697,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://humans.wannathis.one/",
         head: "Humans",
-        image: "../images/development-img/Humans.webp",
+        image: "../images/development-img/Humans.png",
         about: "The biggest set of 3D characters for Figma and Blender.",
         alt: "Humans",
         label: "Illustration",
@@ -705,7 +705,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://freeillustrations.xyz/",
         head: "Free Illustration",
-        image: "../images/development-img/FreeIllustration.webp",
+        image: "../images/development-img/FreeIllustration.png",
         about: "Find free-to-use illustrations, constructor, tools.",
         alt: "Free Illustration",
         label: "Illustration",
@@ -713,7 +713,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://powerpeopleplatform.com/",
         head: "Power People Platform",
-        image: "../images/development-img/PowerPeoplePlatform.webp",
+        image: "../images/development-img/PowerPeoplePlatform.png",
         about:
             "It is a delicious design library of 3D avatars. Made with love for fun and color in your work.",
         alt: "Power People Platform",
@@ -722,7 +722,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://lottiefiles.com/",
         head: "LottieFiles",
-        image: "../images/development-img/LottieFiles.webp",
+        image: "../images/development-img/LottieFiles.png",
         about: "Lightweight, scalable animations for your website and apps.",
         alt: "LottieFiles",
         label: "Illustration",
@@ -730,7 +730,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://illustrationkit.com/",
         head: "Illustration Kit",
-        image: "../images/development-img/Illustration-Kit.webp",
+        image: "../images/development-img/Illustration-Kit.png",
         about: "Free premium illustrations that is updated weekly.",
         alt: "Illustration Kit",
         label: "Illustration",
@@ -738,7 +738,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://error404.fun/",
         head: "404 error pages",
-        image: "../images/development-img/404-Error.webp",
+        image: "../images/development-img/404-Error.png",
         about: "Make a unique journey through 404 error pages on your website.",
         alt: "404 error pages",
         label: "Illustration",
@@ -746,7 +746,7 @@ const IllustrationData: Data[] = [
     {
         link: "https://icons8.com/illustrations",
         head: "Ouch",
-        image: "../images/development-img/Ouch.webp",
+        image: "../images/development-img/Ouch.png",
         about: "Free illustrations for your website, for designing and user experience.",
         alt: "Ouch",
         label: "Illustration",
@@ -757,7 +757,7 @@ const IconsData: Data[] = [
     {
         link: "https://www.iconshock.com",
         head: "Iconshock",
-        image: "../images/development-img/Iconshock.webp",
+        image: "../images/development-img/Iconshock.png",
         about: "2 Million+ professional icons library, for designing and user experience.",
         alt: "Iconshock",
         label: "Icons",
@@ -765,7 +765,7 @@ const IconsData: Data[] = [
     {
         link: "https://boxicons.com/",
         head: "Boxicons",
-        image: "../images/development-img/Boxicons.webp",
+        image: "../images/development-img/Boxicons.png",
         about: "Simple vector icons carefully crafted for designers & developers",
         alt: "Boxicons",
         label: "Icons",
@@ -773,7 +773,7 @@ const IconsData: Data[] = [
     {
         link: "https://akaricons.com/",
         head: "Akar Icons",
-        image: "../images/development-img/Akar-Icons.webp",
+        image: "../images/development-img/Akar-Icons.png",
         about:
             "Use these icons to bring life into your user interface and experience.",
         alt: "Akar Icons",
@@ -782,7 +782,7 @@ const IconsData: Data[] = [
     {
         link: "https://icons.modulz.app/",
         head: "Radix Icons",
-        image: "../images/development-img/Radix-Icons.webp",
+        image: "../images/development-img/Radix-Icons.png",
         about: "A crisp set of 15×15 icons designed by the Modulz team.",
         alt: "Radix Icons",
         label: "Icons",
@@ -790,7 +790,7 @@ const IconsData: Data[] = [
     {
         link: "https://www.flaticon.com/",
         head: "Flaticon",
-        image: "../images/development-img/Flaticon.webp",
+        image: "../images/development-img/Flaticon.png",
         about: "Access +5.6M vector icons & stickers, for designing and user experience.",
         alt: "Flaticon",
         label: "Icons",
@@ -798,7 +798,7 @@ const IconsData: Data[] = [
     {
         link: "https://freeicons.io/",
         head: "FreeIcons",
-        image: "../images/development-img/Freeicons.webp",
+        image: "../images/development-img/Freeicons.png",
         about: "The Largest Database of Free Icons, for designing and user experience.",
         alt: "FreeIcons",
         label: "Icons",
@@ -806,7 +806,7 @@ const IconsData: Data[] = [
     {
         link: "https://ionic.io/ionicons",
         head: "Ionicons",
-        image: "../images/development-img/Ionicons.webp",
+        image: "../images/development-img/Ionicons.png",
         about:
             "Premium designed icons for use in web, iOS, Android, and desktop apps.",
         alt: "Ionicons",
@@ -814,7 +814,7 @@ const IconsData: Data[] = [
     }, {
         link: "https://icons8.com/",
         head: "Icons8",
-        image: "../images/development-img/Icons8.webp",
+        image: "../images/development-img/Icons8.png",
         about:
             "Professional icons to beautify your work.Multiple formats, customization, and diverse styles.",
         alt: "Icons8",
@@ -823,7 +823,7 @@ const IconsData: Data[] = [
     {
         link: "https://fontawesome.com/",
         head: "Font Awesome",
-        image: "../images/development-img/FontAwesome.webp",
+        image: "../images/development-img/FontAwesome.png",
         about:
             "Get vector icons and social logos on your website with the most popular icon set",
         alt: "Font Awesome",
@@ -832,7 +832,7 @@ const IconsData: Data[] = [
     {
         link: "https://www.iconfinder.com/",
         head: "Icon Finder",
-        image: "../images/development-img/IconFinder.webp",
+        image: "../images/development-img/IconFinder.png",
         about: "Search through 5,789,724 icons and illustrations.",
         alt: "Icon Finder",
         label: "Icons",
@@ -840,7 +840,7 @@ const IconsData: Data[] = [
     {
         link: "https://iconscout.com/",
         head: "IconScout",
-        image: "../images/development-img/IconScout.webp",
+        image: "../images/development-img/IconScout.png",
         about: "Search from over 6.5 million design assets, for designing and user experience.",
         alt: "IconScout",
         label: "Icons",
@@ -859,7 +859,7 @@ const VectorData: Data[] = [
     {
         link: "https://www.shapefest.com/",
         head: "Shapefest",
-        image: "../images/development-img/Shapefest.webp",
+        image: "../images/development-img/Shapefest.png",
         about: "A massive library of free 3D shapes for anything all.",
         alt: "Shapefest",
         label: "Vectors/Svg",
@@ -867,7 +867,7 @@ const VectorData: Data[] = [
     {
         link: "https://avatars.dicebear.com/",
         head: "DiceBear",
-        image: "../images/development-img/DiceBear.webp",
+        image: "../images/development-img/DiceBear.png",
         about:
             "DiceBear is an avatar library with a simple and free HTTP API to choose between identicals",
         alt: "DiceBear",
@@ -876,7 +876,7 @@ const VectorData: Data[] = [
     {
         link: "https://www.svgrepo.com/",
         head: "SVG Repo",
-        image: "../images/development-img/SVGRepo.webp",
+        image: "../images/development-img/SVGRepo.png",
         about: "Free SVG vectors and icons, for designing and user experience.",
         alt: "SVG Repo",
         label: "Vectors/Svg",
@@ -884,14 +884,14 @@ const VectorData: Data[] = [
     {
         link: "https://www.freepik.com/",
         head: "Freepik",
-        image: "../images/development-img/Freepik.webp",
+        image: "../images/development-img/Freepik.png",
         about: "Find Free Vectors, Stock Photos, and PSD, for designing and user experience.",
         alt: "Freepik",
         label: "Vectors/Svg",
     }, {
         link: "https://app.haikei.app/",
         head: "Haikei",
-        image: "../images/development-img/Haikei.webp",
+        image: "../images/development-img/Haikei.png",
         about:
             "Generate Blob, Wave, Blurry Gradients, Circle Scatter, Blob Scene, Layered Waves, etc.",
         alt: "Haikei",
@@ -900,7 +900,7 @@ const VectorData: Data[] = [
     {
         link: "https://www.blobmaker.app/",
         head: "Blobmaker",
-        image: "../images/development-img/BlobMaker.webp",
+        image: "../images/development-img/BlobMaker.png",
         about:
             "It helps you quickly create random, unique, and organic-looking SVG shapes.",
         alt: "Blobmaker",
@@ -908,14 +908,14 @@ const VectorData: Data[] = [
     }, {
         link: "https://getwaves.io/",
         head: "Get Waves",
-        image: "../images/development-img/GetWave.webp",
+        image: "../images/development-img/GetWave.png",
         about: "A simple web app to generate svg waves, unique every time.",
         alt: "Get Waves",
         label: "Vectors/Svg",
     }, {
         link: "https://10015.io/tools/svg-pattern-generator",
         head: "SVG Pattern Generator",
-        image: "../images/development-img/svg-pattern-generator.webp",
+        image: "../images/development-img/svg-pattern-generator.png",
         about:
             "Generate SVG patterns with different shapes and download it as SVG or an image file",
         alt: "SVG Pattern Generator",
@@ -927,7 +927,7 @@ const ColorsData: Data[] = [
     {
         link: "https://www.happyhues.co/",
         head: "Happy Hues",
-        image: "../images/development-img/HappyHues.webp",
+        image: "../images/development-img/HappyHues.png",
         about: "Curated colors in context, for designing and user experience.",
         alt: "Happy Hues",
         label: "Colors",
@@ -935,7 +935,7 @@ const ColorsData: Data[] = [
     {
         link: "https://instahues.com/",
         head: "Insta Hues",
-        image: "../images/development-img/InstaHues.webp",
+        image: "../images/development-img/InstaHues.png",
         about: "Free Color Palettes and Gradients for Designers.",
         alt: "Insta Hues",
         label: "Colors",
@@ -943,7 +943,7 @@ const ColorsData: Data[] = [
     {
         link: "https://brandcolors.net",
         head: "Brand Colors",
-        image: "../images/development-img/BrandColors.webp",
+        image: "../images/development-img/BrandColors.png",
         about: "The biggest collection of official brand color codes around.",
         alt: "Brand Colors",
         label: "Colors",
@@ -951,7 +951,7 @@ const ColorsData: Data[] = [
     {
         link: "https://vanschneider.com/colors",
         head: "Color Claim",
-        image: "../images/development-img/ColorClaim.webp",
+        image: "../images/development-img/ColorClaim.png",
         about: "Collect & combine unique colors for your future projects.",
         alt: "Color Claim",
         label: "Colors",
@@ -959,7 +959,7 @@ const ColorsData: Data[] = [
     {
         link: "https://culrs.com",
         head: "Culrs",
-        image: "../images/development-img/Culrs.webp",
+        image: "../images/development-img/Culrs.png",
         about:
             "Colors that work together are fashioned into quality palettes that you can incorporate.",
         alt: "Culrs",
@@ -968,7 +968,7 @@ const ColorsData: Data[] = [
     {
         link: "https://colors.eva.design/",
         head: "Eva Color",
-        image: "../images/development-img/EvaColor.webp",
+        image: "../images/development-img/EvaColor.png",
         about: "Complimentary color generator powered by deep learning.",
         alt: "Eva Color",
         label: "Colors",
@@ -976,7 +976,7 @@ const ColorsData: Data[] = [
     {
         link: "https://colorhunt.co/",
         head: "Color Hunt",
-        image: "../images/development-img/ColorHunt.webp",
+        image: "../images/development-img/ColorHunt.png",
         about: "Discover the newest hand-picked palettes of Color Hunt.",
         alt: "Color Hunt",
         label: "Colors",
@@ -984,7 +984,7 @@ const ColorsData: Data[] = [
     {
         link: "https://pigment.shapefactory.co/",
         head: "Pigment",
-        image: "../images/development-img/Pigment.webp",
+        image: "../images/development-img/Pigment.png",
         about: "A unique way to generate fresh and vibrant colors.",
         alt: "Pigment",
         label: "Colors",
@@ -992,7 +992,7 @@ const ColorsData: Data[] = [
     {
         link: "https://color.adobe.com/",
         head: "Adobe Color",
-        image: "../images/development-img/AdobeColor.webp",
+        image: "../images/development-img/AdobeColor.png",
         about:
             "It can be used to generate color palette and save into Creative Cloud.",
         alt: "Adobe Color",
@@ -1001,7 +1001,7 @@ const ColorsData: Data[] = [
     {
         link: "https://picular.co/",
         head: "Picular",
-        image: "../images/development-img/Picular.webp",
+        image: "../images/development-img/Picular.png",
         about: "Get color of anything you want, for designing and user experience.",
         alt: "Picular",
         label: "Colors",
@@ -1009,7 +1009,7 @@ const ColorsData: Data[] = [
     {
         link: "https://colorleap.app/home",
         head: " Color Leap",
-        image: "../images/development-img/Color-Leap.webp",
+        image: "../images/development-img/Color-Leap.png",
         about: "Take a leap through time and see the colors of history.",
         alt: "Color Leap",
         label: "Colors",
@@ -1017,7 +1017,7 @@ const ColorsData: Data[] = [
     {
         link: "https://maketintsandshades.com/",
         head: "Tint and Shade Generator",
-        image: "../images/development-img/MakeTintsandShades.webp",
+        image: "../images/development-img/MakeTintsandShades.png",
         about: "Make Tints and Shades by giving hex colors, for designing and user experience.",
         alt: "Tint and Shade Generator",
         label: "Colors",
@@ -1025,7 +1025,7 @@ const ColorsData: Data[] = [
     {
         link: "https://coolors.co/",
         head: "Coolors",
-        image: "../images/development-img/Coolors.webp",
+        image: "../images/development-img/Coolors.png",
         about: "The super fast color palettes generator, for designing and user experience.",
         alt: "Coolors",
         label: "Colors",
@@ -1045,7 +1045,7 @@ const CSSData: Data[] = [
     {
         link: "https://neumorphic.design/",
         head: "Neumorphic Generator",
-        image: "../images/development-img/Neumorphic.webp",
+        image: "../images/development-img/Neumorphic.png",
         about:
             "This generator makes it easy to create the shapes and comes with 50+ presets for inspiration.",
         alt: "Neumorphic Generator",
@@ -1054,7 +1054,7 @@ const CSSData: Data[] = [
     {
         link: "https://css-generator.netlify.app/",
         head: "CSS Generator",
-        image: "../images/development-img/CSSGenerator.webp",
+        image: "../images/development-img/CSSGenerator.png",
         about: "This generator lets you generate any CSS you want to create.",
         alt: "CSS Generator",
         label: "CSS",
@@ -1062,7 +1062,7 @@ const CSSData: Data[] = [
     {
         link: "https://gradient.shapefactory.co/",
         head: "Gradient",
-        image: "../images/development-img/Gradient.webp",
+        image: "../images/development-img/Gradient.png",
         about: "A unique way to create color gradients, for designing and user experience.",
         alt: "Gradient",
         label: "CSS",
@@ -1070,7 +1070,7 @@ const CSSData: Data[] = [
     {
         link: "https://designkiki.com/colordoo/",
         head: "Colordoo",
-        image: "../images/development-img/Colordoo.webp",
+        image: "../images/development-img/Colordoo.png",
         about:
             "We create new ways to find the top color trends for your next logo, illustrations etc.",
         alt: "Colordoo",
@@ -1079,7 +1079,7 @@ const CSSData: Data[] = [
     {
         link: "https://ui.glass/generator/",
         head: "Glass UI Generator",
-        image: "../images/development-img/GlassUI.webp",
+        image: "../images/development-img/GlassUI.png",
         about:
             "Get started with this free generator based on the glass morphism design.",
         alt: "Glass UI Generator",
@@ -1088,7 +1088,7 @@ const CSSData: Data[] = [
     {
         link: "https://glassmorphism.com/",
         head: "Glassmorphism CSS Generator",
-        image: "../images/development-img/GlassmorphismGenerator.webp",
+        image: "../images/development-img/GlassmorphismGenerator.png",
         about: "This generator lets you create Glassmorphism CSS.",
         alt: "Glassmorphism CSS Generator",
         label: "CSS",
@@ -1096,7 +1096,7 @@ const CSSData: Data[] = [
     {
         link: "https://www.meshgradients.design/",
         head: "Mesh Gradients",
-        image: "../images/development-img/MeshGradients.webp",
+        image: "../images/development-img/MeshGradients.png",
         about:
             "Download 100 free mesh gradients to make your website look beautiful.",
         alt: "Mesh Gradients",
@@ -1105,7 +1105,7 @@ const CSSData: Data[] = [
     {
         link: "https://cssgradient.io/",
         head: "CSS Gradient",
-        image: "../images/development-img/CSS-Gradient.webp",
+        image: "../images/development-img/CSS-Gradient.png",
         about:
             "It is a happy little website and free tool that lets you create a gradient background for websites.",
         alt: "Mesh Gradients",
@@ -1114,7 +1114,7 @@ const CSSData: Data[] = [
     {
         link: "https://coolbackgrounds.io/",
         head: "Cool Backgrounds",
-        image: "../images/development-img/CoolBackgrounds.webp",
+        image: "../images/development-img/CoolBackgrounds.png",
         about:
             "Cool Backgrounds is a collection of tools to create compelling, colorful images.",
         alt: "Cool Backgrounds",
@@ -1123,7 +1123,7 @@ const CSSData: Data[] = [
     {
         link: "https://cssgrid-generator.netlify.app/",
         head: "CSS Grid Generator",
-        image: "../images/development-img/CSSGrid.webp",
+        image: "../images/development-img/CSSGrid.png",
         about:
             "You can set the numbers, and units of your columns, rows, and it will generate a CSS grid.",
         alt: "CSS Grid Generator",
@@ -1132,7 +1132,7 @@ const CSSData: Data[] = [
     {
         link: "https://cssbuttongenerator.com/",
         head: "CSS Button Generator",
-        image: "../images/development-img/CSSButton.webp",
+        image: "../images/development-img/CSSButton.png",
         about: "Generate CSS of any type of Button you want, for designing and user experience.",
         alt: "CSS Button Generator",
         label: "CSS",
@@ -1140,14 +1140,14 @@ const CSSData: Data[] = [
     {
         link: "https://animista.net/",
         head: "Animista",
-        image: "../images/development-img/Animista.webp",
+        image: "../images/development-img/Animista.png",
         about: "On-demand CSS animations library, for designing and user experience.",
         alt: "Animista",
         label: "CSS",
     },    {
         link: "https://neumorphism.io/",
         head: "Neumorphism Generator",
-        image: "../images/development-img/Neumorphism.webp",
+        image: "../images/development-img/Neumorphism.png",
         about: "Generate CSS for your Neumorphism/Soft UI design.",
         alt: "Neumorphism Generator",
         label: "CSS",
@@ -1166,7 +1166,7 @@ const PhotosData: Data[] = [
     {
         link: "https://www.pexels.com/",
         head: "Pexels",
-        image: "../images/development-img/Pexels.webp",
+        image: "../images/development-img/Pexels.png",
         about: "The best free stock photos & videos shared by talented creators.",
         alt: "Pexels",
         label: "Stock Photos",
@@ -1174,7 +1174,7 @@ const PhotosData: Data[] = [
     {
         link: "https://unsplash.com/",
         head: "Unsplash",
-        image: "../images/development-img/Unsplash.webp",
+        image: "../images/development-img/Unsplash.png",
         about: "The internet’s source of freely-usable images, for designing and user experience.",
         alt: "Unsplash",
         label: "Stock Photos",
@@ -1182,7 +1182,7 @@ const PhotosData: Data[] = [
     {
         link: "https://pixabay.com/",
         head: "Pixabay",
-        image: "../images/development-img/Pixabay.webp",
+        image: "../images/development-img/Pixabay.png",
         about:
             "Over 2.4 million+ high quality stock images, videos, and music shared by our community.",
         alt: "Pixabay",
@@ -1191,7 +1191,7 @@ const PhotosData: Data[] = [
     {
         link: "https://www.shutterstock.com/",
         head: "Shutterstock",
-        image: "../images/development-img/Shutterstock.webp",
+        image: "../images/development-img/Shutterstock.png",
         about: "Stock images, photos, vectors, video, and music",
         alt: "Shutterstock",
         label: "Stock Photos",
@@ -1210,7 +1210,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://mui.com/",
         head: "Material UI Components",
-        image: "../images/development-img/Material-UI.webp",
+        image: "../images/development-img/Material-UI.png",
         about:
             "Material UI for React: Your shortcut to powerful UI tools and production-ready components",
         alt: "Material UI React Components",
@@ -1219,7 +1219,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://tailwindui.com/",
         head: "Tailwind UI Components",
-        image: "../images/development-img/Tailwind-UI.webp",
+        image: "../images/development-img/Tailwind-UI.png",
         about:
             "Accelerate your development with our extensive collection of production-ready UI.",
         alt: "Tailwind UI Components",
@@ -1228,7 +1228,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://tailwind-elements.com/quick-start/",
         head: "Tailwind Elements",
-        image: "../images/development-img/Tailwind-Elements.webp",
+        image: "../images/development-img/Tailwind-Elements.png",
         about:
             "Bootstrap components recreated with Tailwind CSS, but with better design.",
         alt: "Tailwind Elements",
@@ -1237,7 +1237,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://flowbite.com/",
         head: "Flowbite Elements",
-        image: "../images/development-img/Flowbite.webp",
+        image: "../images/development-img/Flowbite.png",
         about:
             "Flowbite is an open-source library of UI, a Figma design system, templates, and more.",
         alt: "Flowbite Elements",
@@ -1246,7 +1246,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://tailblocks.cc/",
         head: "Tailblocks",
-        image: "../images/development-img/Tailblocks.webp",
+        image: "../images/development-img/Tailblocks.png",
         about:
             "Tailblocks is a collection of 60+ minimalist layout blocks, gallery, ecommerce etc.",
         alt: "Tailblocks",
@@ -1255,7 +1255,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://merakiui.com/",
         head: "Meraki UI",
-        image: "../images/development-img/Meraki-UI.webp",
+        image: "../images/development-img/Meraki-UI.png",
         about:
             "Meraki UI is a collection of responsive Tailwind CSS components.",
         alt: "Meraki UI",
@@ -1264,7 +1264,7 @@ const ComponentsData: Data[] = [
     {
         link: "https://daisyui.com/",
         head: "Daisy UI",
-        image: "../images/development-img/Daisy.webp",
+        image: "../images/development-img/Daisy.png",
         about:
             "Enhance Tailwind CSS with component class names for rapid website development.",
         alt: "Daisy UI",

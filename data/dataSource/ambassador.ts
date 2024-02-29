@@ -4,7 +4,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.aleo.org/post/the-ambassador-program-continues",
     head: "Aleo Ambassador Program",
-    image: "/images/ambassador-img/Aleo.webp",
+    image: "/images/ambassador-img/Aleo.png",
     about: " Aleo is a Layer 1 blockchain bringing privacy to the web.",
     alt: "Aleo Logo",
     label: "",
@@ -21,7 +21,7 @@ const ForAllData: Data[] = [
   {
     link: "https://apillon.io/community",
     head: "Apillon Ambassador",
-    image: "/images/ambassador-img/Apillon.webp",
+    image: "/images/ambassador-img/Apillon.png",
     about:
       "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
     alt: "Apillon Logo",
@@ -48,7 +48,7 @@ const ForAllData: Data[] = [
   {
     link: "https://archway.io/ambassador-program/",
     head: "Archway Ambassador",
-    image: "/images/ambassador-img/Archway.png",
+    image: "/images/ambassador-img/Archway.jpg",
     about:
       "Join the global program to play a key role in supporting web3 developers.",
     alt: "Archway Logo",
@@ -66,7 +66,7 @@ const ForAllData: Data[] = [
   {
     link: "https://aws.amazon.com/developer/community/community-builders/",
     head: "AWS Community Builders",
-    image: "/images/ambassador-img/AWSCommunityBuilders.webp",
+    image: "/images/ambassador-img/AWSCommunityBuilders.png",
     about:
       "It offers technical resources, mentorship, and networking opportunities to AWS enthusiasts.",
     alt: "AWS Logo",
@@ -216,7 +216,7 @@ const ForAllData: Data[] = [
   {
     link: "https://medium.com/equilibrium-eosdt/join-the-equilibrium-ambassador-dao-and-earn-eq-5e21911d1134",
     head: "Equilibrium Ambassador DAO",
-    image: "/images/ambassador-img/equillibrium.png",
+    image: "/images/ambassador-img/equilibrium.webp",
     about:
       "DeFi 2.0 with high leverage. One-stop platform to earn, borrow and trade at max efficiency.",
     alt: "Equilibrium Ambassador Image",
@@ -326,7 +326,7 @@ const ForAllData: Data[] = [
   {
     link: "https://software.intel.com/content/www/us/en/develop/community/ambassadors.html",
     head: "Intel Student Ambassador",
-    image: "/images/ambassador-img/intel.png",
+    image: "/images/ambassador-img/intel.jpeg",
     about: "Gain access to the Intel's latest software, oneAPI.",
     alt: "Intel Logo",
     label: "",
@@ -334,7 +334,7 @@ const ForAllData: Data[] = [
   {
     link: "https://blog.kattana.io/the-launch-of-kattanas-ambassador-program/",
     head: "Kattana Ambassador Program",
-    image: "/images/ambassador-img/Kattana.webp",
+    image: "/images/ambassador-img/Kattana.jpg",
     about:
       "The goal is to bring together people who are passionate about Kattana",
     alt: "Kattana Logo",
@@ -343,7 +343,7 @@ const ForAllData: Data[] = [
   {
     link: "https://konghq.com/kong-champions/",
     head: "Kong Champions Program",
-    image: "/images/ambassador-img/Kong.webp",
+    image: "/images/ambassador-img/Kong.png",
     about:
       "Kong Champions are frequent contributors who play a key part in Kong’s community.",
     alt: "Kong Logo",
@@ -352,7 +352,7 @@ const ForAllData: Data[] = [
   {
     link: "https://kotlinlang.org/user-groups/user-group-list.html",
     head: "Kotlin User Group",
-    image: "/images/ambassador-img/Kotlinusergroup.webp",
+    image: "/images/ambassador-img/Kotlinusergroup.png",
     about:
       "Community of people to share programming experience with Kotlin and its ecosystem.",
     alt: "Kotlinusergroup Logo",
@@ -361,7 +361,7 @@ const ForAllData: Data[] = [
   {
     link: "https://studentambassadors.microsoft.com/",
     head: "MLSA",
-    image: "/images/ambassador-img/MLSA.webp",
+    image: "/images/ambassador-img/MLSA.png",
     about:
       "Amplify your impact and bring together your peers to learn new skills, etc.",
     alt: "MLSA Logo",
@@ -370,7 +370,7 @@ const ForAllData: Data[] = [
   {
     link: "https://mlh.io/coaches",
     head: "MLH Coach",
-    image: "/images/ambassador-img/MLHCoach.webp",
+    image: "/images/ambassador-img/MLHCoach.png",
     about:
       "MLH Coaches are community members who represent Major League Hacking at events.",
     alt: "MLHCoach Logo",
@@ -379,7 +379,7 @@ const ForAllData: Data[] = [
   {
     link: "https://fellowship.mlh.io/",
     head: "MLH Fellowship",
-    image: "/images/ambassador-img/MLH-fellowship-white.webp",
+    image: "/images/ambassador-img/MLH-fellowship-white.png",
     about:
       "It is a remote internship alternative for aspiring technologists for 12 weeks.",
     alt: "MLH-fellowship Logo",
@@ -388,7 +388,7 @@ const ForAllData: Data[] = [
   {
     link: "https://fellowship.mlh.io/programs/prep",
     head: "MLH Fellowship Prep Program",
-    image: "/images/ambassador-img/MLH-fellowship-blue.webp",
+    image: "/images/ambassador-img/MLH-fellowship-blue.jpg",
     about:
       "3-week preparation program for aspiring technologists before to full 12-weeks.",
     alt: "MLH-fellowship Logo",
@@ -397,7 +397,7 @@ const ForAllData: Data[] = [
   {
     link: "https://mlh.io/event-membership",
     head: "MLH Event Membership",
-    image: "/images/ambassador-img/MLH.webp",
+    image: "/images/ambassador-img/MLH.png",
     about:
       "Join the MLH Event Membership and get support of every step for the hackathon.",
     alt: "MLH Logo",
@@ -406,7 +406,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.mongodb.com/developer/community-champions/",
     head: "MongoDB Community",
-    image: "/images/ambassador-img/MongoDBChampions.webp",
+    image: "/images/ambassador-img/MongoDBChampions.png",
     about:
       "Champions are a group of passionate  advocates of the MongoDB community.",
     alt: "MongoDB Champions Logo",
@@ -416,7 +416,7 @@ const ForAllData: Data[] = [
   {
     link: "https://live.mongodb.com/start-a-group/",
     head: "MongoDB Community Leader",
-    image: "/images/ambassador-img/MongoDB.webp",
+    image: "/images/ambassador-img/MongoDB.png",
     about: "Bring people together  who are interested in MongoDB technologies.",
     alt: "MongoDB Logo",
     label: "",
@@ -424,7 +424,7 @@ const ForAllData: Data[] = [
   {
     link: "https://community.mozilla.org/en/groups/",
     head: "Mozilla Campus Club",
-    image: "/images/ambassador-img/mozilla.png",
+    image: "/images/ambassador-img/mozilla.jpeg",
     about:
       "To ensure the Internet is a global public resource, open and accessible to all.",
     alt: "Mozilla Logo",
@@ -433,7 +433,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.notion.so/Notion-Ambassadors-40c3b3ee8c744e7fad34ab4ac9765773",
     head: "Notion Ambassador",
-    image: "/images/ambassador-img/Notion.webp",
+    image: "/images/ambassador-img/Notion.png",
     about:
       "Passionate volunteer's enthusiasts who teach and share Notion with others.",
     alt: "Notion Logo",
@@ -442,7 +442,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.nvidia.com/en-in/deep-learning-ai/education/ambassador-program/",
     head: "NVIDIA DLI Ambassador",
-    image: "/images/ambassador-img/NVIDIA.webp",
+    image: "/images/ambassador-img/NVIDIA.png",
     about:
       "It gives you the training and resources to deliver hands-on DLI workshops.",
     alt: "NVIDIA Logo",
@@ -451,7 +451,7 @@ const ForAllData: Data[] = [
   {
     link: "https://nx.dev/community",
     head: "Nx Champions",
-    image: "/images/ambassador-img/Nx.webp",
+    image: "/images/ambassador-img/Nx.png",
     about:
       "Promote Nx in the community by publishing content and sharing their expertise.",
     alt: "Nx Logo",
@@ -460,7 +460,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.oasisprotocol.org/community#ambassador",
     head: "Oasis Ambassador Program",
-    image: "/images/ambassador-img/OasisNetwork.webp",
+    image: "/images/ambassador-img/OasisNetwork.png",
     about: "A community for node operators, and builders to Web3 enthusiasts",
     alt: "Oasis Logo",
     label: "",
@@ -468,7 +468,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.oneplus.in/campus",
     head: "OnePlus Student Ambassador Program",
-    image: "/images/ambassador-img/OnePlus.webp",
+    image: "/images/ambassador-img/OnePlus.jpg",
     about:
       "Its campus connects program aims to make a difference in the world through technology. ",
     alt: "OnePlus Logo",
@@ -477,7 +477,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.postman.com/company/student-program/#postman-classroom-program",
     head: "Postman Classroom Program",
-    image: "/images/ambassador-img/PostmanClassroom.webp",
+    image: "/images/ambassador-img/PostmanClassroom.png",
     about:
       "Bring API education to the classroom with our program for educators.",
     alt: "PostmanClassroom Logo",
@@ -487,7 +487,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.postman.com/company/student-program/#student-expert-program",
     head: "Postman Student Expert",
-    image: "/images/ambassador-img/Postman.webp",
+    image: "/images/ambassador-img/Postman.png",
     about:
       "Grow your API literacy with this industry-standard training created by Postman.",
     alt: "PostmanClassroom Logo",
@@ -496,7 +496,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.postman.com/company/student-program/#student-leader-program",
     head: "Postman Student Leader",
-    image: "/images/ambassador-img/Postman-Leader.webp",
+    image: "/images/ambassador-img/Postman-Leader.png",
     about:
       "Become a leader, educator, and advocate for API literacy on your campus.",
     alt: "Postman-Leader Logo",
@@ -505,7 +505,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.prisma.io/ambassador",
     head: "Prisma Ambassador Program",
-    image: "/images/ambassador-img/PrismaProgram.webp",
+    image: "/images/ambassador-img/PrismaProgram.png",
     about: "Contribute to the Prisma community while building your brand.",
     alt: "PrismaProgram Logo",
     label: "",
@@ -513,7 +513,7 @@ const ForAllData: Data[] = [
   {
     link: "https://community.sap.com/programs/influencer-programs/nominations",
     head: "SAP Influencer",
-    image: "/images/ambassador-img/SAP.webp",
+    image: "/images/ambassador-img/SAP.png",
     about: "The SAP influencer programs include SAP Mentors and SAP Champions.",
     alt: "SAP Influencer",
     label: "",
@@ -521,7 +521,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.solanau.org/",
     head: "Solana Student Ambassador",
-    image: "/images/ambassador-img/solana_logo.webp",
+    image: "/images/ambassador-img/solana_logo.png",
     about:
       "Get access to training courses, accelerators, and special opportunities for ambassadors.",
     alt: "Solana Logo",
@@ -530,7 +530,7 @@ const ForAllData: Data[] = [
   {
     link: "https://sparkar.reskilll.com/campus",
     head: "Spark AR Campus Ambassador",
-    image: "/images/ambassador-img/SparkAR.webp",
+    image: "/images/ambassador-img/SparkAR.png",
     about:
       "The Program aims to provide students with an opportunity to learn about Spark AR.",
     alt: "Spark AR Campus Ambassador",
@@ -548,7 +548,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.ted.com/participate/ted-fellows-program",
     head: "TED Fellows Program",
-    image: "/images/ambassador-img/TedFellow.webp",
+    image: "/images/ambassador-img/TedFellow.png",
     about: "The TED Fellows program provides support to a global community.",
     alt: "TED Fellows Program Logo",
     label: "",
@@ -556,7 +556,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.tensorflow.org/community/groups",
     head: "TensorFlow Community",
-    image: "/images/ambassador-img/TensorFlow.webp",
+    image: "/images/ambassador-img/TensorFlow.png",
     about:
       "Community of developers who are passionate about TensorFlow and related technologies.",
     alt: "TensorFlow Logo",
@@ -565,7 +565,7 @@ const ForAllData: Data[] = [
   {
     link: "https://trailblazercommunitygroups.com/become-a-group-leader/",
     head: "Trailblazer Group Leader",
-    image: "/images/ambassador-img/Trailblazer.webp",
+    image: "/images/ambassador-img/Trailblazer.png",
     about:
       "The Trailblazer Community helps everyone thrive in the Salesforce economy.",
     alt: "Trailblazer Leader",
@@ -574,7 +574,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.twilio.com/champions",
     head: "Twilio Champion",
-    image: "/images/ambassador-img/Twilio.webp",
+    image: "/images/ambassador-img/Twilio.png",
     about:
       "It is a global network of expert developers who actively support developer communities.",
     alt: "Twilio Logo",
@@ -583,7 +583,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.twilio.com/quest/students",
     head: "Twilio Field Operator",
-    image: "/images/ambassador-img/TwilioFieldOperator.webp",
+    image: "/images/ambassador-img/TwilioFieldOperator.png",
     about:
       "Student leaders looking for opportunities to lead and serve their communities.",
     alt: "Twilio Logo",
@@ -628,7 +628,7 @@ const ForAllData: Data[] = [
   {
     link: "https://community.wakelet.com/",
     head: "Wakelet Ambassador",
-    image: "/images/ambassador-img/wakeletambassador.png",
+    image: "/images/ambassador-img/WakeletAmbassador.png",
     about:
       "You’re practically part of the Wakelet Team and  will represent Wakelet at events, etc.",
     alt: "WakeletAmbassador Logo",
@@ -645,7 +645,7 @@ const ForAllData: Data[] = [
   {
     link: "https://community.wakelet.com/studentambassadors/",
     head: "Wakelet Student Ambassador",
-    image: "/images/ambassador-img/wakelet.png",
+    image: "/images/ambassador-img/WakeletStudent.png",
     about:
       "It contains 6 fun tasks centered around creativity, curation, communication, etc.",
     alt: "WakeletStudent Logo",
@@ -674,7 +674,7 @@ const FemaleCentricData: Data[] = [
   {
     link: "https://www.womentechmakers.com/ambassadors",
     head: "Women Techmakers Ambassador",
-    image: "/images/ambassador-img/womentechmakers.png",
+    image: "/images/ambassador-img/wtm.jpg",
     about:
       "Leaders around the world passionate about achieving gender parity in technology.",
     alt: "WTM Logo",
@@ -683,7 +683,7 @@ const FemaleCentricData: Data[] = [
   {
     link: "https://careers.microsoft.com/us/en/codess",
     head: "Microsoft Codess",
-    image: "/images/ambassador-img/Codess.webp",
+    image: "/images/ambassador-img/Codess.jpg",
     about: "Codess is a community for female coders initiated by Microsoft.",
     alt: "Codess Logo",
     label: "",

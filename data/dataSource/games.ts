@@ -4,7 +4,7 @@ const GamesData: Data[] = [
     {
         link: "https://type.method.ac/",
         head: "Kern Type",
-        image: "/images/games-img/KernType.webp",
+        image: "/images/games-img/KernType.png",
         about: "A game to learn how to kern type.",
         alt: "Kern Type",
         label: "",
@@ -12,7 +12,7 @@ const GamesData: Data[] = [
     {
         link: "https://shape.method.ac/",
         head: "Shape Type",
-        image: "/images/games-img/ShapeType.webp",
+        image: "/images/games-img/ShapeType.png",
         about: "A letter shaping the game.",
         alt: "Shape Type",
         label: "",
@@ -20,7 +20,7 @@ const GamesData: Data[] = [
     {
         link: "https://color.method.ac/",
         head: "Color",
-        image: "/images/games-img/Color.webp",
+        image: "/images/games-img/Color.png",
         about: "A color matching game.",
         alt: "Color",
         label: "",
@@ -28,7 +28,7 @@ const GamesData: Data[] = [
     {
         link: "https://bezier.method.ac/",
         head: "The Bezier Game",
-        image: "/images/games-img/Bezier.webp",
+        image: "/images/games-img/Bezier.png",
         about: "A game to help you master the pen tool.",
         alt: "The Bezier Game",
         label: "",
@@ -36,7 +36,7 @@ const GamesData: Data[] = [
     {
         link: "https://www.supremo.co.uk/designers-eye/",
         head: "It's Centred That",
-        image: "/images/games-img/ItsCentredThat.webp",
+        image: "/images/games-img/ItsCentredThat.png",
         about: "Guess whether or not the dot is in the centre of each shape.",
         alt: "It's Centred That",
         label: "",
@@ -44,7 +44,7 @@ const GamesData: Data[] = [
     {
         link: "https://betterwebtype.com/triangle/",
         head: "Better Web Type Triangle",
-        image: "/images/games-img/PerfectParagraph.webp",
+        image: "/images/games-img/PerfectParagraph.png",
         about: "A game to learn typography.",
         alt: "Better Web Type Triangle",
         label: "",
@@ -52,7 +52,7 @@ const GamesData: Data[] = [
     {
         link: "http://www.flexboxdefense.com/",
         head: "Flexbox Defense",
-        image: "/images/games-img/FlexboxDefence.webp",
+        image: "/images/games-img/FlexboxDefence.png",
         about: "A game for learning CSS flexbox.",
         alt: "Flexbox Defense",
         label: "",
@@ -60,7 +60,7 @@ const GamesData: Data[] = [
     {
         link: "https://flexboxfroggy.com/",
         head: "Flexbox Froggy",
-        image: "/images/games-img/FlexFroggy.webp",
+        image: "/images/games-img/FlexFroggy.png",
         about: "A game for learning CSS flexbox.",
         alt: "Flexbox Froggy",
         label: "",
@@ -68,7 +68,7 @@ const GamesData: Data[] = [
     {
         link: "https://cssgridgarden.com/",
         head: "Grid Garden",
-        image: "/images/games-img/GridGarden.webp",
+        image: "/images/games-img/GridGarden.png",
         about: "A game for learning CSS grid.",
         alt: "Grid Garden",
         label: "",
@@ -76,7 +76,7 @@ const GamesData: Data[] = [
     {
         link: "https://flukeout.github.io/",
         head: "CSS Diner",
-        image: "/images/games-img/CssDiner.webp",
+        image: "/images/games-img/CssDiner.png",
         about: "Game about all kinds of CSS selectors.",
         alt: "CSS Diner",
         label: "",
@@ -84,7 +84,7 @@ const GamesData: Data[] = [
     {
         link: "https://vim-adventures.com/",
         head: "VIM Adventures",
-        image: "/images/games-img/VimAdventures.webp",
+        image: "/images/games-img/VimAdventures.png",
         about: "Learn VIM while playing a game.",
         alt: "VIM Adventures",
         label: "",
@@ -92,7 +92,7 @@ const GamesData: Data[] = [
     {
         link: "https://mystery.knightlab.com/",
         head: "SQL Murder Mystery",
-        image: "/images/games-img/SqlMystry.webp",
+        image: "/images/games-img/SqlMystry.png",
         about: "Fun way of learning SQL.",
         alt: "SQL Murder Mystery",
         label: "",
@@ -100,7 +100,7 @@ const GamesData: Data[] = [
     {
         link: "https://alexnisnevich.github.io/untrusted/",
         head: "Untrusted",
-        image: "/images/games-img/Untrusted.webp",
+        image: "/images/games-img/Untrusted.png",
         about: "A meta-JavaScript adventure game.",
         alt: "Untrusted",
         label: "",
@@ -108,7 +108,7 @@ const GamesData: Data[] = [
     {
         link: "https://warriorjs.com/",
         head: "WarriorJS",
-        image: "/images/games-img/Warriors.webp",
+        image: "/images/games-img/Warriors.png",
         about: "Code, prove your skills, and get hired.",
         alt: "WarriorJS",
         label: "",
@@ -116,7 +116,7 @@ const GamesData: Data[] = [
     {
         link: "https://lab.reaal.me/jsrobot/",
         head: "JS Robot",
-        image: "/images/games-img/JsRobot.webp",
+        image: "/images/games-img/JsRobot.png",
         about: "Learn JavaScript by playing a platform game.",
         alt: "JS Robot",
         label: "",
@@ -124,7 +124,7 @@ const GamesData: Data[] = [
     {
         link: "http://jsdares.com/",
         head: "JS Dares",
-        image: "/images/games-img/JsDares.webp",
+        image: "/images/games-img/JsDares.png",
         about: "Learn JavaScript by completing dares.",
         alt: "JS Dares",
         label: "",
@@ -132,7 +132,7 @@ const GamesData: Data[] = [
     {
         link: "https://www.crunchzilla.com/",
         head: "Crunchzilla",
-        image: "/images/games-img/CrunchZilla.webp",
+        image: "/images/games-img/CrunchZilla.png",
         about: "Play with code, experiment, build, and learn.",
         alt: "Crunchzilla",
         label: "",
