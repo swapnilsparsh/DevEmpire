@@ -19,7 +19,7 @@ export default function Footer() {
             </a>{" "}
             &
             <a
-              href="https://jatiinyadav.github.io"
+              href="https://jatinyadav.netlify.app  "
               target="_blank"
               rel="noreferrer"
               aria-label="Follow Jatin Yadav on Github"

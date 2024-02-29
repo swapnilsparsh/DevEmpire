@@ -1,11 +1,9 @@
 import games_data from "@/data/dataSource/games";
-import Filters from "@/components/filters";
 import Structure from "@/components/structure";
 
 export default function Games() {
   return (
     <div className="layout">
-      <Filters filters={games_data} />
 
       <Structure
         heading="Games"

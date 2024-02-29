@@ -5,9 +5,9 @@ import { Data } from "@/interfaces/obj_type";
 const inter = Inter({ subsets: ["latin"], weight: "600" });
 
 export default function SectionSlot({ subheading, dataSource }: { subheading: string, dataSource: Data[] }) {
-  const renderedItems = dataSource.map((item: Data) => (
+  const renderedItems = dataSource.map((item: Data, index: number) => (
     <Card
-      key={item.link}
+      key={index}
       img={item.image}
       name={item.head}
       description={item.about}

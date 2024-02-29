@@ -1,5 +1,7 @@
 import { Layout } from "@/interfaces/obj_type";
 import SectionSlot from "./section-slot";
+import Filters from "./filters";
+import programs_data from "@/data/dataSource/programs";
 
 export default function Structure({
   heading,
@@ -18,7 +20,7 @@ export default function Structure({
           dataSource={item.dataSource}
         />
       </section>
-      <div className="divider"></div>
+      {index < layout.length - 1 && <div className="divider"></div>}
     </div>
   ));
 
@@ -29,6 +31,8 @@ export default function Structure({
           <h1 className="de-heading">{heading}</h1>
           <p className="de-description">{description}</p>
         </div>
+        <Filters filters={layout} />
+
         <div className="flex-alignment">{renderedItems}</div>
       </div>
     </>

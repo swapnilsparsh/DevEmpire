@@ -12,7 +12,7 @@ export default function LandingCard({
         {navbarData.map((item, key) => (
           <div className="card-layout" key={key}>
             <div className="card-mr">
-              <div className="landing-cards-img">
+              <div className="landing-cards-img" style={{marginTop: '-2rem'}}>
                 {randomImages[key].map((img: string) => (
                   <img key={img} src={img} alt={`${item}`} />
                 ))}
@@ -35,7 +35,6 @@ export default function LandingCard({
                   View More
                 </a>
               </div>
-              <br />
             </div>
             <br />
             <div className="glow-border"></div>

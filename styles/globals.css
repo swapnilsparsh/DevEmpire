@@ -38,13 +38,10 @@ section {
 }
 
 .divider {
-  height: 0.07rem;
+  height: 0.15rem;
   width: 30%;
   margin: 0 auto;
-  background: linear-gradient(90deg,
-      rgba(17, 17, 17, 0),
-      rgb(255, 255, 255),
-      rgba(17, 17, 17, 0));
+  background: linear-gradient(90deg, #d6f5ff, #0093ed, #d6f5ff);
 }
 
 /* Card Layout */
@@ -54,9 +51,8 @@ section {
   width: 25rem;
   position: relative;
   margin: 2rem 0.5rem;
-  background: linear-gradient(to top left, #ffffff08, transparent),
-    linear-gradient(to top, #ffffff05, transparent),
-    linear-gradient(to top right, #ffffff15, transparent);
+  background: linear-gradient(to bottom, #cfeef7, transparent),
+    linear-gradient(to top, #7ca2c0, transparent);
 }
 
 .card-mr {
@@ -170,10 +166,12 @@ section {
   height: 0.04rem;
   width: 40%;
   margin: 0 auto;
-  background: linear-gradient(90deg,
-      rgba(17, 17, 17, 0),
-      rgb(255, 255, 255),
-      rgba(17, 17, 17, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    rgb(255, 255, 255),
+    rgba(17, 17, 17, 0)
+  );
   animation: zoom-in-zoom-out 3.5s ease infinite;
 }
 
@@ -239,6 +237,7 @@ section {
   position: sticky;
   top: 0;
   flex-wrap: wrap;
+  background: #d6f5ff;
 }
 
 .filter-buttons {
@@ -307,7 +306,6 @@ section {
 /* Landing Page Responsive Start */
 
 @media screen and (max-width: 1024px) {
-
   .landing-main {
     flex-direction: column;
   }
