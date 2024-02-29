@@ -5,6 +5,7 @@ import { CloseIcon, HamburgerIcon } from "./icons/navbarIcons";
 import React from "react";
 import { sendGAEvent } from "@next/third-parties/google";
 import BooleanContext from "@/data/context";
+import Filters from "./filters";
 
 export default function Navbar() {
   // Create a context
@@ -17,7 +18,6 @@ export default function Navbar() {
   };
   return (
     <>
-      <MyContext.Provider value={isMenuOpen}></MyContext.Provider>
       <nav
         className="bg-[#0093ed] border-b-[1px] border-opacity-50 border-b-white"
         style={{ top: 0, position: "sticky", zIndex: 999 }}
@@ -61,6 +61,11 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
+      <Filters
+        isMenuOpen={isMenuOpen}
+        setIsMenuOpen={setIsMenuOpen}
+        filters={[]}
+      />
     </>
   );
 }
