@@ -58,8 +58,8 @@ section {
   width: 25rem;
   position: relative;
   margin: 2rem 0.5rem;
-  background: linear-gradient(to bottom, #cfeef7, transparent),
-    linear-gradient(to top, #7ca2c0, transparent);
+  background: linear-gradient(to bottom, #d6f5ff, transparent),
+    linear-gradient(to top, #03a4ff, transparent);
 }
 
 .card-mr {
