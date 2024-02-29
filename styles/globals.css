@@ -247,7 +247,7 @@ section {
   gap: 1rem;
   z-index: 99;
   position: sticky;
-  top: 0;
+  top: 128px;
   flex-wrap: wrap;
   background: #d6f5ff;
 }
