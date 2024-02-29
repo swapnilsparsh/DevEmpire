@@ -1,7 +1,6 @@
 import { Layout } from "@/interfaces/obj_type";
 import SectionSlot from "./section-slot";
 import Filters from "./filters";
-import programs_data from "@/data/dataSource/programs";
 
 export default function Structure({
   heading,

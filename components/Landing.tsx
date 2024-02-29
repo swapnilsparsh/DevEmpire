@@ -31,24 +31,30 @@ export default function Landing() {
     <>
       <div className="landing-page">
         <div className="landing-main">
-          <div>
-            <h1>Developer Empire</h1>
-            <p>
-              It's time to close those extra tabs. Welcome to your one-stop
-              solution for all resources and details on ambassador/fellowship
-              programs, open source programs, web dev tools and so much more!
-            </p>
-            <button
-              type="button"
-              className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
-              onClick={() =>
-                sendGAEvent({ event: "buttonClicked", value: "Explore All" })
-              }
-            >
-              <a href="#info">Explore All</a>
-            </button>
+          <div className="landing-alignment">
+            <div>
+              <h2>Developer Empire</h2>
+            </div>
+            <div>
+              <p>
+                It's time to close those extra tabs. Welcome to your one-stop
+                solution for all resources and details on ambassador/fellowship
+                programs, open source programs, web dev tools and so much more!
+              </p>
+            </div>
+            <div>
+              <button
+                type="button"
+                className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                onClick={() =>
+                  sendGAEvent({ event: "buttonClicked", value: "Explore All" })
+                }
+              >
+                <a href="#info">Explore All</a>
+              </button>
+            </div>
           </div>
-          <div>
+          <div className="landing-img">
             <Image id="home" src={Home} alt={"home-img"} priority />
           </div>
         </div>

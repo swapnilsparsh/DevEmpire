@@ -33,6 +33,13 @@ body {
 
 /*End scrollbar*/
 
+.landing-alignment {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 section {
   padding: 4rem 0rem;
 }
@@ -87,17 +94,22 @@ section {
   flex-wrap: wrap;
 }
 
-.landing-main h1 {
+.landing-main h2 {
   color: #0093ed;
-  font-size: 7rem;
   line-height: 8rem;
-  margin-bottom: 3rem;
+  font-size: 6rem;
+  padding: 0 1.5rem;
 }
 
 .landing-main p {
   font-size: 1.5rem;
   margin-bottom: 3rem;
+  padding: 0 1.5rem;
   color: #40aaff;
+}
+
+.landing-main button {
+  margin: 0 1.5rem;
 }
 
 .landing-main div {
@@ -310,11 +322,23 @@ section {
     flex-direction: column;
   }
 
-  .landing-main h1 {
-    font-size: 4rem;
+  .landing-main h2 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .landing-main p {
+    margin-bottom: 1rem;
   }
 
   .landing-main p {
     font-size: 14px;
   }
+
+  .landing-alignment {
+    margin-top: 2rem;
+    gap: 0rem;
+  }
+
 }
