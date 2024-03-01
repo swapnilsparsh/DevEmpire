@@ -22,13 +22,10 @@ export default function Filters({
     </a>
   ));
 
-  console.log(isMenuOpen);
-
-  const topValue = isMenuOpen ? "128px" : "75px";
+  const topValue = isMenuOpen ? "128px" : "70px";
   const style = {
     top: `${topValue}`,
   };
-  console.log("topValue:", topValue);
 
   return (
     <div className="filters" style={style}>

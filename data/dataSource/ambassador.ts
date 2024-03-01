@@ -19,24 +19,6 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://apillon.io/community",
-    head: "Apillon Ambassador",
-    image: "/images/ambassador-img/Apillon.png",
-    about:
-      "A Web3 development platform empowering developers to build in the Polkadot ecosystem.",
-    alt: "Apillon Logo",
-    label: "",
-  },
-  {
-    link: "https://aws.amazon.com/partners/ambassadors/",
-    head: "APN Ambassador",
-    image: "/images/ambassador-img/APNAmbassador.png",
-    about:
-      "It enables employees of AWS Partners to become technical experts in various domains.",
-    alt: "Amazon Logo",
-    label: "",
-  },
-  {
     link: "https://appwrite.io/heroes",
     head: "Appwrite Heroes",
     image: "/images/ambassador-img/appwrite.png",
@@ -64,6 +46,15 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
+    link: "https://aws.amazon.com/partners/ambassadors/",
+    head: "AWS Ambassador",
+    image: "/images/ambassador-img/AWSAmbassador.png",
+    about:
+      "It enables employees of AWS Partners to become technical experts in various domains.",
+    alt: "Amazon Logo",
+    label: "",
+  },
+  {
     link: "https://aws.amazon.com/developer/community/community-builders/",
     head: "AWS Community Builders",
     image: "/images/ambassador-img/AWSCommunityBuilders.png",
@@ -75,33 +66,33 @@ const ForAllData: Data[] = [
   {
     link: "https://aws.amazon.com/developer/community/heroes/",
     head: "AWS Heroes",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/AWSHeroes.png",
     about:
       "Recognizes worldwide group of AWS experts whose has a real impact within the community.",
     alt: "AWS Logo",
     label: "",
   },
   {
-    link: "https://www.binance.com/en-IN/event/binance_campus_buidler",
-    head: "Binance Campus BUIDLers",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    link: "https://academy.binance.com/en/partner/ambassador",
+    head: "Binance Student Ambassador",
+    image: "/images/ambassador-img/Binance.png",
     about:
       "A platform for students to explore new opportunities,and accelerate crypto literacy.",
     alt: "Binance Logo",
     label: "",
   },
   {
-    link: "https://app.smartsheet.com/b/form/a92f74ca555f44e4aa638a4f00a77213",
-    head: "Cisco Campus Ambassador",
-    image: "/images/ambassador-img/Auth0ambassador.png",
-    about: "It is a platform for passionate students to partner with Cisco.",
+    link: "https://learningnetwork.cisco.com/s/community-ambassador-program",
+    head: "Cisco Community Ambassador",
+    image: "/images/ambassador-img/Cisco.png",
+    about: "Learners who are the most active, engaged, and helpful members.",
     alt: "Cisco Logo",
     label: "",
   },
   {
     link: "https://www.cncf.io/people/ambassadors/",
     head: "Cloud Native Ambassador",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/CNCF.png",
     about:
       "They are individuals who are passionate about CNCF technology and projects.",
     alt: "CNCF Logo",
@@ -110,16 +101,16 @@ const ForAllData: Data[] = [
   {
     link: "https://community.codecademy.com/chapters/",
     head: "Codecademy Chapter Leader",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Codecademy.png",
     about:
       "It cares about getting students started on their coding journeys together.",
     alt: "Codeacademy Logo",
     label: "",
   },
   {
-    link: "https://www.codechef.com/college-chapter/about",
-    head: "CodeChef's DSA Learning",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    link: "https://www.codechef.com/collegechapter",
+    head: "CodeChef College Chapter",
+    image: "/images/ambassador-img/Codechef.png",
     about:
       "Mission is to build a Competitive Programming culture in educational institutions.",
     alt: "Codechef Logo",
@@ -128,7 +119,7 @@ const ForAllData: Data[] = [
   {
     link: "https://codedamn.com/campus",
     head: "Campus Evangelist Program",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Codedamn.png",
     about:
       "It will help you to ignite and build your Entrepreneurial skills and Leadership mindset.",
     alt: "Codedamn Logo",
@@ -137,7 +128,7 @@ const ForAllData: Data[] = [
   {
     link: "https://confluxnetwork.org/en/community/ambassador",
     head: "Conflux Ambassador Program",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Conflux.png",
     about: "Passionate enthusiasts who help drive community awareness.",
     alt: "Conflux Logo",
     label: "",
@@ -145,7 +136,7 @@ const ForAllData: Data[] = [
   {
     link: "https://credits.com/en/ambassadors/",
     head: "Credits Ambassador Program",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Credits.png",
     about:
       "A program for building and supporting Credits local communities in your country.",
     alt: "Credits Logo",
@@ -154,7 +145,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.cudos.org/ambassador/",
     head: "Cudos Rangers",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Cudos.png",
     about:
       "Take this role further and become an empowered voice of the Cudos community.",
     alt: "Cudos Logo",
@@ -163,7 +154,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.cypress.io/ambassadors",
     head: "Cypress Ambassador",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Cypress.png",
     about: "Support and highlight contributions and share the joy of testing.",
     alt: "Cypress Logo",
     label: "",
@@ -171,43 +162,34 @@ const ForAllData: Data[] = [
   {
     link: "https://www.deeplearning.ai/ambassador/",
     head: "DeepLearning.AI Ambassador",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/DeepLearning.png",
     about:
       "They are enthusiastic about helping others and inspire them to break into AI.",
     alt: "DeepLearning Logo",
     label: "",
   },
   {
-    link: "https://developers.facebook.com/developercircles/",
-    head: "Developer Circles",
-    image: "/images/ambassador-img/Auth0ambassador.png",
-    about:
-      "Communities of innovators, where they receive opportunities to strengthen  Facebook products.",
-    alt: "Facebook Logo",
-    label: "",
-  },
-  {
     link: "https://www.digitalocean.com/community/pages/digitalocean-navigators",
     head: "DigitalOcean's Navigators",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/DigitalOcean.png",
     about:
-      "Program that supports people who create content, code, related to DigitalOcean’s products.",
+      "Supports people who create content, code, related to DigitalOcean’s products.",
     alt: "DigitalOcean Logo",
     label: "",
   },
   {
     link: "https://www.docker.com/community/captains",
     head: "Docker Captain Program",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Docker.png",
     about:
-      "It is a distinction that Docker awards select members of the community that are experts in Docker.",
+      "Distinction that Docker awards select members of the community that are experts in Docker.",
     alt: "Docker Captain Logo",
     label: "",
   },
   {
     link: "https://eclipsepad.notion.site/The-Ambassadors-Guide-to-the-Galaxy-6d33e1c277fc415ca60621a55c7cd58c",
     head: "Eclipse Pad Ambassador",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/EclipsePad.png",
     about:
       "It serves as a hub for community building and leadership development.",
     alt: "Eclipse Pad Ambassador Image",
@@ -216,7 +198,7 @@ const ForAllData: Data[] = [
   {
     link: "https://medium.com/equilibrium-eosdt/join-the-equilibrium-ambassador-dao-and-earn-eq-5e21911d1134",
     head: "Equilibrium Ambassador DAO",
-    image: "/images/ambassador-img/equilibrium.webp",
+    image: "/images/ambassador-img/equilibrium.png",
     about:
       "DeFi 2.0 with high leverage. One-stop platform to earn, borrow and trade at max efficiency.",
     alt: "Equilibrium Ambassador Image",
@@ -224,17 +206,16 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://friends.figma.com/become-a-community-advocate/",
-    head: "Figma Community Advocate",
-    image: "/images/ambassador-img/Auth0ambassador.png",
-    about:
-      "Figma Community Advocates are the heart and soul of our global community.",
+    head: "Figma User Group Leader",
+    image: "/images/ambassador-img/Figma.png",
+    about: "Figma User Groups are the heart and soul of our global community.",
     alt: "Figma Community",
     label: "",
   },
   {
     link: "https://developers.google.com/community/gdg/organizers",
     head: "GDG Organizer",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/GDG.png",
     about:
       "GDG organizers plan and host meetup events on a wide range of technical topics.",
     alt: "GDG Logo",
@@ -243,8 +224,8 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://developers.google.com/community/dsc",
-    head: "Google Student Clubs",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    head: "Google Developer Student Clubs Lead",
+    image: "/images/ambassador-img/GDSC.png",
     about:
       "GDSC are community groups for college students interested in Google technologies.",
     alt: "GDSC Logo",
@@ -253,8 +234,8 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/",
-    head: "GeeksforGeeks",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    head: "GeeksforGeeks Campus Ambassador",
+    image: "/images/ambassador-img/GeeksforGeeks.png",
     about:
       "Recognized as the Mantri of your campus and your duty will be to help the students.",
     alt: "GeeksforGeeks Logo",
@@ -263,7 +244,7 @@ const ForAllData: Data[] = [
   {
     link: "https://education.github.com/experts",
     head: "GitHub Campus Experts",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/GithubCampusExperts.png",
     about:
       "They are student leaders that strive to build diverse spaces to learn skills, etc.",
     alt: "Github-campus-expert Logo",
@@ -281,7 +262,7 @@ const ForAllData: Data[] = [
   {
     link: "https://education.github.com/students/octernships",
     head: "GitHub Octernships",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/GitHubOcternships.png",
     about:
       "Connects students with industry partners in paid professional experiences and mentorship.",
     alt: "Github-octernship Logo",
@@ -290,7 +271,7 @@ const ForAllData: Data[] = [
   {
     link: "https://education.github.com/teachers",
     head: "GitHub Teacher Program",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/GitHubTeacher.png",
     about:
       "Teach students with the industry-standard tools, so they can shine on technical teams.",
     alt: "Github-classroom Logo",
@@ -299,7 +280,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.gitkraken.com/ambassador",
     head: "GitKraken Program",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/GitKraken.png",
     about:
       "Build personal brands by technical content to share with global GitKraken audience.",
     alt: "GitKraken Logo",
@@ -308,7 +289,7 @@ const ForAllData: Data[] = [
   {
     link: "https://about.gitlab.com/community/heroes/",
     head: "GitLab Heroes",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/GitLab.png",
     about:
       "They engage, support, connect, and recognize members of the wider GitLab community.",
     alt: "Gitlab Logo",
@@ -316,8 +297,8 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.hackerearth.com/campus-ambassador-program/",
-    head: "HackerEarth Ambassador",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    head: "HackerEarth Campus Ambassador",
+    image: "/images/ambassador-img/Hackerearth.png",
     about:
       "Leader with a keen interest in starting and building a programming community.",
     alt: "Hackerearth Logo",
@@ -334,7 +315,7 @@ const ForAllData: Data[] = [
   {
     link: "https://blog.kattana.io/the-launch-of-kattanas-ambassador-program/",
     head: "Kattana Ambassador Program",
-    image: "/images/ambassador-img/Kattana.jpg",
+    image: "/images/ambassador-img/Kattana.png",
     about:
       "The goal is to bring together people who are passionate about Kattana",
     alt: "Kattana Logo",
@@ -342,7 +323,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://konghq.com/kong-champions/",
-    head: "Kong Champions Program",
+    head: "Kong Champions",
     image: "/images/ambassador-img/Kong.png",
     about:
       "Kong Champions are frequent contributors who play a key part in Kong’s community.",
@@ -352,7 +333,7 @@ const ForAllData: Data[] = [
   {
     link: "https://kotlinlang.org/user-groups/user-group-list.html",
     head: "Kotlin User Group",
-    image: "/images/ambassador-img/Kotlinusergroup.png",
+    image: "/images/ambassador-img/Kotlin.png",
     about:
       "Community of people to share programming experience with Kotlin and its ecosystem.",
     alt: "Kotlinusergroup Logo",
@@ -360,7 +341,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://studentambassadors.microsoft.com/",
-    head: "MLSA",
+    head: "Microsoft Learn Student Ambassadors",
     image: "/images/ambassador-img/MLSA.png",
     about:
       "Amplify your impact and bring together your peers to learn new skills, etc.",
@@ -379,18 +360,9 @@ const ForAllData: Data[] = [
   {
     link: "https://fellowship.mlh.io/",
     head: "MLH Fellowship",
-    image: "/images/ambassador-img/MLH-fellowship-white.png",
+    image: "/images/ambassador-img/MLHFellowship.png",
     about:
       "It is a remote internship alternative for aspiring technologists for 12 weeks.",
-    alt: "MLH-fellowship Logo",
-    label: "",
-  },
-  {
-    link: "https://fellowship.mlh.io/programs/prep",
-    head: "MLH Fellowship Prep Program",
-    image: "/images/ambassador-img/MLH-fellowship-blue.jpg",
-    about:
-      "3-week preparation program for aspiring technologists before to full 12-weeks.",
     alt: "MLH-fellowship Logo",
     label: "",
   },
@@ -405,37 +377,46 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.mongodb.com/developer/community-champions/",
-    head: "MongoDB Community",
-    image: "/images/ambassador-img/MongoDBChampions.png",
+    head: "MongoDB Community Advocacy Program",
+    image: "/images/ambassador-img/MongoDB.png",
     about:
       "Champions are a group of passionate  advocates of the MongoDB community.",
-    alt: "MongoDB Champions Logo",
+    alt: "MongoDB Community Advocacy Program Logo",
 
-    label: "",
-  },
-  {
-    link: "https://live.mongodb.com/start-a-group/",
-    head: "MongoDB Community Leader",
-    image: "/images/ambassador-img/MongoDB.png",
-    about: "Bring people together  who are interested in MongoDB technologies.",
-    alt: "MongoDB Logo",
     label: "",
   },
   {
     link: "https://community.mozilla.org/en/groups/",
     head: "Mozilla Campus Club",
-    image: "/images/ambassador-img/mozilla.jpeg",
+    image: "/images/ambassador-img/Mozilla.png",
     about:
       "To ensure the Internet is a global public resource, open and accessible to all.",
     alt: "Mozilla Logo",
     label: "",
   },
   {
-    link: "https://www.notion.so/Notion-Ambassadors-40c3b3ee8c744e7fad34ab4ac9765773",
+    link: "https://www.notion.so/notion/Notion-Ambassadors-40c3b3ee8c744e7fad34ab4ac9765773",
     head: "Notion Ambassador",
-    image: "/images/ambassador-img/Notion.png",
+    image: "/images/ambassador-img/NotionAmbassador.png",
     about:
-      "Passionate volunteer's enthusiasts who teach and share Notion with others.",
+      "Passionate, volunteer enthusiasts who teach and share Notion with others",
+    alt: "Notion Ambassador Logo",
+    label: "",
+  },
+  {
+    link: "https://www.notion.so/notion/Notion-Campus-Leaders-Program-5817b00cbaa244bca9e0e498804cbab4",
+    head: "Notion Campus Leader",
+    image: "/images/ambassador-img/NotionCampusLeader.png",
+    about:
+      "Enables passionate student leaders at universities to share + teach Notion effectively",
+    alt: "Notion Logo",
+    label: "",
+  },
+  {
+    link: "https://www.notion.so/notion/Notion-Champions-20f977eb5fdd40d4a7a396f1742c3ea5",
+    head: "Notion Champions",
+    image: "/images/ambassador-img/NotionChampion.png",
+    about: "Champions are the biggest Notion fans inside of companies.",
     alt: "Notion Logo",
     label: "",
   },
@@ -468,7 +449,7 @@ const ForAllData: Data[] = [
   {
     link: "https://www.oneplus.in/campus",
     head: "OnePlus Student Ambassador Program",
-    image: "/images/ambassador-img/OnePlus.jpg",
+    image: "/images/ambassador-img/OnePlus.png",
     about:
       "Its campus connects program aims to make a difference in the world through technology. ",
     alt: "OnePlus Logo",
@@ -511,29 +492,12 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://community.sap.com/programs/influencer-programs/nominations",
-    head: "SAP Influencer",
-    image: "/images/ambassador-img/SAP.png",
-    about: "The SAP influencer programs include SAP Mentors and SAP Champions.",
-    alt: "SAP Influencer",
-    label: "",
-  },
-  {
     link: "https://www.solanau.org/",
     head: "Solana Student Ambassador",
     image: "/images/ambassador-img/solana_logo.png",
     about:
       "Get access to training courses, accelerators, and special opportunities for ambassadors.",
     alt: "Solana Logo",
-    label: "",
-  },
-  {
-    link: "https://sparkar.reskilll.com/campus",
-    head: "Spark AR Campus Ambassador",
-    image: "/images/ambassador-img/SparkAR.png",
-    about:
-      "The Program aims to provide students with an opportunity to learn about Spark AR.",
-    alt: "Spark AR Campus Ambassador",
     label: "",
   },
   {
@@ -563,8 +527,8 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://trailblazercommunitygroups.com/become-a-group-leader/",
-    head: "Trailblazer Group Leader",
+    link: "https://trailblazercommunitygroups.com/start-a-group/",
+    head: "Trailblazer Community Group",
     image: "/images/ambassador-img/Trailblazer.png",
     about:
       "The Trailblazer Community helps everyone thrive in the Salesforce economy.",
@@ -577,15 +541,6 @@ const ForAllData: Data[] = [
     image: "/images/ambassador-img/Twilio.png",
     about:
       "It is a global network of expert developers who actively support developer communities.",
-    alt: "Twilio Logo",
-    label: "",
-  },
-  {
-    link: "https://www.twilio.com/quest/students",
-    head: "Twilio Field Operator",
-    image: "/images/ambassador-img/TwilioFieldOperator.png",
-    about:
-      "Student leaders looking for opportunities to lead and serve their communities.",
     alt: "Twilio Logo",
     label: "",
   },
@@ -614,15 +569,6 @@ const ForAllData: Data[] = [
     about:
       "Veeam Legends are Veeam users and data protection industry experts.",
     alt: "Veeam Legends Logo",
-    label: "",
-  },
-  {
-    link: "https://careers.vmware.com/campus-ambassador-program",
-    head: "VMware Campus Ambassador",
-    image: "/images/ambassador-img/vmware.png",
-    about:
-      "Connect your student peers with the latest VMware products and solutions etc.",
-    alt: "VMware Logo",
     label: "",
   },
   {
@@ -655,8 +601,8 @@ const ForAllData: Data[] = [
 
 const FemaleCentricData: Data[] = [
   {
-    link: "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
-    head: "Women-in-Technology",
+    link: "https://www.adobe.com/in/lead/creativecloud/women-in-technology.html",
+    head: "Adobe’s Women in Tech Scholarship",
     image: "/images/ambassador-img/Adobe.png",
     about: "They strive towards creating gender equality by encouraging women.",
     alt: "Adobe Logo",
@@ -665,16 +611,16 @@ const FemaleCentricData: Data[] = [
   {
     link: "https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac/",
     head: "Generation Google Scholarship",
-    image: "/images/ambassador-img/Auth0ambassador.png",
+    image: "/images/ambassador-img/Google.png",
     about:
       "It is for women in computer science to help them in pursuing computer science degrees.",
     alt: "Google Logo",
     label: "",
   },
   {
-    link: "https://www.womentechmakers.com/ambassadors",
+    link: "https://developers.google.com/womentechmakers/ambassadors",
     head: "Women Techmakers Ambassador",
-    image: "/images/ambassador-img/wtm.jpg",
+    image: "/images/ambassador-img/wtm.png",
     about:
       "Leaders around the world passionate about achieving gender parity in technology.",
     alt: "WTM Logo",
