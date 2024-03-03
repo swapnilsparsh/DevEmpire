@@ -238,15 +238,17 @@ section {
   width: 100%;
   margin: 0 auto;
   align-items: center;
-  padding: 1rem 0rem;
   color: #ffffff;
   display: flex;
   justify-content: center;
-  gap: 1rem;
   z-index: 99;
   position: sticky;
   flex-wrap: wrap;
   background: #d6f5ff;
+}
+
+.filters-div{
+  padding: 1rem 0.5rem;
 }
 
 .filter-buttons {

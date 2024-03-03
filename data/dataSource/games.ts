@@ -37,7 +37,7 @@ const GamesData: Data[] = [
         link: "https://www.supremo.co.uk/designers-eye/",
         head: "It's Centred That",
         image: "/images/games-img/ItsCentredThat.png",
-        about: "Guess whether or not the dot is in the centre of each shape.",
+        about: "Guess dot is in the centre of each shape.",
         alt: "It's Centred That",
         label: "",
     },
@@ -141,7 +141,7 @@ const GamesData: Data[] = [
         link: "https://codecombat.com/play/level/dungeons-of-kithgard?",
         head: "CodeCombat",
         image: "/images/games-img/CodeCombat.png",
-        about: "A RPG Game set up that teaches you web fundamentals and more.",
+        about: "Teaches you web fundamentals and more.",
         alt: "CodeCombat",
         label: "",
     },
@@ -150,7 +150,7 @@ const GamesData: Data[] = [
         head: "CodeWars",
         image: "/images/games-img/CodeWars.png",
         about:
-            "Codewars is a cool concept where you have to solve puzzles by filling out the blanks.",
+            "Solve puzzles by filling out the blanks.",
         alt: "CodeWars",
         label: "",
     },
@@ -159,7 +159,7 @@ const GamesData: Data[] = [
         head: "Screeps",
         image: "/images/games-img/Screeps.png",
         about:
-            "Screeps is a sandboxed game where you can control a colony by providing JavaScript code.",
+            "Control a colony by providing JavaScript code.",
         alt: "Screeps",
         label: "",
     },
@@ -168,7 +168,7 @@ const GamesData: Data[] = [
         head: "CheckIO",
         image: "/images/games-img/CheckIO.png",
         about:
-            "CheckIO is an excellent text-based game with some fantastic graphics for the level indicators",
+            "Text-based game with level indicators",
         alt: "CheckIO",
         label: "",
     },
@@ -177,7 +177,7 @@ const GamesData: Data[] = [
         head: "Elevator Saga",
         image: "/images/games-img/ElevatorSaga.png",
         about:
-            "Another excellent game is the elevator saga, where you learn how to transport people in a lift by writing JavaScript code.",
+            "Transport people in a lift by writing JS code.",
         alt: "Elevator Saga",
         label: ""
     },

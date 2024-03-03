@@ -40,7 +40,7 @@ const BeginnerData: Data[] = [
     head: "Season of KDE",
     image: "/images/programs-img/SoKDE.png",
     about:
-      "KDE offer an opportunity to everyone to participate in both code and non-code projects. ",
+      "KDE offer an opportunity to everyone to participate in code and non-code projects. ",
     alt: "Season of KDE",
     label: "Beginner Friendly",
   },
@@ -111,7 +111,7 @@ const DocumentationData: Data[] = [
 const BlockChainData: Data[] = [
   {
     link: "https://wiki.hyperledger.org/display/INTERN",
-    head: "Hyperledger Mentorship Program",
+    head: "Hyperledger Mentorship",
     image: "/images/programs-img/HLF_Mentorship_Program.png",
     about:
       "Contribute and get practical exposure to Hyperledger open source development.",
@@ -132,10 +132,10 @@ const BlockChainData: Data[] = [
 const InternshipData: Data[] = [
   {
     link: "https://www.fsf.org/volunteer/internships",
-    head: "Free Software Foundation (FSF) Internship Program",
+    head: "FSF Internship Program",
     image: "/images/programs-img/fsf.png",
     about:
-      "If you want to intern at the Free Software Foundation, and you know web development, systems, networking, software licensing you can consider the FSF internship program.",
+      "If you know web development, systems, networking, software licensing.",
     alt: "Free Software Foundation (FSF) Internship Program",
     label: "Internship",
   },

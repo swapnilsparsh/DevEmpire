@@ -30,9 +30,9 @@ export default function Structure({
           <h1 className="de-heading">{heading}</h1>
           <p className="de-description">{description}</p>
         </div>
-        <Filters filters={layout} />
+        <Filters filters={layout} isMenuOpen={false} />
 
-        <div className="flex-alignment">{renderedItems}</div>
+        <div>{renderedItems}</div>
       </div>
     </>
   );

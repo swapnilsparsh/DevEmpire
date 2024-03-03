@@ -204,7 +204,7 @@ const WebDevDatas: Data[] = [
         head: "Icons8",
         image: "../images/development-img/Icons8.png",
         about:
-            "Professional icons to beautify your work.Multiple formats, customization, and diverse styles.",
+            "Free illustrations for your website, for designing and user experience.",
         alt: "Icons8",
         label: "Icons",
     },
@@ -326,7 +326,7 @@ const WebDevDatas: Data[] = [
     {
         link: "https://colorleap.app/home",
         head: " Color Leap",
-        image: "../images/development-img/Color-Leap.png",
+        image: "../images/development-img/Color-Leap.jpg",
         about: "Take a leap through time and see the colors of history.",
         alt: "Color Leap",
         label: "Colors",
@@ -816,7 +816,7 @@ const IconsData: Data[] = [
         head: "Icons8",
         image: "../images/development-img/Icons8.png",
         about:
-            "Professional icons to beautify your work.Multiple formats, customization, and diverse styles.",
+            "Free illustrations for your website, for designing and user experience.",
         alt: "Icons8",
         label: "Icons",
     },
@@ -1009,7 +1009,7 @@ const ColorsData: Data[] = [
     {
         link: "https://colorleap.app/home",
         head: " Color Leap",
-        image: "../images/development-img/Color-Leap.png",
+        image: "../images/development-img/Color-Leap.jpg",
         about: "Take a leap through time and see the colors of history.",
         alt: "Color Leap",
         label: "Colors",
@@ -1047,7 +1047,7 @@ const CSSData: Data[] = [
         head: "Neumorphic Generator",
         image: "../images/development-img/Neumorphic.png",
         about:
-            "This generator makes it easy to create the shapes and comes with 50+ presets for inspiration.",
+            "To create the shapes and comes with 50+ presets for inspiration.",
         alt: "Neumorphic Generator",
         label: "CSS",
     },
@@ -1070,7 +1070,7 @@ const CSSData: Data[] = [
     {
         link: "https://designkiki.com/colordoo/",
         head: "Colordoo",
-        image: "../images/development-img/Colordoo.png",
+        image: "../images/development-img/Colordoo.jpeg",
         about:
             "We create new ways to find the top color trends for your next logo, illustrations etc.",
         alt: "Colordoo",

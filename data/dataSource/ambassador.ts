@@ -224,7 +224,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://developers.google.com/community/dsc",
-    head: "Google Developer Student Clubs Lead",
+    head: "GDSC Lead",
     image: "/images/ambassador-img/GDSC.png",
     about:
       "GDSC are community groups for college students interested in Google technologies.",
@@ -234,7 +234,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/",
-    head: "GeeksforGeeks Campus Ambassador",
+    head: "GFG Campus Ambassador",
     image: "/images/ambassador-img/GeeksforGeeks.png",
     about:
       "Recognized as the Mantri of your campus and your duty will be to help the students.",
@@ -297,10 +297,10 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.hackerearth.com/campus-ambassador-program/",
-    head: "HackerEarth Campus Ambassador",
+    head: "Campus Ambassador",
     image: "/images/ambassador-img/Hackerearth.png",
     about:
-      "Leader with a keen interest in starting and building a programming community.",
+      " HackerEarth Leader with a keen interest in starting and building a community.",
     alt: "Hackerearth Logo",
     label: "",
   },
@@ -341,7 +341,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://studentambassadors.microsoft.com/",
-    head: "Microsoft Learn Student Ambassadors",
+    head: "MLSA",
     image: "/images/ambassador-img/MLSA.png",
     about:
       "Amplify your impact and bring together your peers to learn new skills, etc.",
@@ -377,7 +377,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.mongodb.com/developer/community-champions/",
-    head: "MongoDB Community Advocacy Program",
+    head: "Community Advocacy Program",
     image: "/images/ambassador-img/MongoDB.png",
     about:
       "Champions are a group of passionate  advocates of the MongoDB community.",
@@ -448,7 +448,7 @@ const ForAllData: Data[] = [
   },
   {
     link: "https://www.oneplus.in/campus",
-    head: "OnePlus Student Ambassador Program",
+    head: "OnePlus Student Ambassador",
     image: "/images/ambassador-img/OnePlus.png",
     about:
       "Its campus connects program aims to make a difference in the world through technology. ",
@@ -602,7 +602,7 @@ const ForAllData: Data[] = [
 const FemaleCentricData: Data[] = [
   {
     link: "https://www.adobe.com/in/lead/creativecloud/women-in-technology.html",
-    head: "Adobe’s Women in Tech Scholarship",
+    head: "Women in Tech Scholarship",
     image: "/images/ambassador-img/Adobe.png",
     about: "They strive towards creating gender equality by encouraging women.",
     alt: "Adobe Logo",
@@ -619,7 +619,7 @@ const FemaleCentricData: Data[] = [
   },
   {
     link: "https://developers.google.com/womentechmakers/ambassadors",
-    head: "Women Techmakers Ambassador",
+    head: "Women Techmakers",
     image: "/images/ambassador-img/wtm.png",
     about:
       "Leaders around the world passionate about achieving gender parity in technology.",
