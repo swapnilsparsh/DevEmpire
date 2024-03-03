@@ -340,6 +340,15 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
+    link: "https://www.kyve.network/community",
+    head: "KYVE’s Ambassador Program",
+    image: "/images/ambassador-img/Kyve.png",
+    about:
+      "Members greatly contribute to educating and informing the KYVE community.",
+    alt: "Kyve Logo",
+    label: "",
+  },
+  {
     link: "https://studentambassadors.microsoft.com/",
     head: "MLSA",
     image: "/images/ambassador-img/MLSA.png",
