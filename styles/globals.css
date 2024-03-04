@@ -175,13 +175,15 @@ section {
 
 /* Card Border */
 .glow-border {
-  height: 0.04rem;
+  height: 0.15rem;
   width: 40%;
   margin: 0 auto;
-  background: linear-gradient(90deg,
-      rgba(17, 17, 17, 0),
-      rgb(255, 255, 255),
-      rgba(17, 17, 17, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(17, 17, 17, 0),
+    #006bde,
+    rgba(17, 17, 17, 0)
+  );
   animation: zoom-in-zoom-out 3.5s ease infinite;
 }
 
@@ -247,7 +249,7 @@ section {
   background: #d6f5ff;
 }
 
-.filters-div{
+.filters-div {
   padding: 1rem 0.5rem;
 }
 
@@ -288,6 +290,23 @@ section {
   transition: 0.3s;
   color: #0093ed;
   text-decoration: underline;
+}
+
+.explore-all-btn {
+  padding: 6px 12px;
+  border-radius: 10px;
+  height: 48px;
+  width: 160px;
+  border: 1px solid #0093ed;
+  color: #0093ed;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.explore-all-btn:hover {
+  color: #ffffff;
+  background: #0093ed;
 }
 
 @media screen and (max-width: 700px) {
@@ -339,5 +358,4 @@ section {
     margin-top: 2rem;
     gap: 0rem;
   }
-
 }

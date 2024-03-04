@@ -14,6 +14,7 @@ export default function Structure({
   const renderedItems = layout.map((item: Layout, index: number) => (
     <div key={item.id}>
       <section id={`${item.id}`}>
+        <br /><br />
         <SectionSlot
           subheading={`${item.subheading}`}
           dataSource={item.dataSource}

@@ -43,15 +43,20 @@ export default function Landing() {
               </p>
             </div>
             <div>
-              <button
-                type="button"
-                className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
-                onClick={() =>
-                  sendGAEvent({ event: "buttonClicked", value: "Explore All" })
-                }
-              >
-                <a href="#info">Explore All</a>
-              </button>
+              <a href="#info">
+                <button
+                  className="explore-all-btn"
+                  type="button"
+                  onClick={() =>
+                    sendGAEvent({
+                      event: "buttonClicked",
+                      value: "Explore All",
+                    })
+                  }
+                >
+                  Explore All
+                </button>
+              </a>
             </div>
           </div>
           <div className="landing-img">
