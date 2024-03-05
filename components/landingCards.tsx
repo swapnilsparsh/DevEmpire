@@ -17,6 +17,7 @@ export default function LandingCard({
             onClick={() =>
               sendGAEvent({ event: "fromLanding", value: item.name })
             }
+            title="Click to view more"
           >
             <div className="card-layout" key={key}>
               <div className="card-mr">
