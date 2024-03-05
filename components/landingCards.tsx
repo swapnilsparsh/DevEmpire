@@ -11,6 +11,7 @@ export default function LandingCard({
       <div className="landing-cards">
         {navbarData.map((item, key) => (
           <a
+            key={key}
             href={`/${item.name.toLowerCase()}`}
             target="_blank"
             onClick={() =>

@@ -37,7 +37,7 @@ export default function Landing() {
             </div>
             <div>
               <p>
-                It's time to close those extra tabs. Welcome to your one-stop
+                It is time to close those extra tabs. Welcome to your one-stop
                 solution for all resources and details on ambassador/fellowship
                 programs, open source programs, web dev tools and so much more!
               </p>

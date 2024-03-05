@@ -23,7 +23,7 @@ export default function Navbar() {
         style={{ top: 0, position: "sticky", zIndex: 999 }}
       >
         <div className=" w-[90%] flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
+          <Link
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
@@ -31,7 +31,7 @@ export default function Navbar() {
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
               DevEmpire
             </span>
-          </a>
+          </Link>
           <button
             onClick={toggleMenu}
             type="button"
@@ -61,11 +61,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <Filters
-        isMenuOpen={isMenuOpen}
-        setIsMenuOpen={setIsMenuOpen}
-        filters={[]}
-      />
+      <Filters isMenuOpen={isMenuOpen} filters={[]} />
     </>
   );
 }

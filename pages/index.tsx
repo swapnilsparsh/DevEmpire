@@ -5,8 +5,8 @@ const ComponentWithNoSSR = dynamic(() => import("@/components/Landing"), {
   ssr: false,
 });
 
-export default () => <ComponentWithNoSSR />;
+// export default () => <ComponentWithNoSSR />;
 
-// export default function LandingPage() {
-//   return <Landing />;
-// }
+export default function LandingPage() {
+  return <ComponentWithNoSSR />;
+}
