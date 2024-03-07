@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
 
@@ -7,11 +7,19 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 1500);
+  }, []);
+
   return (
     <>
       <Navbar />
       <main>{children}</main>
-      <Footer />
+      {isLoaded && <Footer />}
     </>
   );
 }
