@@ -242,17 +242,8 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://about.gitlab.com/community/heroes/",
-    head: "GitLab Heroes",
-    image: "/images/ambassador-img/GitLab.png",
-    about:
-      "They engage, support, connect, and recognize members of the wider GitLab community.",
-    alt: "Gitlab Logo",
-    label: "",
-  },
-  {
     link: "https://www.hackerearth.com/campus-ambassador-program/",
-    head: "Campus Ambassador",
+    head: "HackerEarth Campus Ambassador",
     image: "/images/ambassador-img/Hackerearth.png",
     about:
       " HackerEarth Leader with a keen interest in starting and building a community.",
@@ -265,15 +256,6 @@ const ForAllData: Data[] = [
     image: "/images/ambassador-img/intel.jpeg",
     about: "Gain access to the Intel's latest software, oneAPI.",
     alt: "Intel Logo",
-    label: "",
-  },
-  {
-    link: "https://blog.kattana.io/the-launch-of-kattanas-ambassador-program/",
-    head: "Kattana Ambassador Program",
-    image: "/images/ambassador-img/Kattana.png",
-    about:
-      "The goal is to bring together people who are passionate about Kattana",
-    alt: "Kattana Logo",
     label: "",
   },
   {
@@ -291,16 +273,7 @@ const ForAllData: Data[] = [
     image: "/images/ambassador-img/Kotlin.png",
     about:
       "Community of people to share programming experience with Kotlin and its ecosystem.",
-    alt: "Kotlinusergroup Logo",
-    label: "",
-  },
-  {
-    link: "https://www.kyve.network/community",
-    head: "KYVE’s Ambassador Program",
-    image: "/images/ambassador-img/Kyve.png",
-    about:
-      "Members greatly contribute to educating and informing the KYVE community.",
-    alt: "Kyve Logo",
+    alt: "Kotlin User Group Logo",
     label: "",
   },
   {
@@ -403,7 +376,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.oasisprotocol.org/community#ambassador",
+    link: "https://oasis.net/ambassadors",
     head: "Oasis Ambassador Program",
     image: "/images/ambassador-img/OasisNetwork.png",
     about: "A community for node operators, and builders to Web3 enthusiasts",
@@ -420,7 +393,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.postman.com/company/student-program/#postman-classroom-program",
+    link: "https://www.postman.com/student-program/#postman-classroom-program",
     head: "Postman Classroom Program",
     image: "/images/ambassador-img/PostmanClassroom.png",
     about:
@@ -430,7 +403,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.postman.com/company/student-program/#student-expert-program",
+    link: "https://www.postman.com/student-program/#postman-student-expert-program",
     head: "Postman Student Expert",
     image: "/images/ambassador-img/Postman.png",
     about:
@@ -439,7 +412,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.postman.com/company/student-program/#student-leader-program",
+    link: "https://www.postman.com/student-program/#postman-student-leader-program",
     head: "Postman Student Leader",
     image: "/images/ambassador-img/Postman-Leader.png",
     about:
@@ -448,24 +421,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.prisma.io/ambassador",
-    head: "Prisma Ambassador Program",
-    image: "/images/ambassador-img/PrismaProgram.png",
-    about: "Contribute to the Prisma community while building your brand.",
-    alt: "PrismaProgram Logo",
-    label: "",
-  },
-  {
-    link: "https://www.solanau.org/",
-    head: "Solana Student Ambassador",
-    image: "/images/ambassador-img/solana_logo.png",
-    about:
-      "Get access to training courses, accelerators, and special opportunities for ambassadors.",
-    alt: "Solana Logo",
-    label: "",
-  },
-  {
-    link: "https://streamlit.io/community/ambassadors",
+    link: "https://streamlit.io/community",
     head: "Streamlit Student Ambassador",
     image: "/images/ambassador-img/Streamlit.png",
     about:
@@ -509,7 +465,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://developer.twitter.com/en/community/student-ambassadors",
+    link: "https://developer.x.com/en/community/student-ambassadors",
     head: "Twitter Student Ambassador",
     image: "/images/ambassador-img/twitter.png",
     about:
@@ -542,14 +498,6 @@ const ForAllData: Data[] = [
     about:
       "You’re practically part of the Wakelet Team and  will represent Wakelet at events, etc.",
     alt: "WakeletAmbassador Logo",
-    label: "",
-  },
-  {
-    link: "https://schools.wakelet.com/",
-    head: "Wakelet Schools Program",
-    image: "/images/ambassador-img/wakeletschool.png",
-    about: "Empower your school community with the Wakelet Schools Program.",
-    alt: "WakeletSchool Logo",
     label: "",
   },
   {
