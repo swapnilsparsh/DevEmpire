@@ -28,15 +28,6 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://archway.io/ambassador-program/",
-    head: "Archway Ambassador",
-    image: "/images/ambassador-img/Archway.jpg",
-    about:
-      "Join the global program to play a key role in supporting web3 developers.",
-    alt: "Archway Logo",
-    label: "",
-  },
-  {
     link: "https://auth0.com/ambassador-program/",
     head: "Auth0 Ambassador Program",
     image: "/images/ambassador-img/Auth0ambassador.png",
@@ -108,21 +99,12 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.codechef.com/collegechapter",
-    head: "CodeChef College Chapter",
+    link: "https://www.codechef.com/college-program",
+    head: "CodeChef College Program",
     image: "/images/ambassador-img/Codechef.png",
     about:
       "Mission is to build a Competitive Programming culture in educational institutions.",
     alt: "Codechef Logo",
-    label: "",
-  },
-  {
-    link: "https://codedamn.com/campus",
-    head: "Campus Evangelist Program",
-    image: "/images/ambassador-img/Codedamn.png",
-    about:
-      "It will help you to ignite and build your Entrepreneurial skills and Leadership mindset.",
-    alt: "Codedamn Logo",
     label: "",
   },
   {
@@ -134,7 +116,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://credits.com/en/ambassadors/",
+    link: "https://credits.com/en/ambassador",
     head: "Credits Ambassador Program",
     image: "/images/ambassador-img/Credits.png",
     about:
@@ -143,7 +125,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.cudos.org/ambassador/",
+    link: "https://www.cudos.org/cudos-ecosystem",
     head: "Cudos Rangers",
     image: "/images/ambassador-img/Cudos.png",
     about:
@@ -187,25 +169,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://eclipsepad.notion.site/The-Ambassadors-Guide-to-the-Galaxy-6d33e1c277fc415ca60621a55c7cd58c",
-    head: "Eclipse Pad Ambassador",
-    image: "/images/ambassador-img/EclipsePad.png",
-    about:
-      "It serves as a hub for community building and leadership development.",
-    alt: "Eclipse Pad Ambassador Image",
-    label: "",
-  },
-  {
-    link: "https://medium.com/equilibrium-eosdt/join-the-equilibrium-ambassador-dao-and-earn-eq-5e21911d1134",
-    head: "Equilibrium Ambassador DAO",
-    image: "/images/ambassador-img/equilibrium.png",
-    about:
-      "DeFi 2.0 with high leverage. One-stop platform to earn, borrow and trade at max efficiency.",
-    alt: "Equilibrium Ambassador Image",
-    label: "",
-  },
-  {
-    link: "https://friends.figma.com/become-a-community-advocate/",
+    link: "https://friends.figma.com/become-a-user-group-leader/",
     head: "Figma User Group Leader",
     image: "/images/ambassador-img/Figma.png",
     about: "Figma User Groups are the heart and soul of our global community.",
@@ -233,7 +197,7 @@ const ForAllData: Data[] = [
     label: "",
   },
   {
-    link: "https://www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/",
+    link: "https://campus.geeksforgeeks.org/",
     head: "GFG Campus Ambassador",
     image: "/images/ambassador-img/GeeksforGeeks.png",
     about:
@@ -257,15 +221,6 @@ const ForAllData: Data[] = [
     about:
       "Get a package of technical tools, support to grow technical communities.",
     alt: "GitHub-campus Logo",
-    label: "",
-  },
-  {
-    link: "https://education.github.com/students/octernships",
-    head: "GitHub Octernships",
-    image: "/images/ambassador-img/GitHubOcternships.png",
-    about:
-      "Connects students with industry partners in paid professional experiences and mentorship.",
-    alt: "Github-octernship Logo",
     label: "",
   },
   {
