@@ -2,6 +2,14 @@ import { Data, Layout } from "@/interfaces/obj_type";
 
 const GamesData: Data[] = [
     {
+        link: "https://mathquicktap.click/",
+        head: "Math Quick Tap",
+        image: "/images/games-img/MathQuickTap.png",
+        about: "A simple, fun and quick math game with multiplayer.",
+        alt: "MathQuickTap Game",
+        label: "",
+    },
+    {
         link: "https://type.method.ac/",
         head: "Kern Type",
         image: "/images/games-img/KernType.png",
